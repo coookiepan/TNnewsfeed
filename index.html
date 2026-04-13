@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="臺南新訊">
+<meta name="theme-color" content="#1a1a2e">
+<title>臺南新訊 - News Feed</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+/* ========== CSS Variables & Reset ========== */
+:root {
+  --primary: #e94560;
+  --primary-dark: #c23152;
+  --bg-dark: #1a1a2e;
+  --bg-card: #16213e;
+  --bg-surface: #0f3460;
+  --text-primary: #eee;
+  --text-secondary: #a0a0b8;
+  --text-muted: #6c6c80;
+  --accent-green: #00c9a7;
+  --accent-orange: #ffa62b;
+  --accent-blue: #4da6ff;
+  --radius: 14px;
+  --shadow: 0 4px 20px rgba(0,0,0,0.3);
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: 16px; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+  background: var(--bg-dark);
+  color: var(--text-primary);
+  min-height: 100vh;
+  min-height: 100dvh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ========== Header ========== */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: linear-gradient(135deg, var(--bg-dark) 0%, #16213e 100%);
+  padding: calc(var(--safe-top) + 12px) 16px 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.header-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--primary), var(--accent-orange));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.header-subtitle {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+.header-actions {
+  display: flex;
+  gap: 8px;
+}
+.icon-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.05);
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+}
+.icon-btn:active { transform: scale(0.92); }
+.icon-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+.icon-btn .badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background: var(--accent-orange);
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: 700;
+  min-width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4px;
+}
+
+/* ========== Search Bar ========== */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: rgba(255,255,255,0.06);
+  border-radius: 12px;
+  padding: 0 12px;
+  border: 1px solid rgba(255,255,255,0.08);
+  transition: border-color 0.2s;
+  margin-bottom: 12px;
+}
+.search-bar:focus-within {
+  border-color: var(--primary);
+}
+.search-bar svg { flex-shrink: 0; color: var(--text-muted); }
+.search-bar input {
+  flex: 1;
+  background: none;
+  border: none;
+  outline: none;
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  padding: 10px 8px;
+}
+.search-bar input::placeholder { color: var(--text-muted); }
+.search-clear {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 4px;
+}
+.search-clear.show { display: block; }
+
+/* ========== Category Tabs ========== */
+.category-tabs {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 2px;
+}
+.category-tabs::-webkit-scrollbar { display: none; }
+.cat-tab {
+  flex-shrink: 0;
+  padding: 7px 14px;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.04);
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.cat-tab:active { transform: scale(0.95); }
+.cat-tab.active {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+.cat-tab .count {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 0.7rem;
+  opacity: 0.7;
+}
+
+/* ========== View Tabs ========== */
+.view-tabs {
+  display: flex;
+  background: rgba(255,255,255,0.04);
+  border-radius: 10px;
+  margin: 12px 16px 0;
+  padding: 3px;
+  border: 1px solid rgba(255,255,255,0.06);
+}
+.view-tab {
+  flex: 1;
+  padding: 8px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.view-tab.active {
+  background: var(--bg-surface);
+  color: var(--text-primary);
+}
+
+/* ========== Content Area ========== */
+.content {
+  padding: 12px 16px calc(var(--safe-bottom) + 16px);
+}
+
+/* ========== News Card ========== */
+.news-card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin-bottom: 12px;
+  border: 1px solid rgba(255,255,255,0.06);
+  transition: transform 0.15s;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.news-card:active { transform: scale(0.985); }
+.news-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.news-card .category-badge {
+  flex-shrink: 0;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.badge-新開店     { background: rgba(233,69,96,0.15); color: #e94560; }
+.badge-新建設     { background: rgba(77,166,255,0.15); color: #4da6ff; }
+.badge-新投資案   { background: rgba(0,201,167,0.15); color: #00c9a7; }
+.badge-新落成     { background: rgba(255,166,43,0.15); color: #ffa62b; }
+.badge-新整修完成 { background: rgba(177,122,255,0.15); color: #b17aff; }
+.badge-新裝潢     { background: rgba(255,107,161,0.15); color: #ff6ba1; }
+
+.news-card .title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.45;
+  color: var(--text-primary);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.news-card .snippet {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin: 8px 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.news-card .meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.news-card .meta-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+.news-card .meta-left span {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.news-card .district-tag {
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: rgba(255,255,255,0.06);
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+}
+.bookmark-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--text-muted);
+  padding: 4px;
+  transition: all 0.2s;
+}
+.bookmark-btn.saved { color: var(--accent-orange); }
+
+/* ========== Map ========== */
+.map-container {
+  display: none;
+  height: calc(100vh - 220px);
+  height: calc(100dvh - 220px);
+  margin: 12px 16px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+.map-container.show { display: block; }
+#newsMap { height: 100%; width: 100%; }
+
+/* ========== States ========== */
+.loading-state, .empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  color: var(--text-muted);
+  text-align: center;
+}
+.loading-state .spinner {
+  width: 36px;
+  height: 36px;
+  border: 3px solid rgba(255,255,255,0.1);
+  border-top-color: var(--primary);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-bottom: 16px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.empty-state .icon { font-size: 3rem; margin-bottom: 12px; }
+.empty-state .title { font-size: 1rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 6px; }
+.empty-state .desc { font-size: 0.82rem; line-height: 1.5; }
+
+/* ========== Refresh Bar ========== */
+.refresh-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  margin-bottom: 8px;
+}
+.refresh-info {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+.refresh-btn {
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(233,69,96,0.3);
+  background: rgba(233,69,96,0.1);
+  color: var(--primary);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.refresh-btn:active { transform: scale(0.95); }
+.refresh-btn.loading { opacity: 0.6; pointer-events: none; }
+.refresh-btn.loading .refresh-icon { animation: spin 1s linear infinite; }
+
+/* ========== Toast ========== */
+.toast {
+  position: fixed;
+  bottom: calc(var(--safe-bottom) + 20px);
+  left: 50%;
+  transform: translateX(-50%) translateY(80px);
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: var(--shadow);
+  z-index: 1000;
+  opacity: 0;
+  transition: all 0.3s ease;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* ========== Pull-to-refresh indicator ========== */
+.pull-indicator {
+  text-align: center;
+  padding: 12px;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  display: none;
+}
+
+/* ========== Leaflet Popup Customization ========== */
+.leaflet-popup-content-wrapper {
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+.leaflet-popup-tip { background: var(--bg-card); }
+.leaflet-popup-content { font-size: 0.82rem; line-height: 1.4; }
+.leaflet-popup-content .popup-title { font-weight: 600; margin-bottom: 4px; }
+.leaflet-popup-content .popup-cat { color: var(--primary); font-size: 0.72rem; }
+.leaflet-popup-content .popup-date { color: var(--text-muted); font-size: 0.7rem; margin-top: 3px; }
+
+/* ========== Responsive ========== */
+@media (min-width: 768px) {
+  .content { max-width: 680px; margin: 0 auto; }
+  .header > * { max-width: 680px; margin-left: auto; margin-right: auto; }
+  .view-tabs { max-width: 680px; margin-left: auto; margin-right: auto; }
+  .map-container { max-width: 680px; margin-left: auto; margin-right: auto; }
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <div class="header-top">
+    <div>
+      <div class="header-title">臺南新訊</div>
+      <div class="header-subtitle">每日蒐集臺南市最新開發動態</div>
+    </div>
+    <div class="header-actions">
+      <button class="icon-btn" id="btnBookmarks" onclick="toggleBookmarkView()" title="收藏">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+        <span class="badge" id="bookmarkCount" style="display:none">0</span>
+      </button>
+      <button class="icon-btn" id="btnFetch" onclick="fetchNewNews()" title="抓取最新">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 11-3.15-6.85"/><path d="M21 3v6h-6"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="search-bar">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+    <input type="text" id="searchInput" placeholder="搜尋新聞標題、地區..." oninput="onSearchInput()">
+    <button class="search-clear" id="searchClear" onclick="clearSearch()">&#10005;</button>
+  </div>
+
+  <div class="category-tabs" id="categoryTabs"></div>
+</div>
+
+<!-- View Toggle -->
+<div class="view-tabs">
+  <div class="view-tab active" data-view="list" onclick="switchView('list')">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+    新聞列表
+  </div>
+  <div class="view-tab" data-view="map" onclick="switchView('map')">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+    地圖檢視
+  </div>
+</div>
+
+<!-- Map -->
+<div class="map-container" id="mapContainer">
+  <div id="newsMap"></div>
+</div>
+
+<!-- Content -->
+<div class="content" id="contentArea">
+  <div class="refresh-bar" id="refreshBar">
+    <span class="refresh-info" id="refreshInfo">尚未載入</span>
+    <button class="refresh-btn" onclick="fetchNewNews()">
+      <svg class="refresh-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 12a9 9 0 11-3.15-6.85"/><path d="M21 3v6h-6"/></svg>
+      抓取最新
+    </button>
+  </div>
+  <div id="newsList"></div>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+// ===============================================================
+// 臺南新訊 - 前端應用程式
+// ===============================================================
+
+// ★★★ 把你的 Google Apps Script 部署網址貼在這裡 ★★★
+const API_URL = https://script.google.com/macros/s/AKfycbyujVRpqO8R1NhCjtxh6er8u9CpRkZ9Az-lSMg3Mbv13qLW95Po3gg_fEh5yiqHwKj0/exec;
+
+// ========== 狀態管理 ==========
+let allNews = [];
+let filteredNews = [];
+let bookmarks = {};
+let currentCategory = '全部';
+let currentView = 'list';
+let isBookmarkView = false;
+let searchTimeout = null;
+let map = null;
+let markers = [];
+
+// 分類顏色
+const CAT_COLORS = {
+  '新開店': '#e94560',
+  '新建設': '#4da6ff',
+  '新投資案': '#00c9a7',
+  '新落成': '#ffa62b',
+  '新整修完成': '#b17aff',
+  '新裝潢': '#ff6ba1'
+};
+
+// ========== 初始化 ==========
+document.addEventListener('DOMContentLoaded', () => {
+  loadBookmarks();
+  renderCategoryTabs();
+  loadNews();
+});
+
+// ========== API 呼叫 ==========
+async function apiCall(action, params = {}) {
+  const url = new URL(API_URL);
+  url.searchParams.set('action', action);
+  Object.entries(params).forEach(([k, v]) => url.searchParams.set(k, v));
+
+  const resp = await fetch(url.toString());
+  if (!resp.ok) throw new Error('API 請求失敗');
+  return resp.json();
+}
+
+async function loadNews() {
+  showLoading();
+  try {
+    const data = await apiCall('getNews');
+    allNews = data.news || [];
+    if (data.lastFetched) {
+      updateRefreshInfo(data.lastFetched);
+    }
+    applyFilters();
+  } catch (err) {
+    showEmpty('連線失敗', '請確認 API 網址已正確設定，\n並檢查網路連線。');
+    console.error(err);
+  }
+}
+
+async function fetchNewNews() {
+  const btn = document.querySelector('.refresh-btn');
+  if (btn) { btn.classList.add('loading'); }
+  document.getElementById('btnFetch').classList.add('active');
+
+  showToast('正在抓取最新新聞...');
+  try {
+    const result = await apiCall('fetchNew');
+    showToast(result.message || '抓取完成');
+    await loadNews();
+  } catch (err) {
+    showToast('抓取失敗，請稍後重試');
+    console.error(err);
+  } finally {
+    if (btn) { btn.classList.remove('loading'); }
+    document.getElementById('btnFetch').classList.remove('active');
+  }
+}
+
+// ========== 篩選 & 搜尋 ==========
+function applyFilters() {
+  let news = [...allNews];
+
+  // 收藏篩選
+  if (isBookmarkView) {
+    news = news.filter(n => bookmarks[n.id || n.url]);
+  }
+
+  // 分類篩選
+  if (currentCategory !== '全部') {
+    news = news.filter(n => n.category === currentCategory);
+  }
+
+  // 搜尋
+  const keyword = document.getElementById('searchInput').value.trim().toLowerCase();
+  if (keyword) {
+    news = news.filter(n =>
+      (n.title || '').toLowerCase().includes(keyword) ||
+      (n.snippet || '').toLowerCase().includes(keyword) ||
+      (n.district || '').toLowerCase().includes(keyword) ||
+      (n.source || '').toLowerCase().includes(keyword)
+    );
+  }
+
+  filteredNews = news;
+  renderNewsList();
+  updateCategoryCounts();
+  if (currentView === 'map') renderMap();
+}
+
+function onSearchInput() {
+  clearTimeout(searchTimeout);
+  const val = document.getElementById('searchInput').value;
+  document.getElementById('searchClear').classList.toggle('show', val.length > 0);
+  searchTimeout = setTimeout(() => applyFilters(), 300);
+}
+
+function clearSearch() {
+  document.getElementById('searchInput').value = '';
+  document.getElementById('searchClear').classList.remove('show');
+  applyFilters();
+}
+
+// ========== 分類 Tabs ==========
+function renderCategoryTabs() {
+  const cats = ['全部', '新開店', '新建設', '新投資案', '新落成', '新整修完成', '新裝潢'];
+  const container = document.getElementById('categoryTabs');
+  container.innerHTML = cats.map(cat => `
+    <div class="cat-tab ${cat === currentCategory ? 'active' : ''}"
+         onclick="selectCategory('${cat}')">
+      ${cat}<span class="count" data-cat="${cat}"></span>
+    </div>
+  `).join('');
+}
+
+function selectCategory(cat) {
+  currentCategory = cat;
+  document.querySelectorAll('.cat-tab').forEach(tab => {
+    tab.classList.toggle('active', tab.textContent.trim().startsWith(cat));
+  });
+  applyFilters();
+}
+
+function updateCategoryCounts() {
+  const baseNews = isBookmarkView
+    ? allNews.filter(n => bookmarks[n.id || n.url])
+    : allNews;
+
+  document.querySelectorAll('.cat-tab .count').forEach(el => {
+    const cat = el.dataset.cat;
+    const count = cat === '全部'
+      ? baseNews.length
+      : baseNews.filter(n => n.category === cat).length;
+    el.textContent = count > 0 ? count : '';
+  });
+}
+
+// ========== 收藏 ==========
+function loadBookmarks() {
+  try {
+    const saved = window._bookmarkStore || {};
+    bookmarks = saved;
+  } catch (e) { bookmarks = {}; }
+  updateBookmarkBadge();
+}
+
+function saveBookmarks() {
+  window._bookmarkStore = bookmarks;
+  updateBookmarkBadge();
+}
+
+function toggleBookmark(id, event) {
+  if (event) event.stopPropagation();
+  if (bookmarks[id]) {
+    delete bookmarks[id];
+    showToast('已取消收藏');
+  } else {
+    bookmarks[id] = true;
+    showToast('已加入收藏');
+  }
+  saveBookmarks();
+  if (isBookmarkView) applyFilters();
+  else renderNewsList();
+}
+
+function toggleBookmarkView() {
+  isBookmarkView = !isBookmarkView;
+  document.getElementById('btnBookmarks').classList.toggle('active', isBookmarkView);
+  applyFilters();
+}
+
+function updateBookmarkBadge() {
+  const count = Object.keys(bookmarks).length;
+  const badge = document.getElementById('bookmarkCount');
+  badge.style.display = count > 0 ? 'flex' : 'none';
+  badge.textContent = count;
+}
+
+// ========== 顯示 ==========
+function switchView(view) {
+  currentView = view;
+  document.querySelectorAll('.view-tab').forEach(t =>
+    t.classList.toggle('active', t.dataset.view === view));
+
+  const mapEl = document.getElementById('mapContainer');
+  const contentEl = document.getElementById('contentArea');
+
+  if (view === 'map') {
+    mapEl.classList.add('show');
+    contentEl.style.display = 'none';
+    renderMap();
+  } else {
+    mapEl.classList.remove('show');
+    contentEl.style.display = 'block';
+  }
+}
+
+function renderNewsList() {
+  const container = document.getElementById('newsList');
+
+  if (filteredNews.length === 0) {
+    const msg = isBookmarkView ? '尚無收藏的新聞' : '沒有找到相關新聞';
+    const desc = isBookmarkView
+      ? '點擊新聞卡片上的書籤圖示來收藏'
+      : '試試其他分類或關鍵字';
+    container.innerHTML = `
+      <div class="empty-state">
+        <div class="icon">${isBookmarkView ? '&#128278;' : '&#128240;'}</div>
+        <div class="title">${msg}</div>
+        <div class="desc">${desc}</div>
+      </div>`;
+    return;
+  }
+
+  container.innerHTML = filteredNews.map(news => {
+    const id = news.id || news.url;
+    const isSaved = bookmarks[id];
+    const date = formatDate(news.date);
+    const catClass = 'badge-' + (news.category || '');
+
+    return `
+      <div class="news-card" onclick="openNews('${encodeURIComponent(news.url)}')">
+        <div class="news-card-header">
+          <div class="title">${escapeHtml(news.title)}</div>
+          <span class="category-badge ${catClass}">${news.category || '未分類'}</span>
+        </div>
+        ${news.snippet ? `<div class="snippet">${escapeHtml(news.snippet)}</div>` : ''}
+        <div class="meta">
+          <div class="meta-left">
+            <span>${date}</span>
+            ${news.source ? `<span>&#183; ${escapeHtml(news.source)}</span>` : ''}
+            ${news.district ? `<span class="district-tag">${news.district}</span>` : ''}
+          </div>
+          <button class="bookmark-btn ${isSaved ? 'saved' : ''}"
+                  onclick="toggleBookmark('${id}', event)"
+                  title="${isSaved ? '取消收藏' : '加入收藏'}">
+            ${isSaved ? '&#9733;' : '&#9734;'}
+          </button>
+        </div>
+      </div>`;
+  }).join('');
+}
+
+function openNews(encodedUrl) {
+  window.open(decodeURIComponent(encodedUrl), '_blank');
+}
+
+// ========== 地圖 ==========
+function renderMap() {
+  if (!map) {
+    map = L.map('newsMap').setView([23.0, 120.22], 11);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap',
+      maxZoom: 18
+    }).addTo(map);
+  }
+
+  // 清除舊 markers
+  markers.forEach(m => map.removeLayer(m));
+  markers = [];
+
+  const newsWithLocation = filteredNews.filter(n => n.lat && n.lng);
+
+  if (newsWithLocation.length === 0) {
+    showToast('目前篩選的新聞中沒有地點資訊');
+    return;
+  }
+
+  const bounds = [];
+  newsWithLocation.forEach(news => {
+    const lat = parseFloat(news.lat);
+    const lng = parseFloat(news.lng);
+    if (isNaN(lat) || isNaN(lng)) return;
+
+    const color = CAT_COLORS[news.category] || '#e94560';
+    const icon = L.divIcon({
+      className: '',
+      html: `<div style="
+        width:28px;height:28px;border-radius:50%;
+        background:${color};border:3px solid #fff;
+        box-shadow:0 2px 8px rgba(0,0,0,0.3);
+        display:flex;align-items:center;justify-content:center;
+        font-size:12px;color:#fff;font-weight:700;
+      ">${getCatIcon(news.category)}</div>`,
+      iconSize: [28, 28],
+      iconAnchor: [14, 14]
+    });
+
+    const marker = L.marker([lat, lng], { icon })
+      .addTo(map)
+      .bindPopup(`
+        <div class="popup-title">${escapeHtml(news.title)}</div>
+        <div class="popup-cat">${news.category} ${news.district ? '· ' + news.district : ''}</div>
+        <div class="popup-date">${formatDate(news.date)}</div>
+      `);
+
+    marker.on('click', () => marker.openPopup());
+    markers.push(marker);
+    bounds.push([lat, lng]);
+  });
+
+  if (bounds.length > 0) {
+    map.fitBounds(bounds, { padding: [30, 30], maxZoom: 14 });
+  }
+
+  setTimeout(() => map.invalidateSize(), 100);
+}
+
+function getCatIcon(cat) {
+  const icons = {
+    '新開店': '&#9733;',
+    '新建設': '&#9881;',
+    '新投資案': '&#9650;',
+    '新落成': '&#9632;',
+    '新整修完成': '&#9998;',
+    '新裝潢': '&#9830;'
+  };
+  return icons[cat] || '&#9679;';
+}
+
+// ========== 工具函數 ==========
+function formatDate(dateStr) {
+  if (!dateStr) return '';
+  try {
+    const d = new Date(dateStr);
+    const now = new Date();
+    const diff = now - d;
+    if (diff < 3600000) return Math.floor(diff / 60000) + ' 分鐘前';
+    if (diff < 86400000) return Math.floor(diff / 3600000) + ' 小時前';
+    if (diff < 604800000) return Math.floor(diff / 86400000) + ' 天前';
+    return (d.getMonth() + 1) + '/' + d.getDate();
+  } catch (e) { return dateStr; }
+}
+
+function escapeHtml(str) {
+  if (!str) return '';
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function showLoading() {
+  document.getElementById('newsList').innerHTML = `
+    <div class="loading-state">
+      <div class="spinner"></div>
+      <div>載入中...</div>
+    </div>`;
+}
+
+function showEmpty(title, desc) {
+  document.getElementById('newsList').innerHTML = `
+    <div class="empty-state">
+      <div class="icon">&#128268;</div>
+      <div class="title">${title}</div>
+      <div class="desc">${desc}</div>
+    </div>`;
+}
+
+function updateRefreshInfo(time) {
+  const el = document.getElementById('refreshInfo');
+  if (time) {
+    el.textContent = '最後更新：' + formatDate(time) + ' · 共 ' + allNews.length + ' 則';
+  }
+}
+
+function showToast(msg) {
+  const toast = document.getElementById('toast');
+  toast.textContent = msg;
+  toast.classList.add('show');
+  setTimeout(() => toast.classList.remove('show'), 2500);
+}
+
+// ========== Demo 模式（API 未設定時） ==========
+if (API_URL === 'YOUR_APPS_SCRIPT_URL_HERE') {
+  allNews = getDemoData();
+  document.addEventListener('DOMContentLoaded', () => {
+    showToast('示範模式 - 請設定 API 網址');
+    applyFilters();
+    updateRefreshInfo(new Date().toISOString());
+  });
+  // 覆寫 API 函數，避免錯誤
+  window.loadNews = function() {
+    allNews = getDemoData();
+    applyFilters();
+    updateRefreshInfo(new Date().toISOString());
+  };
+  window.fetchNewNews = function() {
+    showToast('示範模式：請先設定 Google Apps Script API 網址');
+  };
+}
+
+function getDemoData() {
+  const now = new Date();
+  return [
+    {
+      id: 'demo1', title: '臺南中西區新開幕文青咖啡廳「島嶼日常」試營運', source: '自由時報',
+      url: 'https://example.com/1', category: '新開店',
+      date: new Date(now - 3600000).toISOString(),
+      snippet: '位於臺南市中西區正興街的全新文青咖啡廳「島嶼日常」正式試營運，主打自家烘焙咖啡豆與手作甜點...',
+      district: '中西區', lat: 22.9908, lng: 120.1965
+    },
+    {
+      id: 'demo2', title: '台南捷運藍線第一期工程正式動工 預計2031年完工', source: '聯合新聞網',
+      url: 'https://example.com/2', category: '新建設',
+      date: new Date(now - 7200000).toISOString(),
+      snippet: '臺南捷運藍線第一期路線從安平區至東區，全長約12.6公里，設置11座車站...',
+      district: '東區', lat: 22.9815, lng: 120.2240
+    },
+    {
+      id: 'demo3', title: '台積電宣布擴大南科投資 新建先進封裝廠', source: 'ETtoday',
+      url: 'https://example.com/3', category: '新投資案',
+      date: new Date(now - 18000000).toISOString(),
+      snippet: '台積電今日宣布將在南部科學園區臺南園區新建先進封裝廠，預計投資金額超過千億...',
+      district: '新市區', lat: 23.0790, lng: 120.2950
+    },
+    {
+      id: 'demo4', title: '臺南市立圖書館新總館二期設施正式落成啟用', source: '中央社',
+      url: 'https://example.com/4', category: '新落成',
+      date: new Date(now - 86400000).toISOString(),
+      snippet: '位於永康區的臺南市立圖書館新總館二期設施今日舉行落成典禮，新增兒童閱覽區及多功能展演空間...',
+      district: '永康區', lat: 23.0260, lng: 120.2570
+    },
+    {
+      id: 'demo5', title: '國定古蹟赤崁樓修復工程完成 重新對外開放', source: '台南市政府',
+      url: 'https://example.com/5', category: '新整修完成',
+      date: new Date(now - 172800000).toISOString(),
+      snippet: '歷時兩年的赤崁樓修復工程已全數完工，修復範圍包含文昌閣、海神廟及周邊庭園景觀...',
+      district: '中西區', lat: 22.9972, lng: 120.2035
+    },
+    {
+      id: 'demo6', title: '安平老街百年老屋改造 全新複合式藝文空間亮相', source: 'TVBS',
+      url: 'https://example.com/6', category: '新裝潢',
+      date: new Date(now - 259200000).toISOString(),
+      snippet: '安平區一棟擁有百年歷史的老屋，經過半年精心改造，以「安平記憶」為主題打造複合式藝文空間...',
+      district: '安平區', lat: 22.9930, lng: 120.1660
+    },
+    {
+      id: 'demo7', title: '日本知名拉麵品牌「一蘭」進駐臺南新光三越', source: 'ETtoday',
+      url: 'https://example.com/7', category: '新開店',
+      date: new Date(now - 345600000).toISOString(),
+      snippet: '日本拉麵名店一蘭拉麵宣布將在臺南新光三越中山店開設南部首間門市...',
+      district: '中西區', lat: 22.9890, lng: 120.2010
+    },
+    {
+      id: 'demo8', title: '臺南沙崙智慧綠能科學城第二期建設啟動', source: '工商時報',
+      url: 'https://example.com/8', category: '新建設',
+      date: new Date(now - 432000000).toISOString(),
+      snippet: '位於歸仁區的沙崙智慧綠能科學城第二期開發計畫正式啟動，將引進AI及綠能相關產業...',
+      district: '歸仁區', lat: 22.9670, lng: 120.2930
+    }
+  ];
+}
+</script>
+</body>
+</html>
