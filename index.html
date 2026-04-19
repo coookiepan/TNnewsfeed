@@ -181,6 +181,36 @@ body {
   opacity: 0.7;
 }
 
+/* ========== Date Range Tabs ========== */
+.date-tabs {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.date-tabs::-webkit-scrollbar { display: none; }
+.date-tab {
+  flex-shrink: 0;
+  padding: 5px 12px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 0.74rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.date-tab:active { transform: scale(0.95); }
+.date-tab.active {
+  background: rgba(233,69,96,0.15);
+  color: var(--primary);
+  border-color: rgba(233,69,96,0.4);
+}
+
 /* ========== View Tabs ========== */
 .view-tabs {
   display: flex;
@@ -452,6 +482,7 @@ body {
   </div>
 
   <div class="category-tabs" id="categoryTabs"></div>
+  <div class="date-tabs" id="dateTabs"></div>
 </div>
 
 <!-- View Toggle -->
@@ -500,6 +531,7 @@ let allNews = [];
 let filteredNews = [];
 let bookmarks = {};
 let currentCategory = '全部';
+let currentDateRange = '全部';
 let currentView = 'list';
 let isBookmarkView = false;
 let searchTimeout = null;
@@ -520,6 +552,7 @@ const CAT_COLORS = {
 document.addEventListener('DOMContentLoaded', () => {
   loadBookmarks();
   renderCategoryTabs();
+  renderDateTabs();
   loadNews();
 });
 
@@ -582,6 +615,24 @@ function applyFilters() {
     news = news.filter(n => n.category === currentCategory);
   }
 
+  // 日期區間篩選
+  if (currentDateRange !== '全部') {
+    const days = { '今日': 1, '近7天': 7, '近30天': 30 }[currentDateRange];
+    if (days) {
+      const cutoff = new Date();
+      if (days === 1) {
+        cutoff.setHours(0, 0, 0, 0);
+      } else {
+        cutoff.setDate(cutoff.getDate() - days);
+      }
+      news = news.filter(n => {
+        if (!n.date) return false;
+        const d = new Date(n.date);
+        return !isNaN(d) && d >= cutoff;
+      });
+    }
+  }
+
   // 搜尋
   const keyword = document.getElementById('searchInput').value.trim().toLowerCase();
   if (keyword) {
@@ -628,6 +679,24 @@ function selectCategory(cat) {
   currentCategory = cat;
   document.querySelectorAll('.cat-tab').forEach(tab => {
     tab.classList.toggle('active', tab.textContent.trim().startsWith(cat));
+  });
+  applyFilters();
+}
+
+// ========== 日期區間 Tabs ==========
+function renderDateTabs() {
+  const ranges = ['全部', '今日', '近7天', '近30天'];
+  const container = document.getElementById('dateTabs');
+  container.innerHTML = ranges.map(r => `
+    <div class="date-tab ${r === currentDateRange ? 'active' : ''}"
+         data-range="${r}" onclick="selectDateRange('${r}')">${r}</div>
+  `).join('');
+}
+
+function selectDateRange(range) {
+  currentDateRange = range;
+  document.querySelectorAll('.date-tab').forEach(tab => {
+    tab.classList.toggle('active', tab.dataset.range === range);
   });
   applyFilters();
 }
