@@ -2,531 +2,1150 @@
 <html lang="zh-TW">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="臺南新訊">
-<meta name="theme-color" content="#1a1a2e">
-<title>臺南新訊 - News Feed</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
-<style>
-/* ========== CSS Variables & Reset ========== */
-:root {
-  --primary: #e94560;
-  --primary-dark: #c23152;
-  --bg-dark: #1a1a2e;
-  --bg-card: #16213e;
-  --bg-surface: #0f3460;
-  --text-primary: #eee;
-  --text-secondary: #a0a0b8;
-  --text-muted: #6c6c80;
-  --accent-green: #00c9a7;
-  --accent-orange: #ffa62b;
-  --accent-blue: #4da6ff;
-  --radius: 14px;
-  --shadow: 0 4px 20px rgba(0,0,0,0.3);
-  --safe-top: env(safe-area-inset-top, 0px);
-  --safe-bottom: env(safe-area-inset-bottom, 0px);
-}
+<meta name="theme-color" content="#f0e6cc">
+<title>臺南新訊 · The Tainan Chronicle</title>
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
-html { font-size: 16px; }
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Oswald:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;500;700;900&family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+
+<script type="application/json" id="speaker-notes">[]</script>
+
+<style>
+/* ============================================================
+   TWEAKABLE DEFAULTS  (host can rewrite this JSON block)
+   ============================================================ */
+</style>
+<script id="tweak-config">
+const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+  "paperTint": "classic",
+  "stampColor": "press-red",
+  "showDropCap": true,
+  "showTexture": true,
+  "density": "comfortable"
+}/*EDITMODE-END*/;
+</script>
+
+<style>
+/* ============================================================
+   PALETTE  ·  TAINAN CHRONICLE
+   ============================================================ */
+:root {
+  /* paper */
+  --paper:        #f0e6cc;
+  --paper-hi:     #f7efd8;
+  --paper-lo:     #e0d3b0;
+  --paper-edge:   #c8b996;
+
+  /* ink */
+  --ink:          #1a1208;
+  --ink-soft:     #3d2f1f;
+  --ink-faded:    #7a6850;
+  --ink-mist:     #a79477;
+
+  /* rules */
+  --rule:         #2a1f12;
+  --rule-soft:    #8a7858;
+
+  /* stamp red */
+  --stamp:        #a72923;
+  --stamp-dark:   #7d1f1d;
+  --stamp-tint:   #c54e49;
+
+  /* badges (subtle tints on paper) */
+  --mark-gold:    #b08030;
+
+  /* layout */
+  --gutter:       18px;
+  --col:          680px;
+  --safe-top:     env(safe-area-inset-top, 0px);
+  --safe-bottom:  env(safe-area-inset-bottom, 0px);
+
+  /* type scale (comfortable) */
+  --t-base:       17px;
+  --lh-body:      1.6;
+  --card-pad:     20px;
+  --card-gap:     22px;
+}
+/* tints */
+body[data-tint="warm"]   { --paper:#ecdfb8; --paper-hi:#f3e7c2; --paper-lo:#dbcc9c; --paper-edge:#bda77a; }
+body[data-tint="cool"]   { --paper:#f1ecdb; --paper-hi:#f8f3e2; --paper-lo:#e2dcc4; --paper-edge:#c7c0a3; }
+body[data-tint="bright"] { --paper:#f8f2e2; --paper-hi:#fdf8eb; --paper-lo:#ecdfc1; --paper-edge:#d8c89e; }
+
+/* stamp colour variations */
+body[data-stamp="deep-navy"]    { --stamp:#1f3c66; --stamp-dark:#142848; --stamp-tint:#3b5d8b; }
+body[data-stamp="forest-green"] { --stamp:#2e5d3a; --stamp-dark:#1f4128; --stamp-tint:#4a7d57; }
+body[data-stamp="sepia"]        { --stamp:#7a4a1d; --stamp-dark:#5a3613; --stamp-tint:#9d6a3a; }
+
+/* density */
+body[data-density="tight"]      { --t-base:16px; --lh-body:1.5;  --card-pad:14px; --card-gap:14px; }
+body[data-density="airy"]       { --t-base:18px; --lh-body:1.75; --card-pad:26px; --card-gap:32px; }
+
+/* ============================================================
+   RESET
+   ============================================================ */
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { font-size: var(--t-base); background:#2a1f12; }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
-  background: var(--bg-dark);
-  color: var(--text-primary);
-  min-height: 100vh;
+  font-family: 'Lora', 'Noto Serif TC', Georgia, 'Times New Roman', serif;
+  background: var(--paper);
+  color: var(--ink);
   min-height: 100dvh;
+  line-height: var(--lh-body);
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  background-image:
+    radial-gradient(ellipse at 18% 28%, rgba(26,18,8,0.035) 0, transparent 38%),
+    radial-gradient(ellipse at 82% 72%, rgba(26,18,8,0.030) 0, transparent 45%),
+    radial-gradient(ellipse at 50% 100%, rgba(122,104,80,0.10) 0, transparent 55%);
+}
+body[data-texture="off"] { background-image:none; }
+
+/* paper grain via SVG noise */
+body::before {
+  content:"";
+  position:fixed; inset:0;
+  pointer-events:none;
+  z-index:1;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.10  0 0 0 0 0.07  0 0 0 0 0.04  0 0 0 0.12 0'/></filter><rect width='200' height='200' filter='url(%23n)'/></svg>");
+  opacity: 0.42;
+  mix-blend-mode: multiply;
+}
+body[data-texture="off"]::before { display:none; }
+
+/* dark edge vignette */
+body::after {
+  content:"";
+  position:fixed; inset:0;
+  pointer-events:none;
+  z-index:1;
+  background:
+    radial-gradient(ellipse at center,
+      transparent 55%,
+      rgba(60,40,18,0.10) 85%,
+      rgba(40,28,12,0.18) 100%);
 }
 
-/* ========== Header ========== */
-.header {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: linear-gradient(135deg, var(--bg-dark) 0%, #16213e 100%);
-  padding: calc(var(--safe-top) + 12px) 16px 12px;
-  border-bottom: 1px solid rgba(255,255,255,0.06);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+img { max-width:100%; display:block; }
+button, input { font: inherit; color: inherit; }
+
+/* ============================================================
+   PAGE FRAME
+   ============================================================ */
+.sheet {
+  position: relative;
+  z-index: 2;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: calc(var(--safe-top) + 14px) var(--gutter) calc(var(--safe-bottom) + 40px);
 }
-.header-top {
-  display: flex;
+
+/* ============================================================
+   MASTHEAD
+   ============================================================ */
+.masthead {
+  position: relative;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 4px double var(--rule);
+}
+.dateline-strip {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 12px;
+  gap: 10px;
+  padding: 6px 4px;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
 }
-.header-title {
-  font-size: 1.4rem;
-  font-weight: 700;
-  background: linear-gradient(135deg, var(--primary), var(--accent-orange));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.dateline-strip .ds-left  { text-align: left; }
+.dateline-strip .ds-right { text-align: right; }
+.dateline-strip .ds-mid {
+  font-weight: 600;
+  padding: 3px 10px;
+  border: 1.5px solid var(--rule);
+  background: var(--paper-hi);
+  letter-spacing: 0.22em;
+  white-space: nowrap;
 }
-.header-subtitle {
-  font-size: 0.72rem;
-  color: var(--text-muted);
-  margin-top: 2px;
+.nameplate {
+  font-family: 'Noto Serif TC', 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: clamp(3.4rem, 14vw, 6.8rem);
+  line-height: 0.92;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin: 18px 0 6px;
+  text-shadow: 0 0 0.8px rgba(26,18,8,0.25);
 }
-.header-actions {
-  display: flex;
-  gap: 8px;
+.nameplate-en {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(0.95rem, 3.4vw, 1.25rem);
+  color: var(--ink-soft);
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
 }
-.icon-btn {
-  width: 40px;
-  height: 40px;
-  border-radius: 12px;
-  border: 1px solid rgba(255,255,255,0.1);
-  background: rgba(255,255,255,0.05);
-  color: var(--text-secondary);
-  font-size: 1.1rem;
+.nameplate-en::before, .nameplate-en::after {
+  content: " · "; color: var(--stamp); font-weight: 700; font-style: normal;
+}
+.motto {
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
-  transition: all 0.2s;
-  position: relative;
+  gap: 14px;
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.32em;
+  color: var(--ink-faded);
+  text-transform: uppercase;
+  padding-top: 8px;
+  border-top: 1px solid var(--rule-soft);
 }
-.icon-btn:active { transform: scale(0.92); }
-.icon-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); }
-.icon-btn .badge {
-  position: absolute;
-  top: -4px;
-  right: -4px;
-  background: var(--accent-orange);
-  color: #fff;
-  font-size: 0.6rem;
+.motto .fleur { color: var(--stamp); font-size: 1rem; font-family: serif; }
+.motto a {
+  color: var(--stamp);
+  text-decoration: none;
+  border-bottom: 1px solid var(--stamp-tint);
+  padding-bottom: 1px;
+}
+.motto a:hover { background: rgba(167,41,35,0.08); }
+
+/* ============================================================
+   TOOLBAR / DATELINE BAR
+   ============================================================ */
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 2px 12px;
+  border-bottom: 1px solid var(--rule);
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+}
+.dateline-loc {
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.dateline-loc strong {
+  color: var(--ink);
   font-weight: 700;
-  min-width: 16px;
-  height: 16px;
-  border-radius: 8px;
+  letter-spacing: 0.2em;
+}
+.dateline-loc .sep {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background: var(--stamp);
+  border-radius: 50%;
+  margin: 0 8px;
+  vertical-align: middle;
+}
+.toolbar-actions { display: flex; gap: 8px; }
+.tool-btn {
+  position: relative;
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 7px 12px;
+  border: 1.5px solid var(--rule);
+  background: var(--paper-hi);
+  color: var(--ink);
+  cursor: pointer;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: transform 0.12s, background 0.15s;
+}
+.tool-btn:hover { background: var(--paper-lo); }
+.tool-btn:active { transform: scale(0.96); }
+.tool-btn.active {
+  background: var(--ink);
+  color: var(--paper-hi);
+  border-color: var(--ink);
+}
+.tool-btn svg { stroke-width: 2; }
+.tool-btn .badge {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  background: var(--stamp);
+  color: #f7e8c8;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  min-width: 18px;
+  height: 18px;
+  border-radius: 9px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 4px;
+  border: 1px solid var(--paper);
+  font-family: 'Oswald', sans-serif;
 }
 
-/* ========== Search Bar ========== */
+/* ============================================================
+   SEARCH SECTION
+   ============================================================ */
+.search-section {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--rule-soft);
+}
+.search-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--ink-faded);
+  margin-bottom: 6px;
+}
+.search-label::before, .search-label::after {
+  content: ""; flex: 1; height: 1px; background: var(--rule-soft);
+}
 .search-bar {
   display: flex;
   align-items: center;
-  background: rgba(255,255,255,0.06);
-  border-radius: 12px;
-  padding: 0 12px;
-  border: 1px solid rgba(255,255,255,0.08);
-  transition: border-color 0.2s;
-  margin-bottom: 12px;
+  gap: 8px;
+  border: none;
+  border-bottom: 2px solid var(--rule);
+  padding: 6px 2px;
 }
-.search-bar:focus-within {
-  border-color: var(--primary);
-}
-.search-bar svg { flex-shrink: 0; color: var(--text-muted); }
+.search-bar svg { flex-shrink: 0; color: var(--ink-soft); }
 .search-bar input {
   flex: 1;
-  background: none;
+  background: transparent;
   border: none;
   outline: none;
-  color: var(--text-primary);
-  font-size: 0.9rem;
-  padding: 10px 8px;
+  font-family: 'Special Elite', 'Lora', 'Noto Serif TC', serif;
+  font-size: 1rem;
+  color: var(--ink);
+  padding: 4px 2px;
+  letter-spacing: 0.02em;
 }
-.search-bar input::placeholder { color: var(--text-muted); }
+.search-bar input::placeholder { color: var(--ink-mist); font-style: italic; }
 .search-clear {
   display: none;
   background: none;
   border: none;
-  color: var(--text-muted);
+  color: var(--ink-faded);
   font-size: 1.1rem;
   cursor: pointer;
-  padding: 4px;
+  padding: 4px 6px;
 }
 .search-clear.show { display: block; }
+.search-clear:hover { color: var(--stamp); }
 
-/* ========== Category Tabs ========== */
-.category-tabs {
-  display: flex;
-  gap: 8px;
-  overflow-x: auto;
-  scrollbar-width: none;
-  -webkit-overflow-scrolling: touch;
-  padding-bottom: 2px;
+/* ============================================================
+   SECTIONS NAV (categories)
+   ============================================================ */
+.sections-rail {
+  padding: 12px 0 8px;
+  border-bottom: 1px solid var(--rule-soft);
 }
-.category-tabs::-webkit-scrollbar { display: none; }
+.rail-label {
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  font-size: 0.66rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--ink-faded);
+  margin-bottom: 8px;
+}
+.sections-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 2px;
+  align-items: center;
+}
 .cat-tab {
-  flex-shrink: 0;
-  padding: 7px 14px;
-  border-radius: 20px;
-  border: 1px solid rgba(255,255,255,0.12);
-  background: rgba(255,255,255,0.04);
-  color: var(--text-secondary);
-  font-size: 0.8rem;
-  font-weight: 500;
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 6px 10px 5px;
+  border: none;
+  background: transparent;
+  color: var(--ink-soft);
   cursor: pointer;
-  transition: all 0.2s;
+  font-weight: 500;
+  position: relative;
   white-space: nowrap;
 }
-.cat-tab:active { transform: scale(0.95); }
+.cat-tab + .cat-tab::before {
+  content: "│";
+  color: var(--rule-soft);
+  margin-right: 6px;
+  font-weight: 300;
+}
+.cat-tab:hover { color: var(--ink); }
 .cat-tab.active {
-  background: var(--primary);
-  color: #fff;
-  border-color: var(--primary);
+  color: var(--stamp);
+  font-weight: 700;
+}
+.cat-tab.active::after {
+  content: "";
+  position: absolute;
+  left: 8px; right: 8px;
+  bottom: 0;
+  border-bottom: 2px solid var(--stamp);
 }
 .cat-tab .count {
-  display: inline-block;
+  font-family: 'Special Elite', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0;
+  color: var(--ink-mist);
   margin-left: 4px;
+  text-transform: none;
+}
+.cat-tab.active .count { color: var(--stamp-tint); }
+
+/* ============================================================
+   TIME FILTER
+   ============================================================ */
+.time-rail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--rule-soft);
+  flex-wrap: wrap;
+}
+.time-rail-label {
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
   font-size: 0.7rem;
-  opacity: 0.7;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-faded);
 }
-
-/* ========== Date Range Tabs ========== */
-.date-tabs {
-  display: flex;
-  gap: 6px;
-  margin-top: 8px;
-  overflow-x: auto;
-  scrollbar-width: none;
-  -webkit-overflow-scrolling: touch;
-}
-.date-tabs::-webkit-scrollbar { display: none; }
+.date-tabs { display: flex; gap: 2px; flex-wrap: wrap; }
 .date-tab {
-  flex-shrink: 0;
-  padding: 5px 12px;
-  border-radius: 16px;
-  border: 1px solid rgba(255,255,255,0.08);
-  background: transparent;
-  color: var(--text-muted);
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
   font-size: 0.74rem;
-  font-weight: 500;
+  letter-spacing: 0.1em;
+  padding: 5px 10px;
+  border: 1px solid var(--rule-soft);
+  background: transparent;
+  color: var(--ink-soft);
   cursor: pointer;
-  transition: all 0.2s;
-  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 500;
 }
-.date-tab:active { transform: scale(0.95); }
+.date-tab:hover { background: var(--paper-hi); }
 .date-tab.active {
-  background: rgba(233,69,96,0.15);
-  color: var(--primary);
-  border-color: rgba(233,69,96,0.4);
+  background: var(--ink);
+  color: var(--paper-hi);
+  border-color: var(--ink);
+  font-weight: 700;
 }
 
-/* ========== View Tabs ========== */
-.view-tabs {
+/* ============================================================
+   VIEW SWITCHER
+   ============================================================ */
+.view-switcher {
   display: flex;
-  background: rgba(255,255,255,0.04);
-  border-radius: 10px;
-  margin: 12px 16px 0;
-  padding: 3px;
-  border: 1px solid rgba(255,255,255,0.06);
+  margin: 14px 0 6px;
+  border: 2px solid var(--rule);
+  background: var(--paper-hi);
 }
 .view-tab {
   flex: 1;
-  padding: 8px;
   text-align: center;
-  border-radius: 8px;
-  font-size: 0.82rem;
-  font-weight: 500;
-  color: var(--text-muted);
-  cursor: pointer;
-  transition: all 0.2s;
-}
-.view-tab.active {
-  background: var(--bg-surface);
-  color: var(--text-primary);
-}
-
-/* ========== Content Area ========== */
-.content {
-  padding: 12px 16px calc(var(--safe-bottom) + 16px);
-}
-
-/* ========== News Card ========== */
-.news-card {
-  background: var(--bg-card);
-  border-radius: var(--radius);
-  padding: 16px;
-  margin-bottom: 12px;
-  border: 1px solid rgba(255,255,255,0.06);
-  transition: transform 0.15s;
+  padding: 9px 8px;
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--ink-soft);
   cursor: pointer;
   position: relative;
-  overflow: hidden;
 }
-.news-card:active { transform: scale(0.985); }
-.news-card-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 10px;
-  margin-bottom: 8px;
-}
-.news-card .category-badge {
-  flex-shrink: 0;
-  padding: 3px 8px;
-  border-radius: 6px;
-  font-size: 0.68rem;
-  font-weight: 600;
-  white-space: nowrap;
-}
-.badge-新開店     { background: rgba(233,69,96,0.15); color: #e94560; }
-.badge-新建設     { background: rgba(77,166,255,0.15); color: #4da6ff; }
-.badge-新投資案   { background: rgba(0,201,167,0.15); color: #00c9a7; }
-.badge-新落成     { background: rgba(255,166,43,0.15); color: #ffa62b; }
-.badge-新整修完成 { background: rgba(177,122,255,0.15); color: #b17aff; }
-.badge-新裝潢     { background: rgba(255,107,161,0.15); color: #ff6ba1; }
+.view-tab + .view-tab { border-left: 1px solid var(--rule-soft); }
+.view-tab.active { background: var(--ink); color: var(--paper-hi); }
+.view-tab svg { vertical-align: -3px; margin-right: 6px; }
 
-.news-card .title {
-  font-size: 0.95rem;
-  font-weight: 600;
-  line-height: 1.45;
-  color: var(--text-primary);
+/* ============================================================
+   REFRESH BAR
+   ============================================================ */
+.refresh-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 0 8px;
+  border-bottom: 1px solid var(--rule-soft);
+  margin-bottom: 18px;
+}
+.refresh-info {
+  font-family: 'Special Elite', 'Lora', monospace;
+  font-size: 0.78rem;
+  color: var(--ink-faded);
+  letter-spacing: 0.02em;
+}
+.refresh-info strong { color: var(--ink); font-weight: 400; }
+.refresh-btn {
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 7px 12px;
+  border: 1.5px solid var(--stamp);
+  background: var(--paper-hi);
+  color: var(--stamp);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: background 0.15s;
+}
+.refresh-btn:hover { background: var(--stamp); color: var(--paper-hi); }
+.refresh-btn.loading { opacity: 0.6; pointer-events: none; }
+.refresh-btn.loading .refresh-icon { animation: spin 1s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ============================================================
+   NEWS / ARTICLES
+   ============================================================ */
+.news-list { display: block; }
+.news-list.cols {
+  column-count: 2;
+  column-gap: 32px;
+  column-rule: 1px solid var(--rule-soft);
+}
+@media (max-width: 720px) {
+  .news-list.cols { column-count: 1; }
+}
+
+.article {
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  padding: var(--card-pad) 0;
+  margin-bottom: var(--card-gap);
+  border-bottom: 1px solid var(--rule-soft);
+  cursor: pointer;
+  position: relative;
+  transition: background 0.15s;
+}
+.article:hover { background: rgba(122,104,80,0.06); }
+.article:last-child { border-bottom: none; }
+
+/* Section label */
+.sect-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--stamp);
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--stamp);
+  margin-bottom: 10px;
+}
+.sect-label .dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: currentColor; display: inline-block;
+}
+.sect-label-en {
+  color: var(--ink-mist);
+  font-weight: 500;
+  letter-spacing: 0.14em;
+}
+
+/* category colour swap (kept subtle on paper) */
+.article[data-cat="新建設"]     .sect-label { color: #1f3c66; border-color: #1f3c66; }
+.article[data-cat="新投資案"]   .sect-label { color: #2e5d3a; border-color: #2e5d3a; }
+.article[data-cat="新落成"]     .sect-label { color: #8a5a1c; border-color: #8a5a1c; }
+.article[data-cat="新整修完成"] .sect-label { color: #6a3c8e; border-color: #6a3c8e; }
+.article[data-cat="新裝潢"]     .sect-label { color: #a02968; border-color: #a02968; }
+
+/* Headline */
+.article .headline {
+  font-family: 'Noto Serif TC', 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 1.32rem;
+  line-height: 1.25;
+  letter-spacing: -0.005em;
+  color: var(--ink);
+  margin: 0 0 8px;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.news-card .snippet {
-  font-size: 0.8rem;
-  color: var(--text-secondary);
-  line-height: 1.5;
-  margin: 8px 0;
+.article .headline:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+
+/* Lead story (first article, full width) */
+.article.lead {
+  border-bottom: 3px double var(--rule);
+  padding: 4px 0 24px;
+  margin-bottom: 26px;
+}
+.article.lead .headline {
+  font-size: clamp(1.7rem, 4.5vw, 2.4rem);
+  font-weight: 900;
+  line-height: 1.15;
+  -webkit-line-clamp: 4;
+}
+.article.lead .sect-label { font-size: 0.78rem; padding-bottom: 8px; }
+
+/* Drop cap (only on lead snippet when enabled) */
+body[data-dropcap="on"] .article.lead .snippet::first-letter {
+  font-family: 'Playfair Display', 'Noto Serif TC', serif;
+  font-weight: 900;
+  float: left;
+  font-size: 3.4em;
+  line-height: 0.85;
+  margin: 0.06em 0.08em 0 0;
+  color: var(--ink);
+  padding: 4px 6px 0 0;
+}
+
+/* Byline / dateline */
+.byline {
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-faded);
+  margin: 0 0 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.byline .by { color: var(--ink-soft); font-weight: 700; }
+.byline .dateline-tag {
+  color: var(--ink);
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+.byline .sep {
+  width: 3px; height: 3px;
+  background: var(--ink-mist);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Snippet / body */
+.snippet {
+  font-family: 'Lora', 'Noto Serif TC', Georgia, serif;
+  font-size: 0.98rem;
+  line-height: 1.65;
+  color: var(--ink-soft);
+  text-align: justify;
+  hyphens: auto;
+  word-break: break-word;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.news-card .meta {
+.article.lead .snippet { -webkit-line-clamp: 5; font-size: 1.04rem; }
+
+/* Footer of article */
+.article-foot {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 10px;
-}
-.news-card .meta-left {
-  display: flex;
-  align-items: center;
   gap: 10px;
-  font-size: 0.72rem;
-  color: var(--text-muted);
-}
-.news-card .meta-left span {
-  display: flex;
-  align-items: center;
-  gap: 3px;
-}
-.news-card .district-tag {
-  padding: 2px 6px;
-  border-radius: 4px;
-  background: rgba(255,255,255,0.06);
+  margin-top: 12px;
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
   font-size: 0.7rem;
-  color: var(--text-secondary);
+  letter-spacing: 0.12em;
+  color: var(--ink-faded);
+  text-transform: uppercase;
 }
+.continued {
+  font-style: italic;
+  font-family: 'Lora', 'Noto Serif TC', serif;
+  letter-spacing: 0.02em;
+  color: var(--stamp);
+  text-transform: none;
+  font-size: 0.78rem;
+}
+.continued::after { content: " →"; }
+
 .bookmark-btn {
   background: none;
-  border: none;
-  font-size: 1.2rem;
+  border: 1px solid var(--rule-soft);
+  font-size: 0.92rem;
   cursor: pointer;
-  color: var(--text-muted);
-  padding: 4px;
-  transition: all 0.2s;
+  color: var(--ink-faded);
+  padding: 4px 9px;
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.15s;
 }
-.bookmark-btn.saved { color: var(--accent-orange); }
+.bookmark-btn:hover { background: var(--paper-hi); color: var(--ink); }
+.bookmark-btn.saved {
+  background: var(--mark-gold);
+  color: var(--paper-hi);
+  border-color: var(--mark-gold);
+}
+.bookmark-btn .mark { font-size: 0.85rem; margin-right: 3px; }
 
-/* ========== Map ========== */
-.map-container {
+/* ============================================================
+   MAP
+   ============================================================ */
+.map-frame {
   display: none;
-  height: calc(100vh - 220px);
-  height: calc(100dvh - 220px);
-  margin: 12px 16px;
-  border-radius: var(--radius);
-  overflow: hidden;
-  border: 1px solid rgba(255,255,255,0.1);
+  margin: 16px 0;
+  border: 3px double var(--rule);
+  padding: 4px;
+  background: var(--paper-hi);
 }
-.map-container.show { display: block; }
-#newsMap { height: 100%; width: 100%; }
-
-/* ========== States ========== */
-.loading-state, .empty-state {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 60px 20px;
-  color: var(--text-muted);
+.map-frame.show { display: block; }
+.map-frame-label {
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
   text-align: center;
+  padding: 6px 0;
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--rule-soft);
+  margin-bottom: 4px;
+}
+.map-frame-label .fleur { color: var(--stamp); }
+#newsMap {
+  height: 56vh;
+  min-height: 380px;
+  width: 100%;
+  filter: sepia(0.18) saturate(0.85);
+}
+
+.leaflet-popup-content-wrapper {
+  background: var(--paper-hi);
+  color: var(--ink);
+  border-radius: 0;
+  border: 1.5px solid var(--rule);
+  box-shadow: 0 4px 14px rgba(40,28,12,0.25);
+}
+.leaflet-popup-tip { background: var(--paper-hi); border: 1px solid var(--rule); }
+.leaflet-popup-content {
+  font-family: 'Lora', 'Noto Serif TC', serif;
+  font-size: 0.86rem;
+  line-height: 1.45;
+  margin: 12px 14px;
+}
+.leaflet-popup-content .popup-title {
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 700;
+  margin-bottom: 6px;
+  font-size: 0.96rem;
+}
+.leaflet-popup-content .popup-cat {
+  color: var(--stamp);
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.leaflet-popup-content .popup-date {
+  color: var(--ink-faded);
+  font-size: 0.7rem;
+  margin-top: 4px;
+  font-family: 'Special Elite', monospace;
+}
+
+/* ============================================================
+   STATES
+   ============================================================ */
+.loading-state, .empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--ink-faded);
+  font-family: 'Lora', 'Noto Serif TC', serif;
 }
 .loading-state .spinner {
-  width: 36px;
-  height: 36px;
-  border: 3px solid rgba(255,255,255,0.1);
-  border-top-color: var(--primary);
+  width: 38px;
+  height: 38px;
+  border: 3px solid var(--rule-soft);
+  border-top-color: var(--stamp);
   border-radius: 50%;
-  animation: spin 0.8s linear infinite;
-  margin-bottom: 16px;
+  animation: spin 0.9s linear infinite;
+  margin: 0 auto 18px;
 }
-@keyframes spin { to { transform: rotate(360deg); } }
-.empty-state .icon { font-size: 3rem; margin-bottom: 12px; }
-.empty-state .title { font-size: 1rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 6px; }
-.empty-state .desc { font-size: 0.82rem; line-height: 1.5; }
+.empty-state .stamp {
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  display: inline-block;
+  font-size: 0.95rem;
+  letter-spacing: 0.28em;
+  font-weight: 800;
+  color: var(--stamp);
+  border: 3px solid var(--stamp);
+  padding: 10px 18px;
+  transform: rotate(-4deg);
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  opacity: 0.88;
+}
+.empty-state .title {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+.empty-state .desc {
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--ink-faded);
+}
 
-/* ========== Refresh Bar ========== */
-.refresh-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 8px 0;
-  margin-bottom: 8px;
+/* ============================================================
+   PAGE FOOTER
+   ============================================================ */
+.paper-foot {
+  text-align: center;
+  padding: 32px 0 12px;
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--ink-faded);
+  border-top: 3px double var(--rule);
+  margin-top: 20px;
 }
-.refresh-info {
-  font-size: 0.72rem;
-  color: var(--text-muted);
+.paper-foot .fleur { color: var(--stamp); margin: 0 8px; font-size: 1rem; font-family: serif; }
+.paper-foot a {
+  color: var(--stamp);
+  text-decoration: none;
+  border-bottom: 1px solid var(--stamp-tint);
 }
-.refresh-btn {
-  padding: 6px 14px;
-  border-radius: 8px;
-  border: 1px solid rgba(233,69,96,0.3);
-  background: rgba(233,69,96,0.1);
-  color: var(--primary);
-  font-size: 0.78rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-.refresh-btn:active { transform: scale(0.95); }
-.refresh-btn.loading { opacity: 0.6; pointer-events: none; }
-.refresh-btn.loading .refresh-icon { animation: spin 1s linear infinite; }
 
-/* ========== Toast ========== */
+/* ============================================================
+   TOAST
+   ============================================================ */
 .toast {
   position: fixed;
   bottom: calc(var(--safe-bottom) + 20px);
   left: 50%;
   transform: translateX(-50%) translateY(80px);
-  background: var(--bg-surface);
-  color: var(--text-primary);
-  padding: 12px 20px;
-  border-radius: 12px;
+  background: var(--ink);
+  color: var(--paper-hi);
+  padding: 12px 22px;
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
   font-size: 0.82rem;
-  font-weight: 500;
-  border: 1px solid rgba(255,255,255,0.1);
-  box-shadow: var(--shadow);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 2px solid var(--paper-hi);
+  outline: 2px solid var(--ink);
   z-index: 1000;
   opacity: 0;
   transition: all 0.3s ease;
   pointer-events: none;
   white-space: nowrap;
+  max-width: calc(100vw - 32px);
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.toast.show {
-  opacity: 1;
-  transform: translateX(-50%) translateY(0);
-}
+.toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 
-/* ========== Pull-to-refresh indicator ========== */
-.pull-indicator {
-  text-align: center;
-  padding: 12px;
-  color: var(--text-muted);
-  font-size: 0.78rem;
+/* ============================================================
+   TWEAKS PANEL
+   ============================================================ */
+.tweaks-panel {
+  position: fixed;
+  bottom: calc(var(--safe-bottom) + 16px);
+  right: 16px;
+  width: 280px;
+  background: var(--paper-hi);
+  border: 2px solid var(--rule);
+  outline: 3px double var(--rule);
+  outline-offset: 2px;
+  padding: 14px 16px;
+  z-index: 2000;
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
   display: none;
+  box-shadow: 0 6px 22px rgba(40,28,12,0.35);
 }
-
-/* ========== Leaflet Popup Customization ========== */
-.leaflet-popup-content-wrapper {
-  background: var(--bg-card);
-  color: var(--text-primary);
-  border-radius: 10px;
-  box-shadow: var(--shadow);
+.tweaks-panel.show { display: block; }
+.tweaks-panel h4 {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--rule);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.leaflet-popup-tip { background: var(--bg-card); }
-.leaflet-popup-content { font-size: 0.82rem; line-height: 1.4; }
-.leaflet-popup-content .popup-title { font-weight: 600; margin-bottom: 4px; }
-.leaflet-popup-content .popup-cat { color: var(--primary); font-size: 0.72rem; }
-.leaflet-popup-content .popup-date { color: var(--text-muted); font-size: 0.7rem; margin-top: 3px; }
+.tweaks-panel .sub {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.66rem;
+  letter-spacing: 0.22em;
+  color: var(--ink-faded);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.tweak-row {
+  margin: 10px 0;
+}
+.tweak-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.tweak-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.tweak-options button {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  padding: 5px 9px;
+  border: 1px solid var(--rule-soft);
+  background: transparent;
+  color: var(--ink-soft);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.tweak-options button.on {
+  background: var(--ink);
+  color: var(--paper-hi);
+  border-color: var(--ink);
+}
+.tweak-close {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  color: var(--ink-soft);
+  cursor: pointer;
+  font-family: serif;
+  line-height: 1;
+}
+.tweak-close:hover { color: var(--stamp); }
 
-/* ========== Responsive ========== */
-@media (min-width: 768px) {
-  .content { max-width: 680px; margin: 0 auto; }
-  .header > * { max-width: 680px; margin-left: auto; margin-right: auto; }
-  .view-tabs { max-width: 680px; margin-left: auto; margin-right: auto; }
-  .map-container { max-width: 680px; margin-left: auto; margin-right: auto; }
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 560px) {
+  :root { --gutter: 14px; }
+  .nameplate { letter-spacing: -0.025em; }
+  .dateline-strip {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 4px;
+  }
+  .dateline-strip .ds-left, .dateline-strip .ds-right { text-align: center; }
+  .toolbar { flex-direction: column; align-items: stretch; gap: 8px; }
+  .dateline-loc { text-align: center; font-size: 0.66rem; }
+  .toolbar-actions { justify-content: center; }
+  .refresh-bar { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .article.lead .headline { font-size: 1.55rem; }
+  .article .headline { font-size: 1.18rem; }
+  .tweaks-panel { left: 12px; right: 12px; width: auto; }
 }
 </style>
 </head>
-<body>
+<body data-tint="classic" data-stamp="press-red" data-texture="on" data-dropcap="on" data-density="comfortable" data-screen-label="01 News Feed">
 
-<!-- Header -->
-<div class="header">
-  <div class="header-top">
-    <div>
-      <div class="header-title">臺南新訊</div>
-      <div class="header-subtitle">每日蒐集臺南市最新開發動態</div>
+<div class="sheet">
+
+  <!-- =================== MASTHEAD =================== -->
+  <header class="masthead">
+    <div class="dateline-strip">
+      <div class="ds-left">VOL. MMXXVI · NO. <span id="issueNo">CXLII</span></div>
+      <div class="ds-mid">EXTRA · 限時免費</div>
+      <div class="ds-right"><span id="todayEN">MONDAY · MAY 15 2026</span></div>
     </div>
-    <div class="header-actions">
-      <button class="icon-btn" id="btnBookmarks" onclick="toggleBookmarkView()" title="收藏">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+
+    <h1 class="nameplate">臺南新訊</h1>
+    <div class="nameplate-en">The Tainan Chronicle</div>
+
+    <div class="motto">
+      <span class="fleur">❦</span>
+      <span>每日蒐集臺南市最新開發動態</span>
+      <span class="fleur">·</span>
+      <span>EST. MMXXV</span>
+      <span class="fleur">·</span>
+      <span>本期取材自 <a href="https://www.instagram.com/tainan_newopen/" target="_blank" rel="noopener">@tainan_newopen</a> 等社群</span>
+      <span class="fleur">❦</span>
+    </div>
+  </header>
+
+  <!-- =================== TOOLBAR =================== -->
+  <div class="toolbar">
+    <div class="dateline-loc">
+      <strong>TAINAN, TAIWAN</strong>
+      <span class="sep"></span>
+      <span id="todayCN">民國一一五年五月十五日 星期四</span>
+    </div>
+    <div class="toolbar-actions">
+      <button class="tool-btn" id="btnBookmarks" onclick="toggleBookmarkView()" title="收藏剪報">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+        剪報
         <span class="badge" id="bookmarkCount" style="display:none">0</span>
       </button>
-      <button class="icon-btn" id="btnFetch" onclick="fetchNewNews()" title="抓取最新">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 11-3.15-6.85"/><path d="M21 3v6h-6"/></svg>
+      <button class="tool-btn" id="btnFetch" onclick="fetchNewNews()" title="抓取最新">
+        <svg class="refresh-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M21 12a9 9 0 11-3.15-6.85"/><path d="M21 3v6h-6"/></svg>
+        付印
       </button>
     </div>
   </div>
 
-  <div class="search-bar">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
-    <input type="text" id="searchInput" placeholder="搜尋新聞標題、地區..." oninput="onSearchInput()">
-    <button class="search-clear" id="searchClear" onclick="clearSearch()">&#10005;</button>
+  <!-- =================== SEARCH =================== -->
+  <div class="search-section">
+    <div class="search-label">索引 · Search the Archives</div>
+    <div class="search-bar">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+      <input type="text" id="searchInput" placeholder="輸入標題、地區或關鍵字……" oninput="onSearchInput()">
+      <button class="search-clear" id="searchClear" onclick="clearSearch()">&#10005;</button>
+    </div>
   </div>
 
-  <div class="category-tabs" id="categoryTabs"></div>
-  <div class="date-tabs" id="dateTabs"></div>
-</div>
-
-<!-- View Toggle -->
-<div class="view-tabs">
-  <div class="view-tab active" data-view="list" onclick="switchView('list')">
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
-    新聞列表
+  <!-- =================== SECTIONS (categories) =================== -->
+  <div class="sections-rail">
+    <div class="rail-label">版面 · Sections</div>
+    <div class="sections-nav" id="categoryTabs"></div>
   </div>
-  <div class="view-tab" data-view="map" onclick="switchView('map')">
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-    地圖檢視
+
+  <!-- =================== TIME FILTER =================== -->
+  <div class="time-rail">
+    <span class="time-rail-label">時期 · Period</span>
+    <div class="date-tabs" id="dateTabs"></div>
   </div>
-</div>
 
-<!-- Map -->
-<div class="map-container" id="mapContainer">
-  <div id="newsMap"></div>
-</div>
-
-<!-- Content -->
-<div class="content" id="contentArea">
-  <div class="refresh-bar" id="refreshBar">
-    <span class="refresh-info" id="refreshInfo">尚未載入</span>
-    <button class="refresh-btn" onclick="fetchNewNews()">
-      <svg class="refresh-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 12a9 9 0 11-3.15-6.85"/><path d="M21 3v6h-6"/></svg>
-      抓取最新
-    </button>
+  <!-- =================== VIEW SWITCHER =================== -->
+  <div class="view-switcher">
+    <div class="view-tab active" data-view="list" onclick="switchView('list')">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+      新聞列表 · LIST
+    </div>
+    <div class="view-tab" data-view="map" onclick="switchView('map')">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      地理全圖 · MAP
+    </div>
   </div>
-  <div id="newsList"></div>
+
+  <!-- =================== MAP =================== -->
+  <div class="map-frame" id="mapContainer">
+    <div class="map-frame-label"><span class="fleur">❦</span> 臺南地理全圖 · MAP OF THE CITY <span class="fleur">❦</span></div>
+    <div id="newsMap"></div>
+  </div>
+
+  <!-- =================== CONTENT =================== -->
+  <main class="content" id="contentArea">
+    <div class="refresh-bar" id="refreshBar">
+      <span class="refresh-info" id="refreshInfo">尚未付印 · No edition yet</span>
+      <button class="refresh-btn" onclick="fetchNewNews()">
+        <svg class="refresh-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 12a9 9 0 11-3.15-6.85"/><path d="M21 3v6h-6"/></svg>
+        抓取最新
+      </button>
+    </div>
+    <div id="newsList" class="news-list"></div>
+  </main>
+
+  <!-- =================== FOOTER =================== -->
+  <footer class="paper-foot">
+    <span class="fleur">❦</span>
+    版面終 · END OF EDITION
+    <span class="fleur">·</span>
+    取材鳴謝 <a href="https://www.instagram.com/tainan_newopen/" target="_blank" rel="noopener">@tainan_newopen</a>
+    <span class="fleur">❦</span>
+  </footer>
+
 </div>
 
-<!-- Toast -->
+<!-- =================== TOAST =================== -->
 <div class="toast" id="toast"></div>
+
+<!-- =================== TWEAKS PANEL =================== -->
+<div class="tweaks-panel" id="tweaksPanel" role="dialog" aria-label="Tweaks">
+  <h4>Tweaks <button class="tweak-close" onclick="closeTweaks()" aria-label="關閉">×</button></h4>
+  <div class="sub">調整紙張與排版</div>
+
+  <div class="tweak-row">
+    <div class="tweak-label">紙張色調 · Paper Tint</div>
+    <div class="tweak-options" data-key="paperTint">
+      <button data-val="classic">CLASSIC</button>
+      <button data-val="warm">WARM</button>
+      <button data-val="cool">COOL</button>
+      <button data-val="bright">BRIGHT</button>
+    </div>
+  </div>
+
+  <div class="tweak-row">
+    <div class="tweak-label">印戳色 · Stamp</div>
+    <div class="tweak-options" data-key="stampColor">
+      <button data-val="press-red">RED</button>
+      <button data-val="deep-navy">NAVY</button>
+      <button data-val="forest-green">GREEN</button>
+      <button data-val="sepia">SEPIA</button>
+    </div>
+  </div>
+
+  <div class="tweak-row">
+    <div class="tweak-label">紋理 · Paper Grain</div>
+    <div class="tweak-options" data-key="showTexture">
+      <button data-val="true">ON</button>
+      <button data-val="false">OFF</button>
+    </div>
+  </div>
+
+  <div class="tweak-row">
+    <div class="tweak-label">首字大寫 · Drop Cap</div>
+    <div class="tweak-options" data-key="showDropCap">
+      <button data-val="true">ON</button>
+      <button data-val="false">OFF</button>
+    </div>
+  </div>
+
+  <div class="tweak-row">
+    <div class="tweak-label">密度 · Density</div>
+    <div class="tweak-options" data-key="density">
+      <button data-val="tight">TIGHT</button>
+      <button data-val="comfortable">COMFORT</button>
+      <button data-val="airy">AIRY</button>
+    </div>
+  </div>
+</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
-// ===============================================================
-// 臺南新訊 - 前端應用程式
-// ===============================================================
+// =================================================================
+// 臺南新訊 · THE TAINAN CHRONICLE
+// 前端應用程式 — 復古美式大報版式
+// =================================================================
 
-// ★★★ 把你的 Google Apps Script 部署網址貼在這裡 ★★★
 const API_URL = 'https://script.google.com/macros/s/AKfycbyujVRpqO8R1NhCjtxh6er8u9CpRkZ9Az-lSMg3Mbv13qLW95Po3gg_fEh5yiqHwKj0/exec';
 
-// ========== 狀態管理 ==========
+// ===== 狀態 =====
 let allNews = [];
 let filteredNews = [];
 let bookmarks = {};
@@ -538,30 +1157,117 @@ let searchTimeout = null;
 let map = null;
 let markers = [];
 
-// 分類顏色
+// 分類顏色（用在地圖標記）
 const CAT_COLORS = {
-  '新開店': '#e94560',
-  '新建設': '#4da6ff',
-  '新投資案': '#00c9a7',
-  '新落成': '#ffa62b',
-  '新整修完成': '#b17aff',
-  '新裝潢': '#ff6ba1'
+  '新開店':     '#a72923',
+  '新建設':     '#1f3c66',
+  '新投資案':   '#2e5d3a',
+  '新落成':     '#8a5a1c',
+  '新整修完成': '#6a3c8e',
+  '新裝潢':     '#a02968'
 };
 
-// ========== 初始化 ==========
+// 分類對應英文版面名（讓報紙感更強）
+const CAT_EN = {
+  '全部':       'ALL SECTIONS',
+  '新開店':     'NEW OPENING',
+  '新建設':     'CONSTRUCTION',
+  '新投資案':   'INVESTMENT',
+  '新落成':     'COMPLETION',
+  '新整修完成': 'RESTORATION',
+  '新裝潢':     'RENOVATION'
+};
+
+// 區域 → DATELINE 大寫拉丁化
+const DISTRICT_EN = {
+  '中西區': 'CENTRAL-WEST',
+  '東區':   'EAST',
+  '南區':   'SOUTH',
+  '北區':   'NORTH',
+  '安平區': 'ANPING',
+  '安南區': 'ANNAN',
+  '永康區': 'YONGKANG',
+  '歸仁區': 'GUEIREN',
+  '新市區': 'XINSHI',
+  '善化區': 'SHANHUA',
+  '仁德區': 'RENDE',
+  '關廟區': 'GUANMIAO'
+};
+
+// ===== 啟動 =====
 document.addEventListener('DOMContentLoaded', () => {
+  applyTweaks(TWEAK_DEFAULTS);
+  setupTweaksPanel();
+  setupEditMode();
+  setMastheadDates();
   loadBookmarks();
   renderCategoryTabs();
   renderDateTabs();
   loadNews();
 });
 
-// ========== API 呼叫 ==========
+// ===== 日期 / 報頭 =====
+function setMastheadDates() {
+  const now = new Date();
+  // 英文
+  const wEN = ['SUNDAY','MONDAY','TUESDAY','WEDNESDAY','THURSDAY','FRIDAY','SATURDAY'][now.getDay()];
+  const mEN = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'][now.getMonth()];
+  document.getElementById('todayEN').textContent =
+    `${wEN} · ${mEN} ${String(now.getDate()).padStart(2,'0')} ${now.getFullYear()}`;
+
+  // 中文（民國紀年 + 國字日期）
+  const rocY = now.getFullYear() - 1911;
+  const cnNum = ['一','二','三','四','五','六','七','八','九','十'];
+  const dayCN = toCNDay(now.getDate());
+  const monCN = toCNMonth(now.getMonth() + 1);
+  const wCN = ['日','一','二','三','四','五','六'][now.getDay()];
+  document.getElementById('todayCN').textContent =
+    `民國${toCNYear(rocY)}年${monCN}月${dayCN}日 星期${wCN}`;
+
+  // 卷期：以 (年-2025) * 365 + dayOfYear 大致換成羅馬數字（裝飾用）
+  const start = new Date(now.getFullYear(), 0, 0);
+  const dayOfYear = Math.floor((now - start) / 86400000);
+  const issueNum = (rocY - 114) * 365 + dayOfYear;
+  document.getElementById('issueNo').textContent = toRoman(Math.max(1, issueNum));
+}
+
+function toCNYear(n) {
+  const map = ['零','一','二','三','四','五','六','七','八','九'];
+  return String(n).split('').map(d => map[+d]).join('');
+}
+function toCNMonth(n) {
+  if (n <= 10) return ['','一','二','三','四','五','六','七','八','九','十'][n];
+  if (n === 11) return '十一';
+  return '十二';
+}
+function toCNDay(n) {
+  const base = ['','一','二','三','四','五','六','七','八','九','十'];
+  if (n <= 10) return base[n];
+  if (n < 20) return '十' + (n === 10 ? '' : base[n-10]);
+  if (n === 20) return '二十';
+  if (n < 30) return '二十' + base[n-20];
+  if (n === 30) return '三十';
+  return '三十' + base[n-30];
+}
+function toRoman(num) {
+  if (num <= 0) return 'I';
+  const map = [
+    [1000,'M'],[900,'CM'],[500,'D'],[400,'CD'],
+    [100,'C'],[90,'XC'],[50,'L'],[40,'XL'],
+    [10,'X'],[9,'IX'],[5,'V'],[4,'IV'],[1,'I']
+  ];
+  let out = '';
+  for (const [v,s] of map) {
+    while (num >= v) { out += s; num -= v; }
+  }
+  return out;
+}
+
+// ===== API =====
 async function apiCall(action, params = {}) {
   const url = new URL(API_URL);
   url.searchParams.set('action', action);
   Object.entries(params).forEach(([k, v]) => url.searchParams.set(k, v));
-
   const resp = await fetch(url.toString());
   if (!resp.ok) throw new Error('API 請求失敗');
   return resp.json();
@@ -572,22 +1278,19 @@ async function loadNews() {
   try {
     const data = await apiCall('getNews');
     allNews = data.news || [];
-    if (data.lastFetched) {
-      updateRefreshInfo(data.lastFetched);
-    }
+    if (data.lastFetched) updateRefreshInfo(data.lastFetched);
     applyFilters();
   } catch (err) {
-    showEmpty('連線失敗', '請確認 API 網址已正確設定，\n並檢查網路連線。');
+    showEmpty('連線失敗', '請確認 API 網址已正確設定，並檢查網路連線。');
     console.error(err);
   }
 }
 
 async function fetchNewNews() {
   const btn = document.querySelector('.refresh-btn');
-  if (btn) { btn.classList.add('loading'); }
+  if (btn) btn.classList.add('loading');
   document.getElementById('btnFetch').classList.add('active');
-
-  showToast('正在抓取最新新聞...');
+  showToast('正在抓取最新新聞……');
   try {
     const result = await apiCall('fetchNew');
     showToast(result.message || '抓取完成');
@@ -596,35 +1299,23 @@ async function fetchNewNews() {
     showToast('抓取失敗，請稍後重試');
     console.error(err);
   } finally {
-    if (btn) { btn.classList.remove('loading'); }
+    if (btn) btn.classList.remove('loading');
     document.getElementById('btnFetch').classList.remove('active');
   }
 }
 
-// ========== 篩選 & 搜尋 ==========
+// ===== 篩選 / 搜尋 =====
 function applyFilters() {
   let news = [...allNews];
+  if (isBookmarkView) news = news.filter(n => bookmarks[n.id || n.url]);
+  if (currentCategory !== '全部') news = news.filter(n => n.category === currentCategory);
 
-  // 收藏篩選
-  if (isBookmarkView) {
-    news = news.filter(n => bookmarks[n.id || n.url]);
-  }
-
-  // 分類篩選
-  if (currentCategory !== '全部') {
-    news = news.filter(n => n.category === currentCategory);
-  }
-
-  // 日期區間篩選
   if (currentDateRange !== '全部') {
     const days = { '今日': 1, '近7天': 7, '近30天': 30 }[currentDateRange];
     if (days) {
       const cutoff = new Date();
-      if (days === 1) {
-        cutoff.setHours(0, 0, 0, 0);
-      } else {
-        cutoff.setDate(cutoff.getDate() - days);
-      }
+      if (days === 1) cutoff.setHours(0,0,0,0);
+      else cutoff.setDate(cutoff.getDate() - days);
       news = news.filter(n => {
         if (!n.date) return false;
         const d = new Date(n.date);
@@ -633,7 +1324,6 @@ function applyFilters() {
     }
   }
 
-  // 搜尋
   const keyword = document.getElementById('searchInput').value.trim().toLowerCase();
   if (keyword) {
     news = news.filter(n =>
@@ -656,43 +1346,36 @@ function onSearchInput() {
   document.getElementById('searchClear').classList.toggle('show', val.length > 0);
   searchTimeout = setTimeout(() => applyFilters(), 300);
 }
-
 function clearSearch() {
   document.getElementById('searchInput').value = '';
   document.getElementById('searchClear').classList.remove('show');
   applyFilters();
 }
 
-// ========== 分類 Tabs ==========
+// ===== 分類 / 日期 Tabs =====
 function renderCategoryTabs() {
   const cats = ['全部', '新開店', '新建設', '新投資案', '新落成', '新整修完成', '新裝潢'];
-  const container = document.getElementById('categoryTabs');
-  container.innerHTML = cats.map(cat => `
-    <div class="cat-tab ${cat === currentCategory ? 'active' : ''}"
-         onclick="selectCategory('${cat}')">
-      ${cat}<span class="count" data-cat="${cat}"></span>
-    </div>
-  `).join('');
+  const c = document.getElementById('categoryTabs');
+  c.innerHTML = cats.map(cat => `
+    <button class="cat-tab ${cat === currentCategory ? 'active' : ''}"
+            data-cat="${cat}" onclick="selectCategory('${cat}')">
+      <span class="cat-text">${cat}</span><span class="count" data-cat="${cat}"></span>
+    </button>`).join('');
 }
-
 function selectCategory(cat) {
   currentCategory = cat;
   document.querySelectorAll('.cat-tab').forEach(tab => {
-    tab.classList.toggle('active', tab.textContent.trim().startsWith(cat));
+    tab.classList.toggle('active', tab.dataset.cat === cat);
   });
   applyFilters();
 }
-
-// ========== 日期區間 Tabs ==========
 function renderDateTabs() {
   const ranges = ['全部', '今日', '近7天', '近30天'];
-  const container = document.getElementById('dateTabs');
-  container.innerHTML = ranges.map(r => `
-    <div class="date-tab ${r === currentDateRange ? 'active' : ''}"
-         data-range="${r}" onclick="selectDateRange('${r}')">${r}</div>
-  `).join('');
+  const c = document.getElementById('dateTabs');
+  c.innerHTML = ranges.map(r => `
+    <button class="date-tab ${r === currentDateRange ? 'active' : ''}"
+            data-range="${r}" onclick="selectDateRange('${r}')">${r}</button>`).join('');
 }
-
 function selectDateRange(range) {
   currentDateRange = range;
   document.querySelectorAll('.date-tab').forEach(tab => {
@@ -700,55 +1383,45 @@ function selectDateRange(range) {
   });
   applyFilters();
 }
-
 function updateCategoryCounts() {
   const baseNews = isBookmarkView
     ? allNews.filter(n => bookmarks[n.id || n.url])
     : allNews;
-
   document.querySelectorAll('.cat-tab .count').forEach(el => {
     const cat = el.dataset.cat;
     const count = cat === '全部'
       ? baseNews.length
       : baseNews.filter(n => n.category === cat).length;
-    el.textContent = count > 0 ? count : '';
+    el.textContent = count > 0 ? '(' + count + ')' : '';
   });
 }
 
-// ========== 收藏 ==========
+// ===== 收藏 =====
 function loadBookmarks() {
   try {
-    const saved = window._bookmarkStore || {};
-    bookmarks = saved;
+    const stored = localStorage.getItem('tn_bookmarks');
+    bookmarks = stored ? JSON.parse(stored) : (window._bookmarkStore || {});
   } catch (e) { bookmarks = {}; }
   updateBookmarkBadge();
 }
-
 function saveBookmarks() {
+  try { localStorage.setItem('tn_bookmarks', JSON.stringify(bookmarks)); } catch (e) {}
   window._bookmarkStore = bookmarks;
   updateBookmarkBadge();
 }
-
 function toggleBookmark(id, event) {
   if (event) event.stopPropagation();
-  if (bookmarks[id]) {
-    delete bookmarks[id];
-    showToast('已取消收藏');
-  } else {
-    bookmarks[id] = true;
-    showToast('已加入收藏');
-  }
+  if (bookmarks[id]) { delete bookmarks[id]; showToast('已取消剪報'); }
+  else { bookmarks[id] = true; showToast('已加入剪報'); }
   saveBookmarks();
   if (isBookmarkView) applyFilters();
   else renderNewsList();
 }
-
 function toggleBookmarkView() {
   isBookmarkView = !isBookmarkView;
   document.getElementById('btnBookmarks').classList.toggle('active', isBookmarkView);
   applyFilters();
 }
-
 function updateBookmarkBadge() {
   const count = Object.keys(bookmarks).length;
   const badge = document.getElementById('bookmarkCount');
@@ -756,15 +1429,13 @@ function updateBookmarkBadge() {
   badge.textContent = count;
 }
 
-// ========== 顯示 ==========
+// ===== 視圖切換 =====
 function switchView(view) {
   currentView = view;
   document.querySelectorAll('.view-tab').forEach(t =>
     t.classList.toggle('active', t.dataset.view === view));
-
   const mapEl = document.getElementById('mapContainer');
   const contentEl = document.getElementById('contentArea');
-
   if (view === 'map') {
     mapEl.classList.add('show');
     contentEl.style.display = 'none';
@@ -775,57 +1446,82 @@ function switchView(view) {
   }
 }
 
+// ===== 渲染 =====
 function renderNewsList() {
   const container = document.getElementById('newsList');
 
   if (filteredNews.length === 0) {
-    const msg = isBookmarkView ? '尚無收藏的新聞' : '沒有找到相關新聞';
+    const stamp = isBookmarkView ? 'NO CLIPPINGS' : 'NO STORIES';
+    const title = isBookmarkView ? '尚無剪報' : '沒有找到相關新聞';
     const desc = isBookmarkView
-      ? '點擊新聞卡片上的書籤圖示來收藏'
-      : '試試其他分類或關鍵字';
+      ? '在新聞下方點擊「剪報」即可加入收藏。'
+      : '試試其他版面、改變時期，或調整關鍵字。';
+    container.classList.remove('cols');
     container.innerHTML = `
       <div class="empty-state">
-        <div class="icon">${isBookmarkView ? '&#128278;' : '&#128240;'}</div>
-        <div class="title">${msg}</div>
+        <div class="stamp">${stamp}</div>
+        <div class="title">${title}</div>
         <div class="desc">${desc}</div>
       </div>`;
     return;
   }
 
-  container.innerHTML = filteredNews.map(news => {
-    const id = news.id || news.url;
-    const isSaved = bookmarks[id];
-    const date = formatDate(news.date);
-    const catClass = 'badge-' + (news.category || '');
+  // 第一篇為頭條 (lead)，其餘進入雙欄
+  const [lead, ...rest] = filteredNews;
+  container.classList.toggle('cols', rest.length >= 2);
 
-    return `
-      <div class="news-card" onclick="openNews('${encodeURIComponent(news.url)}')">
-        <div class="news-card-header">
-          <div class="title">${escapeHtml(news.title)}</div>
-          <span class="category-badge ${catClass}">${news.category || '未分類'}</span>
-        </div>
-        ${news.snippet ? `<div class="snippet">${escapeHtml(news.snippet)}</div>` : ''}
-        <div class="meta">
-          <div class="meta-left">
-            <span>${date}</span>
-            ${news.source ? `<span>&#183; ${escapeHtml(news.source)}</span>` : ''}
-            ${news.district ? `<span class="district-tag">${news.district}</span>` : ''}
-          </div>
-          <button class="bookmark-btn ${isSaved ? 'saved' : ''}"
-                  onclick="toggleBookmark('${id}', event)"
-                  title="${isSaved ? '取消收藏' : '加入收藏'}">
-            ${isSaved ? '&#9733;' : '&#9734;'}
-          </button>
-        </div>
-      </div>`;
-  }).join('');
+  const leadHTML = renderArticle(lead, true);
+  const restHTML = rest.map(n => renderArticle(n, false)).join('');
+  container.innerHTML = leadHTML + restHTML;
+}
+
+function renderArticle(news, isLead) {
+  const id = news.id || news.url;
+  const isSaved = bookmarks[id];
+  const cat = news.category || '未分類';
+  const catEN = CAT_EN[cat] || cat;
+  const dateline = buildDateline(news);
+  const dateCN = formatDateCN(news.date);
+
+  return `
+    <article class="article ${isLead ? 'lead' : ''}" data-cat="${escapeAttr(cat)}"
+             onclick="openNews('${encodeURIComponent(news.url || '')}')">
+      <div class="sect-label">
+        <span class="dot"></span>
+        ${escapeHtml(cat)}
+        <span class="sect-label-en">· ${escapeHtml(catEN)}</span>
+      </div>
+      <h2 class="headline">${escapeHtml(news.title || '無題')}</h2>
+      <div class="byline">
+        ${news.source ? `<span class="by">BY ${escapeHtml(news.source.toUpperCase())}</span>` : ''}
+        ${dateline ? `<span class="sep"></span><span class="dateline-tag">${dateline}</span>` : ''}
+        <span class="sep"></span><span>${escapeHtml(dateCN)}</span>
+      </div>
+      ${news.snippet ? `<p class="snippet">${escapeHtml(news.snippet)}</p>` : ''}
+      <div class="article-foot">
+        <span class="continued">續閱全文</span>
+        <button class="bookmark-btn ${isSaved ? 'saved' : ''}"
+                onclick="toggleBookmark('${escapeAttr(id)}', event)"
+                title="${isSaved ? '取消剪報' : '剪報收藏'}">
+          <span class="mark">${isSaved ? '★' : '☆'}</span>${isSaved ? '已剪報' : '剪報'}
+        </button>
+      </div>
+    </article>`;
+}
+
+function buildDateline(news) {
+  if (!news.district) return '';
+  const en = DISTRICT_EN[news.district];
+  return en ? `TAINAN — ${en}` : `TAINAN — ${escapeHtml(news.district)}`;
 }
 
 function openNews(encodedUrl) {
-  window.open(decodeURIComponent(encodedUrl), '_blank');
+  const url = decodeURIComponent(encodedUrl || '');
+  if (!url) return;
+  window.open(url, '_blank');
 }
 
-// ========== 地圖 ==========
+// ===== 地圖 =====
 function renderMap() {
   if (!map) {
     map = L.map('newsMap').setView([23.0, 120.22], 11);
@@ -834,115 +1530,93 @@ function renderMap() {
       maxZoom: 18
     }).addTo(map);
   }
-
-  // 清除舊 markers
   markers.forEach(m => map.removeLayer(m));
   markers = [];
-
   const newsWithLocation = filteredNews.filter(n => n.lat && n.lng);
-
   if (newsWithLocation.length === 0) {
     showToast('目前篩選的新聞中沒有地點資訊');
     return;
   }
-
   const bounds = [];
   newsWithLocation.forEach(news => {
     const lat = parseFloat(news.lat);
     const lng = parseFloat(news.lng);
     if (isNaN(lat) || isNaN(lng)) return;
-
-    const color = CAT_COLORS[news.category] || '#e94560';
+    const color = CAT_COLORS[news.category] || '#a72923';
     const icon = L.divIcon({
       className: '',
       html: `<div style="
-        width:28px;height:28px;border-radius:50%;
-        background:${color};border:3px solid #fff;
-        box-shadow:0 2px 8px rgba(0,0,0,0.3);
+        width:30px;height:30px;border-radius:50%;
+        background:${color};border:3px solid #f0e6cc;
+        box-shadow:0 2px 8px rgba(40,28,12,0.45);
         display:flex;align-items:center;justify-content:center;
-        font-size:12px;color:#fff;font-weight:700;
-      ">${getCatIcon(news.category)}</div>`,
-      iconSize: [28, 28],
-      iconAnchor: [14, 14]
+        font-family:'Oswald',sans-serif;font-size:13px;color:#f0e6cc;font-weight:700;
+      ">${(news.category || '?').slice(0,1)}</div>`,
+      iconSize: [30, 30],
+      iconAnchor: [15, 15]
     });
-
     const marker = L.marker([lat, lng], { icon })
       .addTo(map)
       .bindPopup(`
         <div class="popup-title">${escapeHtml(news.title)}</div>
-        <div class="popup-cat">${news.category} ${news.district ? '· ' + news.district : ''}</div>
-        <div class="popup-date">${formatDate(news.date)}</div>
+        <div class="popup-cat">${escapeHtml(news.category || '')} ${news.district ? '· ' + escapeHtml(news.district) : ''}</div>
+        <div class="popup-date">${formatDateCN(news.date)}</div>
       `);
-
     marker.on('click', () => marker.openPopup());
     markers.push(marker);
     bounds.push([lat, lng]);
   });
-
-  if (bounds.length > 0) {
-    map.fitBounds(bounds, { padding: [30, 30], maxZoom: 14 });
-  }
-
+  if (bounds.length > 0) map.fitBounds(bounds, { padding: [30, 30], maxZoom: 14 });
   setTimeout(() => map.invalidateSize(), 100);
 }
 
-function getCatIcon(cat) {
-  const icons = {
-    '新開店': '&#9733;',
-    '新建設': '&#9881;',
-    '新投資案': '&#9650;',
-    '新落成': '&#9632;',
-    '新整修完成': '&#9998;',
-    '新裝潢': '&#9830;'
-  };
-  return icons[cat] || '&#9679;';
-}
-
-// ========== 工具函數 ==========
-function formatDate(dateStr) {
+// ===== 工具函數 =====
+function formatDateCN(dateStr) {
   if (!dateStr) return '';
   try {
     const d = new Date(dateStr);
+    if (isNaN(d)) return dateStr;
     const now = new Date();
     const diff = now - d;
+    if (diff < 60000) return '剛剛';
     if (diff < 3600000) return Math.floor(diff / 60000) + ' 分鐘前';
     if (diff < 86400000) return Math.floor(diff / 3600000) + ' 小時前';
     if (diff < 604800000) return Math.floor(diff / 86400000) + ' 天前';
-    return (d.getMonth() + 1) + '/' + d.getDate();
+    return (d.getMonth() + 1) + '月' + d.getDate() + '日';
   } catch (e) { return dateStr; }
 }
-
 function escapeHtml(str) {
-  if (!str) return '';
+  if (str == null) return '';
   const div = document.createElement('div');
-  div.textContent = str;
+  div.textContent = String(str);
   return div.innerHTML;
 }
-
+function escapeAttr(str) {
+  if (str == null) return '';
+  return String(str).replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
 function showLoading() {
+  document.getElementById('newsList').classList.remove('cols');
   document.getElementById('newsList').innerHTML = `
     <div class="loading-state">
       <div class="spinner"></div>
-      <div>載入中...</div>
+      <div>付印中……</div>
     </div>`;
 }
-
 function showEmpty(title, desc) {
+  document.getElementById('newsList').classList.remove('cols');
   document.getElementById('newsList').innerHTML = `
     <div class="empty-state">
-      <div class="icon">&#128268;</div>
-      <div class="title">${title}</div>
-      <div class="desc">${desc}</div>
+      <div class="stamp">OFFLINE</div>
+      <div class="title">${escapeHtml(title)}</div>
+      <div class="desc">${escapeHtml(desc)}</div>
     </div>`;
 }
-
 function updateRefreshInfo(time) {
   const el = document.getElementById('refreshInfo');
-  if (time) {
-    el.textContent = '最後更新：' + formatDate(time) + ' · 共 ' + allNews.length + ' 則';
-  }
+  if (!time) return;
+  el.innerHTML = `最後付印 · <strong>${escapeHtml(formatDateCN(time))}</strong> · 共 ${allNews.length} 則`;
 }
-
 function showToast(msg) {
   const toast = document.getElementById('toast');
   toast.textContent = msg;
@@ -950,85 +1624,149 @@ function showToast(msg) {
   setTimeout(() => toast.classList.remove('show'), 2500);
 }
 
-// ========== Demo 模式（API 未設定時） ==========
+// =================================================================
+// TWEAKS — paper tint, stamp colour, texture, drop cap, density
+// =================================================================
+let TWEAKS = { ...TWEAK_DEFAULTS };
+
+function applyTweaks(t) {
+  TWEAKS = { ...TWEAKS, ...t };
+  const b = document.body;
+  b.dataset.tint     = TWEAKS.paperTint;
+  b.dataset.stamp    = TWEAKS.stampColor;
+  b.dataset.texture  = TWEAKS.showTexture ? 'on' : 'off';
+  b.dataset.dropcap  = TWEAKS.showDropCap ? 'on' : 'off';
+  b.dataset.density  = TWEAKS.density;
+  syncTweakUI();
+}
+
+function syncTweakUI() {
+  document.querySelectorAll('.tweak-options').forEach(row => {
+    const key = row.dataset.key;
+    const cur = String(TWEAKS[key]);
+    row.querySelectorAll('button').forEach(b => {
+      b.classList.toggle('on', b.dataset.val === cur);
+    });
+  });
+}
+
+function setupTweaksPanel() {
+  document.querySelectorAll('.tweak-options').forEach(row => {
+    const key = row.dataset.key;
+    row.querySelectorAll('button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        let val = btn.dataset.val;
+        if (val === 'true') val = true;
+        else if (val === 'false') val = false;
+        const patch = { [key]: val };
+        applyTweaks(patch);
+        try {
+          window.parent.postMessage({ type: '__edit_mode_set_keys', edits: patch }, '*');
+        } catch (e) {}
+      });
+    });
+  });
+}
+
+function openTweaks() { document.getElementById('tweaksPanel').classList.add('show'); syncTweakUI(); }
+function closeTweaks() { document.getElementById('tweaksPanel').classList.remove('show'); }
+
+// =================================================================
+// EDIT MODE PROTOCOL  (must register listener BEFORE announcing)
+// =================================================================
+function setupEditMode() {
+  window.addEventListener('message', (ev) => {
+    const d = ev.data;
+    if (!d || typeof d !== 'object') return;
+    if (d.type === '__activate_edit_mode')   openTweaks();
+    if (d.type === '__deactivate_edit_mode') closeTweaks();
+  });
+  try { window.parent.postMessage({ type: '__edit_mode_available' }, '*'); } catch (e) {}
+}
+
+// =================================================================
+// DEMO 模式 — 當 API 未設定 / 抓取失敗時使用，含 IG 來源範例
+// =================================================================
+function getDemoData() {
+  const now = new Date();
+  return [
+    {
+      id: 'demo1', title: '臺南中西區新開幕文青咖啡廳「島嶼日常」試營運引爆排隊潮',
+      source: 'tainan_newopen',
+      url: 'https://www.instagram.com/tainan_newopen/', category: '新開店',
+      date: new Date(now - 3600000).toISOString(),
+      snippet: '位於臺南市中西區正興街的全新文青咖啡廳「島嶼日常」正式試營運，主打自家烘焙咖啡豆與手作甜點。店主強調「以一日為單位」的策展概念，每週更換限定菜單，開幕首日即吸引大批人潮排隊。',
+      district: '中西區', lat: 22.9908, lng: 120.1965
+    },
+    {
+      id: 'demo2', title: '台南捷運藍線第一期工程正式動工 預計2031年完工',
+      source: '聯合新聞網',
+      url: 'https://example.com/2', category: '新建設',
+      date: new Date(now - 7200000).toISOString(),
+      snippet: '臺南捷運藍線第一期路線從安平區至東區，全長約12.6公里，設置11座車站，總經費約新台幣390億元。市府表示，動工後將分區施工以降低交通衝擊。',
+      district: '東區', lat: 22.9815, lng: 120.2240
+    },
+    {
+      id: 'demo3', title: '台積電宣布擴大南科投資 新建先進封裝廠',
+      source: 'ETtoday', url: 'https://example.com/3', category: '新投資案',
+      date: new Date(now - 18000000).toISOString(),
+      snippet: '台積電今日宣布將在南部科學園區臺南園區新建先進封裝廠，預計投資金額超過千億，將帶動上下游供應鏈進駐並創造逾三千個就業機會。',
+      district: '新市區', lat: 23.0790, lng: 120.2950
+    },
+    {
+      id: 'demo4', title: '臺南市立圖書館新總館二期設施正式落成啟用',
+      source: '中央社', url: 'https://example.com/4', category: '新落成',
+      date: new Date(now - 86400000).toISOString(),
+      snippet: '位於永康區的臺南市立圖書館新總館二期設施今日舉行落成典禮，新增兒童閱覽區及多功能展演空間，全館總藏書量突破百萬冊。',
+      district: '永康區', lat: 23.0260, lng: 120.2570
+    },
+    {
+      id: 'demo5', title: '國定古蹟赤崁樓修復工程完成 重新對外開放',
+      source: '台南市政府', url: 'https://example.com/5', category: '新整修完成',
+      date: new Date(now - 172800000).toISOString(),
+      snippet: '歷時兩年的赤崁樓修復工程已全數完工，修復範圍包含文昌閣、海神廟及周邊庭園景觀，重新開放當日將舉辦古蹟導覽與展演。',
+      district: '中西區', lat: 22.9972, lng: 120.2035
+    },
+    {
+      id: 'demo6', title: '安平老街百年老屋改造 全新複合式藝文空間亮相',
+      source: 'tainan_newopen', url: 'https://www.instagram.com/tainan_newopen/', category: '新裝潢',
+      date: new Date(now - 259200000).toISOString(),
+      snippet: '安平區一棟擁有百年歷史的老屋，經過半年精心改造，以「安平記憶」為主題打造複合式藝文空間，結合咖啡、選物、特展三個機能。',
+      district: '安平區', lat: 22.9930, lng: 120.1660
+    },
+    {
+      id: 'demo7', title: '日本知名拉麵品牌「一蘭」進駐臺南新光三越',
+      source: 'ETtoday', url: 'https://example.com/7', category: '新開店',
+      date: new Date(now - 345600000).toISOString(),
+      snippet: '日本拉麵名店一蘭拉麵宣布將在臺南新光三越中山店開設南部首間門市，採用招牌「味集中座位」並推出限定臺南菜單，預計於下月正式開幕。',
+      district: '中西區', lat: 22.9890, lng: 120.2010
+    },
+    {
+      id: 'demo8', title: '臺南沙崙智慧綠能科學城第二期建設啟動',
+      source: '工商時報', url: 'https://example.com/8', category: '新建設',
+      date: new Date(now - 432000000).toISOString(),
+      snippet: '位於歸仁區的沙崙智慧綠能科學城第二期開發計畫正式啟動，將引進AI及綠能相關產業，目標於三年內完成第一階段廠房與研發中心。',
+      district: '歸仁區', lat: 22.9670, lng: 120.2930
+    }
+  ];
+}
+
+// 若 API 仍是預設範例網址，自動進入示範模式
 if (API_URL === 'YOUR_APPS_SCRIPT_URL_HERE') {
   allNews = getDemoData();
   document.addEventListener('DOMContentLoaded', () => {
-    showToast('示範模式 - 請設定 API 網址');
+    showToast('示範模式 · 請設定 API 網址');
     applyFilters();
     updateRefreshInfo(new Date().toISOString());
   });
-  // 覆寫 API 函數，避免錯誤
   window.loadNews = function() {
     allNews = getDemoData();
     applyFilters();
     updateRefreshInfo(new Date().toISOString());
   };
   window.fetchNewNews = function() {
-    showToast('示範模式：請先設定 Google Apps Script API 網址');
+    showToast('示範模式 · 請先設定 Google Apps Script API 網址');
   };
-}
-
-function getDemoData() {
-  const now = new Date();
-  return [
-    {
-      id: 'demo1', title: '臺南中西區新開幕文青咖啡廳「島嶼日常」試營運', source: '自由時報',
-      url: 'https://example.com/1', category: '新開店',
-      date: new Date(now - 3600000).toISOString(),
-      snippet: '位於臺南市中西區正興街的全新文青咖啡廳「島嶼日常」正式試營運，主打自家烘焙咖啡豆與手作甜點...',
-      district: '中西區', lat: 22.9908, lng: 120.1965
-    },
-    {
-      id: 'demo2', title: '台南捷運藍線第一期工程正式動工 預計2031年完工', source: '聯合新聞網',
-      url: 'https://example.com/2', category: '新建設',
-      date: new Date(now - 7200000).toISOString(),
-      snippet: '臺南捷運藍線第一期路線從安平區至東區，全長約12.6公里，設置11座車站...',
-      district: '東區', lat: 22.9815, lng: 120.2240
-    },
-    {
-      id: 'demo3', title: '台積電宣布擴大南科投資 新建先進封裝廠', source: 'ETtoday',
-      url: 'https://example.com/3', category: '新投資案',
-      date: new Date(now - 18000000).toISOString(),
-      snippet: '台積電今日宣布將在南部科學園區臺南園區新建先進封裝廠，預計投資金額超過千億...',
-      district: '新市區', lat: 23.0790, lng: 120.2950
-    },
-    {
-      id: 'demo4', title: '臺南市立圖書館新總館二期設施正式落成啟用', source: '中央社',
-      url: 'https://example.com/4', category: '新落成',
-      date: new Date(now - 86400000).toISOString(),
-      snippet: '位於永康區的臺南市立圖書館新總館二期設施今日舉行落成典禮，新增兒童閱覽區及多功能展演空間...',
-      district: '永康區', lat: 23.0260, lng: 120.2570
-    },
-    {
-      id: 'demo5', title: '國定古蹟赤崁樓修復工程完成 重新對外開放', source: '台南市政府',
-      url: 'https://example.com/5', category: '新整修完成',
-      date: new Date(now - 172800000).toISOString(),
-      snippet: '歷時兩年的赤崁樓修復工程已全數完工，修復範圍包含文昌閣、海神廟及周邊庭園景觀...',
-      district: '中西區', lat: 22.9972, lng: 120.2035
-    },
-    {
-      id: 'demo6', title: '安平老街百年老屋改造 全新複合式藝文空間亮相', source: 'TVBS',
-      url: 'https://example.com/6', category: '新裝潢',
-      date: new Date(now - 259200000).toISOString(),
-      snippet: '安平區一棟擁有百年歷史的老屋，經過半年精心改造，以「安平記憶」為主題打造複合式藝文空間...',
-      district: '安平區', lat: 22.9930, lng: 120.1660
-    },
-    {
-      id: 'demo7', title: '日本知名拉麵品牌「一蘭」進駐臺南新光三越', source: 'ETtoday',
-      url: 'https://example.com/7', category: '新開店',
-      date: new Date(now - 345600000).toISOString(),
-      snippet: '日本拉麵名店一蘭拉麵宣布將在臺南新光三越中山店開設南部首間門市...',
-      district: '中西區', lat: 22.9890, lng: 120.2010
-    },
-    {
-      id: 'demo8', title: '臺南沙崙智慧綠能科學城第二期建設啟動', source: '工商時報',
-      url: 'https://example.com/8', category: '新建設',
-      date: new Date(now - 432000000).toISOString(),
-      snippet: '位於歸仁區的沙崙智慧綠能科學城第二期開發計畫正式啟動，將引進AI及綠能相關產業...',
-      district: '歸仁區', lat: 22.9670, lng: 120.2930
-    }
-  ];
 }
 </script>
 </body>
