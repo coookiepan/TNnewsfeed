@@ -65,16 +65,19 @@
 // =============================================================
 
 const CONFIG = {
-  // 你的試算表 ID（必填）
-  spreadsheetId: '',
+  // 你的試算表 ID（已預填）
+  // 來源：https://docs.google.com/spreadsheets/d/1ret71pcjGPO33rj8E3il_S9IqwQY4EwC9vdLgyPJuxM/edit
+  spreadsheetId: '1ret71pcjGPO33rj8E3il_S9IqwQY4EwC9vdLgyPJuxM',
 
   // 資料分頁名稱（沒有會自動建立）
   sheetName: 'News',
 
-  // IG → RSS 的橋接 URL 列表，可放多個
+  // IG → RSS 的橋接 URL 列表，可放多個。順序代表優先嘗試順序。
+  // 公開 RSSHub 偶爾不穩，可隨時加入 rss.app / fetchrss 的 URL 當備援。
   feeds: [
-    // 'https://rsshub.app/instagram/user/tainan_newopen',
+    'https://rsshub.app/instagram/user/tainan_newopen',
     // 'https://rss.app/feeds/xxxxxxxx.xml',
+    // 'https://fetchrss.com/rss/xxxxxxxx.xml',
   ],
 
   // 來源顯示名稱：當 RSS item 沒帶作者時，用這個當 source
