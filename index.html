@@ -356,69 +356,6 @@ button, input { font: inherit; color: inherit; }
 .search-clear:hover { color: var(--stamp); }
 
 /* ============================================================
-   SECTIONS NAV (categories)
-   ============================================================ */
-.sections-rail {
-  padding: 12px 0 8px;
-  border-bottom: 1px solid var(--rule-soft);
-}
-.rail-label {
-  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
-  font-size: 0.66rem;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  color: var(--ink-faded);
-  margin-bottom: 8px;
-}
-.sections-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px 2px;
-  align-items: center;
-}
-.cat-tab {
-  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
-  font-size: 0.82rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  padding: 6px 10px 5px;
-  border: none;
-  background: transparent;
-  color: var(--ink-soft);
-  cursor: pointer;
-  font-weight: 500;
-  position: relative;
-  white-space: nowrap;
-}
-.cat-tab + .cat-tab::before {
-  content: "│";
-  color: var(--rule-soft);
-  margin-right: 6px;
-  font-weight: 300;
-}
-.cat-tab:hover { color: var(--ink); }
-.cat-tab.active {
-  color: var(--stamp);
-  font-weight: 700;
-}
-.cat-tab.active::after {
-  content: "";
-  position: absolute;
-  left: 8px; right: 8px;
-  bottom: 0;
-  border-bottom: 2px solid var(--stamp);
-}
-.cat-tab .count {
-  font-family: 'Special Elite', monospace;
-  font-size: 0.65rem;
-  letter-spacing: 0;
-  color: var(--ink-mist);
-  margin-left: 4px;
-  text-transform: none;
-}
-.cat-tab.active .count { color: var(--stamp-tint); }
-
-/* ============================================================
    TIME FILTER
    ============================================================ */
 .time-rail {
@@ -575,12 +512,15 @@ button, input { font: inherit; color: inherit; }
   letter-spacing: 0.14em;
 }
 
-/* category colour swap (kept subtle on paper) */
-.article[data-cat="新建設"]     .sect-label { color: #1f3c66; border-color: #1f3c66; }
-.article[data-cat="新投資案"]   .sect-label { color: #2e5d3a; border-color: #2e5d3a; }
-.article[data-cat="新落成"]     .sect-label { color: #8a5a1c; border-color: #8a5a1c; }
-.article[data-cat="新整修完成"] .sect-label { color: #6a3c8e; border-color: #6a3c8e; }
-.article[data-cat="新裝潢"]     .sect-label { color: #a02968; border-color: #a02968; }
+/* district colour swap — gives feed visual rhythm without categorising by type */
+.article[data-district="東區"]   .sect-label { color: #1f3c66; border-color: #1f3c66; }
+.article[data-district="南區"]   .sect-label { color: #2e5d3a; border-color: #2e5d3a; }
+.article[data-district="北區"]   .sect-label { color: #8a5a1c; border-color: #8a5a1c; }
+.article[data-district="安平區"] .sect-label { color: #6a3c8e; border-color: #6a3c8e; }
+.article[data-district="安南區"] .sect-label { color: #a02968; border-color: #a02968; }
+.article[data-district="永康區"] .sect-label { color: #1f3c66; border-color: #1f3c66; }
+.article[data-district="歸仁區"] .sect-label { color: #2e5d3a; border-color: #2e5d3a; }
+.article[data-district="新市區"] .sect-label { color: #8a5a1c; border-color: #8a5a1c; }
 
 /* Headline */
 .article .headline {
@@ -1029,12 +969,6 @@ body[data-dropcap="on"] .article.lead .snippet::first-letter {
     </div>
   </div>
 
-  <!-- =================== SECTIONS (categories) =================== -->
-  <div class="sections-rail">
-    <div class="rail-label">版面 · Sections</div>
-    <div class="sections-nav" id="categoryTabs"></div>
-  </div>
-
   <!-- =================== TIME FILTER =================== -->
   <div class="time-rail">
     <span class="time-rail-label">時期 · Period</span>
@@ -1157,25 +1091,17 @@ let searchTimeout = null;
 let map = null;
 let markers = [];
 
-// 分類顏色（用在地圖標記）
-const CAT_COLORS = {
-  '新開店':     '#a72923',
-  '新建設':     '#1f3c66',
-  '新投資案':   '#2e5d3a',
-  '新落成':     '#8a5a1c',
-  '新整修完成': '#6a3c8e',
-  '新裝潢':     '#a02968'
-};
-
-// 分類對應英文版面名（讓報紙感更強）
-const CAT_EN = {
-  '全部':       'ALL SECTIONS',
-  '新開店':     'NEW OPENING',
-  '新建設':     'CONSTRUCTION',
-  '新投資案':   'INVESTMENT',
-  '新落成':     'COMPLETION',
-  '新整修完成': 'RESTORATION',
-  '新裝潢':     'RENOVATION'
+// 區域顏色（用在地圖標記與版面標籤）
+const DISTRICT_COLORS = {
+  '中西區': '#a72923',
+  '東區':   '#1f3c66',
+  '南區':   '#2e5d3a',
+  '北區':   '#8a5a1c',
+  '安平區': '#6a3c8e',
+  '安南區': '#a02968',
+  '永康區': '#1f3c66',
+  '歸仁區': '#2e5d3a',
+  '新市區': '#8a5a1c'
 };
 
 // 區域 → DATELINE 大寫拉丁化
@@ -1308,7 +1234,6 @@ async function fetchNewNews() {
 function applyFilters() {
   let news = [...allNews];
   if (isBookmarkView) news = news.filter(n => bookmarks[n.id || n.url]);
-  if (currentCategory !== '全部') news = news.filter(n => n.category === currentCategory);
 
   if (currentDateRange !== '全部') {
     const days = { '今日': 1, '近7天': 7, '近30天': 30 }[currentDateRange];
@@ -1352,23 +1277,13 @@ function clearSearch() {
   applyFilters();
 }
 
-// ===== 分類 / 日期 Tabs =====
-function renderCategoryTabs() {
-  const cats = ['全部', '新開店', '新建設', '新投資案', '新落成', '新整修完成', '新裝潢'];
-  const c = document.getElementById('categoryTabs');
-  c.innerHTML = cats.map(cat => `
-    <button class="cat-tab ${cat === currentCategory ? 'active' : ''}"
-            data-cat="${cat}" onclick="selectCategory('${cat}')">
-      <span class="cat-text">${cat}</span><span class="count" data-cat="${cat}"></span>
-    </button>`).join('');
-}
-function selectCategory(cat) {
-  currentCategory = cat;
-  document.querySelectorAll('.cat-tab').forEach(tab => {
-    tab.classList.toggle('active', tab.dataset.cat === cat);
-  });
-  applyFilters();
-}
+// ===== 日期 Tabs =====
+// 分類已合併（新開店/新建設/新投資案/新落成/新整修完成/新裝潢視為同類），
+// 不再以分類做篩選，所以 renderCategoryTabs / selectCategory / updateCategoryCounts
+// 都是 no-op 但保留以避免其他地方呼叫時噴錯。
+function renderCategoryTabs() { /* no-op */ }
+function selectCategory(_cat) { /* no-op */ }
+
 function renderDateTabs() {
   const ranges = ['全部', '今日', '近7天', '近30天'];
   const c = document.getElementById('dateTabs');
@@ -1383,18 +1298,7 @@ function selectDateRange(range) {
   });
   applyFilters();
 }
-function updateCategoryCounts() {
-  const baseNews = isBookmarkView
-    ? allNews.filter(n => bookmarks[n.id || n.url])
-    : allNews;
-  document.querySelectorAll('.cat-tab .count').forEach(el => {
-    const cat = el.dataset.cat;
-    const count = cat === '全部'
-      ? baseNews.length
-      : baseNews.filter(n => n.category === cat).length;
-    el.textContent = count > 0 ? '(' + count + ')' : '';
-  });
-}
+function updateCategoryCounts() { /* no-op — categories merged */ }
 
 // ===== 收藏 =====
 function loadBookmarks() {
@@ -1478,23 +1382,23 @@ function renderNewsList() {
 function renderArticle(news, isLead) {
   const id = news.id || news.url;
   const isSaved = bookmarks[id];
-  const cat = news.category || '未分類';
-  const catEN = CAT_EN[cat] || cat;
-  const dateline = buildDateline(news);
+  const district = (news.district || '').trim();
+  const districtEN = DISTRICT_EN[district] || '';
+  const labelCN = district || '臺南';
+  const labelEN = districtEN || 'TAINAN';
   const dateCN = formatDateCN(news.date);
 
   return `
-    <article class="article ${isLead ? 'lead' : ''}" data-cat="${escapeAttr(cat)}"
+    <article class="article ${isLead ? 'lead' : ''}" data-district="${escapeAttr(district)}"
              onclick="openNews('${encodeURIComponent(news.url || '')}')">
       <div class="sect-label">
         <span class="dot"></span>
-        ${escapeHtml(cat)}
-        <span class="sect-label-en">· ${escapeHtml(catEN)}</span>
+        ${escapeHtml(labelCN)}
+        <span class="sect-label-en">· ${escapeHtml(labelEN)}</span>
       </div>
       <h2 class="headline">${escapeHtml(news.title || '無題')}</h2>
       <div class="byline">
         ${news.source ? `<span class="by">BY ${escapeHtml(news.source.toUpperCase())}</span>` : ''}
-        ${dateline ? `<span class="sep"></span><span class="dateline-tag">${dateline}</span>` : ''}
         <span class="sep"></span><span>${escapeHtml(dateCN)}</span>
       </div>
       ${news.snippet ? `<p class="snippet">${escapeHtml(news.snippet)}</p>` : ''}
@@ -1507,12 +1411,6 @@ function renderArticle(news, isLead) {
         </button>
       </div>
     </article>`;
-}
-
-function buildDateline(news) {
-  if (!news.district) return '';
-  const en = DISTRICT_EN[news.district];
-  return en ? `TAINAN — ${en}` : `TAINAN — ${escapeHtml(news.district)}`;
 }
 
 function openNews(encodedUrl) {
@@ -1542,7 +1440,7 @@ function renderMap() {
     const lat = parseFloat(news.lat);
     const lng = parseFloat(news.lng);
     if (isNaN(lat) || isNaN(lng)) return;
-    const color = CAT_COLORS[news.category] || '#a72923';
+    const color = DISTRICT_COLORS[news.district] || '#a72923';
     const icon = L.divIcon({
       className: '',
       html: `<div style="
@@ -1550,8 +1448,8 @@ function renderMap() {
         background:${color};border:3px solid #f0e6cc;
         box-shadow:0 2px 8px rgba(40,28,12,0.45);
         display:flex;align-items:center;justify-content:center;
-        font-family:'Oswald',sans-serif;font-size:13px;color:#f0e6cc;font-weight:700;
-      ">${(news.category || '?').slice(0,1)}</div>`,
+        font-family:'Oswald',sans-serif;font-size:11px;color:#f0e6cc;font-weight:700;
+      ">${escapeHtml((news.district || '臺').slice(0,1))}</div>`,
       iconSize: [30, 30],
       iconAnchor: [15, 15]
     });
@@ -1559,7 +1457,7 @@ function renderMap() {
       .addTo(map)
       .bindPopup(`
         <div class="popup-title">${escapeHtml(news.title)}</div>
-        <div class="popup-cat">${escapeHtml(news.category || '')} ${news.district ? '· ' + escapeHtml(news.district) : ''}</div>
+        <div class="popup-cat">${news.district ? escapeHtml(news.district) : '臺南'}</div>
         <div class="popup-date">${formatDateCN(news.date)}</div>
       `);
     marker.on('click', () => marker.openPopup());
