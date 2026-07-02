@@ -1,0 +1,26 @@
+{
+ "ranAt": "2026-07-02T22:35:05.081Z",
+ "sources": [
+  {
+   "name": "Google News",
+   "fetched": 250,
+   "errors": []
+  },
+  {
+   "name": "PTT",
+   "fetched": 0,
+   "errors": [
+    "Tainan板: fetch failed"
+   ]
+  },
+  {
+   "name": "RSS 清單",
+   "fetched": 0,
+   "errors": [
+    "自由時報（https://news.ltn.com.tw/rss/tainan.xml）: HTTP 404"
+   ]
+  }
+ ],
+ "totalNew": 246,
+ "totalAfterMerge": 246
+}
