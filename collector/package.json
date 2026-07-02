@@ -1,0 +1,12 @@
+{
+  "name": "tnnewsfeed-collector",
+  "private": true,
+  "version": "1.0.0",
+  "description": "臺南新訊資訊蒐集器：政府網站、新聞、社群 → data/news.json",
+  "type": "module",
+  "scripts": {
+    "collect": "node src/index.js",
+    "collect:fixtures": "node src/index.js --fixtures test/fixtures --out /tmp/news.json",
+    "test": "node --test test/collector.test.js"
+  }
+}
