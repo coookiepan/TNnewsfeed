@@ -651,6 +651,154 @@ body[data-dropcap="on"] .article.lead .snippet::first-letter {
 .bookmark-btn .mark { font-size: 0.85rem; margin-right: 3px; }
 
 /* ============================================================
+   DISTRICT FILTER RAIL
+   ============================================================ */
+.district-rail { padding: 10px 0; border-bottom: 1px solid var(--rule-soft); }
+.district-rail-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.district-toggle {
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 600;
+  padding: 5px 10px; border: 1px solid var(--rule-soft);
+  background: transparent; color: var(--ink-soft); cursor: pointer;
+}
+.district-toggle:hover { background: var(--paper-hi); }
+.district-toggle.open { background: var(--ink); color: var(--paper-hi); border-color: var(--ink); }
+.district-chips { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px; }
+.d-chip {
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  font-size: 0.74rem; letter-spacing: 0.08em; font-weight: 500;
+  padding: 5px 10px; border: 1px solid var(--rule-soft);
+  background: transparent; color: var(--ink-soft); cursor: pointer;
+}
+.d-chip:hover { background: var(--paper-hi); }
+.d-chip.active { background: var(--ink); color: var(--paper-hi); border-color: var(--ink); font-weight: 700; }
+.d-chip .cnt { opacity: 0.65; font-size: 0.66rem; margin-left: 4px; }
+.district-panel {
+  display: none;
+  border: 2px solid var(--rule); background: var(--paper-hi);
+  padding: 12px 14px 10px; margin-top: 10px;
+}
+.district-panel.show { display: block; }
+.dp-group { margin-bottom: 10px; }
+.dp-group-label {
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  font-size: 0.64rem; letter-spacing: 0.24em; text-transform: uppercase;
+  color: var(--ink-faded);
+  border-bottom: 1px solid var(--rule-soft);
+  padding-bottom: 3px; margin-bottom: 6px;
+}
+.dp-opts { display: flex; flex-wrap: wrap; gap: 4px; }
+.dp-actions {
+  display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end;
+  border-top: 1px solid var(--rule-soft); padding-top: 10px; margin-top: 4px;
+}
+.dp-actions .tool-btn { font-size: 0.66rem; padding: 6px 10px; }
+.dp-actions .primary { border-color: var(--stamp); color: var(--stamp); }
+.dp-actions .primary:hover { background: var(--stamp); color: var(--paper-hi); }
+
+/* ============================================================
+   DASHBOARD  ·  TERRITORY DESK
+   ============================================================ */
+.dashboard { display: none; padding-top: 16px; }
+.dashboard.show { display: block; }
+.dash-sect-head {
+  display: flex; align-items: center; gap: 10px;
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  font-size: 0.7rem; letter-spacing: 0.26em; text-transform: uppercase;
+  color: var(--ink-faded);
+  margin: 22px 0 10px;
+}
+.dash-sect-head::before, .dash-sect-head::after { content: ""; flex: 1; height: 1px; background: var(--rule-soft); }
+
+/* KPI row — stat tiles */
+.kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 6px; }
+@media (max-width: 720px) { .kpi-row { grid-template-columns: repeat(2, 1fr); } }
+.kpi-tile {
+  text-align: left;
+  border: 1.5px solid var(--rule); background: var(--paper-hi);
+  padding: 12px 14px 10px; cursor: pointer; position: relative;
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  transition: background 0.15s;
+}
+.kpi-tile:hover { background: var(--paper-lo); }
+.kpi-tile.on { outline: 3px double var(--ink); outline-offset: 2px; }
+.kpi-glyph { position: absolute; top: 8px; right: 10px; font-size: 0.95rem; opacity: 0.8; }
+.kpi-label { font-size: 0.64rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-faded); font-weight: 600; }
+.kpi-value { font-size: 2.1rem; font-weight: 600; line-height: 1.15; color: var(--ink); }
+.kpi-sub { font-size: 0.62rem; letter-spacing: 0.1em; color: var(--ink-mist); text-transform: uppercase; }
+
+/* two-column layout on wide screens */
+.dash-cols { display: grid; grid-template-columns: 1fr; gap: 0 36px; }
+@media (min-width: 860px) { .dash-cols { grid-template-columns: 3fr 2fr; align-items: start; } }
+
+/* pipeline / opening calendar */
+.pipe-month {
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 700;
+  color: var(--ink);
+  border-bottom: 2px solid var(--rule);
+  padding-bottom: 4px; margin: 18px 0 4px;
+}
+.pipe-item {
+  display: grid; grid-template-columns: 60px 1fr; gap: 12px; align-items: start;
+  padding: 12px 0; border-bottom: 1px solid var(--rule-soft);
+  cursor: pointer; transition: background 0.15s;
+}
+.pipe-item:hover { background: rgba(122,104,80,0.06); }
+.pipe-date {
+  text-align: center;
+  border: 1.5px solid var(--rule); background: var(--paper-hi);
+  padding: 5px 2px 4px;
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+}
+.pipe-date.tbd { border-style: dashed; }
+.pipe-date .pd-big { font-size: 1.25rem; font-weight: 700; line-height: 1.1; color: var(--ink); }
+.pipe-date.tbd .pd-big { color: var(--ink-mist); }
+.pipe-date .pd-small { font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-faded); }
+.pipe-status {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 700;
+  padding: 2px 7px; border: 1.5px solid currentColor;
+  margin: 0 6px 5px 0;
+}
+.pipe-type {
+  display: inline-block;
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--ink-faded);
+  border: 1px solid var(--rule-soft);
+  padding: 2px 7px; margin-bottom: 5px;
+}
+.pipe-title { font-family: 'Noto Serif TC', serif; font-weight: 700; font-size: 1.02rem; line-height: 1.35; color: var(--ink); }
+.pipe-meta {
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  font-size: 0.66rem; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--ink-faded);
+  margin-top: 4px;
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+}
+.pipe-meta .pm-district { color: var(--ink); font-weight: 700; }
+
+/* district bars — single-hue magnitude, direct-labeled counts */
+.dash-bars { padding-top: 6px; }
+.bar-row {
+  display: grid; grid-template-columns: 4.6em 1fr 2em; align-items: center; gap: 8px;
+  padding: 4px 0;
+  border: none; background: none; width: 100%; text-align: left; cursor: pointer;
+}
+.bar-row .bar-name {
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif;
+  font-size: 0.74rem; letter-spacing: 0.06em; color: var(--ink-soft); white-space: nowrap;
+}
+.bar-row.sel .bar-name { color: var(--stamp); font-weight: 700; }
+.bar-track { position: relative; height: 10px; }
+.bar-fill { display: block; height: 10px; background: var(--ink-soft); border-radius: 0 3px 3px 0; min-width: 2px; transition: background 0.15s; }
+.bar-row:hover .bar-fill, .bar-row.sel .bar-fill { background: var(--stamp); }
+.bar-cnt { font-family: 'Special Elite', monospace; font-size: 0.76rem; color: var(--ink-faded); text-align: right; }
+.dash-empty { padding: 26px 8px; text-align: center; color: var(--ink-faded); font-size: 0.9rem; }
+
+/* ============================================================
    MAP
    ============================================================ */
 .map-frame {
@@ -975,9 +1123,23 @@ body[data-dropcap="on"] .article.lead .snippet::first-letter {
     <div class="date-tabs" id="dateTabs"></div>
   </div>
 
+  <!-- =================== DISTRICT FILTER =================== -->
+  <div class="district-rail">
+    <div class="district-rail-head">
+      <span class="time-rail-label">轄區 · District</span>
+      <button class="district-toggle" id="districtToggle" onclick="toggleDistrictPanel()">選擇區域 ▾</button>
+    </div>
+    <div class="district-chips" id="districtChips"></div>
+    <div class="district-panel" id="districtPanel"></div>
+  </div>
+
   <!-- =================== VIEW SWITCHER =================== -->
   <div class="view-switcher">
-    <div class="view-tab active" data-view="list" onclick="switchView('list')">
+    <div class="view-tab active" data-view="dashboard" onclick="switchView('dashboard')">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9"/><rect x="14" y="3" width="7" height="5"/><rect x="14" y="12" width="7" height="9"/><rect x="3" y="16" width="7" height="5"/></svg>
+      儀表板 · DESK
+    </div>
+    <div class="view-tab" data-view="list" onclick="switchView('list')">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
       新聞列表 · LIST
     </div>
@@ -993,8 +1155,23 @@ body[data-dropcap="on"] .article.lead .snippet::first-letter {
     <div id="newsMap"></div>
   </div>
 
+  <!-- =================== DASHBOARD =================== -->
+  <section class="dashboard show" id="dashboardArea">
+    <div class="kpi-row" id="kpiRow"></div>
+    <div class="dash-cols">
+      <div>
+        <div class="dash-sect-head">開幕與完工時程 · Opening Calendar</div>
+        <div id="pipeList"><div class="dash-empty">資料載入中……</div></div>
+      </div>
+      <div>
+        <div class="dash-sect-head">全市各區動態 · By District</div>
+        <div class="dash-bars" id="districtBars"></div>
+      </div>
+    </div>
+  </section>
+
   <!-- =================== CONTENT =================== -->
-  <main class="content" id="contentArea">
+  <main class="content" id="contentArea" style="display:none">
     <div class="refresh-bar" id="refreshBar">
       <span class="refresh-info" id="refreshInfo">尚未付印 · No edition yet</span>
       <button class="refresh-btn" onclick="fetchNewNews()">
@@ -1085,11 +1262,14 @@ let filteredNews = [];
 let bookmarks = {};
 let currentCategory = '全部';
 let currentDateRange = '全部';
-let currentView = 'list';
+let currentView = 'dashboard';
 let isBookmarkView = false;
 let searchTimeout = null;
 let map = null;
 let markers = [];
+let myDistricts = [];               // 使用者儲存的「我的轄區」
+let selectedDistricts = new Set();  // 目前生效的轄區篩選（空 = 全部）
+let dashStatusFilter = null;        // 儀表板 KPI 磚的狀態篩選
 
 // 區域顏色（用在地圖標記與版面標籤）
 const DISTRICT_COLORS = {
@@ -1104,21 +1284,27 @@ const DISTRICT_COLORS = {
   '新市區': '#8a5a1c'
 };
 
-// 區域 → DATELINE 大寫拉丁化
+// 區域 → DATELINE 大寫拉丁化（臺南市全 37 區）
 const DISTRICT_EN = {
-  '中西區': 'CENTRAL-WEST',
-  '東區':   'EAST',
-  '南區':   'SOUTH',
-  '北區':   'NORTH',
-  '安平區': 'ANPING',
-  '安南區': 'ANNAN',
-  '永康區': 'YONGKANG',
-  '歸仁區': 'GUEIREN',
-  '新市區': 'XINSHI',
-  '善化區': 'SHANHUA',
-  '仁德區': 'RENDE',
-  '關廟區': 'GUANMIAO'
+  '中西區': 'CENTRAL-WEST', '東區': 'EAST', '南區': 'SOUTH', '北區': 'NORTH',
+  '安平區': 'ANPING', '安南區': 'ANNAN',
+  '永康區': 'YONGKANG', '仁德區': 'RENDE', '歸仁區': 'GUEIREN', '關廟區': 'GUANMIAO', '龍崎區': 'LONGCI',
+  '新化區': 'XINHUA', '新市區': 'XINSHI', '善化區': 'SHANHUA', '安定區': 'ANDING', '山上區': 'SHANSHANG',
+  '玉井區': 'YUJING', '楠西區': 'NANSI', '南化區': 'NANHUA', '左鎮區': 'ZUOZHEN',
+  '麻豆區': 'MADOU', '下營區': 'XIAYING', '六甲區': 'LIUJIA', '官田區': 'GUANTIAN', '大內區': 'DANEI',
+  '佳里區': 'JIALI', '學甲區': 'XUEJIA', '西港區': 'XIGANG', '七股區': 'QIGU', '將軍區': 'JIANGJUN', '北門區': 'BEIMEN',
+  '新營區': 'XINYING', '鹽水區': 'YANSHUI', '白河區': 'BAIHE', '柳營區': 'LIUYING', '後壁區': 'HOUBI', '東山區': 'DONGSHAN'
 };
+
+// 臺南市 37 區，依傳統分區排列（篩選面板用）
+const DISTRICT_GROUPS = [
+  { name: '原市區',  list: ['中西區','東區','南區','北區','安平區','安南區'] },
+  { name: '新豐區域', list: ['永康區','仁德區','歸仁區','關廟區','龍崎區'] },
+  { name: '新化區域', list: ['新化區','新市區','善化區','安定區','山上區','玉井區','楠西區','南化區','左鎮區'] },
+  { name: '曾文區域', list: ['麻豆區','下營區','六甲區','官田區','大內區'] },
+  { name: '北門區域', list: ['佳里區','學甲區','西港區','七股區','將軍區','北門區'] },
+  { name: '新營區域', list: ['新營區','鹽水區','白河區','柳營區','後壁區','東山區'] }
+];
 
 // ===== 啟動 =====
 document.addEventListener('DOMContentLoaded', () => {
@@ -1127,8 +1313,11 @@ document.addEventListener('DOMContentLoaded', () => {
   setupEditMode();
   setMastheadDates();
   loadBookmarks();
+  loadDistrictPrefs();
   renderCategoryTabs();
   renderDateTabs();
+  renderDistrictChips();
+  renderDistrictPanel();
   loadNews();
 });
 
@@ -1208,6 +1397,7 @@ async function loadNews() {
     applyFilters();
   } catch (err) {
     showEmpty('連線失敗', '請確認 API 網址已正確設定，並檢查網路連線。');
+    renderDashboard();
     console.error(err);
   }
 }
@@ -1235,6 +1425,10 @@ function applyFilters() {
   let news = [...allNews];
   if (isBookmarkView) news = news.filter(n => bookmarks[n.id || n.url]);
 
+  if (selectedDistricts.size > 0) {
+    news = news.filter(n => selectedDistricts.has((n.district || '').trim()));
+  }
+
   if (currentDateRange !== '全部') {
     const days = { '今日': 1, '近7天': 7, '近30天': 30 }[currentDateRange];
     if (days) {
@@ -1261,6 +1455,9 @@ function applyFilters() {
 
   filteredNews = news;
   renderNewsList();
+  renderDashboard();
+  renderDistrictChips();
+  renderDistrictPanel();
   updateCategoryCounts();
   if (currentView === 'map') renderMap();
 }
@@ -1338,16 +1535,11 @@ function switchView(view) {
   currentView = view;
   document.querySelectorAll('.view-tab').forEach(t =>
     t.classList.toggle('active', t.dataset.view === view));
-  const mapEl = document.getElementById('mapContainer');
-  const contentEl = document.getElementById('contentArea');
-  if (view === 'map') {
-    mapEl.classList.add('show');
-    contentEl.style.display = 'none';
-    renderMap();
-  } else {
-    mapEl.classList.remove('show');
-    contentEl.style.display = 'block';
-  }
+  document.getElementById('dashboardArea').classList.toggle('show', view === 'dashboard');
+  document.getElementById('mapContainer').classList.toggle('show', view === 'map');
+  document.getElementById('contentArea').style.display = view === 'list' ? 'block' : 'none';
+  if (view === 'map') renderMap();
+  if (view === 'dashboard') renderDashboard();
 }
 
 // ===== 渲染 =====
@@ -1421,6 +1613,10 @@ function openNews(encodedUrl) {
 
 // ===== 地圖 =====
 function renderMap() {
+  if (typeof L === 'undefined') {
+    showToast('地圖資源載入失敗，請檢查網路');
+    return;
+  }
   if (!map) {
     map = L.map('newsMap').setView([23.0, 120.22], 11);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -1466,6 +1662,320 @@ function renderMap() {
   });
   if (bounds.length > 0) map.fitBounds(bounds, { padding: [30, 30], maxZoom: 14 });
   setTimeout(() => map.invalidateSize(), 100);
+}
+
+// =================================================================
+// 儀表板 · TERRITORY DESK
+// 由標題/摘要判讀案件狀態，擷取預定開幕/完工日期，
+// 依日期排出「開幕與完工時程」，並統計各區動態。
+// =================================================================
+const STATUS_META = {
+  upcoming:   { label: '預定開幕', glyph: '◷', color: '#a72923' },
+  building:   { label: '興建中',   glyph: '⚒', color: '#8a5a1c' },
+  investment: { label: '投資案',   glyph: '◈', color: '#1f3c66' },
+  opened:     { label: '新開幕',   glyph: '✓', color: '#2e5d3a' }
+};
+const OPEN_WORDS = '(?:正式|重新|盛大)?(?:開幕|開業|開張|營運|試營運|啟用|落成|完工|竣工|開放|亮相)';
+
+function classifyNews(n) {
+  const text = (n.title || '') + ' ' + (n.snippet || '');
+  // 施工中（明確動態）優先，其次預告開幕、已開幕、投資宣布、規劃興建
+  if (/動工|開工|動土|施工|興建中|趕工|上樑|裝潢中/.test(text)) return 'building';
+  if (new RegExp('(?:預[計定估]|即將|將於|將在|可望|下個?月|年底|年內|明年|下半年|上半年|第[一二三四1-4]季)[^。;；]{0,20}?' + OPEN_WORDS).test(text)) return 'upcoming';
+  if (new RegExp(OPEN_WORDS).test(text)) return 'opened';
+  if (/投資|設廠|建廠|擴廠|擴大產能|購地|得標|簽約|進駐/.test(text)) return 'investment';
+  if (/興建|新建|籌建|打造/.test(text)) return 'building';
+  const cat = n.category || '';
+  if (/建設/.test(cat)) return 'building';
+  if (/投資/.test(cat)) return 'investment';
+  if (/開店|落成|整修|裝潢/.test(cat)) return 'opened';
+  return null;
+}
+
+function detectType(text) {
+  if (/工廠|廠房|設廠|建廠|廠區|封裝廠|晶圓|產線|工業區|科學園區|物流中心/.test(text)) return '工廠';
+  if (/門市|旗艦店|分店|開店|餐廳|咖啡|拉麵|甜點|烘焙|品牌|商場|百貨|超市|賣場|飯店|旅館|書店|藥局|店/.test(text)) return '店家';
+  if (/捷運|道路|橋|公園|圖書館|學校|醫院|市場|場館|中心/.test(text)) return '公共建設';
+  return null;
+}
+
+const QNUM = { '一': 1, '二': 2, '三': 3, '四': 4, '1': 1, '2': 2, '3': 3, '4': 4 };
+
+function mkExp(y, mo, d) {
+  return {
+    y, m: mo || null, d: d || null,
+    sortKey: y * 10000 + (mo || 13) * 100 + (d || 0),
+    monthKey: y * 100 + (mo || 99),
+    monthLabel: mo ? `${y}年${mo}月` : `${y}年 · 月份未定`
+  };
+}
+
+// 從文字擷取「預定開幕/完工」日期，找不到回傳 null
+function extractExpectedDate(n) {
+  const text = (n.title || '') + ' ' + (n.snippet || '');
+  const pub = n.date ? new Date(n.date) : new Date();
+  const py = isNaN(pub) ? new Date().getFullYear() : pub.getFullYear();
+  const pm = isNaN(pub) ? new Date().getMonth() + 1 : pub.getMonth() + 1;
+  const inferYear = mon => (mon >= pm - 1 ? py : py + 1);
+  const gap = '[^。，,;；]{0,10}?';
+  let m;
+  m = text.match(new RegExp('(?:(20\\d{2})年)?(\\d{1,2})月(\\d{1,2})日' + gap + OPEN_WORDS));
+  if (m) return mkExp(m[1] ? +m[1] : inferYear(+m[2]), +m[2], +m[3]);
+  m = text.match(new RegExp('(?:(20\\d{2})年)?(\\d{1,2})月(?:底|中旬?|初)?' + gap + OPEN_WORDS));
+  if (m) return mkExp(m[1] ? +m[1] : inferYear(+m[2]), +m[2], null);
+  m = text.match(new RegExp('(20\\d{2})年(?:第([一二三四1-4])季)?' + gap + OPEN_WORDS));
+  if (m) {
+    if (m[2]) {
+      const q = QNUM[m[2]];
+      const e = mkExp(+m[1], q * 3 - 1, null);
+      e.monthLabel = `${m[1]}年 第${q}季`;
+      e.qq = q;
+      return e;
+    }
+    return mkExp(+m[1], null, null);
+  }
+  m = text.match(new RegExp('民國(1[0-2]\\d)年' + gap + OPEN_WORDS));
+  if (m) return mkExp(+m[1] + 1911, null, null);
+  m = text.match(new RegExp('下個?月' + gap + OPEN_WORDS));
+  if (m) return pm === 12 ? mkExp(py + 1, 1, null) : mkExp(py, pm + 1, null);
+  m = text.match(new RegExp('(?:本月|月底)' + gap + OPEN_WORDS));
+  if (m) return mkExp(py, pm, null);
+  m = text.match(new RegExp('(?:今)?年底' + gap + OPEN_WORDS));
+  if (m) return mkExp(py, 12, null);
+  m = text.match(new RegExp('明年(?:(\\d{1,2})月)?[^。，,;；]{0,12}?' + OPEN_WORDS));
+  if (m) return mkExp(py + 1, m[1] ? +m[1] : null, null);
+  return null;
+}
+
+function enrichNews(list) {
+  return list.map(n => {
+    const status = classifyNews(n);
+    return {
+      n, status,
+      exp: status ? extractExpectedDate(n) : null,
+      type: detectType((n.title || '') + ' ' + (n.snippet || ''))
+    };
+  }).filter(e => e.status);
+}
+
+function renderDashboard() {
+  const kpiRow = document.getElementById('kpiRow');
+  if (!kpiRow) return;
+  const enriched = enrichNews(filteredNews);
+
+  // KPI 統計磚：新開幕僅計近 30 日
+  const counts = { upcoming: 0, building: 0, investment: 0, opened: 0 };
+  const cutoff30 = Date.now() - 30 * 86400000;
+  enriched.forEach(e => {
+    if (e.status === 'opened') {
+      const d = new Date(e.n.date);
+      if (!isNaN(d) && d.getTime() >= cutoff30) counts.opened++;
+    } else {
+      counts[e.status]++;
+    }
+  });
+  const kpis = [
+    { key: 'upcoming',   sub: 'SCHEDULED TO OPEN' },
+    { key: 'building',   sub: 'UNDER CONSTRUCTION' },
+    { key: 'investment', sub: 'INVESTMENT CASES' },
+    { key: 'opened',     sub: 'OPENED · 30 DAYS' }
+  ];
+  kpiRow.innerHTML = kpis.map(k => {
+    const meta = STATUS_META[k.key];
+    return `
+      <button class="kpi-tile ${dashStatusFilter === k.key ? 'on' : ''}" onclick="toggleDashStatus('${k.key}')">
+        <span class="kpi-glyph" style="color:${meta.color}">${meta.glyph}</span>
+        <div class="kpi-label">${meta.label}${k.key === 'opened' ? '（30日）' : ''}</div>
+        <div class="kpi-value">${counts[k.key]}</div>
+        <div class="kpi-sub">${k.sub}</div>
+      </button>`;
+  }).join('');
+
+  renderPipeline(enriched);
+  renderDistrictBars();
+}
+
+function toggleDashStatus(key) {
+  dashStatusFilter = dashStatusFilter === key ? null : key;
+  renderDashboard();
+}
+
+function pipeDateHTML(exp) {
+  if (!exp) return `<div class="pipe-date tbd"><div class="pd-big">—</div><div class="pd-small">未定</div></div>`;
+  if (exp.d) return `<div class="pipe-date"><div class="pd-small">${exp.m}月</div><div class="pd-big">${exp.d}</div><div class="pd-small">${exp.y}</div></div>`;
+  if (exp.qq) return `<div class="pipe-date"><div class="pd-big">Q${exp.qq}</div><div class="pd-small">${exp.y}</div></div>`;
+  if (exp.m) return `<div class="pipe-date"><div class="pd-big">${exp.m}月</div><div class="pd-small">${exp.y}</div></div>`;
+  return `<div class="pipe-date"><div class="pd-big">${exp.y}</div><div class="pd-small">年內</div></div>`;
+}
+
+function renderPipeline(enriched) {
+  const c = document.getElementById('pipeList');
+  let items = enriched.filter(e =>
+    dashStatusFilter ? e.status === dashStatusFilter
+                     : (e.status === 'upcoming' || e.status === 'building'));
+
+  // 已開幕的案件沒有預定日期時，以刊出日期入列
+  items = items.map(e => {
+    if (!e.exp && e.status === 'opened') {
+      const d = new Date(e.n.date);
+      if (!isNaN(d)) return { ...e, exp: mkExp(d.getFullYear(), d.getMonth() + 1, d.getDate()) };
+    }
+    return e;
+  });
+
+  if (items.length === 0) {
+    c.innerHTML = `<div class="dash-empty">目前沒有符合的案件——調整轄區篩選，或點右上「付印」抓取最新消息。</div>`;
+    return;
+  }
+
+  items.sort((a, b) => {
+    const ka = a.exp ? a.exp.sortKey : Infinity;
+    const kb = b.exp ? b.exp.sortKey : Infinity;
+    if (ka !== kb) return ka - kb;
+    return new Date(b.n.date || 0) - new Date(a.n.date || 0);
+  });
+
+  let html = '', lastKey = null;
+  items.forEach(e => {
+    const mKey = e.exp ? e.exp.monthKey : -1;
+    if (mKey !== lastKey) {
+      lastKey = mKey;
+      html += `<div class="pipe-month">${e.exp ? escapeHtml(e.exp.monthLabel) : '日期未定 · DATE TBD'}</div>`;
+    }
+    const meta = STATUS_META[e.status];
+    html += `
+      <div class="pipe-item" onclick="openNews('${encodeURIComponent(e.n.url || '')}')">
+        ${pipeDateHTML(e.exp)}
+        <div>
+          <span class="pipe-status" style="color:${meta.color}">${meta.glyph} ${meta.label}</span>
+          ${e.type ? `<span class="pipe-type">${escapeHtml(e.type)}</span>` : ''}
+          <div class="pipe-title">${escapeHtml(e.n.title || '無題')}</div>
+          <div class="pipe-meta">
+            <span class="pm-district">${escapeHtml(e.n.district || '臺南')}</span>
+            ${e.n.source ? `<span>${escapeHtml(e.n.source)}</span>` : ''}
+            <span>${escapeHtml(formatDateCN(e.n.date))}</span>
+          </div>
+        </div>
+      </div>`;
+  });
+  c.innerHTML = html;
+}
+
+// 各區動態橫條：以全部資料統計（不受轄區篩選影響），點擊即切換該區篩選
+function renderDistrictBars() {
+  const c = document.getElementById('districtBars');
+  if (!c) return;
+  const counts = {};
+  enrichNews(allNews).forEach(e => {
+    const d = (e.n.district || '').trim();
+    if (d) counts[d] = (counts[d] || 0) + 1;
+  });
+  const rows = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 12);
+  if (rows.length === 0) {
+    c.innerHTML = `<div class="dash-empty">尚無各區資料</div>`;
+    return;
+  }
+  const max = rows[0][1];
+  c.innerHTML = rows.map(([d, cnt]) => `
+    <button class="bar-row ${selectedDistricts.has(d) ? 'sel' : ''}" onclick="toggleDistrict('${escapeAttr(d)}')">
+      <span class="bar-name">${escapeHtml(d)}</span>
+      <span class="bar-track"><span class="bar-fill" style="width:${Math.max(4, Math.round(cnt / max * 100))}%"></span></span>
+      <span class="bar-cnt">${cnt}</span>
+    </button>`).join('');
+}
+
+// =================================================================
+// 轄區篩選 — 全 37 區，可儲存「我的轄區」
+// =================================================================
+function loadDistrictPrefs() {
+  try { myDistricts = JSON.parse(localStorage.getItem('tn_myDistricts') || '[]'); } catch (e) { myDistricts = []; }
+  if (!Array.isArray(myDistricts)) myDistricts = [];
+  try {
+    const s = JSON.parse(localStorage.getItem('tn_selDistricts') || 'null');
+    selectedDistricts = new Set(Array.isArray(s) ? s : myDistricts);
+  } catch (e) { selectedDistricts = new Set(myDistricts); }
+}
+function persistSelectedDistricts() {
+  try { localStorage.setItem('tn_selDistricts', JSON.stringify([...selectedDistricts])); } catch (e) {}
+}
+function districtNewsCounts() {
+  const counts = {};
+  allNews.forEach(n => {
+    const d = (n.district || '').trim();
+    if (d) counts[d] = (counts[d] || 0) + 1;
+  });
+  return counts;
+}
+
+function renderDistrictChips() {
+  const c = document.getElementById('districtChips');
+  if (!c) return;
+  const counts = districtNewsCounts();
+  const shown = [...new Set([...myDistricts, ...selectedDistricts])];
+  let html = `<button class="d-chip ${selectedDistricts.size === 0 ? 'active' : ''}" onclick="clearDistricts()">全部</button>`;
+  html += shown.map(d => `
+    <button class="d-chip ${selectedDistricts.has(d) ? 'active' : ''}" onclick="toggleDistrict('${escapeAttr(d)}')">
+      ${escapeHtml(d)}${counts[d] ? `<span class="cnt">${counts[d]}</span>` : ''}
+    </button>`).join('');
+  if (myDistricts.length > 0 && [...myDistricts].some(d => !selectedDistricts.has(d))) {
+    html += `<button class="d-chip" onclick="selectMyDistricts()">★ 我的轄區</button>`;
+  }
+  c.innerHTML = html;
+}
+
+function renderDistrictPanel() {
+  const p = document.getElementById('districtPanel');
+  if (!p) return;
+  const counts = districtNewsCounts();
+  p.innerHTML = DISTRICT_GROUPS.map(g => `
+    <div class="dp-group">
+      <div class="dp-group-label">${g.name}</div>
+      <div class="dp-opts">${g.list.map(d => `
+        <button class="d-chip ${selectedDistricts.has(d) ? 'active' : ''}" onclick="toggleDistrict('${d}')">
+          ${d}${counts[d] ? `<span class="cnt">${counts[d]}</span>` : ''}
+        </button>`).join('')}</div>
+    </div>`).join('') + `
+    <div class="dp-actions">
+      <button class="tool-btn" onclick="clearDistricts()">清除</button>
+      <button class="tool-btn primary" onclick="saveMyDistricts()">★ 儲存為我的轄區</button>
+      <button class="tool-btn" onclick="toggleDistrictPanel(false)">收合</button>
+    </div>`;
+}
+
+function toggleDistrictPanel(force) {
+  const p = document.getElementById('districtPanel');
+  const btn = document.getElementById('districtToggle');
+  const show = typeof force === 'boolean' ? force : !p.classList.contains('show');
+  p.classList.toggle('show', show);
+  btn.classList.toggle('open', show);
+  btn.textContent = show ? '收合 ▴' : '選擇區域 ▾';
+}
+
+function toggleDistrict(d) {
+  if (selectedDistricts.has(d)) selectedDistricts.delete(d);
+  else selectedDistricts.add(d);
+  persistSelectedDistricts();
+  applyFilters();
+}
+function clearDistricts() {
+  selectedDistricts.clear();
+  persistSelectedDistricts();
+  applyFilters();
+}
+function selectMyDistricts() {
+  selectedDistricts = new Set(myDistricts);
+  persistSelectedDistricts();
+  applyFilters();
+}
+function saveMyDistricts() {
+  if (selectedDistricts.size === 0) {
+    showToast('請先勾選區域，再儲存為我的轄區');
+    return;
+  }
+  myDistricts = [...selectedDistricts];
+  try { localStorage.setItem('tn_myDistricts', JSON.stringify(myDistricts)); } catch (e) {}
+  showToast(`已儲存我的轄區（${myDistricts.length} 區）`);
+  renderDistrictChips();
 }
 
 // ===== 工具函數 =====
