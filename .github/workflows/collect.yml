@@ -1,0 +1,41 @@
+name: 每日資訊蒐集
+
+on:
+  schedule:
+    - cron: '30 21 * * *'   # 台灣時間每天 05:30
+  workflow_dispatch: {}      # 也可以在 Actions 頁面手動觸發
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 單元測試（離線）
+        run: node --test collector/test/collector.test.js
+
+      - name: 執行蒐集器
+        run: node collector/src/index.js
+
+      - name: 提交更新後的資料
+        run: |
+          if git diff --quiet -- data; then
+            echo "資料無變化，跳過提交"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "chore(data): 每日蒐集 $(TZ=Asia/Taipei date +%F)"
+          git push
