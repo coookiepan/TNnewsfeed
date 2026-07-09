@@ -1,9 +1,9 @@
 {
- "ranAt": "2026-07-08T22:31:03.214Z",
+ "ranAt": "2026-07-09T22:48:17.916Z",
  "sources": [
   {
    "name": "Google News",
-   "fetched": 246,
+   "fetched": 257,
    "errors": []
   },
   {
@@ -21,6 +21,6 @@
    ]
   }
  ],
- "totalNew": 27,
- "totalAfterMerge": 378
+ "totalNew": 24,
+ "totalAfterMerge": 402
 }
