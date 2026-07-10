@@ -1,6 +1,90 @@
 {
- "lastFetched": "2026-07-09T22:48:17.916Z",
+ "lastFetched": "2026-07-10T22:31:03.768Z",
  "news": [
+  {
+   "id": "5039f7788aa4",
+   "title": "AI大廠進駐引爆南台灣科技浪潮！台南高鐵特區指標案打造國際菁英聚落",
+   "source": "富房網",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ZSFotQzRObWd0TVVQbjU4NVI0YWFKODVpT0ZlY3ZKVmpweHU1T00xd0gxMnZrMVFYdUxkSERjMFVfSnRzUU1KNW9wYUZaZ9IBX0FVX3lxTE5LMGxiS2FwQ1phMFNTai0xa1B4WmpSQXh2aHUxNmdvdEFvR2RxeHMtTUtDTVlhcTJ0aFFZMm94TUlYWFdTXy1uWFdIY2NrNFM0bk80Q3BsX1FKVXY2NU1B?oc=5",
+   "category": "新開店",
+   "date": "2026-07-10T16:04:57.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "975e445be2f5",
+   "title": "橋山•壽喜燒獻上「神戶牛五大部位」，8月進軍台南試營運",
+   "source": "CARTURE 車勢文化",
+   "url": "https://news.google.com/rss/articles/CBMilgNBVV95cUxOOXFoWXNKN2prT3E0azN5UnYtd3BiMEk4eDV3S0hyOFYzbnY0bHd0NXV6MWVOSEU1b2dtOFlNUkF4dTJyR2lueld0MGt3ZEs0cGtHTU1Pa3d4VFNtLU41YnExMmJqdTdKdHpSVV9zWW1HYzJNUHRqRF9LRGJWUi03djhjcTBZRW1OR3pObEZNMVhNM2didWl1ZUJYMWMzb0FxN2NCeVU3NnFOZkp0a2ZfcENIcXRwSTdMSVBKQ2JpdTZpNVhQQjc5N2NELUJEcXJmUkNYZ3Q5VjRXQ19MMmI0M2FrdXhJeTBUMVFuLUhXUUdydnkwS3lidDY1Q0pIaWFTaU5tMlpYWEhaekFIYmdjMUZ2V3RHb0ZaNWJhU0FXM003NzZXTndlOUwybDFtQTE2UlVweFFmNW1DYWFDSGlhRVViTERyMGZGcW5aek1XME43QlVhNUdZaWRCOXp6cnVyVHVaM05FV0s2NnFnRWRwX3RObTlNdEdwWlFhaEpBSjRhQTI4QTF4eVR5TGhMWkpJUU9wanZB?oc=5",
+   "category": "新開店",
+   "date": "2026-07-10T12:03:31.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "6780bc815e8d",
+   "title": "橋山雙喜臨門！神戶牛套餐正式開賣 台南鵲邸壽喜燒8月試營運 | 中華日報",
+   "source": "LINE TODAY",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5iZl8yZWFCbVQ2bG9BUWhneUxIQnZSeGUxZ1NyRlRxM01ERGJCTjI5YTRBX1VwOEF2dWRWVlJCR1YzRWNTT0VIRlk4aTJCSEdQUnhSbHI2S3JNRzhyNEdrTWc2OWpXSVE2cFRiakhkczg3bjlTR0pF?oc=5",
+   "category": "新開店",
+   "date": "2026-07-10T08:30:27.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "22ff4cc56611",
+   "title": "台南停車熱區！東橋停車場啟用 年底前再增4座立體停車場",
+   "source": "聯合新聞網",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GZEJDcVFpSFlLWlBTWHlRSnFrekpHelJCTlUwUml5MkktQVZWYlk3bFFMaFVlZl9ERXdtTFRCQkNERTFTVVlHRmxiREgtdElMdlFaNHJR0gFWQVVfeXFMTkZkQkNxUWlIWUtaUFNYeVFKcWt6Skd6UkJOVTBSaXkySS1BVlZiWTdsUUxoVWVmX0RFd21MVEJCQ0RFMVNVWUdGbGJESC10SUx2UVo0clE?oc=5",
+   "category": "新開店",
+   "date": "2026-07-10T06:03:27.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "3a923ad23053",
+   "title": "「溫體牛排」新賣點！鉄火牛排台南開幕 四人行兩人免費",
+   "source": "三立新聞",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE12TUMyd0haTDNyck9QVllZcDlMTHIxVUtmTlhReEJoVEtiRG1MMDYyemx0YmJyMEVnVXNTcVR1MFJQVkgzbktZ0gFLQVVfeXFMTkY1VnN1RUdUOVBkRkxBNmJWcWVEaFdadWJNMENWaXN2aWFWT3pOUUpteG4zYjBtTEltM1hxNUhRUkV0NEx6R2ZCdFJR?oc=5",
+   "category": "新開店",
+   "date": "2026-07-09T21:46:41.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "df8d734a8eaf",
+   "title": "台商回流擴廠動土 黃偉哲：台南市府當後盾",
+   "source": "三立新聞",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1Vc2FLR2lqTmo5QWhCVUxvcWJNYTJhYUtOdVI3dzZXNnQxVjBweGlUMmxyNWFhZzNlRmhodmtwSERIREhuVUln0gFLQVVfeXFMT2d6TWwyTGxDWC1lZlc3S2lqaU8wRjdrQWdYbzk2T0lwM09sLTR3OW1ZNU1SOXZSUGtpbjBGYnpMYVZkSGlTR0dlTjBn?oc=5",
+   "category": "新建設",
+   "date": "2026-07-09T19:37:40.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "49c4723d3d7f",
+   "title": "IKEA 將進駐台南南紡市議員憂周遭交通更塞",
+   "source": "MSN",
+   "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPX1QzVkhWcFljdDJuUktCTnY0VGk0YVAyQUhEX1RjLXRLSjREUWlBc0hqWEE2TGNjUTVsdTZLSDJxVjhzNTYyM3VBdG9WV1I1Tk85RTFKdm9yZ1BMTW9feTJZaklZMkFVNnJnZjJfd25NZWdDTlJ5ZDdONGVELVdPOXpjc2VDM01YbDBSZkZ5LVRCbHFFaVJjUk5EbGxfai1qNzM2bTFtTjY5SDlQMkRFcXoyWjIxajhHaXFwNUJsaWFTMWFfSjZveDFTMUgyVnhVdXd5T2tlUXhULTRFZk5xT2t2YWN0THQ4cGZDNkZXcUxDSW03clJTRncyektXSmdkNzNDS3dwM3pnX2FLTlhsazB6clMtTHdkZHNEaXpwdkdidlNZUF9qMmR1elJaS185Yy14Yg?oc=5",
+   "category": "新開店",
+   "date": "2026-07-09T13:41:50.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
   {
    "id": "b4e9ea770482",
    "title": "台南看守所醫養園區 啟用 | 中華日報",
@@ -48,6 +132,18 @@
    "district": "",
    "lat": "",
    "lng": ""
+  },
+  {
+   "id": "41df0c1384fa",
+   "title": "台南七股頂山黑琵增 望遠鏡服務進駐賞鳥亭",
+   "source": "三立新聞",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBOQVFmdXE0N0RMcWxhZkptYnFkOF9YcTFxa2VHdUtTNk1CdXRTejd5R2ZoakJ3UGJBN2dSaHN1czY4N0c4Snpr0gFLQVVfeXFMTzNDNFNRc2VJTTFlMVJfSmMwb291T3k1MnpGTmhpTDRSeXFmOTFIV2hSczVpblZDV3gxZ3N2WFBNUWhfTm1NN3ZQVVNn?oc=5",
+   "category": "新開店",
+   "date": "2026-07-08T23:40:44.000Z",
+   "snippet": "",
+   "district": "七股區",
+   "lat": 23.1426,
+   "lng": 120.1208
   },
   {
    "id": "17f7ae5f78d9",
@@ -134,6 +230,18 @@
    "lng": ""
   },
   {
+   "id": "b5cf4468c0ad",
+   "title": "台南百貨再＋1！新光三越宣布進駐「南山台南廣場」 2025全新開幕",
+   "source": "三立新聞",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBoS0lFd1lmNm1ZSXFEVXgzUHBfSmY3OUpIWDdqRnVHNkJ2LTl2WG00WEVhemt6MHNiMEFhb2JYTzZvQ2xnZGsxTtIBTEFVX3lxTE92OWplQTdJRldNLTlZYmhaY3BZTGpsY2hmZnJadllVVmtHN0VpUVF6SE1keVNpUnRmNXFmYlRuM3BNREVmcTM3X1ZpUms?oc=5",
+   "category": "新開店",
+   "date": "2026-07-08T10:03:16.000Z",
+   "snippet": "",
+   "district": "中西區",
+   "lat": 22.9987,
+   "lng": 120.1796
+  },
+  {
    "id": "50ef5a70b93b",
    "title": "台南看守所醫養園區啟用 打造健康監獄新里程碑",
    "source": "ETtoday新聞雲",
@@ -168,6 +276,18 @@
    "district": "七股區",
    "lat": 23.1414,
    "lng": 120.132
+  },
+  {
+   "id": "9481ea2660e6",
+   "title": "林聰明、阿霞飯店進駐！三井22家台南首發美食名單曝光",
+   "source": "三立新聞",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBHUkRwQ2lwc2V1ZmQ2NXlockVYRlFhZWVrNDFRaWFrMVM0OXA2M3F2NTRFUWhhZUR0d1doUzRwZW1nczE0WThlTtIBTEFVX3lxTFBUT010WHFXY3B0Q19iLWNId3hsTGw2SC1faHhkRVl4YVUyZUYzWTcteHBEY0phbWJhWlRXNDRmM3l4aklTVGtCNVZqdEw?oc=5",
+   "category": "新開店",
+   "date": "2026-07-08T09:27:01.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
   },
   {
    "id": "21a168d157fd",
@@ -216,6 +336,18 @@
    "district": "東區",
    "lat": 22.9879,
    "lng": 120.2047
+  },
+  {
+   "id": "70674b152a8b",
+   "title": "培訓飛手 台南市無人機模擬訓練中心啟用",
+   "source": "三立新聞",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBpOW5hazlwU0hWWWMyNXJBeVNZRmhPdlQ2STNDTVRVUVY2NFpOeFBVd0FUbW5KUXBqNkdSVUxXOXJWZ1VRSEhV0gFLQVVfeXFMTnNBNlRvM1p4SXBOeDZsNlNERDdjQTgyOFJZTUZIejJTSk1rbU9pekpvRzhEb25YRXhrWUZqZndIRWtIVVJNeUJaWFJV?oc=5",
+   "category": "新開店",
+   "date": "2026-07-08T03:51:21.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
   },
   {
    "id": "a7b39f9ae4df",
@@ -356,6 +488,18 @@
    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9NRzVYUkNTMExnSHZxRDNNaFlhOEdyX202SXdUbERfemw5aHZJbjQtdm82d2wzRFhiZEFlSHpHT01oTkNud0Y5RdIBTEFVX3lxTE1Kb3VQNXA5SndOTFNqVjRvT3NndFJNc3RkVkFCUlF0ZmFZa3pLRk1lMURaV2tCS1A5R1o3cXVOYlplWk9zcVNFNjNxT1E?oc=5",
    "category": "新投資案",
    "date": "2026-07-07T09:53:39.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "887008c0c85c",
+   "title": "Vogue吃什麼｜台北信義區吃到飽新話題！君悅凱菲屋buffet「呷台南」美食節登場，台南糯夫米糕、必比登肉圓限時進駐",
+   "source": "Vogue Taiwan",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQZHRHU1hLZkRBZDJHbTdSNEU1QThiTUJYSE55bVBUeEhfRFkyWm5KdmI3TjI5STFSNVc4UFF0TlZrWTRmVlZjRUhUNzFObVo3bERBd0lxUXE2WjlnMUpwSlVfLWJ4Qkk3TnduX0l3UTRlckhpdWhTc2NIYmFmUTg1RDRhUEJYYVh4V1dJUEJTOERrWlo1UW9nM0RuMk82TmJtUV9za21jeHNPbW55WTdiUmdwS0FoajlHaE1Eb2J1SmdTeEl6TTlkVW90bTh3MktmYjloTDU2VjdlWHRuVlBydmtpS1BSRnNQTmtubHIzZDh5SHVq?oc=5",
+   "category": "新開店",
+   "date": "2026-07-07T06:15:09.000Z",
    "snippet": "",
    "district": "",
    "lat": "",
@@ -708,6 +852,18 @@
    "district": "新市區",
    "lat": 23.0733,
    "lng": 120.2972
+  },
+  {
+   "id": "57bd449700ea",
+   "title": "房市／南科擴廠 台南房市「分層受惠、價量俱穩」",
+   "source": "NOWnews今日新聞",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5KR1ZfVVp0ZHBuckdhUm1fdUdTTGREQnl3bV9LcnZIS1dSeDhXWnZtQzRDZ29kYVBXV3lKamxNSmJkamVxWmhpelpDVG_SAVJBVV95cUxPLU1BZi14V3JtRkNYSkFVdFo4eFRleThGMEVlTW91M3hUeEF5S1VfUllwak5JM04wNXJlRWU0STAzZEdNeDAzUy0xcXVmQktubkVB?oc=5",
+   "category": "新投資案",
+   "date": "2026-07-03T07:58:23.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0781,
+   "lng": 120.2894
   },
   {
    "id": "f2a7b0ef43c6",
@@ -1574,6 +1730,18 @@
    "lng": ""
   },
   {
+   "id": "42227c2a1fdd",
+   "title": "北外環銜接樹谷連絡道完工 黃偉哲：節省南科通勤時間",
+   "source": "聯合新聞網",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB3SDBqVzdVSTNLZGx0QWhCeUdfc09kY1RvSVJTaWFmdFAwN2tzbmI2ZjdnWlgyek1TU3NNZTAxbXBMZ1ctMmV0YjZDREF4d2t10gFWQVVfeXFMUGgzRlB6eTFoX0RWX1hTa3RUdzNaV0N6ZkRQeXE0czZORFVXZFVkZl9rZTk4U0FoS2U5bjd4UkluUkV3MHU3WnA0QzBWQkJIbFlOc2k1Z2c?oc=5",
+   "category": "",
+   "date": "2026-06-23T07:00:00.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0789,
+   "lng": 120.2946
+  },
+  {
    "id": "9731f47adeae",
    "title": "台南永康油庫華麗轉身！車站北側重劃3年完工 打造新門戶",
    "source": "中時新聞網",
@@ -1651,6 +1819,18 @@
    "source": "PChome Online 新聞",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeXM2NUpMME1IeWF2eldmbklKY19CWktRUE1jems5TW9HRWJmc3ZweWc4cFFsRHpXdWZYdTFzRkhMUjFlM243aTU4WHNTNGFGRGVVTHJxenZOVGxhT0ZkV2VFVWFrRUZkR3FGVFE4T1Z0YUxIVnFXMnp4bXlVTUdid0tmb0JFcjZYNFJITA?oc=5",
    "category": "新開店",
+   "date": "2026-06-22T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "ecdbb40d3164",
+   "title": "走進台版亞馬遜！台南雙春濱海遊憩區木棧道完工 解鎖濱海生態秘境",
+   "source": "tromnimedia.com",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TOUpMSTRBLXhIUkYyQ3RheFpPN29MaEpXMUFEaXV2WXdKRXRkWk9HSHY2ZDJsX1RmUm9pa0hEZEt5dS0tRmp2elFTWWljQXVxdjR6dThRWDM?oc=5",
+   "category": "",
    "date": "2026-06-22T07:00:00.000Z",
    "snippet": "",
    "district": "",
@@ -2966,6 +3146,18 @@
    "lng": ""
   },
   {
+   "id": "7e978de2e6f5",
+   "title": "台南市2026技職博覽會開幕 黃偉哲肯定技職教育培育產業人才",
+   "source": "tainan.gov.tw",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lODZKQXNMbkI1dVlVN2pLZ0tHeWh5ODBaUUg5U3ZxZ05oTlVnU3B2LS1DNjRtel9jT0taODVTV0V0ZVl1ak5HMlpwd3o4bmRYNkdEeERvYUtYVzNPUFh3dktlZmVaeU9MXzlrOEZ3?oc=5",
+   "category": "新開店",
+   "date": "2026-05-21T07:52:08.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
    "id": "932185608db6",
    "title": "台南永康崑大路市地重劃10月啟用 土地分配結果公告",
    "source": "自由時報",
@@ -3806,6 +3998,18 @@
    "lng": 120.2752
   },
   {
+   "id": "ec86ca6032e3",
+   "title": "台南安南區鄭成功紀念公園翻新啟用 文化與遊憩功能全面升級",
+   "source": "biao-news.com",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBiM3E0cG5KZHpvSE5nUDZIOE42Ry1yMXpiN3F0RUpkcnJhRXdFUEszbnlsTWtwUXhaZC14WGV0VnhFTEx4SDRka0tHQnluS19tWXdnMXZCM0NsVHA1WkRrd0NMbVFBOWdvYkNyQWQ2QkI0WWtu?oc=5",
+   "category": "新開店",
+   "date": "2026-04-09T07:00:00.000Z",
+   "snippet": "",
+   "district": "南區",
+   "lat": 22.9579,
+   "lng": 120.1716
+  },
+  {
    "id": "15dd04184895",
    "title": "AI熱潮搶人才 南科釋1300職缺 矽品擴廠廣徵才",
    "source": "蕃新聞",
@@ -4560,6 +4764,18 @@
    "district": "新市區",
    "lat": 23.0821,
    "lng": 120.2754
+  },
+  {
+   "id": "7e54e7b6af02",
+   "title": "「2026台南好young」跨年晚會人數創新高 黃偉哲與30萬人共迎馬年",
+   "source": "tainan.gov.tw",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5OS2hyT1I0VFNJT2ZhMHdKS0xsd1VaMnNDOGZjNW84N3JCWkZyam9qelNxdlY5TW81eEpxWkhFUXdDYVk3N2REZGp1N05YNUhhRi05TnFoSlBtYVdYVGt0N0o3Zm9wNmNWZmlVd2Jn?oc=5",
+   "category": "",
+   "date": "2025-12-31T16:48:17.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
   },
   {
    "id": "eb2e7601727b",
