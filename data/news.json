@@ -1,6 +1,54 @@
 {
- "lastFetched": "2026-07-10T22:31:03.768Z",
+ "lastFetched": "2026-07-11T22:12:11.361Z",
  "news": [
+  {
+   "id": "42afaf8045f7",
+   "title": "台南永康砲校轉型園區二期動工 地方促打通交通瓶頸",
+   "source": "聯合新聞網",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE03a3VSMW1RWUZVZXlCMk5kUU83UkZPdkxuZXRHaUQydjhxY0pZVzVuY1lBS3kxeFpiWU5oTGM5aGF3c2VBT0ZORGNUZncxQ3c10gFWQVVfeXFMUDlMdWt1NUhKNWdCcnRzRTFQLTA2dTlyUGFlcE5XXzlEc2N1ZkRUUWYzTnhYb01KYi1XbVdjS0dWY3YteVpwcWdnSnJlODctM2d0UjZLUVE?oc=5",
+   "category": "新建設",
+   "date": "2026-07-11T16:00:00.000Z",
+   "snippet": "",
+   "district": "永康區",
+   "lat": 23.0173,
+   "lng": 120.2578
+  },
+  {
+   "id": "0966c673f405",
+   "title": "瀚仕健康集團攜手美芯瀚仕健康美學診所 9月中進駐台南打造健康管理新據點",
+   "source": "台灣好新聞",
+   "url": "https://news.google.com/rss/articles/CBMi3wNBVV95cUxPaGFwSllaVVE0Nm1tSjRZcDM4NVhBdWkycUtJcDB4bnBaMm1oTXJ5U244UERpaXhCNTg0TXE4Wnpya1VvQVlGSnhtSzlMYVB3WnN4SGg2RHlLRTVwUW8yUnMyeXlTcTBySVZONVpZRHk3bXVtTFhjWHZoMVBReGg2Wms5ODVsRm82ekp0Z1gzamtXWGdta29RbXN5di1TX3lBWUtGYXJnV3I3dHVJY3ZZb3lWbTlHTVgtWkNCV3pZM0ZJYnM5bGtucm5JaUVfR2JqWWMyS2NveDJpUXVSRXNRbmtlZW43QmpVUkNIVERad3hGTUQwSzBBSXdqRU45d1U3bGNIMnlUVW9oeThDN2kyNUd4MHdGN1pvQnMyb1pJTGJEZGxxZXJfdVNpbkd0YmhJazBTemNsNEtUOWdMRTU0ZmlrZnNFcFB5QzE5c0w0MTRGWnpUVzNObklmS2tueTNCc1N0UWxmU2VrWk1LWmRXTjh5d1l6S2poWkk1Z1VsTjJPTVVHcEZTS3N3aU1tWkNpZ1JaQk95d204VFpIR09sSjRwX3VETGJQcUlTNEhfQmNqMkRObE9IcVdPUTBNbjNsX3kxaVFWc3FwSzBkWFFlRG9BMkJtRnBKY1VFejdkYw?oc=5",
+   "category": "新開店",
+   "date": "2026-07-11T08:07:03.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "06f366805163",
+   "title": "電腦選的也沒這麼準！ 台南左鎮芒果節連2年開幕都遇颱風攪局",
+   "source": "自由時報",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB5aVFhb0l5WFhseEpZRTZyX0YyRUhPUUpncDF4TUxnRjBRY3FNbnVPNUdNVFU5QklTTkp2X2syOW5LQkVqNWM0YUJZYUNMT1ZYOUZsclJ6NWJSakRwUGdaX1gybFg4Y03SAWxBVV95cUxNMHNTanc3NE1HekdRU3FVdWl6NUg5c3JYaHlRMFhjLUZwTXVZUXFuSTRqU3ZzR1ZyZzB3MzNwMENIem1fbnRTMDluSTM1UktyOEQ0eXhRQVY2UGJld3MtdmhMS3NTUkx0S1pQWVc?oc=5",
+   "category": "新開店",
+   "date": "2026-07-11T06:37:11.000Z",
+   "snippet": "",
+   "district": "左鎮區",
+   "lat": 23.0501,
+   "lng": 120.4068
+  },
+  {
+   "id": "a952677bb21f",
+   "title": "百億醫療建設進駐沙崙 台南高鐵特區「達麗世界仁」受矚目",
+   "source": "NOWnews今日新聞",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5pT1E5cmxadTQ1QWE0RzllaDFYMGxzdjZTMjQzWHR2Q1ktNkNXWnp0aEEtZS1mTE1WbHhxeUVLTHhJWUItRTVRU2J3SEpET1VFUmfSAVJBVV95cUxOaU9ROXJsWnU0NUFhNEc5ZWgxWDBsc3Y2UzI0M1h0dkNZLTZDV1p6dGhBLWUtZkxNVmx4cXlFS0x4SVlCLUU1UVNid0hKRE9VRVJn?oc=5",
+   "category": "新開店",
+   "date": "2026-07-11T06:27:29.000Z",
+   "snippet": "",
+   "district": "歸仁區",
+   "lat": 22.9608,
+   "lng": 120.3017
+  },
   {
    "id": "5039f7788aa4",
    "title": "AI大廠進駐引爆南台灣科技浪潮！台南高鐵特區指標案打造國際菁英聚落",
@@ -104,6 +152,18 @@
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1qQ25pVzA5azM4TUtudVIwZWRNUjJlSERrZDVIQ3BfclZEc0VCMVJxNHZtdUZYZDdqblB4cXE4SFB2ZjNsaTBaQkxxWWNZUnBNcm9lZC1kaXRyX05UQ2pNQ19sQVY3aU1MZks1X3JpVF9ZemIyWUVJUFNSc2FnZ9IBYkFVX3lxTE1VYTExQ3FsY3phWmE5V2pQR08zTUF5X2xhQ0VyZXFUYXBjVUlYQU9HT3FsbDlrNFd1aGNGRng1OUhBWWxjczR5aDc4OHY2ODBGc01pZFN0QXJjMlJzLXVjMWd3?oc=5",
    "category": "新開店",
    "date": "2026-07-09T08:53:23.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "a0daddc1574d",
+   "title": "從台北紅到台南 頂級日式餐飲「橋山·鵲邸壽喜燒」8月台南試營運 | 食品餐飲 | 商情",
+   "source": "經濟日報",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE14ZVM0TXRCSjBlOTFUVkxzS0RCSjJqOUpHWGgwdlZCVUpETER1d0JfWWV2aWFKRFBJck85YlhoV2lUSFNrUVVYTHlwWnZrak4wbTUzX29JWTRCUQ?oc=5",
+   "category": "新開店",
+   "date": "2026-07-09T08:00:42.000Z",
    "snippet": "",
    "district": "",
    "lat": "",
@@ -746,6 +806,18 @@
    "lng": ""
   },
   {
+   "id": "f8b987fd5661",
+   "title": "台南促參亮眼 遊艇飯店、市醫、有機農業3案入圍金擘獎",
+   "source": "聯合新聞網",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBFcmJHcmRnQ242M0pPdnFENktXbXRta0VCX3dVZGhjYnNVTnhiT2VSTnJxelBZa0tSakFBSDNuYmJ4clRpZDJGYlZGQ2cwY1NL0gFWQVVfeXFMT1dyZEc1ckdKbjhPUmNXOWRUenExVU5zazNxYXBkWGNpR3ducDdRZzNlSHAyVkFfV1VMby02U1RBc3ByUzJzQzMtQjVvZlY0cmotN0xvUmc?oc=5",
+   "category": "",
+   "date": "2026-07-04T04:54:49.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
    "id": "d51e984fe74c",
    "title": "導入AI提升研發精準度與產量！「生技大廠」南科擴廠 昨股價逼近50元大關",
    "source": "Yahoo股市",
@@ -996,6 +1068,18 @@
    "district": "新市區",
    "lat": 23.0769,
    "lng": 120.289
+  },
+  {
+   "id": "8bb1346e946c",
+   "title": "台南推33處土地開發破千公頃！永康砲校二期7月開工、招商同步啟動",
+   "source": "好房網News",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9IV0NNT0RvdlRGbGpBZEIyZFVxbXJPZ2oxUnNTUUNFVW96TUxCdk4yZllFZU9lUjRVaFQ3UlNfZGgzVTRRVmFQTzZvZmVHaWViQThRSDBWRXQ0WEk0bWM0TWF0MXUzTEpNVThr0gFwQVVfeXFMTWNLWENwZmgzVlFSa2RkSHR0cDU4OXUxVEZYdk9MZ3V0d1I0ZUF5N3F3MGxtdUY4TjRvbFdwYjY2bW5SRlR2MHhfbDg2bmtYalpjOTMwTFZLRDZYYnYzU0JiaWpnd1dWUWJPV1dCeUJXTQ?oc=5",
+   "category": "新建設",
+   "date": "2026-07-03T00:42:00.000Z",
+   "snippet": "",
+   "district": "永康區",
+   "lat": 23.0315,
+   "lng": 120.259
   },
   {
    "id": "c40f6a9ac1b9",
@@ -1268,6 +1352,18 @@
    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPcDlmNzZ6Mk5sem1Ucjg4MVNzSjN6QkYtcUFvN0tSOXprdHhWMVNuY2dRZkdCRDNEZF90NGlnNnRQYVNUZ1c1RXFkUXVmZ21DNFVWS2lESU8zYUwwenhzMXhvejNrMVMzMmJGVVhBRmgtdldqUHVSOVJDbzhwdHVEOHFjQk5HYy1JTW5uVWd5TkZtTkxCaHdGRktxdW1qSEI3VGdaaHFrN0ZZVXNnSzdJN29TVTRhRlpnd1hJMUd0NllzMXBITkZVNkExVFpwejRvYXo5dElteW9XS18yMGk2aXdCdEpiWmpEeXVGaGcwcmNvMGhEWDBVcUVCSVY2eGVOWFVB?oc=5",
    "category": "新開店",
    "date": "2026-06-29T08:18:09.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "d93f8978e512",
+   "title": "台南好市多二店要來了！力拚今年7月送都審、117年夏天開幕- 生活",
+   "source": "工商時報",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BLUxCQjNGSGhhVm0xdW1iV1B0bGlCVTRGV3BkWmdwTU5MVlFBa1loeElSUFhTSkhRaWF3OC1aMjd6Z0ZpeXd3aWhvcGdmZWpWLTVCbEZEd2hJWjFodGg0?oc=5",
+   "category": "新開店",
+   "date": "2026-06-29T07:00:00.000Z",
    "snippet": "",
    "district": "",
    "lat": "",
@@ -1742,6 +1838,18 @@
    "lng": 120.2946
   },
   {
+   "id": "0cbb63f10fed",
+   "title": "翻轉逆境 CCSA台南工作站開幕",
+   "source": "中華新聞雲／中華日報",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE84Q3BxRS1scjdlWmlWcS1vZjdFcmtQOW1ELWE5aDBFMkFkY2Z6M25SR0ZmZ3hjaGt2OFdKS3FnU09VaGZxSTNEYTh2cWRxUDAwOHc?oc=5",
+   "category": "新開店",
+   "date": "2026-06-23T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
    "id": "9731f47adeae",
    "title": "台南永康油庫華麗轉身！車站北側重劃3年完工 打造新門戶",
    "source": "中時新聞網",
@@ -1956,6 +2064,18 @@
    "district": "將軍區",
    "lat": 23.2075,
    "lng": 120.152
+  },
+  {
+   "id": "fc7c2cd4faab",
+   "title": "台南拚金融布局！資產管理專區將公布範圍 36家業者搶進",
+   "source": "經濟日報",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xQmhuM0Q1Yk9kWGlrbm16YmxmeC1PVFZjWWQyV0tuVXVIUVY0dzlldUVvTlpnX3k1Sl9UdVFTNHRrTEJVdnFUTGJlVGFrNloxVGx1VzN3Q1hUZ9IBX0FVX3lxTE81SXVNdHVrX0JkS1htQmdwSGZ6YzVDNEcwMmR5bV8yUDluZHlVNmhXeXpmMGpWQnRmMGRRdkdHNmgxTkxsZFZtekJmbFhTaWdMci1UbjBPa0ZwSFRCN2hn?oc=5",
+   "category": "",
+   "date": "2026-06-18T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
   },
   {
    "id": "5afb8220f3bd",
@@ -3606,6 +3726,18 @@
    "title": "台南招商再創高峰 新增872億元投資打造半導體產業聚落",
    "source": "住展雜誌",
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBkZ01TWGpJM0M4QlB5OG9LQ3haUkk2bFpFdDRnLUJ6cTMza08yZ29uLWFsSG1mV3BHOGRuLW82d1dKS2xVSFlIR3dOc2loOXhkWTVzdnN2dkJfc2thbTRoMG94TEZxcGdpY2RvSkRxNDlkQXdfTDMxLQ?oc=5",
+   "category": "新投資案",
+   "date": "2026-04-30T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "299cad30bf5f",
+   "title": "半導體帶動台南招商再增872億投資創造2370就業機會| 科技產業| 產經",
+   "source": "聯合新聞網",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB5NlB2Z00tcFFnMjRuYTdXUzMtc0hqZE9fUnliTHZvSDNWY1NUTXEtNEdQcFRsZTBJaU1hcTJqZDRacnJiMEZEMDNrWHpuVkFS?oc=5",
    "category": "新投資案",
    "date": "2026-04-30T07:00:00.000Z",
    "snippet": "",
