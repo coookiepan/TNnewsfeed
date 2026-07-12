@@ -1,6 +1,42 @@
 {
- "lastFetched": "2026-07-11T22:12:11.361Z",
+ "lastFetched": "2026-07-12T22:13:13.640Z",
  "news": [
+  {
+   "id": "8f6ece2d982e",
+   "title": "南科擴廠效應 房市價量皆穩 | 中華日報",
+   "source": "LINE TODAY",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04SmR4d2JtX2tEQnlnOG9KbmpOaXBvUG9ubHhoeEtqMTRKaDFmbFhEQjN2X0E4Q2FkTU9GMDlwcjMzbjBBZVFOYTczMW9jVU5xM2lpMzVn?oc=5",
+   "category": "新投資案",
+   "date": "2026-07-12T12:55:18.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0815,
+   "lng": 120.2854
+  },
+  {
+   "id": "3ea67048e78c",
+   "title": "高鐵台南站人行空橋 2度流標",
+   "source": "中國時報- 翻爆",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRlFnNHBfUW81T3pDdVFWNEFZbDJuVzJCT0YxV2hQaXFNalpBd0FkTGFVdWdqdkZuWWdXSy1zTzc0R0d0SkRvOWZGUy13TXl5a0FaOFNka0ZyTkdRZjdaSlVUU0lBZ2NaVXI0NHVkSVV3N1FIWUlTVlEwc2F1bTk2VnV5cW5TSGc5?oc=5",
+   "category": "",
+   "date": "2026-07-12T05:48:45.000Z",
+   "snippet": "",
+   "district": "歸仁區",
+   "lat": 22.9574,
+   "lng": 120.2643
+  },
+  {
+   "id": "cc88cd8860f0",
+   "title": "討論牆 | 台南招商成果再現 維勝鋼鐵進駐七股科技工業區",
+   "source": "LINE TODAY",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBSUXc4R2Jrc29hdFphbkdjZS1nYk1hci1RMVVJYk1qLS04ai1fRXdmY3FfX1RmWXRQMktWUEtEdWZrY2VVTGx6NUUwZG5WTW8tbUhSSHp6OVhpS1c3bVV3SmJkUy0?oc=5",
+   "category": "新開店",
+   "date": "2026-07-11T21:54:43.000Z",
+   "snippet": "",
+   "district": "七股區",
+   "lat": 23.1438,
+   "lng": 120.1224
+  },
   {
    "id": "42afaf8045f7",
    "title": "台南永康砲校轉型園區二期動工 地方促打通交通瓶頸",
@@ -84,6 +120,18 @@
    "district": "",
    "lat": "",
    "lng": ""
+  },
+  {
+   "id": "ddd0df05749c",
+   "title": "南科周邊七大開發區推進 431公頃開發案進入區段徵收",
+   "source": "經濟日報",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB2akpJLWkyenl5THNXSFBUbEc2VWQ4ZV93QWJYck1fUExMQWVnSGh0ZjJpRWdydnY2d3FZZGxYWV9PZERaV3BnN293TjlZOVBMZE5qZG1xQzlXcFnSAWBBVV95cUxQVFNlN3o3THc0cmdpMWZNeFRDRDdYYTVwNElKWFFTUXVMTERBR3hGV09zT1UwcTdURWFwYjg4ZTRLd1EwYk5BRGxLRW53Tkl5cUFidFpkdy1URWRJZ1lvSUk?oc=5",
+   "category": "",
+   "date": "2026-07-10T06:30:56.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0757,
+   "lng": 120.294
   },
   {
    "id": "22ff4cc56611",
@@ -798,6 +846,18 @@
    "title": "台南門戶翻新 恐迎交通黑暗期",
    "source": "中國時報- 翻爆",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSEJmV0xzOTktVFdnRTFCUVRZeHpOWW50SllzZ013ajhnYm1GM3lXa0R4WFBOM1BuWndfWThiR2JTRmhqRVY0eF9Ca3ZQeXRodExyUjdJajNldHh2aDZKeGc5UnpJSGZyeWcwRzJ2YUR0V016TG1objJLQ0RKUGlKSVVrcTNfRDQt?oc=5",
+   "category": "",
+   "date": "2026-07-04T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "6b879d219244",
+   "title": "專家帶路／台南東門商圈30年中古屋 首購族優選",
+   "source": "經濟日報",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE04X3BKZXNocUVwTjB0RDhPcGhTYm90bkJBN0pZOTktRkpIN2Y2RVVOdzVMb2NHWHBLT0Fmcl8taUY2S1FLZHd0SWFQb3Q2M3prY2pfeV9SU2Fpd9IBX0FVX3lxTE5wbzJLdXQ0WUhPYjR2NkFZS2FaM0VxVjJhdjBXZzNaRDFWZndXYkNacW5EWl9UWFRYZWl1cmRtbDJneEVPXzRJRVFwa1lza2xVZmtrVnF4dDFQMmhUX0xr?oc=5",
    "category": "",
    "date": "2026-07-04T07:00:00.000Z",
    "snippet": "",
@@ -1764,6 +1824,18 @@
    "district": "",
    "lat": "",
    "lng": ""
+  },
+  {
+   "id": "9c489bff82f3",
+   "title": "不到2公里塞20分鐘！台南永康車站產專區動工 議員促闢新路解交通瓶頸",
+   "source": "聯合新聞網",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWQkFsX1BueGVXUWo5UGx1MGVSTFd2RlNyQW5yUVk2MGhCUnFjYVBpWmZlTG5hS0xmelBSYi1ZbjVqekxWWDROWG1wN19kVE1J0gFWQVVfeXFMTUVVd3JybGk2X1pmWEJteElNY292NlJRTnlzM0JPR0lRRDZlOTYtdUZNNDFIcHZPZDY3WmVkdk8zXzBfbkZLUjBJbkxhYTBiMGJlSEJORFE?oc=5",
+   "category": "新建設",
+   "date": "2026-06-24T07:00:00.000Z",
+   "snippet": "",
+   "district": "永康區",
+   "lat": 23.0165,
+   "lng": 120.2668
   },
   {
    "id": "9e4372806363",
