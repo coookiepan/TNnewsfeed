@@ -1,6 +1,66 @@
 {
- "lastFetched": "2026-07-13T22:25:06.841Z",
+ "lastFetched": "2026-07-14T22:28:17.590Z",
  "news": [
+  {
+   "id": "152e722d048a",
+   "title": "3千名官兵進駐、遷葬終邁步 台南關廟有望蛻變發展新市鎮",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9IbE9GaWJtb1RoYVBwdGFXWVhIZVg3ai1ESmEyTEpnenZJa0wtX1VJeEhJWTBmcVdPQjVtQ3I2Mnk0VGVVMExYZlQyRlg0Vkxq0gFWQVVfeXFMUEFqM0lpRHBROER2REpCUF9kdUxKMmFpWml0T2dwUWZpZ1BWb1FPNzVpcTRubVdjYndUb0syYVRNamMzN2lDVGxoRDl0MUtHVFZ6WUNJUkE?oc=5",
+   "category": "新開店",
+   "date": "2026-07-14T16:00:00.000Z",
+   "snippet": "",
+   "district": "關廟區",
+   "lat": 22.9642,
+   "lng": 120.3167
+  },
+  {
+   "id": "d3be9f43254e",
+   "title": "台南完成77座特色遊戲場 新增4座下半年陸續完工",
+   "source": "tainan.gov.tw",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE05T2dBamtCaWh1Qk1FNkZHR1BBWjg3bGVOazJQMDB5VVJNa0ZNZXdDc0FRcUx4dGR2OWtkTlI4eTd6aFduQnJWX1hRM1A2akpSa2xqNWwzQXdxQlk1ODNURzU4eUlyTFdwd05BSmVn?oc=5",
+   "category": "",
+   "date": "2026-07-14T09:15:53.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "5a65dc83207b",
+   "title": "橋山壽喜燒推神戶牛五部位套餐 台南新店8月試營運搶客",
+   "source": "壹蘋新聞網",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOXzJjZDNIUXBudFo5WVFiYnhCdFZPTXFLX01vVDlPalhrUnVWdkRUTWFuNFNNeHpIeFh4eERwcHIxNWxnVU50eXFNSm9uUnBNTDhmRURhRnZKSTNNNVVqbGRmSUdUYmo0NnJHdE83NTV1YXYwM1ZqTnk2QmlTRWVVM1NFVWs?oc=5",
+   "category": "新開店",
+   "date": "2026-07-14T04:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "2f493901ed0f",
+   "title": "投入6.17億 台南關廟砲訓部第3聯外道路完工、通車",
+   "source": "自由時報",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QRDFRSmRubUhfQkhUaDlQem9uQ1pGTTRLQ21GdFBLb213T292eHg2dnBxaEEzQ2dmRWY3S0o5MzlqeDVIVFBteU13MmUxdlFkdkZNcnFpV1JJalRJYVh0QjN2QWLSAWpBVV95cUxQUkllNVFDQ3FtTDctZTU5dllHcVFEMFFhS2RZWE5rVVFfeVo4VEFuSW1KSHhCdU82YmVJU0p6SHJDMU1rNkRCUWRBZTFYOEphSE9kR1YtWTZEelAtOE1fS09QVmNtMm1SLXp3?oc=5",
+   "category": "",
+   "date": "2026-07-14T02:58:30.000Z",
+   "snippet": "",
+   "district": "關廟區",
+   "lat": 22.953,
+   "lng": 120.3361
+  },
+  {
+   "id": "95f5f2261371",
+   "title": "南科外溢、永康文化特區崛起 「佳晟家康」成自住焦點 - 生活新聞 - PChome Online 新聞",
+   "source": "PChome Online 新聞",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVmtHMmVxUS1aQmtZSXlvV1lEM3hSdE5UaWI1QXpkekFWb0NKdV9TU3N4WXlUbkM4Z1hJSUN1a1RRSm9PdnMydFhBMHkzekVtbjRjVjhLYkd1Znp5ZG9mLXY4a2lZeDljazFJVExLVXhHQUZGYU1MUXc4TGFRc3JQRW00bmNYMVVD?oc=5",
+   "category": "",
+   "date": "2026-07-13T22:18:36.000Z",
+   "snippet": "",
+   "district": "永康區",
+   "lat": 23.0263,
+   "lng": 120.2456
+  },
   {
    "id": "90887f2646c9",
    "title": "台南推動南科特定區開發 七大區進入區徵階段",
@@ -12,6 +72,18 @@
    "district": "新市區",
    "lat": 23.0813,
    "lng": 120.2998
+  },
+  {
+   "id": "fabb974921d9",
+   "title": "瀚仕健康集團攜手美芯瀚仕進軍台南中西區新據點9月開幕搶攻南台灣健康管理與美學照護市場| 楊艾喬 | 地方新聞",
+   "source": "Storm.mg",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9GaXRsOXFUbnpkNjh3ZG9HWjJ3T1liZkQ5Q2hQaU9YZTRYZlNaOWIxeEk2QnRicmEtbU02bjgxVzNFWGRkUE5iSHU2TGpUZw?oc=5",
+   "category": "新開店",
+   "date": "2026-07-13T04:16:08.000Z",
+   "snippet": "",
+   "district": "中西區",
+   "lat": 22.9927,
+   "lng": 120.1746
   },
   {
    "id": "8f6ece2d982e",
@@ -926,6 +998,18 @@
    "lng": ""
   },
   {
+   "id": "e01323399bb2",
+   "title": "台南東門商圈 利多簇擁 | 不動產投資 | 房市",
+   "source": "經濟日報",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5tZFQ0dmg0YVpNQXQtX2x3c2ZLTXl5MUdtT0tqSVU1S1NabUlCdUVFRjNMTkNWcERwWTJuRzB4cHJxS2tTbWZWYWZrbWtHS3BRNWpyclNGekREQQ?oc=5",
+   "category": "新投資案",
+   "date": "2026-07-03T19:02:12.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
    "id": "e65eecfa0b6d",
    "title": "台南東門商圈 利多簇擁",
    "source": "經濟日報",
@@ -1824,6 +1908,18 @@
    "district": "安平區",
    "lat": 23.0076,
    "lng": 120.1379
+  },
+  {
+   "id": "2b22b5a269c6",
+   "title": "路易莎全力拓展「白霧時光」首站進駐台南安平雅樂軒酒店創新「廚房」主題將生活美學從餐桌延伸",
+   "source": "winnews.com.tw",
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFA4RFdpMldaWlYyVC1JNkY3WXh4aGk5Z09RS1llNS1Xc2hDMjBqTGRzekZYZm5GQXpSa0pLUXhRRVFjekdEdzQwTmJ3?oc=5",
+   "category": "新開店",
+   "date": "2026-06-25T07:00:00.000Z",
+   "snippet": "",
+   "district": "安平區",
+   "lat": 23.0012,
+   "lng": 120.1435
   },
   {
    "id": "976e25b839f4",
@@ -2940,6 +3036,18 @@
    "district": "新市區",
    "lat": 23.0737,
    "lng": 120.2812
+  },
+  {
+   "id": "a471e326e46d",
+   "title": "台積電擴廠正式簽約落腳台南 南科特定區A區22筆土地以50年地上權供使用",
+   "source": "鉅聞天下",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1iN0tYWTdoenVIVkVoNGkxdHFydnNITzhqQzdLMmNPTUJxaFlVdHp1d001Q0xxV3pkRFlXM0xQQTZfeTVXSmRaUktMTzdnX2ZkZW1YNnVYUlNZUTZzX1E?oc=5",
+   "category": "新投資案",
+   "date": "2026-06-10T07:00:00.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0761,
+   "lng": 120.2788
   },
   {
    "id": "ae42f91536e9",
