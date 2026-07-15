@@ -1,6 +1,66 @@
 {
- "lastFetched": "2026-07-14T22:28:17.590Z",
+ "lastFetched": "2026-07-15T22:27:23.906Z",
  "news": [
+  {
+   "id": "e23e9e061d47",
+   "title": "白河新開幕中心下月開收！台南公托搶破頭…地方喊話加速布建",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBVRW1OaTJ5VzgxWkJyd21EWWRoMm1IZjNpblFmajZNa3owWTlKVWtoV19VV25oZzl1cFZKMERMU3Z4ZjlER242cWg5QlVYbEM30gFWQVVfeXFMT0NkdUZ1X1ZEbHdIUnNCNU02emlJY2JoSlN2T29uR2xqbzNWY2F4ejNRLUtabi00UVNZX2JsSmNaQXVyN3BtWkxOMlRaenlpZm1Gem5iU2c?oc=5",
+   "category": "新開店",
+   "date": "2026-07-15T16:22:44.000Z",
+   "snippet": "",
+   "district": "白河區",
+   "lat": 23.353,
+   "lng": 120.3968
+  },
+  {
+   "id": "e06dbb2eb6e6",
+   "title": "台南白河爸媽等到了！首座公托8月開幕 共16名額月費9000元",
+   "source": "中時新聞網",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAwS0RfamNaU1F2VklQYW1kU1BVSUVWbDBEYklkeFNyTGR6cXd0T3lZMEkyeUJack8yU200bkgxR0tORHEtMnh4WlpSVk5uTVZKdG9DS3hodG91ajc3RVlhVW1kR2NHSHZCNTd6TE1R?oc=5",
+   "category": "新開店",
+   "date": "2026-07-15T06:15:43.000Z",
+   "snippet": "",
+   "district": "白河區",
+   "lat": 23.3502,
+   "lng": 120.3916
+  },
+  {
+   "id": "6d4f71faf5dd",
+   "title": "落實育兒支持政策 台南白河永安公托正式啟用",
+   "source": "台灣好新聞",
+   "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQclZybGRGTkVzdTRyNkdSWmlGM0hEUHlFeFlxdGlGamlLYzJXd3FlRWdwazVEaUE0YXh5QmpvNkdHcUFScnJMY3RUeXB2UG02N1g1NWFsclVxYUl6ZExmOUpsbFVsZ0s4blZ0dzZLNVBLMmRQVFpjUVZXSDEySy1oTmVjWjBKYVFMX2RYZ2tqOTh4akZWdXl4QVlERnpkYVZLSHNLOGJNWmFRZ2R2WVM2VVYtTU9UdkdGOEZqeEozQ3JwX2xRZ3B4cmRhSTR3UEpXblRSQWRrNVJrbnNubzd1eHF0SlVLMWFwNkp6cnJydGUzMUJDeHZIOU40WmpESm9MampzVDVybGJDV1diOXl5SDNwUzNzVndCMjVQX0p6TGUzM0tUN2pjaW5LaGM4S0tGWENPdXM3TXRrMllCMVEyUUlR?oc=5",
+   "category": "新落成",
+   "date": "2026-07-15T06:14:13.000Z",
+   "snippet": "",
+   "district": "白河區",
+   "lat": 23.3564,
+   "lng": 120.3952
+  },
+  {
+   "id": "cb337c564de8",
+   "title": "台南東區新都心段公辦都更案7/15起公告招商",
+   "source": "AN不動產新聞網",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1VSWJUUFBWWWpVOEkzWkZpdmc2aVVWMW5FNGNJQ3Q2ZFk4RmdLN0xGT0x2RUpjMVBXX0oxdkpQWTk5THdQbHNkVjZTU2FoLWlYWEZVVHEtSkFNR29nNkpoYkF3UDBtT3M?oc=5",
+   "category": "新建設",
+   "date": "2026-07-15T05:27:09.000Z",
+   "snippet": "",
+   "district": "東區",
+   "lat": 22.9809,
+   "lng": 120.2287
+  },
+  {
+   "id": "65f5ab6b2fc3",
+   "title": "台南市第19處公托--白河永安公托正式啟用 黃偉哲落實育兒支持政策",
+   "source": "新媒體經紀人",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fWmRWVjdBbV9Vc2FJejN1MFkydEIyRTZiM2RGZ1ZYc1BJdEozRmhBRTd1MFY3Q1RxaE9jYl9mSHJ1cExsdVJvMFdtRXFNWkFMWmlBTG54ME96ektaby1VbThB?oc=5",
+   "category": "新落成",
+   "date": "2026-07-15T03:24:24.000Z",
+   "snippet": "",
+   "district": "白河區",
+   "lat": 23.3482,
+   "lng": 120.4146
+  },
   {
    "id": "152e722d048a",
    "title": "3千名官兵進駐、遷葬終邁步 台南關廟有望蛻變發展新市鎮",
@@ -132,6 +192,18 @@
    "district": "永康區",
    "lat": 23.0173,
    "lng": 120.2578
+  },
+  {
+   "id": "48e156659595",
+   "title": "台南港式料理新開幕『眾食集The Dining Collective』麻辣小籠湯包、脆皮鮮蝦腸粉必點，港式飲茶控必收藏",
+   "source": "台南女孩凱莉吃透透",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45b1lpZ3R3NWtsTTVadi1Ua1d4TDhQdU9FbEI5Wlk0ZDR6Tkc2aThWbnBiVjJzRWVlejBYblNjeWJTcGZsV2pNUnVQZWo1U1ZkeGwyTDhn?oc=5",
+   "category": "新開店",
+   "date": "2026-07-11T10:09:09.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
   },
   {
    "id": "0966c673f405",
@@ -4308,6 +4380,18 @@
    "district": "新市區",
    "lat": 23.0755,
    "lng": 120.266
+  },
+  {
+   "id": "e51bbc92ea49",
+   "title": "燒肉霸主「老井」插旗台南！現場開幕直擊、限定菜色推薦：牛肉湯、蟹黃粥必吃",
+   "source": "食尚玩家",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9yNE1OUG90MXhDZ0c0LVpibGRGakIwYVpILUgtdGFSdm9XVHZYNndIeFJodXAyajkyZldxWVBLSC12b0E4Wk96UE5GcHl6Rk03dUJZctIBWkFVX3lxTE1EZmQ1eHg0OEtxQ3pVaFUzQ01tQWMwZklMZnRXRjlITnIwVXYzS1FpWVB4N3czQ0lNWXBMTkw3aW1lQkQ5UllZeWY0ZkNEWDY0aHJiNDlRWXJ4UQ?oc=5",
+   "category": "新開店",
+   "date": "2026-04-12T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
   },
   {
    "id": "8f1dd5fc87a5",
