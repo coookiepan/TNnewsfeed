@@ -1,6 +1,42 @@
 {
- "lastFetched": "2026-07-18T22:11:53.990Z",
+ "lastFetched": "2026-07-19T22:15:10.449Z",
  "news": [
+  {
+   "id": "0e11ab22a473",
+   "title": "聯電接單爆滿 評估南科擴廠",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9LVEtKMG8tYmpIU1J5RkhpMjQxMUFFWEVVa3c2dHRnZjV3WFJicmxZOVQ5WXg3U1lkRkIwM2lTekFfUjFRYmlYYUtvMGFELWNNMWRpQjhn0gFWQVVfeXFMT0tUS0owby1iakhTUnlGSGkyNDExQUVYRVVrdzZ0dGdmNXdYUmJybFk5VDlZeDdTWWRGQjAzaVN6QV9SMVFiaVhhS28wYUQtY00xZGlCOGc?oc=5",
+   "category": "新投資案",
+   "date": "2026-07-19T19:47:41.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0875,
+   "lng": 120.293
+  },
+  {
+   "id": "f74d48a18212",
+   "title": "從工地到畫布！《島嶼行旅－百工映像》 台南做工行善團入畫",
+   "source": "自由時報",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBDMVJtWjdvcC1aeGdxS3d1Tmp4NktqS2JySlEwUkh3ejZsME9nUXEzVU4xcFFMWDI2Qk9nNHNQRDh5MFZRNFpfLWVKWkJ1bEdHeld5M1RUOU1YaWlIaXBqOEx2NEPSAWpBVV95cUxOTTMwT29sOVhLR2xOaDN2d3RmUkpHNGlnTy1KclVCbExDSFdVZDR3WGNNWUEzUXRnUllrbkxkWFh1Y29fSllOQkZ4SVFzRmdxQkFvOTBMU2NoNFFJa3pZaG9sMmlLREhyS2pR?oc=5",
+   "category": "",
+   "date": "2026-07-19T13:55:58.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "5ca990c13d9b",
+   "title": "等了16年 台南市刑大南北分治 合併夢碎",
+   "source": "中國時報- 翻爆",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbUJ2b1FBeWtZTG5QdE1rR0xDb3ZzVE4wc3pPTElTUV9xS0NNN0xkTEFUanhXcUNodDQyaGFkWjM1ZGZiZE9hWEJwX093MnVKNUVMTHdCSnJWZU5MVlRndWQxUHJGRUY2a3BMMDJGdVR4dDBsLWo4azRXeEZVZTJuNk9CcmtYbVBZ?oc=5",
+   "category": "",
+   "date": "2026-07-19T01:18:45.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
   {
    "id": "f4489c88fe01",
    "title": "90年台南歷史建築再生 茶香依舊 新營弎弌和茗園重新開幕",
@@ -164,6 +200,18 @@
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MN0FQYUt0Sk93X0x4QW4zQzBGbGVxSm1tWnlYRm9lTDVIZjRaZXpldzJkaXg5OXg1Ti1lb1l0VUVpaFJnZjlMTXlId0pRYWRVak5UYlZIVWF2WG1UM3hJY19n?oc=5",
    "category": "新建設",
    "date": "2026-07-16T07:42:40.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "e338e7f3e6e2",
+   "title": "台南市李科永紀念圖書館動土 黃偉哲盼打造台南閱讀新地標 - 社會新聞 - PChome Online 新聞",
+   "source": "PChome Online 新聞",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQelpITlk4SFBOZmlXWElFQmpVREg1NTVLVWljeU9pY19hSjlLWnZfR1ptQjlVTlRyTEo4QU5lMDYxbVViaUJoc1AyRHdqaEUtOE1DVExQMDFDQnUzSFFPYUh5Ti1xNFNNZFVrUG9hLXFJb1BMUFNhZW9LcGZ4N0dTNWltdnNQaU9OWlNTRnM5Zk9EQQ?oc=5",
+   "category": "新建設",
+   "date": "2026-07-16T06:34:19.000Z",
    "snippet": "",
    "district": "",
    "lat": "",
@@ -518,6 +566,18 @@
    "lng": ""
   },
   {
+   "id": "42089836836b",
+   "title": "台南停車熱區！東橋停車場啟用年底前再增4座立體停車場| 雲嘉南| 地方",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5BdDFzQ2wtNjFBWm5FUGV6UE9mQjBiTlVYXzdFRHg4MWtNdEoyVlJQbHZRVXFIOGdNX3dRQmdvQmt1dkUzd1d3YnBISW1FN1JS?oc=5",
+   "category": "新開店",
+   "date": "2026-07-10T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
    "id": "ddd0df05749c",
    "title": "南科周邊七大開發區推進 431公頃開發案進入區段徵收",
    "source": "經濟日報",
@@ -668,6 +728,18 @@
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBfSlZxZjRjeTluelBRbmU0VkxjY2w4MEU4VkJUWUpFaGJoVTl1UzN3SnVHeGlSWTQ3eXZrelpmVlhPb3dkNU5N?oc=5",
    "category": "新建設",
    "date": "2026-07-08T17:07:18.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "76fdef52c4fb",
+   "title": "結合失智照顧功能 台南首間實物銀行啟用",
+   "source": "三立新聞網SETN.com",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE85S20wckU4eG5Kc1VDb0I1WVk0UzlrVDIyd3JSdm03ZElhZ0toWXBKS3FpalFYWk5RMU1XaGl0LVlKQlh2SWw40gFLQVVfeXFMUDNld25GWDJubzNKX0JqUXY2Vm5XT2JHanJGb3ZjUnhQZVlYV1RJVUJGMVVNYWhFVGxJci1zb3ZSTXlRcEJuSE1jN3Zj?oc=5",
+   "category": "新開店",
+   "date": "2026-07-08T17:05:16.000Z",
    "snippet": "",
    "district": "",
    "lat": "",
