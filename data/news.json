@@ -1,6 +1,102 @@
 {
- "lastFetched": "2026-07-20T22:29:01.331Z",
+ "lastFetched": "2026-07-21T22:25:26.418Z",
  "news": [
+  {
+   "id": "70e6497295fd",
+   "title": "區政建設大步走 台南市民政局讓活動中心新展顏",
+   "source": "視傳媒",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdURlTEdNVlJCRXBxU3NxTjBxaGpfSTJGTVRSNHk2c2h2Q3draTBsc3pfZFlNQ3A1c1Q5SFBDbVN2WTlVcktMRDgwM1R6aG8yTE1KVW5PLUR0NlRmcnF0eDJya3BTc2tHVWlYaXNuMG9ta1JwbnZqUkFFZk02cEVQUXVVZFR5OC1JQlRwa1NPWDcwRDZH?oc=5",
+   "category": "",
+   "date": "2026-07-21T18:23:33.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "d2d5460dc17f",
+   "title": "台南東山林安森林步道重新啟用",
+   "source": "波新聞",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBpZlE2UHBmWDBRSGhuem5xRURXNjBITkFqSnhJdnB6UV9YTzdCRmFqSlhoaVdWNGtYSmhDSURMRzhueGhKa0pVdWhpZmpoZ25tWHdjLW9Zd3k3aDhRSVZMT2tqQQ?oc=5",
+   "category": "新開店",
+   "date": "2026-07-21T09:12:26.000Z",
+   "snippet": "",
+   "district": "東山區",
+   "lat": 23.3178,
+   "lng": 120.3752
+  },
+  {
+   "id": "aeec5375c442",
+   "title": "台南促參成果亮眼 黃偉哲上任後累計促參59案、投資額逾千億元",
+   "source": "wennan.org.tw",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9EVWFFYlp2RUpmcHp5XzRaUUZaeDFHX1hVM3BHOFlXdzVDTGI2elgwcWlnOXRYMkVxRE43eFc4b2ZubnVnZHlsc1BiTjVNcVFKcG9qZ2czcGVxM09pTXFWOXdvOXJqcFBibWFZLXN5aXRTZw?oc=5",
+   "category": "新投資案",
+   "date": "2026-07-21T08:55:23.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "fb5fd7940c98",
+   "title": "「台南最大LOPIA」8月中新光三越登場 超大壽司櫃、鮮魚賣場進駐",
+   "source": "ETtoday新聞雲",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NM2NXbjJtN3RjMUprX0xhQ0k3MkZsN1hyS09Fc0xUS1VqVVA0QS10TGZPLW1fTll3YmVEYW5jbEZ0TmVfSWEyczY4RXZNSks3eVE?oc=5",
+   "category": "新開店",
+   "date": "2026-07-21T07:28:00.000Z",
+   "snippet": "",
+   "district": "中西區",
+   "lat": 22.9877,
+   "lng": 120.2044
+  },
+  {
+   "id": "5ad8aa9c9607",
+   "title": "台南東山林安森林步道重新啟用 遠望大凍山",
+   "source": "自由時報",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82REE0Y0RmQkpCaklNSnljb0dGaFZJOVkwZzJzVVpMRzZ4YVJZZnJVMHNzSDJJSW9lYXE1S1hYcGlIT2REdU9nU0J3YXBfS196aTk3WXpyQ05jWlJpbjNTd0p4UzMxMzF4OHfSAWpBVV95cUxPNkRBNGNEZkJKQmpJTUp5Y29HRmhWSTlZMGcyc1VaTEc2eGFSWWZyVTBzc0gySUlvZWFxNUtYWHBpSE9kRHVPZ1NCd2FwX0tfemk5N1l6ckNOY1pSaW4zU3dKeFMzMTMxeDh3?oc=5",
+   "category": "新開店",
+   "date": "2026-07-21T06:30:32.000Z",
+   "snippet": "",
+   "district": "東山區",
+   "lat": 23.3338,
+   "lng": 120.3898
+  },
+  {
+   "id": "5ce96c02c63e",
+   "title": "率台南企業訪波蘭 黃偉哲與訪團聚焦AI與智慧製造合作",
+   "source": "自由時報",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xdkFLX1g3Mkg4eFdMWFVwVGVmcmh1NHYyNlRiYjRhQlhSU3ZrSHkwZXFjUEszcmZxR3JCWUFaN1NPRkhKZDZQanpidXZxTk9tX0oyMkNHVGdWa2NacTlaRmlIVG9pUGR5QmfSAWpBVV95cUxOMXZBS19YNzJIOHhXTFhVcFRlZnJodTR2MjZUYmI0YUJYUlN2a0h5MGVxY1BLM3JmcUdyQllBWjdTT0ZISmQ2UGp6YnV2cU5PbV9KMjJDR1RnVmtjWnE5WkZpSFRvaVBkeUJn?oc=5",
+   "category": "",
+   "date": "2026-07-21T06:03:43.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "06f789cb9deb",
+   "title": "聯電不藏了！美系三巨頭搶包產能 南科擴廠秘密曝光",
+   "source": "東森電視",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GLXRpSTcwcDBRMDA0bjNPVnhFWVFTbjl1ejlSWElZNU52MWRGM3RuazBuV2tfb1JtTzByU2owT2psZ0JIX3F5eWxHbFhSNG1oUkRDbFh3?oc=5",
+   "category": "新投資案",
+   "date": "2026-07-21T03:55:00.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0879,
+   "lng": 120.2948
+  },
+  {
+   "id": "6d8fee8c30af",
+   "title": "長輩換駕照免跑監理站 台南警進駐公所推「一站式」服務",
+   "source": "自由時報",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9NdzZ6cVhRS2d1eHhPcTR2eFR1Wm9TbElINjBOejNiY2dBOEpkMEJ0LUd2MDN3a3daZnVUNWd5VDk0VXN6Qkxlb1FZblk1akJPcm1yXzVTOFM5WENhOXVIV0t2SExEVTNr0gFuQVVfeXFMTm1oOEVnOHQzemhXY0llOV9ySzZWZDJNUWwxc1lxZHppSUQtcjJsZGx0U2d4WmctbVVRX0pIREI3OXQwX2RFSGl4eEs5N0xaUFhNZEh2VWZMLXlQR3Rib1JkLXJlNlFuNHNvYjZCX1E?oc=5",
+   "category": "新開店",
+   "date": "2026-07-21T03:20:35.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
   {
    "id": "886c9b9c7aa9",
    "title": "臺南光電備案容量突破5GW 綠能供電助攻南科產業發展 - 生活新聞 - PChome Online 新聞",
@@ -24,6 +120,18 @@
    "district": "新市區",
    "lat": 23.0783,
    "lng": 120.2834
+  },
+  {
+   "id": "1f8fe66e61af",
+   "title": "臺南穩供再生能源 打造企業投資首選",
+   "source": "台灣好新聞",
+   "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQeEktM1M4ZFFFUFowOXF6RURVaF9MS1BfRGJBdnBRTnFrSzZ5TlMwZlR6YWhYQ05qUFpSSnl0WWVVQkdtcldkSWd5N2NObGNMcDI5dFpXVkJjV2hTZ2RidVFqYjhVNjJXbkVEenNWUzFQTkxLcUlzdUVlQm1JTkxLZW52cklHQzczdUdDQnZHZmx4S3VXRms0ZUZPZ1NVRFZfQkIzN1dfV0pQZHV4azhsVVFzUmRoazRPQmh6bGlJc3lZdlcwWnkwa2dSXy1fZ1BUeGxHNUZfeVJFNTQyaUZWN0tFMGttVzJXUGI3dHlMRDVsSXhtUHFzbkhvTXFjUmY2dlFJbXF4WUZFWG1jUTVOanZjVXB1TGVjQ1NoaVczREswbVNiajZndWFVYTBWZVEyaVZlTTh3TQ?oc=5",
+   "category": "新投資案",
+   "date": "2026-07-20T07:38:36.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
   },
   {
    "id": "48831da1640c",
@@ -2450,6 +2558,18 @@
    "lng": 120.1605
   },
   {
+   "id": "a8d1ab049693",
+   "title": "路易莎「白霧時光」插旗台南！進駐雅樂軒酒店 打造異國廚房新地標 | 生活 | 要聞",
+   "source": "經濟日報",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9aZUVBX0kwZGxkRGhPbksyVzJtRXE1ZzFzbnlVT3pOQ0pfR2U1Rjc0RExwUEY0NnpZLTNLaXNSNXZjU0hSSkhmTng0WllXZXhBb05FYVhSbnU3ZnhS?oc=5",
+   "category": "新開店",
+   "date": "2026-06-25T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
    "id": "976e25b839f4",
    "title": "路易莎「白霧時光」插旗台南！進駐雅樂軒酒店 打造異國廚房新地標",
    "source": "UDN",
@@ -4699,6 +4819,18 @@
    "source": "自由時報",
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBsaFhJRGsyOEduWExSMTItZ1lOMWREMnR5WHNwLWprcGZlRTJUb2xxNHBQQUVaS0FIZm5OaWh3ZDdkMXhCU1M3WlJEcVZpOXFSRU5iQmdNM041aG5ZVTNWQzhCTU_SAWpBVV95cUxQQUdfdjF3clNUWHdJOVVUbE9QOWpBQ1dPLUJRRk8tNjBBbWJPTU8zckZUMXZtTDg5OUtOS0lsT250cDRpWkZCdW9pekpGdGtzTHNIQ3VMOGlYU3dweGxLWm9yUC1lWGxicGh3?oc=5",
    "category": "新建設",
+   "date": "2026-04-23T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "bdb4661a28d3",
+   "title": "百貨商場接連進駐台南，黃偉哲：投資破百億！",
+   "source": "Yahoo新聞",
+   "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNWDFBbkRZdWw4dG16RXRWaTR5SjVBVWdCLUp4bnRKWTlob0pkX0NONnUxSUJyTHI3bzRtYWMyakZNc3VpUjRsRVdHOVJVR0hhS19rMmxUcm5PUWRlUHZyWFhqdnBZTHBXRHBJdEN6RldyWVZmdUx3MGZlUzBYVTRyOURDVXFCck5GRXo5WHlzWVdBYnA3N3Zrb2NiY1d4TWdHS0lPZFVKeFQxNTZmLWVXdlBNNDZwWlB3YnNyeXZKOWFSR2F2ZjJnaTFib09pQ3ZtUUtPMW5mM0FLQVlfWkNTbW9CNDYtazA1cXFLRk9FYXhTbmMyUGlsMGttTXFWaURTVkdfa25TNmNXN25iNjRNdmw2a0hzbm55NWw4SkNUYTFuMHVPN3lMUXRsQnVEZw?oc=5",
+   "category": "新投資案",
    "date": "2026-04-23T07:00:00.000Z",
    "snippet": "",
    "district": "",
