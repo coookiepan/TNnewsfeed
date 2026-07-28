@@ -1,6 +1,54 @@
 {
- "lastFetched": "2026-07-27T22:32:35.422Z",
+ "lastFetched": "2026-07-28T22:32:09.426Z",
  "news": [
+  {
+   "id": "63a78edd7cbe",
+   "title": "加速南科特定區生活圈發展！南市打造高科技S廊帶",
+   "source": "PChome Online 新聞",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUVgwRXAyNmNjNmVBYWNIbXhJeXVfZXVDTjhwNVNHOTNXZTUzNkJfS1lISy1sSzRkOUVHMkctNG1mR213U2JxMHVRb29fTG1yQkhadUVWN2VNNUVzQnZUT0xlN2hoRVF2ZFRlWjk1ZDJteXZGdXNFNlRzOURiMERFSk8wbGQwelg5Z0drNlVGTQ?oc=5",
+   "category": "",
+   "date": "2026-07-28T15:59:00.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0839,
+   "lng": 120.2716
+  },
+  {
+   "id": "14dab1156730",
+   "title": "南科擴區加速都計增114公頃產業用地 估創1300億元年產值",
+   "source": "自由財經",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBoaFhJNnRqZGxNQTFWTGJYc2tOM25JNE9UN2daelVtYl9fTWw4UDZYazlKUDlua2xNMnZwSlZjczJmMEpXd1FPRS1ISUdUbDdrU29WeW95OTFDeWhRZDBB?oc=5",
+   "category": "",
+   "date": "2026-07-28T09:40:38.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0883,
+   "lng": 120.2806
+  },
+  {
+   "id": "b6476a058585",
+   "title": "台南市府今年第二次市地重劃抵費地標售完成 續帶產業投資與城市發展",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE10RmMzb2M3R3lZek1Rck1ieWc5UzdQNVpmajNiUURFd1M4NVl5TjdUc3hoM19yenY5a1hYV2EtN3dYQU9fUHd4anFOVlcyb2VZWk1qU1BR0gFWQVVfeXFMTXRGYzNvYzdHeVl6TVFyTWJ5ZzlTN1A1WmZqM2JRREV3Uzg1WXlON1RzeGgzX3J6djlrWFhXYS03d1hBT19Qd3hqcU5WVzJvZVlaTWpTUFE?oc=5",
+   "category": "新投資案",
+   "date": "2026-07-28T07:14:45.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "ea534db71b98",
+   "title": "南科新地標！善化LM陽光電城停車場11月啟用 1樓規劃484坪商場",
+   "source": "好房網News",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBhYnBEbFp1UWZtcVotbWgyRWY4a0pnTVpOSVhMT0F5VUxWajRQQ3pDSGdfcmFNRG1kRUFCTWdDVFZFdFkySVVRVVo0eXF1emVwSDZOQl9OeFNod0lLU1NpOEk3N3VLemw3MXJR0gFwQVVfeXFMUGFTS0lMZ0gtVWZBNUE2VjZCdkQ3bFBTNlUyRVJhZXhaUHA5MTVuYWpKOUxST3lqMXJ5TVBPTC1uM2RoQ3lFY2wtaHlPTG9QYXVMalh6OThoZU5NS2NSZFZuVUVDVUg3T0tidnFPaWtZQQ?oc=5",
+   "category": "新開店",
+   "date": "2026-07-28T03:17:00.000Z",
+   "snippet": "",
+   "district": "善化區",
+   "lat": 23.1367,
+   "lng": 120.2819
+  },
   {
    "id": "5f57c698dff4",
    "title": "台南新車站預計何時通車啟用？",
@@ -74,6 +122,18 @@
    "lng": ""
   },
   {
+   "id": "0eb34a6d92ba",
+   "title": "台鐵「台南新車站」即將通車！明亮地下大廳、月台動線指引搶先看",
+   "source": "Bella.tw儂儂",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNb0xOZmhsVTZjb0Y1WHQxUDV3RE9KVlhJbEV5MXV3XzVUYk9BQ0hXUU1WUUl4NWZ1Zm9IZS1WMWc3dlN5NzJPODUwMENMZnFkQVJGMnNQR3V4X2M3Qm9sYm1ZUFd5LURIR0phV0xxcElpVmVBRGZyYmdZUGhOLWlhaVNMNGtVQTRzM0JZTVRMbzM0NVhIUk95ckJEQ1FJbU13SHdsdWwyaw?oc=5",
+   "category": "",
+   "date": "2026-07-27T04:32:44.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
    "id": "2e32cd759ae3",
    "title": "停車需求迫切 台南善化LM陽光電城立體停車場11月啟用",
    "source": "自由時報",
@@ -96,6 +156,18 @@
    "district": "安平區",
    "lat": 22.9992,
    "lng": 120.1423
+  },
+  {
+   "id": "e572e409747a",
+   "title": "科技城市卻生活悠閒 六成上班族表態願常住台南",
+   "source": "好房網News",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9iOWJkWVA2WXo2T0FMYzBRa0t2VEZtTVprbUhxMzhNcFFNZDloUVV4dFFpVTB6aVNIYzc3aU5lSUxWT28zLUFTVDl2dGUxOE9ZRXFwWlQ0OFpQTHpzaWZucVdBTzdCQkV0OWVn0gFwQVVfeXFMTTZpcGUxOEQ5WDRZelBLc1VRSF8tVkF0MGhURkxaX1oxTHFOemhzSVF0RWNJVzQ5cVpKenRxeVh0bWVYeXVQMEJHZVRiNzBvQlNNSWNlQW9sSE9zVU1wQlJsaGsyQWRaOG9oWjBrYXBudA?oc=5",
+   "category": "",
+   "date": "2026-07-27T00:25:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
   },
   {
    "id": "0efe58b6386a",
@@ -4819,6 +4891,18 @@
    "source": "好房網News",
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9TZWJrZXNndVd0YXlROVNvdHFwU2pLVUh5QmlvT0dsQWdUS3hKNmhneXhRaXpkd1RxUGNXR1pTWER1a2Jvb0M1WkVhQ1VmSUFsVVpUM19BeV9VdnNxcTFpa0xEMTdQSlpIVWZv0gFwQVVfeXFMT0wzY3NPV1lwU3lMb282NjlyRFg1MUdIaUJTM2lDbmVydld1TjJqa0MwTHE2MXk4NnVhR01KamgtWVdwQUp5QTdiRDg4TUxkTUlZYzRKeUxiUElFekh6dGxSaFdjdS0wOUp2ZVIzMEwxRA?oc=5",
    "category": "新建設",
+   "date": "2026-05-25T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "40b48bae0bf9",
+   "title": "台南社宅首例 北門小東地下停車場 正式啟用",
+   "source": "中華新聞雲／中華日報",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ZRXNzRGJYMTlmMWhpS1VXcFZ4SC1kbHVvdjZTU3VLZ2JyN0FPUVVvVWFnT2F1a0RhTHhsLUg2cjVjQmRESEFZODJ4YXJrWGxrN3c?oc=5",
+   "category": "新落成",
    "date": "2026-05-25T07:00:00.000Z",
    "snippet": "",
    "district": "",
