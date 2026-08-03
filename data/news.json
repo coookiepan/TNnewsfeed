@@ -1,6 +1,102 @@
 {
- "lastFetched": "2026-08-02T22:24:55.509Z",
+ "lastFetched": "2026-08-03T22:32:40.421Z",
  "news": [
+  {
+   "id": "b46eb8d0cd96",
+   "title": "房市／台南捷運藍線將動工 信義房屋揭10站房價現況",
+   "source": "NOWnews今日新聞",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE04bzBzeWFmQ0NtSjhMdDVUbkNVcTFWTEVuQzJmWmYyeWJYNEJxWnNoa0tDN2hWb3YwNVJrRmx0REtjaEdoajl3M0lDZUTSAVJBVV95cUxQUDdQVUd2UWpLSGh2aHZOblBEZzRhVWhHSzQ5RjBBQjd0dllqX3oyZWsxYmVHeVhZUTUzaXE5WjFHTzMtcjRScF93WDJQMFpua19B?oc=5",
+   "category": "新建設",
+   "date": "2026-08-03T16:04:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "2545913c2f1d",
+   "title": "2026國家卓越建設獎揭曉 台南橫掃27獎奪14金質、13優質",
+   "source": "ETtoday新聞雲",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SdkhiUTVzWERpenJnZnlic2IzN1RSa0tpQWh2RmNsNjRaVG1ZVFZqOHhleTRGbjd0TVpWTENVVklNc2gtSTJhWUZPMFJxemR5b19vU3pKTEYyT3d0a1HSAUtBVV95cUxPS0dVZjU2eURwMUxIdGV1T21jbE5rQzlqR0RfMzNnbENIRUdIZTZJbmphUnpIQ3Axd3VCdXpNWGxIRThCOVF2dERsY3M?oc=5",
+   "category": "",
+   "date": "2026-08-03T14:28:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "8fa785e0a509",
+   "title": "八年打造千戶社宅！台南創「容積調派」推公辦都更 精華地號召民間投資",
+   "source": "富比士地產王",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONjFTc1o0cXNOQ0RPd1JTa255cldXbV9uZjU5Zy1NQ3IwdGtMY1JTaFZQdlU1NVBwWi1CRFl2cERoeVpLVDZhNVRRdGQyWHpCdW5aZ2tKQ196VllUM0FHSkwzM3J5bzB2d3FTOXF0SGZOU0h0Y3NmM2ZPTlhQQ3pJNUQ0MmFkM21Hbjhqa0hRWi13Q2FMWmV2V19n?oc=5",
+   "category": "新建設",
+   "date": "2026-08-03T14:03:28.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "af8315be28de",
+   "title": "立法院財政委員會考察台南建設 將協助爭取啟動佳里至善化捷運規劃",
+   "source": "視傳媒",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUWlxN3dUaUxFVEhGbDhOWDdqTDBTLU1mamM4MGVLZ0s0ZDFIWkZQc2hVOWlHaVc0dVZ3aHBaT2pmS3NiNkJMc1h2QWl6REN2Ni1qdFF6dFRvNnFzWDUxZkNldlk3cUVReE45Ny1IZF9FUkFfVGNLNjdxNFNnbzREQ0llcVFlMkhHb2dKdVcwTXVjOXhu?oc=5",
+   "category": "",
+   "date": "2026-08-03T13:47:27.000Z",
+   "snippet": "",
+   "district": "佳里區",
+   "lat": 23.1742,
+   "lng": 120.1648
+  },
+  {
+   "id": "94e9015cf454",
+   "title": "台南議會審計報告聚焦食安、社宅與殯葬建設 議員籲市府全面檢討",
+   "source": "蕃新聞",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBueEN2TVNYemQ0YnU1b0RnOWd6UklDcDBVMHY5UVY2b2w5azJ1eUlQUmJnZW1SendfNlV0bDBSTnBnQ3o2TkotUDM4S2NMeE5XR3c?oc=5",
+   "category": "",
+   "date": "2026-08-03T10:37:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "43ad2af208f2",
+   "title": "台南溪北有望迎來首條捷運 橘線擬串聯佳里、善化銜接深綠線",
+   "source": "好房網News",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB1RUVhOEhwWGNrMWZCdXVQdjczTWJqdmN1Y2ppREZncVNtdzVHSjBuQ2lQVzE1OHZHM3BlV1dJaXUweEdNOXNUOEMyM0NRRDR5cHR6LVhwcXB5bkJ3WTQ1S2N1M2ZuMVJQUDBOVldYYznSAXBBVV95cUxQdUVFYThIcFhjazFmQnV1UHY3M01ianZjdWNqaURGZ3FTbXc1R0owbkNpUFcxNTh2RzNwZVdXSWl1MHhHTTlzVDhDMjNDUUQ0eXB0ei1YcHFweW5Cd1k0NUtjdTNmbjFSUFAwTlZXWGM5?oc=5",
+   "category": "",
+   "date": "2026-08-03T10:26:00.000Z",
+   "snippet": "",
+   "district": "佳里區",
+   "lat": 23.1644,
+   "lng": 120.162
+  },
+  {
+   "id": "e12199e37d2e",
+   "title": "台南治水工程再創佳績！「2026國家卓越建設獎」榮獲1金4優肯定",
+   "source": "新媒體經紀人",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9vcGxiYk5ydGQ5ZWU5YlQ5MkZPam5fSTNVTFBaRnRSNWN2dlJuOC0wQmh5RXlkYmdNVXlYYWpudWFYb3RVRFJlZVNidTJ5VFpBbkppNXBGczNzYXpCOFBfeEV3?oc=5",
+   "category": "",
+   "date": "2026-08-03T10:23:50.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "da8847df7e33",
+   "title": "紓解鬧區停車位難求 台南佳里立體停車場最快明年動工",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kckhZRjYzVGhwWWEwS05LS1lmTml3cnVUeXVvMmNIOVlwVE51amNRUGUyLVFSbUZZN0FrbFJYM0I4STZjOWVnOUNFMFRrM2NuTkpyaDhR0gFWQVVfeXFMTWRySFlGNjNUaHBZYTBLTktLWWZOaXdydVR5dW8yY0g5WXBUTnVqY1FQZTItUVJtRlk3QWtsUlgzQjhJNmM5ZWc5Q0UwVGszY25OSnJoOFE?oc=5",
+   "category": "新建設",
+   "date": "2026-08-03T06:12:23.000Z",
+   "snippet": "",
+   "district": "佳里區",
+   "lat": 23.1674,
+   "lng": 120.171
+  },
   {
    "id": "f0ca78cc4764",
    "title": "北中南５間即將開幕百貨！台南三井OUTLET二期「這天」試營運，新增50家店舖",
@@ -6096,6 +6192,18 @@
    "district": "",
    "lat": "",
    "lng": ""
+  },
+  {
+   "id": "fb7d85becccd",
+   "title": "好市多進駐台南東區將附設加油站 地方憂塞爆…議員主張拓路",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE10TFV6YUpfUGpvUzdQNndHREctZmZORmhqWFJZZGhXVkFfNHg3cVpmUzV6Vm9aZXJBeTZyRlhPY01FMVI4blFHeFVwdWJOM3Mx0gFWQVVfeXFMT1VQVUpxSjBEaTBuRXpkQ3pjcFJFTlJnMG5yUlVIUVpMQkFBdlUxRUx5SktSR2pzbnVkRFBNZk1KWUl2YTNJX21Ha0FqV2JrN1NuOXktQVE?oc=5",
+   "category": "新開店",
+   "date": "2026-05-09T07:00:00.000Z",
+   "snippet": "",
+   "district": "東區",
+   "lat": 22.9847,
+   "lng": 120.2025
   },
   {
    "id": "3772228696ca",
