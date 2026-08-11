@@ -1,6 +1,102 @@
 {
- "lastFetched": "2026-08-10T22:05:21.921Z",
+ "lastFetched": "2026-08-11T22:10:04.639Z",
  "news": [
+  {
+   "id": "b399eabcf920",
+   "title": "永豐金租賃提供企業多元融資服務台南分公司正式開幕- 日報",
+   "source": "工商時報",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TNWhIUkZyYWJBY1hLZ2dIZC1zVDYyUnd5Q05LNzVldUk1UGZtWnFYUEY4eFhfenowVDVpUXgyU3lnM1EyWXRSa2FaMWdhMVk5b3dmQXhhNnNjQTZ6ZVFR?oc=5",
+   "category": "新開店",
+   "date": "2026-08-11T19:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "e163834e1ee3",
+   "title": "台南首座 猩動力北區花園站啟用",
+   "source": "中華新聞雲／中華日報",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5naXRTT3E1OWkzZEQ2TGF1OW9nWkRja0I0RUZ6dnROWEtwM01OV2ZkbTh3YmJJS3VJMGdpRDBVVUVGNlBRVm9VSVBObmlIMG1NQXc?oc=5",
+   "category": "新開店",
+   "date": "2026-08-11T11:10:59.000Z",
+   "snippet": "",
+   "district": "北區",
+   "lat": 23.0158,
+   "lng": 120.2088
+  },
+  {
+   "id": "56c2b78c5596",
+   "title": "余柷青緊盯新化民生建設 新化分局停車場將試營運、台南市商圈評鑑與新化年貨大街提前布局",
+   "source": "0916776467.posu.tw",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1faDVxZHotckR6VXB5Q0J5bFVMUmxwLXRwRW96NE8zSE9PeGFteENiMllDczRkRFdIT01aWElNVXdCMVpycDBKRnZzZUJNT3VfYWhqaE50MXU4U1dDQmcwMmQ1UllCZUs5?oc=5",
+   "category": "新開店",
+   "date": "2026-08-11T10:06:29.000Z",
+   "snippet": "",
+   "district": "新化區",
+   "lat": 23.0463,
+   "lng": 120.296
+  },
+  {
+   "id": "329d1aa9c293",
+   "title": "台南治水建設持續推進 黃偉哲：結合AI機器人提升防洪韌性",
+   "source": "0916776467.posu.tw",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB5S3g0cm9xb3ZxZzFoRHRneWVHajFDYWhJMzlpd0toSG5yRm5jbnJIU3ZkczFuR1hIVVQ3T3FXc3NZdHhvUlZMblhLWjRqQlBTdDZKa05OU3F1TUgwRnhsanNVWUZjanVl?oc=5",
+   "category": "",
+   "date": "2026-08-11T09:36:25.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "55060a1982c7",
+   "title": "台南首家「壽司郎DIGIRO」進駐「新光三越台南新天地」！ 生鮭魚2+1 貫優惠60 元、150 公分螢幕點餐、互動遊戲登場",
+   "source": "上報Up Media",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBLazg5OGp1eTZRTF9NaS1IUFdJNFlDOEsxbkVRTUlMX094c19yTWxCSE1fZFRQdV90dXF3ZGlFZWV6OWNFSUpOMzRxVjBZbWVxV19LVV9YTGdYUGM?oc=5",
+   "category": "新開店",
+   "date": "2026-08-11T07:30:00.000Z",
+   "snippet": "",
+   "district": "中西區",
+   "lat": 22.9861,
+   "lng": 120.1914
+  },
+  {
+   "id": "41e291aa898a",
+   "title": "永豐金租賃台南分公司開幕！深耕南台灣 提供多元融資",
+   "source": "知新聞",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB2QzA0TzRuTGZ6dFVqUU02bEdYVUJFZmkyS1lOMTRXQlBIS1pyU2hXVXR3a3VQZ28tZ3Ntc1NXS0RyVF9fT01ER0RhTmVWQTc3S3JXZGI4NWlramEyLWRZRG1nQWJyZXR5R2lHWGMycw?oc=5",
+   "category": "新開店",
+   "date": "2026-08-11T07:01:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "48dec46328a9",
+   "title": "永豐金租賃深化南台灣布局 台南分公司正式開幕",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1FWnFuQS1yVERvWEZXODNja3p1YTEyaWdTZzlZQ3VpT2pQYlNtYnhwdHZsN3ZFT0Rnc0N3dzc5d1JwTl9FRXI5Ty01Tl85Y2dO0gFWQVVfeXFMT0xpNlN3dzc1U1pNS0tuYXNxdEhBUEtYU0hFbzJDVEVmRzVkNXR5TmVybzBSSG11d0FHc3YxZ2lpSW1FaS1mSFVKNEgycmhOV3hLRkl4Nmc?oc=5",
+   "category": "新開店",
+   "date": "2026-08-11T06:59:38.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "0c829da3719e",
+   "title": "台南新飯店度假村「逸點亦旅」即將開幕！打造全台首座水下美術館",
+   "source": "Bella.tw儂儂",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMkduMUxYVGxSU3dmdEUtdzhGUGNxWmxVdWhlbWJMcGtxV0ZldGhjNUFHNjAxMGlfRmZSY0xfazRjTWt6c2x2WjMtcGxQWW1ZM1UxejZSQWZnQ3BiOThGclpORVBSNllSS1o5blI2UUFxSURlX0wxaFJxZk15YktOdjdVTkNTR19XU0lraWF3NGNtd1M5QVBVMGd2cVJTaGlQd2RESVI2c1JUcmFJWk5IXw?oc=5",
+   "category": "新開店",
+   "date": "2026-08-11T04:34:05.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
   {
    "id": "134e01808f42",
    "title": "台南第１間「玉兔壽喜燒」來了！398元起吃到飽，自助蔬菜吧、蛋慕斯無限續",
@@ -912,6 +1008,18 @@
    "district": "",
    "lat": "",
    "lng": ""
+  },
+  {
+   "id": "a7f6728ea703",
+   "title": "紓解鬧區停車位難求台南佳里立體停車場最快明年動工| 雲嘉南| 地方",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0zaWU2WnFTdWNCV2NpVWRoQUpGQmU0RFN2T0VqOWM3RjFwcGdBN2x1dnpLN3FkVngwaS1DS3B5Z0lJLUYzUHRoNXZFMW9Oai1m?oc=5",
+   "category": "新建設",
+   "date": "2026-08-03T07:00:00.000Z",
+   "snippet": "",
+   "district": "佳里區",
+   "lat": 23.1752,
+   "lng": 120.1638
   },
   {
    "id": "da8847df7e33",
@@ -2280,6 +2388,18 @@
    "district": "大內區",
    "lat": 23.1181,
    "lng": 120.349
+  },
+  {
+   "id": "80c2ffc97fdd",
+   "title": "台南又多一處百年古蹟修復重生！原台南刑務所「要道館」8月啟用| 雲嘉南| 地方",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBqN19tdkxncktRREY0V2toVkJ3bzNKQzZOM3d3T21pMVBWbTdnV0ctTlpQUEs5RFlFMFVwU2VIbk4xSTUzS3llV2FBYy1GclVr?oc=5",
+   "category": "新開店",
+   "date": "2026-07-24T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
   },
   {
    "id": "ad2b346921d6",
