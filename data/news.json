@@ -1,6 +1,90 @@
 {
- "lastFetched": "2026-08-21T21:46:08.284Z",
+ "lastFetched": "2026-08-22T21:43:24.579Z",
  "news": [
+  {
+   "id": "7b084e31bd5c",
+   "title": "[情報] 台南明天停班停課",
+   "source": "PTT Tainan板",
+   "url": "https://www.ptt.cc/bbs/Tainan/M.1787399504.A.88C.html",
+   "category": "",
+   "date": "2026-08-22T19:51:42.000Z",
+   "snippet": "https://i.mopix.cc/2sc000.jpg 偉大的哲哲市長宣佈了 請大家乖乖在家休息 為啥今天沒有？？？",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "7148aa40ec54",
+   "title": "Re: [情報] 台南政大書城 全館75折，至115年8月31日止",
+   "source": "PTT Tainan板",
+   "url": "https://www.ptt.cc/bbs/Tainan/M.1787380856.A.E7F.html",
+   "category": "新開店",
+   "date": "2026-08-22T14:40:54.000Z",
+   "snippet": "我今天去買書 隨口問問店員，請問整修後大概什麼時候會開幕？ 店員親口跟我說：「老闆不做了，要收起來了」 確實看到許多書櫃都空了 因為看到全館75折難得活動就多買幾本… （比網路便宜許多） 沒想到要收了……. 那以後帶小孩買實體書不就要去貴貴又難停車的誠品了（好難過好難過喔….） 今天就多買幾本表示最後的支持……",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "bc0f2e7c20b2",
+   "title": "台南凌晨大爆炸「14人受傷、57戶遭波及」 隔壁新建案才完工門窗碎一片",
+   "source": "PChome Online 新聞",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeGJLMjl3QXhLZXA1RnpMczk5RkpYMDh2OC13YU9HcExDUjh6MHotSFlfd05vd1BTV3Q2b0ozZjdJd3AwVTdYdkxiWmx2X0piM1hCRGlmelNJUHBLVnpYN0EyQ1FrMTFjZDlaM0FVR1ozV0NBM19lOTFoM3JoN2hVZUZDc3pCUUo5?oc=5",
+   "category": "",
+   "date": "2026-08-22T09:53:33.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "07e57f9315ca",
+   "title": "台南凌晨大爆炸「14人受傷、57戶遭波及」 隔壁新建案才完工門窗碎一片 | 生活 | CTWANT",
+   "source": "CTWANT",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBlUjFNUzJCVGo5YnlpNmp3SmNfSzNWTWg0a3F3VnNOa0ZSQlhPa2NpUHhoM0c5T19TSjFfT0wyZVpoYThCUFA0bG5MTXdxcDTSAVRBVV95cUxQRTNVWWN4R3BJX08wY3dGRkdTbzIyUXFNZUUxcWtkODBkQ25YSFgxU3RhWHFxN0dWVG5ZUl9VT3V6NTFLWUozd1BjV2psLXRyNE1UblA?oc=5",
+   "category": "",
+   "date": "2026-08-22T09:51:58.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "627c34aca2bc",
+   "title": "台南大爆炸波及68間民宅 隔壁建案好衰！剛完工慘遭「炸裂」",
+   "source": "壹蘋新聞網",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Bb2Y4ZEc1WjN6amFPOUYyWUszT0IxN0tQWmQ2ZDVsaExZSEJYb2gtd0xETjFyeG96bXhsZGJXUHN1VXQ3OC1iZXI1ZWFFZHB1Z1pNUVE5ZktnTXNkYlhpLXVjelFiUlk2QnRFRmQwMFdSajJsdVdnR1RpR2dudzQ?oc=5",
+   "category": "",
+   "date": "2026-08-22T08:01:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "2f01fa7d51ec",
+   "title": "玻璃都碎了！(#01J) 【台南凌晨大爆炸！剛完工新建案「慘況曝光」 窗戶玻璃震碎一地】 （圖／翻攝臉書「台南式 Tainan Style」）",
+   "source": "facebook.com",
+   "url": "https://news.google.com/rss/articles/CBMixwRBVV95cUxQbndWQ2d4bWhsYm1fcUotSlFtOW1PYjBRa3dLZEZPbklDcEJLcC1RUmEwR2ZDWGtKNFhIOEFEVEREZ24xRVVhRzNjdjdRSVJZdmlFYUpGZk0zSEJLYVRHLUY3cHZQelR3N3ZDN3RsWkdSOGRyWWtzVHJFM1gyOFFjSXBzZzBNV0UzaWw1ZGNUMV9HSFlOOUlTbG8tRjdqVHhxUTV0cW93STliQlpFa1BxUE9NelhqSkJKX1BZeWhrSkdLeG9Oa0szbmpDaFVSUGNZQ2NBTUZuT1lJd01EWjV6OWxYVDk0VEJnRVk3bjFSbFlsU2hyank3WTRvRUlRT3h6Qy1ESXNkNER1OUtlcDhYNTM2SkluNHhxNzJlRDk0dm9WTzAteXVwTFE4RGE2ZEJLWGNqM1FDd2tFNlVDamZnTWcxNEpPSm5LV0xxZXU5c0t4Q2p6d0lOM1dlT2E0THJaT3BSc2JzU1FTNDZ5VFpTQnJ2TGNXTXZoWDhhWmZjV0IwWTdLNXdjcXpjVGs2U0RrdzROR19iR1N0Q0N6cEFmYVlXRWxHZlNGcUZRZkpVZjBHd2xYS1pQYTlsNHQyYzhqV3hPNHllcG5jZTE5MFg0eGhpYmRrYlhfczlxZDBRZDlhOVN5WnhsMzlEb2NlY0xoWDQwcEViS1NkZmZPdnpKb2dQd1FlMjBhVVhXWk5zb0IxWUQ0aTFTT25PeGNZYjUwUzBnSks3QkxhVkdxRVBPSktEd2NwakVJSE1FWTBSUngycVdFX0Yw?oc=5",
+   "category": "",
+   "date": "2026-08-22T06:48:03.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "27cec3d6f015",
+   "title": "台南凌晨大爆炸！剛完工新建案「慘況曝光」 窗戶玻璃震碎一地",
+   "source": "ETtoday新聞雲",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1kZVJ5S01yZHdGdmE5V0MzdTNGM1lFcmhSYm1KUXlUZHE2TndmLUpjdm5xVlpwdGxZcVFSYnJTcHJMMWpKaWw5eDBzNEZJd0Z4ZzhCTE1Tc29PcnV6R3fSAUtBVV95cUxOM0RVTF9Hc2pUZGptMkxpbDJKSHhGM0lZVU5LRWpKeS1Kblk5OUVBSU51UE9mR2wxa2VvS0pBbEtGaHJaRVlXZ1ctbFU?oc=5",
+   "category": "",
+   "date": "2026-08-22T05:23:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
   {
    "id": "2473eabf921c",
    "title": "[新聞] 南鐵地下化動工逾6年　陳世凱視察盼提前",
@@ -1104,6 +1188,18 @@
    "district": "南區",
    "lat": 22.9545,
    "lng": 120.1892
+  },
+  {
+   "id": "d51b3fa702d1",
+   "title": "臺南首家「DIGIRO數位迴轉壽司」進駐新光三越台南新天地 - 生活新聞 - PChome Online 新聞",
+   "source": "PChome Online 新聞",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOGpROUF5aDZTc1RlNXFSdWoyRzc5V2dpak1PMWxoMDZHLUhveEhKMXNVc01WS2hCNnVTa1VjTE5BbVhOV2xIZHU5RVl6WURTakt3RjhZQTNfMGpNZFRrc3NMZnNaMERiekNzS3ZyWlBVQlNpYnBSc3VmWWpJX0FXSzFOQWVmOGRyckZFcg?oc=5",
+   "category": "新開店",
+   "date": "2026-08-09T07:00:00.000Z",
+   "snippet": "",
+   "district": "中西區",
+   "lat": 22.9999,
+   "lng": 120.166
   },
   {
    "id": "56d307dec5fa",
@@ -4232,6 +4328,18 @@
    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE05T2dBamtCaWh1Qk1FNkZHR1BBWjg3bGVOazJQMDB5VVJNa0ZNZXdDc0FRcUx4dGR2OWtkTlI4eTd6aFduQnJWX1hRM1A2akpSa2xqNWwzQXdxQlk1ODNURzU4eUlyTFdwd05BSmVn?oc=5",
    "category": "",
    "date": "2026-07-14T09:15:53.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "f0c5e40b29f7",
+   "title": "華立攜手旭化成台南擴廠 乾膜光阻產能翻倍搶AI先進封裝財",
+   "source": "BigGo 財經",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB0MHdyZmhMaE9jSHVETkY3Rlk5YTNfWHREYnVWZkw0amltNFRNNXBIMkIxUlE0VHZ5TjQzZ1Y4ZlNiMTl0aXlmTncwX1ZuNDZkaUZreUtWX3ZEMWlaMVI3VmNkOWt6NHl5VnE3cGl3Zm4xOWhqMkpnTG13?oc=5",
+   "category": "新投資案",
+   "date": "2026-07-14T07:00:00.000Z",
    "snippet": "",
    "district": "",
    "lat": "",

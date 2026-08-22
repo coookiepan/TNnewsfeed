@@ -1,14 +1,14 @@
 {
- "ranAt": "2026-08-21T21:46:08.284Z",
+ "ranAt": "2026-08-22T21:43:24.579Z",
  "sources": [
   {
    "name": "Google News",
-   "fetched": 244,
+   "fetched": 250,
    "errors": []
   },
   {
    "name": "PTT",
-   "fetched": 1,
+   "fetched": 2,
    "errors": []
   },
   {
@@ -19,6 +19,6 @@
    ]
   }
  ],
- "totalNew": 6,
- "totalAfterMerge": 822
+ "totalNew": 9,
+ "totalAfterMerge": 831
 }
