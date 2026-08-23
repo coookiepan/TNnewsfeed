@@ -1,6 +1,30 @@
 {
- "lastFetched": "2026-08-22T21:43:24.579Z",
+ "lastFetched": "2026-08-23T21:42:53.232Z",
  "news": [
+  {
+   "id": "7ca0869ba639",
+   "title": "[情報] 安南區淹水警報",
+   "source": "PTT Tainan板",
+   "url": "https://www.ptt.cc/bbs/Tainan/M.1787499185.A.A3A.html",
+   "category": "",
+   "date": "2026-08-23T23:33:01.000Z",
+   "snippet": "突然被手機警報吵醒 說是淹水達30公分了 不知道其他區有沒有發 https://i.imgur.com/CtFWZNI.jpeg",
+   "district": "南區",
+   "lat": 22.9563,
+   "lng": 120.173
+  },
+  {
+   "id": "59ee8564153b",
+   "title": "台南安南區大爆炸！ 建商遭指「違規堆放廢料」急發聲明澄清 - 社會新聞 - PChome Online 新聞",
+   "source": "PChome Online 新聞",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaDNwdXBwSUxEUHI5ZDQwWnBBU1BWRG5jRDZuT1BvVE5ZYzdJMjZIX09mRUxQbUdsVnFWYzEyWFkxeGdvOVg0VDlIOGl5WmhEZ2pNUkN0LUNPT0dlQzJKZ203RHFiclBaNG16My1TTm1KMGZpdnIwQ2hVMXdXRXNJdFVYVzVpU29nM0E?oc=5",
+   "category": "",
+   "date": "2026-08-23T01:31:09.000Z",
+   "snippet": "",
+   "district": "南區",
+   "lat": 22.9509,
+   "lng": 120.1788
+  },
   {
    "id": "7b084e31bd5c",
    "title": "[情報] 台南明天停班停課",
@@ -1100,6 +1124,18 @@
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9CODE1QVNaUUI3X2RWQ2xua1FWcVRFTnZSSHJPNzUxSGU3X0lrcWdQcVBQUzFSNHZjVV93c1QxZ1lBVldCVmZSb3dOU3dJbmRVeGc?oc=5",
    "category": "新建設",
    "date": "2026-08-10T07:10:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "7f3c22b6e3fd",
+   "title": "台南漁電共生再升級 南瀛養殖協會第2期14MWp動工 - 生活新聞 - PChome Online 新聞",
+   "source": "PChome Online 新聞",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTms3UmlQVTZ6akxPdF96ZWM1eEktRHc3VU1XS2wtN0dUeXlxN25mX3NkeTduRDFaSWE1VW9WZmxFbXJLMlZhaEpVMzFYQTJFM1R3bVY3NmxjZWZCbU9xZl93NDdHRGc0YUV4cVVFRE8yWjNzeUNlZEUwZDdqMjA0aTQ2dzh3RE1aR2g5cQ?oc=5",
+   "category": "新建設",
+   "date": "2026-08-10T07:00:00.000Z",
    "snippet": "",
    "district": "",
    "lat": "",
@@ -4404,6 +4440,18 @@
    "district": "新市區",
    "lat": 23.0813,
    "lng": 120.2998
+  },
+  {
+   "id": "e3eb88226e0a",
+   "title": "推動南科特定區開發，打造台南發展新引擎",
+   "source": "中時新聞網",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzU2Z5SGJ6Z0w4UDJ5VFhqZ1VkQlU2SHBNVDkwOUVjSlk5ZmhfWTMteDdyblJtWS1tbTJKUTI1OF9iWUpUVjZxOF9mLU5FckJVc0dXY2J3cFJ2Qy1HbzFr?oc=5",
+   "category": "",
+   "date": "2026-07-13T07:00:00.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0823,
+   "lng": 120.2906
   },
   {
    "id": "fabb974921d9",
