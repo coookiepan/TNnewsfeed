@@ -1,6 +1,54 @@
 {
- "lastFetched": "2026-08-23T21:42:53.232Z",
+ "lastFetched": "2026-08-24T21:51:45.932Z",
  "news": [
+  {
+   "id": "0f44c06b2b3b",
+   "title": "台南永康科技工業區廠房 10／6開標",
+   "source": "中時新聞網",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE95WUVBN3pJcTl5ZFVXaGMyc1hiZHdFdWV0NEVoRmMyWGdGWUpCX3RQaXFEaWJTUEFtNWM4ZmVHUThleFF4aU9TUmFWQ3FUaHNHdEYycnNxUndkbHVhT3RpQnhtOHI3UXBQV2dV?oc=5",
+   "category": "",
+   "date": "2026-08-24T20:10:00.000Z",
+   "snippet": "",
+   "district": "永康區",
+   "lat": 23.0293,
+   "lng": 120.2296
+  },
+  {
+   "id": "6d97b4badf7b",
+   "title": "[情報] 明天(8/25) 台南市正常上班上課",
+   "source": "PTT Tainan板",
+   "url": "https://www.ptt.cc/bbs/Tainan/M.1787572088.A.F1A.html",
+   "category": "",
+   "date": "2026-08-24T19:48:06.000Z",
+   "snippet": "https://i.mopix.cc/uWrTre.jpg 8/25星期二台南正常上班上課。雨勢終於趨緩，真的是別再下了。 今夜到明天還是會有零星降雨，出門還是要帶雨具，不過至少不會像前幾天狂下不停了。 https://www.facebook.com/share/p/1BxoXrcJKh/",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "efa201dfec99",
+   "title": "原台南刑務所委外經營 年底開幕",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBNbVR6cUIzVzE5Sk54eTBHdmJXZF9CdUFqLTZxMndsVW5NU1JpRDBmZndjalNGcjhlVVdrTkxZTUZQRmlWRlJRWWlHd0NRbWhVS1NPM2x30gFWQVVfeXFMUE1tVHpxQjNXMTlKTnh5MEd2YldkX0J1QWotNnEyd2xVbk1TUmlEMGZmd2NqU0ZyOGVVV2tOTFlNRlBGaVZGUlFZaUd3Q1FtaFVLU08zbHc?oc=5",
+   "category": "新開店",
+   "date": "2026-08-24T16:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "21d56bc7fce6",
+   "title": "台南六塊寮排水工程8.5億完工仍淹 姚正玉：給市民治水成績單",
+   "source": "ETtoday新聞雲",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PYTBRal9aQWdQY0w0ZGdSZ1NVamxURnhhS1JJYTVJbXVMaEl6MFRiZHlxeUNNclpCeWZsSHk2TXo2WGxYbTFlcF9yS3F1dkhRcTlMVnVMbTJ0NldzdlHSAUtBVV95cUxQak9IdXh5RW82OHQ1MHdNSjY1a2VKMExhd25zTGtzV1NFVWs3YlR4UmgzeS1LWjlhUVJGZzVyVXhoV0RCVmMxdHhHeTg?oc=5",
+   "category": "",
+   "date": "2026-08-24T10:03:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
   {
    "id": "7ca0869ba639",
    "title": "[情報] 安南區淹水警報",
@@ -4932,6 +4980,18 @@
    "district": "",
    "lat": "",
    "lng": ""
+  },
+  {
+   "id": "3f67ef6113ee",
+   "title": "台南東區副都心將啟動招商吸引建商、壽險業搶進布局| 產業綜合| 產經",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBQeEJaanhabjhQR2hlNWRfNm1GSkhYMTNjdTQtQzNTU0FQZTFyTTNVQUoydldBSl9MVEswSGF4cWNNTkZCQXJyLUd6VE14T1p2?oc=5",
+   "category": "",
+   "date": "2026-07-08T07:00:00.000Z",
+   "snippet": "",
+   "district": "東區",
+   "lat": 22.9855,
+   "lng": 120.1975
   },
   {
    "id": "4d613b71c450",
