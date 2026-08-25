@@ -1,6 +1,42 @@
 {
- "lastFetched": "2026-08-24T21:51:45.932Z",
+ "lastFetched": "2026-08-25T21:50:51.302Z",
  "news": [
+  {
+   "id": "399b8ab09f38",
+   "title": "南下新開拓 迅得投資南科友上科技1.5億元拿下23%股權",
+   "source": "news.cnyes.com",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE85NEdYazRwT1NpS1ZkMk5qM3FKalczc1NJamtnczNmTE43TzlDcHNnd0xrRHV6RDJ4NzF6TS03Q0Vac3NaMnQ5aDNzQkl5dlU?oc=5",
+   "category": "新投資案",
+   "date": "2026-08-25T08:50:52.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0737,
+   "lng": 120.2898
+  },
+  {
+   "id": "29a63b4cf2e8",
+   "title": "台南永康治水射「三箭」！ 林冠維促箱涵動工、校園滯洪停車共構",
+   "source": "ETtoday新聞雲",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5hbWI0ZTFXNU15TjZ1WEs3UHRyWGxwUVFmZ3FKWkFEeDZLbVBMMUJUei1fd1BlUU5EUFhqQ3A0am9XYzUxb2FvbVNVZzFCM2ZoTi1MOEhxNC13YzFaLVHSAUtBVV95cUxNVVFxUXo0RXIyMTdpRXR6aG5yeERYdDFmNnREX1FxN2N5OC1rSWh2LWhkRXU5OHpXTlVQeUlpVVFub0hVVV9GVDZObkk?oc=5",
+   "category": "新建設",
+   "date": "2026-08-25T07:40:00.000Z",
+   "snippet": "",
+   "district": "永康區",
+   "lat": 23.0235,
+   "lng": 120.2334
+  },
+  {
+   "id": "ee4d916e58a3",
+   "title": "台南促參業務獲3項肯定 黃偉哲：公私協力加速公共建設",
+   "source": "中華新聞雲／中華日報",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIdmNOam5sUzltd1hPR2djNHBheXd0aTFSTnZuU0Z5bUc4R0lXMUE0cHg4Z1FEOFBNM0tFd2VVd0pMNW12WGp0MzR5WkRlVm5iUmc?oc=5",
+   "category": "",
+   "date": "2026-08-25T05:33:24.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
   {
    "id": "0f44c06b2b3b",
    "title": "台南永康科技工業區廠房 10／6開標",
@@ -60,6 +96,18 @@
    "district": "南區",
    "lat": 22.9563,
    "lng": 120.173
+  },
+  {
+   "id": "53d712207a99",
+   "title": "結合歷史建築台南「正強安居社宅」預計2028年完工| 專欄",
+   "source": "三立新聞網SETN.com",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1mbGMwMk14WVlSWWxiQlBhVkNsRXg5TTIxdGxEVS1pbEhrTElqcmFGenF2X1BCY1Q3cU9LQ2ZrbDVsbmwydWoyaA?oc=5",
+   "category": "",
+   "date": "2026-08-23T13:28:37.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
   },
   {
    "id": "59ee8564153b",
@@ -2239,6 +2287,18 @@
    "source": "PChome Online 新聞",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPa2hkZDhITXpYYjF1UDBTUTV1TkNUdmUxb3JvSEV4b1VNdUhIMjZ1Mkh1RE9FMm1NYzZ6Z0VZdDJaYnZuS0I5bmZJY1N1MjRkMURmSHQwZGFpaTkyN25vOUdEM0FxTmhJdkhpYkg5Q3VTYkFEaWFFZTQyR1BUR2VoTkpXaC1tal92THlNTg?oc=5",
    "category": "",
+   "date": "2026-07-31T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "06d0ae51028b",
+   "title": "臺南創新公辦都更招商 打造城市發展新典範",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1XUEtROW0xbEp6ZFlpRjNDcHB0VEJSMmZxeUF4OVdQMjVVcWpSTUNSbktRaEE0aTlKR3dBZDZBZjc5Y2k2dnAyQWw3UVFWYTRz0gFWQVVfeXFMUERCaGg5TmwwcHlBQVg0SWdicHF3SHlzR1h3ZFFFSklhY2xBQ2RKYmNKMDBBNk92WkJpQTN0WHlsVmhiTWxEUjJ4SWdXVHF5T25MUXA2NkE?oc=5",
+   "category": "新建設",
    "date": "2026-07-31T07:00:00.000Z",
    "snippet": "",
    "district": "",
@@ -8988,6 +9048,18 @@
    "district": "",
    "lat": "",
    "lng": ""
+  },
+  {
+   "id": "5c455ad1f62b",
+   "title": "台南北區區政大樓啟用 提供三合一整合服務|內政",
+   "source": "僑新聞",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE44RERUeHdta2xvX1lTdzJQQVpyZDZsSnFBeEVhTkZORkVraUFGc2pockd0TjV1aFEwbEpOalBnU3V1dHduY1VGRWw0Zw?oc=5",
+   "category": "新開店",
+   "date": "2026-04-14T07:00:00.000Z",
+   "snippet": "",
+   "district": "北區",
+   "lat": 23.008,
+   "lng": 120.188
   },
   {
    "id": "e51bbc92ea49",
