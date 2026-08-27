@@ -1,15 +1,17 @@
 {
- "ranAt": "2026-08-25T21:50:51.302Z",
+ "ranAt": "2026-08-27T00:55:42.928Z",
  "sources": [
   {
    "name": "Google News",
-   "fetched": 250,
+   "fetched": 255,
    "errors": []
   },
   {
    "name": "PTT",
    "fetched": 0,
-   "errors": []
+   "errors": [
+    "Tainan板: fetch failed"
+   ]
   },
   {
    "name": "RSS 清單",
@@ -19,6 +21,6 @@
    ]
   }
  ],
- "totalNew": 6,
- "totalAfterMerge": 846
+ "totalNew": 5,
+ "totalAfterMerge": 851
 }
