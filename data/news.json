@@ -1,6 +1,30 @@
 {
- "lastFetched": "2026-09-01T00:42:00.274Z",
+ "lastFetched": "2026-09-01T23:26:31.250Z",
  "news": [
+  {
+   "id": "e378f9c53906",
+   "title": "[情報] 政大書城<->覓漫台南 SEEK BOOK",
+   "source": "PTT Tainan板",
+   "url": "https://www.ptt.cc/bbs/Tainan/M.1788254920.A.CD9.html",
+   "category": "",
+   "date": "2026-09-01T17:28:38.000Z",
+   "snippet": "https://www.facebook.com/share/p/1GwhSUbwF4/ 如果你今天因為聽到政大書城台南店營業最後一天，想去爆買一波，那我反而會建議你改 去不遠處、位在河樂廣場的「覓漫台南 SEEK BOOK」。 這是原政大書城台南店信賢店長另起爐灶的新書店。雖然規模不如原本的政大書城，但也 是另一個值得支持的新書店。 所以，如果今天只能買一本書，不妨把這一本留給覓漫台南。政大書城",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "8d20886751ce",
+   "title": "美光台南晶圓廠啟用 改造友達舊廠6.5個月",
+   "source": "大纪元",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHTmFRU0pNUXdpTDBqMHNuRm5tckU3bHM3ZWRIc2dOZ2FudEpLMnBuVUctSkV6NC03SWszNnR0VElCNWR1ZFItc2htNjVyc3M5RS1qVVVYMkdEcWVsMHI00gFkQVVfeXFMTUN5SWpMX2s5bzBYaHpUcExWWDlkSlR2dC1TYUgwNzhnNEhQOG41Q2RXX3FoUzBlSjhLc2JOZExTeEdHVWZsR0N5Q0tZTS1MV1Jfc21xZy14LVVDeVZCcHp0Tkx1Vw?oc=5",
+   "category": "新裝潢",
+   "date": "2026-09-01T11:44:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
   {
    "id": "771426beeecb",
    "title": "[情報] 台南幸福城市！學生免費營養午餐",
@@ -9,6 +33,18 @@
    "category": "",
    "date": "2026-09-01T08:28:17.000Z",
    "snippet": "昨天姪女放學回家跟我說他們今天的營養午餐好好吃 而且還是台南市政府免費提供的 我心想 什麼時候免費的？ 查了一下 原來 台南市自2026年115學年度開學日起 正式實施公私立國中小學生營養午餐全面免費 台南幸福城市！很照顧學生",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "77a3acb217f2",
+   "title": "辦社福免再跑7樓！台南社會局進駐永華一樓 9月起一站服務",
+   "source": "ETtoday新聞雲",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1NODFGZTZFdXo5dVFVZXRGbGIyWmRDaVJYVi1VUjAydXNhR21vcVhad3FOQVQwX2xHODE3NmhwMkwwMVRXMHh0TE9od9IBS0FVX3lxTE1NODFGZTZFdXo5dVFVZXRGbGIyWmRDaVJYVi1VUjAydXNhR21vcVhad3FOQVQwX2xHODE3NmhwMkwwMVRXMHh0TE9odw?oc=5",
+   "category": "新開店",
+   "date": "2026-09-01T03:11:00.000Z",
+   "snippet": "",
    "district": "",
    "lat": "",
    "lng": ""
@@ -84,6 +120,18 @@
    "district": "永康區",
    "lat": 23.0183,
    "lng": 120.2356
+  },
+  {
+   "id": "c7273cba7106",
+   "title": "見證台南消防史古蹟原合同廳舍啟用| 生活",
+   "source": "三立新聞網SETN.com",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5ydFQtblpFcW8wSks4aldyRl9wWC1KM3VzOXdlN2VMczdOWm1HTlFLY2RFS0liSUstVDdUN0lwbWJOb2FYaHVN?oc=5",
+   "category": "新開店",
+   "date": "2026-08-30T10:05:59.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
   },
   {
    "id": "b3967b305bf7",
@@ -612,6 +660,18 @@
    "district": "",
    "lat": "",
    "lng": ""
+  },
+  {
+   "id": "2b17b75756db",
+   "title": "群創南科5廠 市場點名買家是日月光",
+   "source": "stock.ltn.com.tw",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE14UlRTeThFOEJjdVFZSzlZWVJrNUxBLVB1Vk92Y3lkckZDUmlaMFRWYVFGWEVMdmFyRlVhVjZmN3NZd2wwZmF4Vnk4bHBnWkF2aDhNVnhPaDA?oc=5",
+   "category": "",
+   "date": "2026-08-21T19:37:16.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0809,
+   "lng": 120.275
   },
   {
    "id": "712df5759f1c",
@@ -8839,6 +8899,18 @@
    "source": "Bella.tw儂儂",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU3RieUFuck83amE0U1NUbDEzcDAxRGxVcWZ3blJMcmlKZ3FsTmtmUGd3Mk04bVVjNUZ6MUxEZ2t5c0xfUEFrTjlUM2JBeUR1NjNyRDZPU0Q5YWVWZUJDbmFwVlVaaktNaDloNXdjSVRPc210NnJTcFBsVTZyVUZROXEtdGpHSGxYNE5waklheTlSWGNsUklYekxUbGw2N2dFUmNxTHZrSnNzdnhUU2tR?oc=5",
    "category": "",
+   "date": "2026-05-13T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "c59b4279e81a",
+   "title": "LOPIA加速展店！台南迎300坪最大據點 7月開幕",
+   "source": "中時新聞網",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5oa1FKS19YZGZZMVA3aC0wTG03cExRZlR2TnpSMnhLN2hnY3VpaWdPRTlKaWVERG1OUERJTFlCSjByUXIwRndsQloyNUZyUWdOczJlV3BPRHo4RnRCc3pjZUxaRnplU1F6WGFNYVVn?oc=5",
+   "category": "新開店",
    "date": "2026-05-13T07:00:00.000Z",
    "snippet": "",
    "district": "",
