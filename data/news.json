@@ -1,6 +1,90 @@
 {
- "lastFetched": "2026-08-30T23:39:15.459Z",
+ "lastFetched": "2026-09-01T00:42:00.274Z",
  "news": [
+  {
+   "id": "771426beeecb",
+   "title": "[情報] 台南幸福城市！學生免費營養午餐",
+   "source": "PTT Tainan板",
+   "url": "https://www.ptt.cc/bbs/Tainan/M.1788222499.A.828.html",
+   "category": "",
+   "date": "2026-09-01T08:28:17.000Z",
+   "snippet": "昨天姪女放學回家跟我說他們今天的營養午餐好好吃 而且還是台南市政府免費提供的 我心想 什麼時候免費的？ 查了一下 原來 台南市自2026年115學年度開學日起 正式實施公私立國中小學生營養午餐全面免費 台南幸福城市！很照顧學生",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "e01efdc3796e",
+   "title": "[情報] 台南國小鮮乳領取機！比台北強多了！",
+   "source": "PTT Tainan板",
+   "url": "https://www.ptt.cc/bbs/Tainan/M.1788195949.A.1C6.html",
+   "category": "",
+   "date": "2026-09-01T01:05:45.000Z",
+   "snippet": "https://i.verb.tw/CJ0y49gR.jpg 看到台南市的大政績！ 國小鮮乳領取機 學生用感印式學生證嗶一下 就能領到新鮮的鮮乳 這比台北市強多了！ 幸好我4年前做了對的選擇 https://i.verb.tw/bi46SSGJ.jpg",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "ebc63fc7ad27",
+   "title": "美光6個半月啟用台南新廠 勞資爭議喊話發歷年最高績效獎金",
+   "source": "DIGITIMES",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBoX2FXSHRHZXU1Yi1wRGhiMkRMa25tazQyVGU5U1gwRW9LN254LTNndmNpRzlwWW8wblVkelJDRWlnbFZvM1U3NWoyS0pJVjR3U2Q0MWdXSW5zNDRXVnoycjFNbDlVczVYakxF?oc=5",
+   "category": "新開店",
+   "date": "2026-08-31T18:52:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "04d0d0e289fc",
+   "title": "南科跨曾文溪大橋確定明年第三季動工 工期約3年",
+   "source": "經濟日報",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4tYXJ6V2c2RFRGV0k3YUl0dFkzOTdPZW9wNkRmcWdsNm9weXZWV01pS0drVFIySldYZW9Yb0hpS3o2d2tzckRTSzhsblFBaC1SQUhMTGNBVGJ1THU0X2R30gFfQVVfeXFMTi1hcnpXZzZEVEZXSTdhSXR0WTM5N09lb3A2RGZxZ2w2b3B5dlZXTWlLR2tUUjJKV1hlb1hvSGlLejZ3a3NyRFNLOGxuUUFoLVJBSExMY0FUYnVMdTRfZHc?oc=5",
+   "category": "新建設",
+   "date": "2026-08-31T10:17:42.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0823,
+   "lng": 120.2868
+  },
+  {
+   "id": "b5841e15fb29",
+   "title": "台南市北安商業區市地重劃工程榮獲2026台灣永續行動獎銀獎",
+   "source": "中時新聞網",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02U0xrWVE5T21OTmx6ZWdjVHVBQUs1LTBWdkRVOVlVMjZ0YWZacE1JbDBsU19VSmt4Wl9kVGdPSi1JZW5tWUx2M2ZXNW1BN1VHSnlTb3RuWTVneFptTk1B?oc=5",
+   "category": "",
+   "date": "2026-08-31T09:50:11.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": ""
+  },
+  {
+   "id": "00e152873b26",
+   "title": "一滴水當兩滴用，台南再生水成南科抗旱與擴產關鍵",
+   "source": "遠見雜誌",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBVVjNYZ0lZRS1sRjdIeVlwbGlYVzhUaXhmY0VlZlNLalRXTV9xcjJMVEVqaXItcHk0bjZYTXBFYnlZUFc1UzM4VklOdE5lZw?oc=5",
+   "category": "",
+   "date": "2026-08-31T04:00:00.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0847,
+   "lng": 120.2918
+  },
+  {
+   "id": "9dbcb2d4bf83",
+   "title": "UNIQLO路面店進駐台南永康前3日送限量托特包| 生活",
+   "source": "三立新聞網SETN.com",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE43MzZZOXctNUVBa1pwSkZJV01YbEpxWXZDSzFST28waDdULXpvN1Y4R2l5SXdkbE96STVEeHFjTERxYzZ4UVpV?oc=5",
+   "category": "新開店",
+   "date": "2026-08-31T01:49:02.000Z",
+   "snippet": "",
+   "district": "永康區",
+   "lat": 23.0183,
+   "lng": 120.2356
+  },
   {
    "id": "b3967b305bf7",
    "title": "神農大帝建廟牽線 台南成功社區爭取活動中心9月啟用",
@@ -72,6 +156,18 @@
    "district": "中西區",
    "lat": 22.9863,
    "lng": 120.2028
+  },
+  {
+   "id": "0ea8a6120704",
+   "title": "只租不售 台南東區社會住宅113年完工",
+   "source": "三立新聞網SETN.com",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBibHd3SVkySXVGQVBxeDRjN3BLbkg1MlloQ1c3Rmh6VmROQ2NHeFQtRldtbHRqa3ZGR2h0YzZLckZNaDFKdHNR0gFLQVVfeXFMTmFnYmhKcy02SmpZVmVhTGJtNDBmUWFsZUUtQWVseXp3ZGtqQ2kzcUIwSjlDOE1fOXJlOENMaF9nSFp6Y1Zzb2Z2eTBB?oc=5",
+   "category": "",
+   "date": "2026-08-29T14:03:17.000Z",
+   "snippet": "",
+   "district": "東區",
+   "lat": 22.9797,
+   "lng": 120.2307
   },
   {
    "id": "7375ce99df1f",
