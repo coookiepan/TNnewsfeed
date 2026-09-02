@@ -1,24 +1,24 @@
 {
- "ranAt": "2026-09-01T23:26:31.250Z",
+ "ranAt": "2026-09-02T23:27:09.543Z",
  "sources": [
   {
    "name": "Google News",
-   "fetched": 248,
+   "fetched": 250,
    "errors": []
   },
   {
    "name": "PTT",
-   "fetched": 2,
+   "fetched": 1,
    "errors": []
   },
   {
    "name": "RSS 清單",
    "fetched": 0,
    "errors": [
-    "自由時報（https://news.ltn.com.tw/rss/tainan.xml）: HTTP 404"
+    "自由時報（https://news.ltn.com.tw/rss/tainan.xml）: This operation was aborted"
    ]
   }
  ],
- "totalNew": 6,
- "totalAfterMerge": 907
+ "totalNew": 15,
+ "totalAfterMerge": 922
 }
