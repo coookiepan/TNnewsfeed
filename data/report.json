@@ -1,22 +1,14 @@
 {
- "ranAt": "2026-09-06T22:57:52.328Z",
+ "ranAt": "2026-09-07T23:37:53.061Z",
  "sources": [
   {
    "name": "Google News",
-   "fetched": 0,
-   "errors": [
-    "query「台南 開幕 OR 試營運 OR 新開」: HTTP 503",
-    "query「台南 動工 OR 興建 OR 開工」: HTTP 503",
-    "query「台南 設廠 OR 投資 OR 擴廠」: HTTP 503",
-    "query「台南 完工 OR 啟用 OR 落成」: HTTP 503",
-    "query「台南 進駐 OR 展店 OR 首店」: HTTP 503",
-    "query「南科 擴廠 OR 投資 OR 動工」: HTTP 503",
-    "query「台南市政府 招商 OR 建設」: HTTP 503"
-   ]
+   "fetched": 252,
+   "errors": []
   },
   {
    "name": "PTT",
-   "fetched": 2,
+   "fetched": 0,
    "errors": []
   },
   {
@@ -27,6 +19,6 @@
    ]
   }
  ],
- "totalNew": 1,
- "totalAfterMerge": 952
+ "totalNew": 11,
+ "totalAfterMerge": 963
 }
