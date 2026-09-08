@@ -15,10 +15,11 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { CONFIG } from './config.js';
 import { extractDistrict, classifyCategory, geocode } from './classify.js';
 import { collectGoogleNews } from './sources/googlenews.js';
-import { collectPtt } from './sources/ptt.js';
+import { collectPtt, PTT_KEYWORD_RE } from './sources/ptt.js';
 import { collectRssFeeds } from './sources/rsslist.js';
 import { collectProcurement } from './sources/procurement.js';
-import { loadData, mergeNews, makeId, saveJSON } from './store.js';
+import { loadData, mergeNews, makeId, saveJSON, cleanTitle } from './store.js';
+import { clusterStories } from './cluster.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
 
@@ -49,13 +50,14 @@ function fixtureFetch(dir) {
 
 // 收進資料檔前的最後一哩：判區、分類、地圖座標，套用統一 schema
 export function finalize(raw) {
-  const text = `${raw.title} ${raw.snippet || ''}`;
+  const title = cleanTitle(raw.title);
+  const text = `${title} ${raw.snippet || ''}`;
   const district = extractDistrict(text);
   const id = makeId(raw.url);
   const { lat, lng } = geocode(district, id);
   return {
     id,
-    title: raw.title,
+    title,
     source: raw.source || '',
     url: raw.url,
     category: classifyCategory(text),
@@ -115,14 +117,32 @@ async function main() {
   }
 
   const existing = loadData(dataFile);
-  const { news, added } = mergeNews(existing.news, incoming, CONFIG.maxTotalItems);
+  // 來源規則收緊後，把以前收進來的雜訊也清掉（目前：PTT 只靠「[情報]」進來的文章）
+  const before = existing.news.length;
+  existing.news = existing.news.filter(n => !/^PTT/.test(n.source || '') || PTT_KEYWORD_RE.test(n.title || ''));
+  report.pruned = before - existing.news.length;
+  if (report.pruned) console.log(`清除舊雜訊 ${report.pruned} 則`);
+
+  const { news, added, addedIds } = mergeNews(existing.news, incoming, CONFIG.maxTotalItems, report.ranAt);
   report.totalNew = added;
   report.totalAfterMerge = news.length;
-  report.districtBackfilled = backfillDistricts(news);
-  report.withoutDistrict = news.filter(n => !n.district).length;
-  if (report.districtBackfilled) console.log(`回填判區 ${report.districtBackfilled} 則（仍無區：${report.withoutDistrict} 則）`);
 
-  saveJSON(dataFile, { lastFetched: args.noFetch ? existing.lastFetched : report.ranAt, news });
+  // 整份清單的整理（每次都跑，規則改善會回頭套用到舊資料）
+  news.forEach(n => { n.title = cleanTitle(n.title); });
+  report.districtBackfilled = backfillDistricts(news);
+  const { stories, merged } = clusterStories(news);
+  report.stories = stories;
+  report.duplicatesMerged = merged;
+  report.withoutDistrict = news.filter(n => !n.district).length;
+  console.log(`事件聚合：${news.length} 則 → ${stories} 件事（合併 ${merged} 則重複報導）`);
+  if (report.districtBackfilled) console.log(`回填判區 ${report.districtBackfilled} 則`);
+  console.log(`仍無區：${report.withoutDistrict} 則`);
+
+  saveJSON(dataFile, {
+    lastFetched: args.noFetch ? existing.lastFetched : report.ranAt,
+    addedLastRun: args.noFetch ? existing.addedLastRun : addedIds,
+    news,
+  });
   // --no-fetch 沒有抓來源，不覆蓋上次真實執行的報表
   if (!args.noFetch) saveJSON(reportFile, report);
   console.log(`新增 ${added} 則，合併後共 ${news.length} 則 → ${dataFile}`);

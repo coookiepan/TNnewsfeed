@@ -7,9 +7,11 @@ import { fileURLToPath } from 'node:url';
 import { parseRss, stripTags, decodeEntities } from '../src/rss.js';
 import { extractDistrict, classifyCategory, geocode, DISTRICTS, DISTRICT_COORDS } from '../src/classify.js';
 import { parseBoardIndex, parseArticle } from '../src/sources/ptt.js';
-import { canonicalUrl, normTitle, makeId, mergeNews } from '../src/store.js';
+import { canonicalUrl, normTitle, makeId, mergeNews, cleanTitle } from '../src/store.js';
 import { finalize, backfillDistricts } from '../src/index.js';
 import { normalizeRecord, taipeiDateStr } from '../src/sources/procurement.js';
+import { collectPtt } from '../src/sources/ptt.js';
+import { clusterStories } from '../src/cluster.js';
 
 const FIX = join(dirname(fileURLToPath(import.meta.url)), 'fixtures');
 const read = f => readFileSync(join(FIX, f), 'utf8');
@@ -98,9 +100,18 @@ test('geocode 以區座標加固定偏移', () => {
 });
 
 // ---------- PTT ----------
+test('collectPtt 只收開店/建設類，捐血活動與公告不收', async () => {
+  const fake = async (url) => ({ ok: true, status: 200, text: async () => read(url.includes('index') ? 'ptt_index.html' : 'ptt_article.html') });
+  const { items } = await collectPtt(fake);
+  const titles = items.map(i => i.title);
+  assert.ok(titles.some(t => /全聯旗艦店/.test(t)));
+  assert.ok(titles.some(t => /安平新飯店動工/.test(t)));
+  assert.ok(!titles.some(t => /捐血|公告|牛肉湯/.test(t)), titles.join(' / '));
+});
+
 test('parseBoardIndex 解析列表、跳過被刪文章、找到上頁', () => {
   const { entries, prevHref } = parseBoardIndex(read('ptt_index.html'));
-  assert.equal(entries.length, 4); // 被刪除的那篇沒有連結
+  assert.equal(entries.length, 5); // 被刪除的那篇沒有連結
   assert.match(entries[0].title, /全聯旗艦店/);
   assert.equal(entries[0].dateMD, '7/01');
   assert.equal(prevHref, '/bbs/Tainan/index7712.html');
@@ -139,6 +150,44 @@ test('mergeNews 以 id 與標題去重、既有優先、依日期排序、裁上
   const { news, added } = mergeNews(existing, incoming, 2);
   assert.equal(added, 2);
   assert.deepEqual(news.map(n => n.title), ['新聞C', '舊聞A']); // 排序後裁到 2 筆
+});
+
+test('cleanTitle 去掉媒體名、頻道分類、討論串前綴', () => {
+  assert.equal(cleanTitle('8490 8490 - 機器人產業夯台南機器人創新中心進駐柳科今開幕- 股市爆料同學會'), '機器人產業夯台南機器人創新中心進駐柳科今開幕');
+  assert.equal(cleanTitle('討論牆 | 南鐵地下化動工逾6年 台南車站預定9月初揭牌'), '南鐵地下化動工逾6年 台南車站預定9月初揭牌');
+  assert.equal(cleanTitle('南鐵地下化動工逾6年台南車站預定9月初揭牌| 雲嘉南| 地方'), '南鐵地下化動工逾6年台南車站預定9月初揭牌');
+  assert.equal(cleanTitle('台南三井Outlet二期3／20開幕！ 西松屋一號店'), '台南三井Outlet二期3／20開幕！ 西松屋一號店'); // 沒尾巴不動
+  assert.equal(cleanTitle('[情報] 永康鹽行全聯旗艦店 7/20開幕'), '[情報] 永康鹽行全聯旗艦店 7/20開幕');
+});
+
+test('mergeNews 新進的記 firstSeen 與 addedIds，舊的不動', () => {
+  const existing = [{ id: 'old1', title: '舊聞', url: 'https://a.tw/1', date: '2026-06-01T00:00:00Z' }];
+  const incoming = [{ title: '新聞', url: 'https://a.tw/2', date: '2026-07-01T00:00:00Z' }];
+  const { news, addedIds } = mergeNews(existing, incoming, 10, '2026-07-02T00:00:00.000Z');
+  assert.equal(addedIds.length, 1);
+  assert.equal(news.find(n => n.title === '新聞').firstSeen, '2026-07-02T00:00:00.000Z');
+  assert.equal(news.find(n => n.title === '舊聞').firstSeen, undefined);
+});
+
+test('clusterStories 把同一件事的多家報導歸成一群，並補區', () => {
+  const news = [
+    { id: 'a', title: 'IKEA降落台南夢成真！將進駐南紡購物2館B1 今年底前開幕', url: 'u1', date: '2026-06-16T00:00:00Z', district: '東區', source: 'A報' },
+    { id: 'b', title: 'IKEA確定進駐南紡購物2館B1 今年底開幕', url: 'u2', date: '2026-06-16T02:00:00Z', district: '', source: 'B報' },
+    { id: 'c', title: 'IKEA確定進駐南紡購物2館 年底開幕 徵才中', url: 'u3', date: '2026-06-17T00:00:00Z', district: '', source: 'C報' }, // 與 a 不像、與 b 像 → 透過 b 同群
+    { id: 'd', title: '台南捷運藍線第一期正式動工 預計2031年完工', url: 'u4', date: '2026-06-16T00:00:00Z', district: '', source: 'D報' },
+    { id: 'e', title: 'IKEA進駐台南南紡 業者：明年再開第二店', url: 'u5', date: '2026-09-01T00:00:00Z', district: '', source: 'E報' }, // 超出時間窗
+  ];
+  const { stories, merged } = clusterStories(news, { windowDays: 21 });
+  const story = id => news.find(n => n.id === id).story;
+  assert.equal(story('a'), story('b'));
+  assert.equal(story('b'), story('c'));
+  assert.notEqual(story('a'), story('d'));
+  assert.notEqual(story('a'), story('e'));
+  assert.equal(story('a'), 'a');                      // 有區的那則當代表
+  assert.equal(news.find(n => n.id === 'b').district, '東區'); // 群內補區
+  assert.equal(news.find(n => n.id === 'd').district, '');
+  assert.equal(stories, 3);
+  assert.equal(merged, 2);
 });
 
 // ---------- 政府電子採購網 ----------

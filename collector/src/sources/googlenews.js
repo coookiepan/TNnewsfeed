@@ -4,8 +4,10 @@
 import { CONFIG, RELEVANT_RE, NEGATIVE_RE } from '../config.js';
 import { fetchText, parseRss, toISO } from '../rss.js';
 
+// when:14d 讓 Google News 回傳近兩週的，而不是依相關性排序的舊聞
 function feedUrl(query) {
-  return `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=zh-TW&gl=TW&ceid=TW:zh-Hant`;
+  const q = CONFIG.googleNewsRecency ? `${query} ${CONFIG.googleNewsRecency}` : query;
+  return `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=zh-TW&gl=TW&ceid=TW:zh-Hant`;
 }
 
 // Google News 標題常是「標題 - 媒體名」，把尾巴的媒體名拆掉

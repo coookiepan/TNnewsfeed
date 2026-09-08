@@ -152,7 +152,7 @@ button, input { font: inherit; color: inherit; }
 .masthead {
   position: relative;
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 6px;
   border-bottom: 4px double var(--rule);
 }
 .dateline-strip {
@@ -182,11 +182,11 @@ button, input { font: inherit; color: inherit; }
 .nameplate {
   font-family: 'Noto Serif TC', 'Playfair Display', serif;
   font-weight: 900;
-  font-size: clamp(3.4rem, 14vw, 6.8rem);
-  line-height: 0.92;
+  font-size: clamp(2.2rem, 8vw, 3.6rem);
+  line-height: 1;
   letter-spacing: -0.02em;
   color: var(--ink);
-  margin: 18px 0 6px;
+  margin: 6px 0 2px;
   text-shadow: 0 0 0.8px rgba(26,18,8,0.25);
 }
 .nameplate-en {
@@ -305,7 +305,7 @@ button, input { font: inherit; color: inherit; }
    SEARCH SECTION
    ============================================================ */
 .search-section {
-  padding: 12px 0;
+  padding: 4px 0;
   border-bottom: 1px solid var(--rule-soft);
 }
 .search-label {
@@ -798,6 +798,29 @@ body[data-dropcap="on"] .article.lead .snippet::first-letter {
 .bar-cnt { font-family: 'Special Elite', monospace; font-size: 0.76rem; color: var(--ink-faded); text-align: right; }
 .dash-empty { padding: 26px 8px; text-align: center; color: var(--ink-faded); font-size: 0.9rem; }
 
+/* 新進標記、同一事件的其他報導、轄區聚焦 */
+.new-badge {
+  display: inline-block; vertical-align: 2px;
+  font-family: 'Oswald', sans-serif; font-size: 0.58rem; letter-spacing: 0.16em; font-weight: 700;
+  color: var(--paper-hi); background: var(--stamp); padding: 1px 5px; margin-right: 6px;
+}
+.kpi-new { font-family: 'Oswald', sans-serif; font-size: 0.72rem; font-weight: 600; color: var(--stamp); margin-left: 6px; vertical-align: 8px; }
+.pipe-more, .article-more {
+  display: inline-block; margin-top: 6px; background: none; border: none; padding: 0; cursor: pointer;
+  font-family: 'Oswald', 'Noto Serif TC', sans-serif; font-size: 0.66rem; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--stamp); border-bottom: 1px solid var(--stamp-tint);
+}
+.pipe-others, .article-others { margin-top: 6px; padding-left: 10px; border-left: 2px solid var(--rule-soft); }
+.pipe-others a, .article-others a {
+  display: block; padding: 3px 0; color: var(--ink-soft); text-decoration: none;
+  font-family: 'Lora', 'Noto Serif TC', serif; font-size: 0.84rem; line-height: 1.4;
+}
+.pipe-others a:hover, .article-others a:hover { color: var(--stamp); text-decoration: underline; }
+.pipe-others a .src, .article-others a .src { color: var(--ink-mist); font-size: 0.72rem; margin-left: 6px; font-family: 'Oswald', sans-serif; letter-spacing: 0.08em; }
+.d-chip.focus { background: var(--stamp); color: var(--paper-hi); border-color: var(--stamp); }
+.pipe-date .pd-kind { font-size: 0.56rem; letter-spacing: 0.1em; color: var(--stamp); font-weight: 700; }
+.date-tab .cnt { opacity: 0.7; font-size: 0.66rem; margin-left: 3px; }
+
 /* ============================================================
    MAP
    ============================================================ */
@@ -1067,24 +1090,8 @@ body[data-dropcap="on"] .article.lead .snippet::first-letter {
 
   <!-- =================== MASTHEAD =================== -->
   <header class="masthead">
-    <div class="dateline-strip">
-      <div class="ds-left">VOL. MMXXVI · NO. <span id="issueNo">CXLII</span></div>
-      <div class="ds-mid">EXTRA · 限時免費</div>
-      <div class="ds-right"><span id="todayEN">MONDAY · MAY 15 2026</span></div>
-    </div>
-
     <h1 class="nameplate">臺南新訊</h1>
     <div class="nameplate-en">The Tainan Chronicle</div>
-
-    <div class="motto">
-      <span class="fleur">❦</span>
-      <span>每日蒐集臺南市最新開發動態</span>
-      <span class="fleur">·</span>
-      <span>DAILY URBAN DISPATCH</span>
-      <span class="fleur">·</span>
-      <span>EST. MMXXV</span>
-      <span class="fleur">❦</span>
-    </div>
   </header>
 
   <!-- =================== TOOLBAR =================== -->
@@ -1100,16 +1107,15 @@ body[data-dropcap="on"] .article.lead .snippet::first-letter {
         剪報
         <span class="badge" id="bookmarkCount" style="display:none">0</span>
       </button>
-      <button class="tool-btn" id="btnFetch" onclick="fetchNewNews()" title="抓取最新">
+      <button class="tool-btn" id="btnFetch" onclick="fetchNewNews()" title="重新載入資料">
         <svg class="refresh-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M21 12a9 9 0 11-3.15-6.85"/><path d="M21 3v6h-6"/></svg>
-        付印
+        更新
       </button>
     </div>
   </div>
 
   <!-- =================== SEARCH =================== -->
   <div class="search-section">
-    <div class="search-label">索引 · Search the Archives</div>
     <div class="search-bar">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
       <input type="text" id="searchInput" placeholder="輸入標題、地區或關鍵字……" oninput="onSearchInput()">
@@ -1164,7 +1170,7 @@ body[data-dropcap="on"] .article.lead .snippet::first-letter {
         <div id="pipeList"><div class="dash-empty">資料載入中……</div></div>
       </div>
       <div>
-        <div class="dash-sect-head">全市各區動態 · By District</div>
+        <div class="dash-sect-head" id="barsHead">各區動態 · By District</div>
         <div class="dash-bars" id="districtBars"></div>
       </div>
     </div>
@@ -1173,10 +1179,10 @@ body[data-dropcap="on"] .article.lead .snippet::first-letter {
   <!-- =================== CONTENT =================== -->
   <main class="content" id="contentArea" style="display:none">
     <div class="refresh-bar" id="refreshBar">
-      <span class="refresh-info" id="refreshInfo">尚未付印 · No edition yet</span>
+      <span class="refresh-info" id="refreshInfo">尚未載入</span>
       <button class="refresh-btn" onclick="fetchNewNews()">
         <svg class="refresh-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 12a9 9 0 11-3.15-6.85"/><path d="M21 3v6h-6"/></svg>
-        抓取最新
+        重新載入
       </button>
     </div>
     <div id="newsList" class="news-list"></div>
@@ -1273,7 +1279,10 @@ let map = null;
 let markers = [];
 let myDistricts = [];               // 使用者儲存的「我的轄區」
 let selectedDistricts = new Set();  // 目前生效的轄區篩選（空 = 全部）
+let focusDistrict = null;           // 在轄區內再聚焦到單一區（點各區橫條）
 let dashStatusFilter = null;        // 儀表板 KPI 磚的狀態篩選
+let dataMeta = { lastFetched: null, addedLastRun: [] };
+let newIds = new Set();             // 上次來訪之後新進的消息 id
 
 // 區域顏色（用在地圖標記與版面標籤）
 const DISTRICT_COLORS = {
@@ -1341,8 +1350,8 @@ function setMastheadDates() {
   // 英文
   const wEN = ['SUNDAY','MONDAY','TUESDAY','WEDNESDAY','THURSDAY','FRIDAY','SATURDAY'][now.getDay()];
   const mEN = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'][now.getMonth()];
-  document.getElementById('todayEN').textContent =
-    `${wEN} · ${mEN} ${String(now.getDate()).padStart(2,'0')} ${now.getFullYear()}`;
+  const enEl = document.getElementById('todayEN');
+  if (enEl) enEl.textContent = `${wEN} · ${mEN} ${String(now.getDate()).padStart(2,'0')} ${now.getFullYear()}`;
 
   // 中文（民國紀年 + 國字日期）
   const rocY = now.getFullYear() - 1911;
@@ -1357,7 +1366,8 @@ function setMastheadDates() {
   const start = new Date(now.getFullYear(), 0, 0);
   const dayOfYear = Math.floor((now - start) / 86400000);
   const issueNum = (rocY - 114) * 365 + dayOfYear;
-  document.getElementById('issueNo').textContent = toRoman(Math.max(1, issueNum));
+  const issueEl = document.getElementById('issueNo');
+  if (issueEl) issueEl.textContent = toRoman(Math.max(1, issueNum));
 }
 
 function toCNYear(n) {
@@ -1422,7 +1432,10 @@ async function loadNews() {
       dataMode = 'legacy';
     }
     allNews = data.news || [];
-    if (data.lastFetched) updateRefreshInfo(data.lastFetched);
+    dataMeta = { lastFetched: data.lastFetched || null, addedLastRun: Array.isArray(data.addedLastRun) ? data.addedLastRun : [] };
+    computeNewIds();
+    updateRefreshInfo(data.lastFetched);
+    renderDateTabs();
     applyFilters();
   } catch (err) {
     showEmpty('連線失敗', '請確認資料檔或 API 已設定，並檢查網路連線。');
@@ -1461,13 +1474,15 @@ function applyFilters() {
   if (selectedDistricts.size > 0) {
     news = news.filter(n => selectedDistricts.has((n.district || '').trim()));
   }
+  if (focusDistrict) news = news.filter(n => (n.district || '').trim() === focusDistrict);
 
-  if (currentDateRange !== '全部') {
-    const days = { '今日': 1, '近7天': 7, '近30天': 30 }[currentDateRange];
+  if (currentDateRange === '新進') {
+    news = news.filter(isNew);
+  } else if (currentDateRange !== '全部') {
+    const days = { '近7天': 7, '近30天': 30 }[currentDateRange];
     if (days) {
       const cutoff = new Date();
-      if (days === 1) cutoff.setHours(0,0,0,0);
-      else cutoff.setDate(cutoff.getDate() - days);
+      cutoff.setDate(cutoff.getDate() - days);
       news = news.filter(n => {
         if (!n.date) return false;
         const d = new Date(n.date);
@@ -1515,12 +1530,36 @@ function renderCategoryTabs() { /* no-op */ }
 function selectCategory(_cat) { /* no-op */ }
 
 function renderDateTabs() {
-  const ranges = ['全部', '今日', '近7天', '近30天'];
+  const ranges = ['全部', '新進', '近7天', '近30天'];
   const c = document.getElementById('dateTabs');
+  // 「新進」顯示轄區內的新進件數，早上一眼知道有沒有新東西
+  const scope = selectedDistricts.size ? allNews.filter(n => selectedDistricts.has((n.district || '').trim())) : allNews;
+  const newCount = scope.filter(isNew).length;
   c.innerHTML = ranges.map(r => `
     <button class="date-tab ${r === currentDateRange ? 'active' : ''}"
-            data-range="${r}" onclick="selectDateRange('${r}')">${r}</button>`).join('');
+            data-range="${r}" onclick="selectDateRange('${r}')">${r}${r === '新進' && newCount ? `<span class="cnt">${newCount}</span>` : ''}</button>`).join('');
 }
+
+// ===== 新進判斷 =====
+// 「新進」＝上次來訪之後才蒐集到的（firstSeen）；同一個早上重新整理不會清掉。
+// 第一次來、或資料還沒有 firstSeen 時，以本次排程新增的為準。
+function computeNewIds() {
+  newIds = new Set();
+  let prev = null;
+  try { prev = localStorage.getItem('tn_lastVisit'); } catch (e) {}
+  const now = Date.now();
+  const prevTs = prev ? new Date(prev).getTime() : NaN;
+  try {
+    if (isNaN(prevTs) || now - prevTs > 6 * 3600000) localStorage.setItem('tn_lastVisit', new Date(now).toISOString());
+  } catch (e) {}
+  if (!isNaN(prevTs)) {
+    allNews.forEach(n => {
+      if (n.firstSeen && new Date(n.firstSeen).getTime() > prevTs) newIds.add(n.id);
+    });
+  }
+  if (newIds.size === 0) (dataMeta.addedLastRun || []).forEach(id => newIds.add(id));
+}
+function isNew(n) { return newIds.has(n.id); }
 function selectDateRange(range) {
   currentDateRange = range;
   document.querySelectorAll('.date-tab').forEach(tab => {
@@ -1595,16 +1634,29 @@ function renderNewsList() {
     return;
   }
 
-  // 第一篇為頭條 (lead)，其餘進入雙欄
-  const [lead, ...rest] = filteredNews;
+  // 同一件事的多家報導合併成一篇；第一篇為頭條 (lead)，其餘進入雙欄
+  const [lead, ...rest] = groupStories(filteredNews);
   container.classList.toggle('cols', rest.length >= 2);
 
   const leadHTML = renderArticle(lead, true);
-  const restHTML = rest.map(n => renderArticle(n, false)).join('');
+  const restHTML = rest.map(g => renderArticle(g, false)).join('');
   container.innerHTML = leadHTML + restHTML;
 }
 
-function renderArticle(news, isLead) {
+// 其他報導的展開清單（時程卡與新聞列表共用）
+function othersHTML(others, cls) {
+  if (!others || !others.length) return '';
+  const links = others.map(o => `
+    <a href="${escapeAttr(o.url || '#')}" target="_blank" rel="noopener" onclick="event.stopPropagation()">
+      ${escapeHtml(o.title)}<span class="src">${escapeHtml(o.source || '')}</span>
+    </a>`).join('');
+  return `
+    <button class="${cls}-more" onclick="event.stopPropagation(); const o = this.nextElementSibling; o.hidden = !o.hidden; this.textContent = o.hidden ? '另有 ${others.length} 則報導 ▾' : '收合 ▴';">另有 ${others.length} 則報導 ▾</button>
+    <div class="${cls}-others" hidden>${links}</div>`;
+}
+
+function renderArticle(group, isLead) {
+  const news = group.rep;
   const id = news.id || news.url;
   const isSaved = bookmarks[id];
   const district = (news.district || '').trim();
@@ -1612,6 +1664,7 @@ function renderArticle(news, isLead) {
   const labelCN = district || '臺南';
   const labelEN = districtEN || 'TAINAN';
   const dateCN = formatDateCN(news.date);
+  const fresh = [news, ...group.others].some(isNew);
 
   return `
     <article class="article ${isLead ? 'lead' : ''}" data-district="${escapeAttr(district)}"
@@ -1621,12 +1674,13 @@ function renderArticle(news, isLead) {
         ${escapeHtml(labelCN)}
         <span class="sect-label-en">· ${escapeHtml(labelEN)}</span>
       </div>
-      <h2 class="headline">${escapeHtml(news.title || '無題')}</h2>
+      <h2 class="headline">${fresh ? '<span class="new-badge">NEW</span>' : ''}${escapeHtml(news.title || '無題')}</h2>
       <div class="byline">
         ${news.source ? `<span class="by">BY ${escapeHtml(news.source.toUpperCase())}</span>` : ''}
         <span class="sep"></span><span>${escapeHtml(dateCN)}</span>
       </div>
       ${news.snippet ? `<p class="snippet">${escapeHtml(news.snippet)}</p>` : ''}
+      ${othersHTML(group.others, 'article')}
       <div class="article-foot">
         <span class="continued">續閱全文</span>
         <button class="bookmark-btn ${isSaved ? 'saved' : ''}"
@@ -1708,7 +1762,9 @@ const STATUS_META = {
   investment: { label: '投資案',   glyph: '◈', color: '#1f3c66' },
   opened:     { label: '新開幕',   glyph: '✓', color: '#2e5d3a' }
 };
-const OPEN_WORDS = '(?:正式|重新|盛大)?(?:開幕|開業|開張|營運|試營運|啟用|落成|完工|竣工|開放|亮相)';
+const OPEN_WORDS = '(?:正式|重新|盛大)?(?:開幕|開業|開張|營運|試營運|啟用|落成|完工|竣工|開放|亮相|通車|揭牌|開館|開園|營業|開賣)';
+const WORK_WORDS = '(?:正式)?(?:動工|開工|動土|開始施工)';
+const RETAIL_RE = /店|門市|品牌|百貨|outlet|超市|賣場|餐廳|櫃/i;
 
 function classifyNews(n) {
   const text = (n.title || '') + ' ' + (n.snippet || '');
@@ -1719,6 +1775,8 @@ function classifyNews(n) {
   // 否則「委託營運」裡的「營運」會被當成已開幕
   if (/委託營運|委託經營|營運移轉|OT案|BOT|ROT|BOO|促參|招商/i.test(text)) return 'investment';
   if (new RegExp(OPEN_WORDS).test(text)) return 'opened';
+  // 「UNIQLO 進駐永康」是開店，不是投資案
+  if (/進駐/.test(text) && RETAIL_RE.test(text)) return 'opened';
   if (/投資|設廠|建廠|擴廠|擴大產能|購地|得標|簽約|進駐/.test(text)) return 'investment';
   if (/興建|新建|籌建|打造|招標|決標|發包|統包|工程/.test(text)) return 'building';
   const cat = n.category || '';
@@ -1737,66 +1795,122 @@ function detectType(text) {
 
 const QNUM = { '一': 1, '二': 2, '三': 3, '四': 4, '1': 1, '2': 2, '3': 3, '4': 4 };
 
-function mkExp(y, mo, d) {
+function mkExp(y, mo, d, kind) {
   return {
     y, m: mo || null, d: d || null,
+    kind: kind || 'open',   // 'open' 開幕/完工；'work' 動工
     sortKey: y * 10000 + (mo || 13) * 100 + (d || 0),
     monthKey: y * 100 + (mo || 99),
     monthLabel: mo ? `${y}年${mo}月` : `${y}年 · 月份未定`
   };
 }
 
-// 從文字擷取「預定開幕/完工」日期，找不到回傳 null
+// 從文字擷取「預定開幕/完工」日期（找不到再找「動工」日期），都沒有回傳 null
 function extractExpectedDate(n) {
   const text = (n.title || '') + ' ' + (n.snippet || '');
   const pub = n.date ? new Date(n.date) : new Date();
   const py = isNaN(pub) ? new Date().getFullYear() : pub.getFullYear();
   const pm = isNaN(pub) ? new Date().getMonth() + 1 : pub.getMonth() + 1;
+  return matchDate(text, OPEN_WORDS, py, pm, 'open') || matchDate(text, WORK_WORDS, py, pm, 'work');
+}
+
+function matchDate(text, VERB, py, pm, kind) {
   const inferYear = mon => (mon >= pm - 1 ? py : py + 1);
   const gap = '[^。，,;；]{0,10}?';
+  const mk = (y, mo, d) => mkExp(y, mo, d, kind);
   let m;
-  m = text.match(new RegExp('(?:(20\\d{2})年)?(\\d{1,2})月(\\d{1,2})日' + gap + OPEN_WORDS));
-  if (m) return mkExp(m[1] ? +m[1] : inferYear(+m[2]), +m[2], +m[3]);
+  m = text.match(new RegExp('(?:(20\\d{2})年)?(\\d{1,2})月(\\d{1,2})日' + gap + VERB));
+  if (m) return mk(m[1] ? +m[1] : inferYear(+m[2]), +m[2], +m[3]);
   // 斜線日期（PTT 常見寫法：7/20 開幕）
-  m = text.match(new RegExp('(\\d{1,2})\\/(\\d{1,2})\\s*' + gap + OPEN_WORDS));
+  m = text.match(new RegExp('(\\d{1,2})\\/(\\d{1,2})\\s*' + gap + VERB));
   if (m && +m[1] >= 1 && +m[1] <= 12 && +m[2] >= 1 && +m[2] <= 31) {
-    return mkExp(inferYear(+m[1]), +m[1], +m[2]);
+    return mk(inferYear(+m[1]), +m[1], +m[2]);
   }
-  m = text.match(new RegExp('(?:(20\\d{2})年)?(\\d{1,2})月(?:底|中旬?|初)?' + gap + OPEN_WORDS));
-  if (m) return mkExp(m[1] ? +m[1] : inferYear(+m[2]), +m[2], null);
-  m = text.match(new RegExp('(20\\d{2})年(?:第([一二三四1-4])季)?' + gap + OPEN_WORDS));
+  m = text.match(new RegExp('(?:(20\\d{2})年)?(\\d{1,2})月(?:底|中旬?|初)?' + gap + VERB));
+  if (m) return mk(m[1] ? +m[1] : inferYear(+m[2]), +m[2], null);
+  // 西元年（可帶季）：2027年第2季完工
+  m = text.match(new RegExp('(20\\d{2})年?(?:第([一二三四1-4])季)?(?:底|初)?' + gap + VERB));
   if (m) {
     if (m[2]) {
       const q = QNUM[m[2]];
-      const e = mkExp(+m[1], q * 3 - 1, null);
+      const e = mk(+m[1], q * 3 - 1, null);
       e.monthLabel = `${m[1]}年 第${q}季`;
       e.qq = q;
       return e;
     }
-    return mkExp(+m[1], null, null);
+    return mk(+m[1], /年底/.test(m[0]) ? 12 : null, null);
   }
-  m = text.match(new RegExp('民國(1[0-2]\\d)年' + gap + OPEN_WORDS));
-  if (m) return mkExp(+m[1] + 1911, null, null);
-  m = text.match(new RegExp('下個?月' + gap + OPEN_WORDS));
-  if (m) return pm === 12 ? mkExp(py + 1, 1, null) : mkExp(py, pm + 1, null);
-  m = text.match(new RegExp('(?:本月|月底)' + gap + OPEN_WORDS));
-  if (m) return mkExp(py, pm, null);
-  m = text.match(new RegExp('(?:今)?年底' + gap + OPEN_WORDS));
-  if (m) return mkExp(py, 12, null);
-  m = text.match(new RegExp('明年(?:(\\d{1,2})月)?[^。，,;；]{0,12}?' + OPEN_WORDS));
-  if (m) return mkExp(py + 1, m[1] ? +m[1] : null, null);
+  // 民國年，有沒有寫「民國」都算：117年完工、民國116年底啟用
+  m = text.match(new RegExp('(?<![\\d.])(?:民國)?(1[0-2]\\d)年(底|初)?' + gap + VERB));
+  if (m) return mk(+m[1] + 1911, m[2] === '底' ? 12 : null, null);
+  m = text.match(new RegExp('(?:明|次)年(?:第([一二三四1-4])季)?(?:底|初)?[^。，,;；]{0,12}?' + VERB));
+  if (m) {
+    if (m[1]) { const q = QNUM[m[1]]; const e = mk(py + 1, q * 3 - 1, null); e.monthLabel = `${py + 1}年 第${q}季`; e.qq = q; return e; }
+    return mk(py + 1, /年底/.test(m[0]) ? 12 : null, null);
+  }
+  m = text.match(new RegExp('下個?月' + gap + VERB));
+  if (m) return pm === 12 ? mk(py + 1, 1, null) : mk(py, pm + 1, null);
+  m = text.match(new RegExp('(?:本月|月底)' + gap + VERB));
+  if (m) return mk(py, pm, null);
+  m = text.match(new RegExp('(?:今)?年底' + gap + VERB));
+  if (m) return mk(py, 12, null);
+  m = text.match(new RegExp('(?:今年)?(上|下)半年' + gap + VERB));
+  if (m) return mk(py, m[1] === '上' ? 6 : 12, null);
+  m = text.match(new RegExp('(?:今年)?第([一二三四1-4])季' + gap + VERB));
+  if (m) { const q = QNUM[m[1]]; const e = mk(py, q * 3 - 1, null); e.monthLabel = `${py}年 第${q}季`; e.qq = q; return e; }
   return null;
 }
 
+// 同一件事（story）的多則合併：代表那則 + 其他報導
+function groupStories(list) {
+  const groups = new Map();
+  list.forEach(n => {
+    const k = n.story || n.id;
+    if (!groups.has(k)) groups.set(k, []);
+    groups.get(k).push(n);
+  });
+  return [...groups.values()].map(ms => {
+    const rep = ms.find(m => m.id === (m.story || m.id)) || ms[0];
+    return { rep, others: ms.filter(m => m !== rep) };
+  });
+}
+
+function todayKey() {
+  const t = new Date();
+  return t.getFullYear() * 10000 + (t.getMonth() + 1) * 100 + t.getDate();
+}
+// 預定日期所指期間的最後一天（月底／季末／年底），用來判斷「已經過了沒」
+function expEndKey(exp) {
+  if (exp.d) return exp.sortKey;
+  if (exp.qq) return exp.y * 10000 + exp.qq * 300 + 31;
+  if (exp.m) return exp.y * 10000 + exp.m * 100 + 31;
+  return exp.y * 10000 + 1231;
+}
+
+// 每件事判一次狀態與日期：日期從群內任一則抓得到就算；
+// 「117年完工」這種未來的完工是預定開幕，預定日已過就當作已開幕
 function enrichNews(list) {
-  return list.map(n => {
-    const status = classifyNews(n);
+  const today = todayKey();
+  return groupStories(list).map(({ rep, others }) => {
+    const all = [rep, ...others];
+    let status = classifyNews(rep) || others.map(classifyNews).find(Boolean) || null;
+    if (!status) return null;
+    let exp = null;
+    for (const m of all) { exp = extractExpectedDate(m); if (exp) break; }
+    // 「9月開幕」在 9 月 8 日還沒過；只寫年的到年底才算過
+    const past = exp && expEndKey(exp) < today;
+    if (exp && exp.kind === 'open') {
+      if (status === 'opened' && !past && exp.sortKey > today) status = 'upcoming';
+      if (status === 'upcoming' && past) status = 'opened';
+    }
+    // 動工日已過＝已經在施工，時程表是往前看的，不再掛過去的動工日
+    if (exp && exp.kind === 'work' && past) exp = null;
     return {
-      n, status,
-      exp: status ? extractExpectedDate(n) : null,
-      type: detectType((n.title || '') + ' ' + (n.snippet || ''))
+      n: rep, others, status, exp,
+      type: detectType(all.map(m => (m.title || '') + ' ' + (m.snippet || '')).join(' ')),
+      fresh: all.some(isNew)
     };
-  }).filter(e => e.status);
+  }).filter(Boolean);
 }
 
 function renderDashboard() {
@@ -1804,16 +1918,17 @@ function renderDashboard() {
   if (!kpiRow) return;
   const enriched = enrichNews(filteredNews);
 
-  // KPI 統計磚：新開幕僅計近 30 日
+  // KPI 統計磚（以「件事」計，不是報導則數）：新開幕僅計近 30 日
   const counts = { upcoming: 0, building: 0, investment: 0, opened: 0 };
+  const fresh = { upcoming: 0, building: 0, investment: 0, opened: 0 };
   const cutoff30 = Date.now() - 30 * 86400000;
   enriched.forEach(e => {
     if (e.status === 'opened') {
       const d = new Date(e.n.date);
-      if (!isNaN(d) && d.getTime() >= cutoff30) counts.opened++;
-    } else {
-      counts[e.status]++;
+      if (isNaN(d) || d.getTime() < cutoff30) return;
     }
+    counts[e.status]++;
+    if (e.fresh) fresh[e.status]++;
   });
   const kpis = [
     { key: 'upcoming',   sub: 'SCHEDULED TO OPEN' },
@@ -1827,7 +1942,7 @@ function renderDashboard() {
       <button class="kpi-tile ${dashStatusFilter === k.key ? 'on' : ''}" onclick="toggleDashStatus('${k.key}')">
         <span class="kpi-glyph" style="color:${meta.color}">${meta.glyph}</span>
         <div class="kpi-label">${meta.label}${k.key === 'opened' ? '（30日）' : ''}</div>
-        <div class="kpi-value">${counts[k.key]}</div>
+        <div class="kpi-value">${counts[k.key]}${fresh[k.key] ? `<span class="kpi-new">+${fresh[k.key]} 新</span>` : ''}</div>
         <div class="kpi-sub">${k.sub}</div>
       </button>`;
   }).join('');
@@ -1843,10 +1958,11 @@ function toggleDashStatus(key) {
 
 function pipeDateHTML(exp) {
   if (!exp) return `<div class="pipe-date tbd"><div class="pd-big">—</div><div class="pd-small">未定</div></div>`;
-  if (exp.d) return `<div class="pipe-date"><div class="pd-small">${exp.m}月</div><div class="pd-big">${exp.d}</div><div class="pd-small">${exp.y}</div></div>`;
-  if (exp.qq) return `<div class="pipe-date"><div class="pd-big">Q${exp.qq}</div><div class="pd-small">${exp.y}</div></div>`;
-  if (exp.m) return `<div class="pipe-date"><div class="pd-big">${exp.m}月</div><div class="pd-small">${exp.y}</div></div>`;
-  return `<div class="pipe-date"><div class="pd-big">${exp.y}</div><div class="pd-small">年內</div></div>`;
+  const kind = exp.kind === 'work' ? '<div class="pd-kind">動工</div>' : '';
+  if (exp.d) return `<div class="pipe-date"><div class="pd-small">${exp.m}月</div><div class="pd-big">${exp.d}</div><div class="pd-small">${exp.y}</div>${kind}</div>`;
+  if (exp.qq) return `<div class="pipe-date"><div class="pd-big">Q${exp.qq}</div><div class="pd-small">${exp.y}</div>${kind}</div>`;
+  if (exp.m) return `<div class="pipe-date"><div class="pd-big">${exp.m}月</div><div class="pd-small">${exp.y}</div>${kind}</div>`;
+  return `<div class="pipe-date"><div class="pd-big">${exp.y}</div><div class="pd-small">年內</div>${kind}</div>`;
 }
 
 function renderPipeline(enriched) {
@@ -1865,7 +1981,7 @@ function renderPipeline(enriched) {
   });
 
   if (items.length === 0) {
-    c.innerHTML = `<div class="dash-empty">目前沒有符合的案件——調整轄區篩選，或點右上「付印」抓取最新消息。</div>`;
+    c.innerHTML = `<div class="dash-empty">目前沒有符合的案件——調整轄區或時期篩選看看。</div>`;
     return;
   }
 
@@ -1890,39 +2006,51 @@ function renderPipeline(enriched) {
         <div>
           <span class="pipe-status" style="color:${meta.color}">${meta.glyph} ${meta.label}</span>
           ${e.type ? `<span class="pipe-type">${escapeHtml(e.type)}</span>` : ''}
-          <div class="pipe-title">${escapeHtml(e.n.title || '無題')}</div>
+          <div class="pipe-title">${e.fresh ? '<span class="new-badge">NEW</span>' : ''}${escapeHtml(e.n.title || '無題')}</div>
           <div class="pipe-meta">
             <span class="pm-district">${escapeHtml(e.n.district || '臺南')}</span>
             ${e.n.source ? `<span>${escapeHtml(e.n.source)}</span>` : ''}
             <span>${escapeHtml(formatDateCN(e.n.date))}</span>
           </div>
+          ${othersHTML(e.others, 'pipe')}
         </div>
       </div>`;
   });
   c.innerHTML = html;
 }
 
-// 各區動態橫條：以全部資料統計（不受轄區篩選影響），點擊即切換該區篩選
+// 各區動態橫條：有轄區篩選時只列轄區內各區（以件事計，不受時期/搜尋影響）；
+// 點一區＝在轄區內聚焦到該區，再點一次還原，不會動到轄區設定
 function renderDistrictBars() {
   const c = document.getElementById('districtBars');
   if (!c) return;
+  const head = document.getElementById('barsHead');
+  const scoped = selectedDistricts.size > 0;
+  if (head) head.textContent = scoped ? '轄區各區動態 · By District' : '全市各區動態 · By District';
   const counts = {};
   enrichNews(allNews).forEach(e => {
     const d = (e.n.district || '').trim();
-    if (d) counts[d] = (counts[d] || 0) + 1;
+    if (!d) return;
+    if (scoped && !selectedDistricts.has(d)) return;
+    counts[d] = (counts[d] || 0) + 1;
   });
-  const rows = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 12);
+  const rows = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, scoped ? 20 : 12);
   if (rows.length === 0) {
     c.innerHTML = `<div class="dash-empty">尚無各區資料</div>`;
     return;
   }
   const max = rows[0][1];
   c.innerHTML = rows.map(([d, cnt]) => `
-    <button class="bar-row ${selectedDistricts.has(d) ? 'sel' : ''}" onclick="toggleDistrict('${escapeAttr(d)}')">
+    <button class="bar-row ${focusDistrict === d ? 'sel' : ''}" onclick="toggleFocusDistrict('${escapeAttr(d)}')" title="${focusDistrict === d ? '取消聚焦' : '只看' + escapeAttr(d)}">
       <span class="bar-name">${escapeHtml(d)}</span>
       <span class="bar-track"><span class="bar-fill" style="width:${Math.max(4, Math.round(cnt / max * 100))}%"></span></span>
       <span class="bar-cnt">${cnt}</span>
     </button>`).join('');
+}
+
+function toggleFocusDistrict(d) {
+  focusDistrict = focusDistrict === d ? null : d;
+  applyFilters();
 }
 
 // =================================================================
@@ -1950,18 +2078,26 @@ function districtNewsCounts() {
   return counts;
 }
 
+// 轄區列只佔一行：選的是「我的轄區」就顯示一顆總結晶片；自訂選擇最多列 6 區，其餘 +N；
+// 要改選區到「選擇區域」面板
 function renderDistrictChips() {
   const c = document.getElementById('districtChips');
   if (!c) return;
   const counts = districtNewsCounts();
-  const shown = [...new Set([...myDistricts, ...selectedDistricts])];
-  let html = `<button class="d-chip ${selectedDistricts.size === 0 ? 'active' : ''}" onclick="clearDistricts()">全部</button>`;
-  html += shown.map(d => `
-    <button class="d-chip ${selectedDistricts.has(d) ? 'active' : ''}" onclick="toggleDistrict('${escapeAttr(d)}')">
-      ${escapeHtml(d)}${counts[d] ? `<span class="cnt">${counts[d]}</span>` : ''}
-    </button>`).join('');
-  if (myDistricts.length > 0 && [...myDistricts].some(d => !selectedDistricts.has(d))) {
-    html += `<button class="d-chip" onclick="selectMyDistricts()">★ 我的轄區</button>`;
+  const sel = [...selectedDistricts];
+  const isMine = myDistricts.length > 0 && sel.length === myDistricts.length && myDistricts.every(d => selectedDistricts.has(d));
+  const chip = (d) => `<button class="d-chip active" onclick="toggleDistrict('${escapeAttr(d)}')" title="移除 ${escapeAttr(d)}">${escapeHtml(d)}${counts[d] ? `<span class="cnt">${counts[d]}</span>` : ''}</button>`;
+
+  let html = `<button class="d-chip ${sel.length === 0 ? 'active' : ''}" onclick="clearDistricts()">全部</button>`;
+  if (isMine) {
+    html += `<button class="d-chip active" onclick="toggleDistrictPanel(true)" title="調整轄區">★ 我的轄區 · ${sel.length} 區</button>`;
+  } else {
+    html += sel.slice(0, 6).map(chip).join('');
+    if (sel.length > 6) html += `<button class="d-chip active" onclick="toggleDistrictPanel(true)">+${sel.length - 6} 區</button>`;
+    if (myDistricts.length > 0) html += `<button class="d-chip" onclick="selectMyDistricts()">★ 我的轄區</button>`;
+  }
+  if (focusDistrict) {
+    html += `<button class="d-chip focus" onclick="toggleFocusDistrict('${escapeAttr(focusDistrict)}')" title="取消聚焦">◎ 聚焦 ${escapeHtml(focusDistrict)} ✕</button>`;
   }
   c.innerHTML = html;
 }
@@ -2066,7 +2202,11 @@ function showEmpty(title, desc) {
 function updateRefreshInfo(time) {
   const el = document.getElementById('refreshInfo');
   if (!time) return;
-  el.innerHTML = `最後付印 · <strong>${escapeHtml(formatDateCN(time))}</strong> · 共 ${allNews.length} 則`;
+  const d = new Date(time);
+  const when = isNaN(d) ? String(time)
+    : `${d.getMonth() + 1}/${d.getDate()} ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
+  const added = (dataMeta.addedLastRun || []).length;
+  el.innerHTML = `更新 · <strong>${escapeHtml(when)}</strong>${added ? ` · 本次新增 ${added} 則` : ''} · 共 ${allNews.length} 則`;
 }
 function showToast(msg) {
   const toast = document.getElementById('toast');

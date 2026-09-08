@@ -4,7 +4,9 @@
 import { CONFIG, NEGATIVE_RE } from '../config.js';
 import { fetchText, decodeEntities } from '../rss.js';
 
-const KEYWORD_RE = /開幕|開店|新開|試營運|動工|興建|設廠|投資|進駐|完工|啟用|落成|展店|情報/;
+// 只收跟開店、建設、投資有關的；單靠「[情報]」標籤不算（捐血、營養午餐也叫情報）
+export const PTT_KEYWORD_RE = /開幕|開店|新開|試營運|動工|興建|設廠|投資|進駐|完工|啟用|落成|展店|開張|建案|工程/;
+const KEYWORD_RE = PTT_KEYWORD_RE;
 
 // 解析看板列表頁：回傳 [{title, href, dateMD}] 與上一頁連結
 export function parseBoardIndex(html) {

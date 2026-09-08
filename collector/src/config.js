@@ -15,6 +15,9 @@ export const CONFIG = {
     '台南市政府 招商 OR 建設',
   ],
 
+  // 加在每組搜尋字串後面，讓 Google News 回傳近期新聞（設成 '' 則回到相關性排序）
+  googleNewsRecency: 'when:14d',
+
   // PTT 看板（社群討論）：抓標題含相關關鍵字的文章
   pttBoards: [
     { board: 'Tainan', pages: 2, maxArticleFetch: 10 },
