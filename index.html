@@ -1310,6 +1310,16 @@ const DISTRICT_GROUPS = [
   { name: '新營區域', list: ['新營區','鹽水區','白河區','柳營區','後壁區','東山區'] }
 ];
 
+// 內建預設轄區（樂清的負責範圍）：使用者還沒在瀏覽器存過設定前，
+// 儀表板預設只顯示這些區。之後在面板調整並「儲存為我的轄區」會覆蓋這個預設。
+const DEFAULT_MY_DISTRICTS = [
+  '東區',
+  '永康區','仁德區','歸仁區','關廟區','龍崎區',
+  '新化區','新市區','善化區','山上區','玉井區','楠西區','南化區','左鎮區',
+  '六甲區','官田區','大內區',
+  '白河區','柳營區','東山區'
+];
+
 // ===== 啟動 =====
 document.addEventListener('DOMContentLoaded', () => {
   applyTweaks(TWEAK_DEFAULTS);
@@ -1916,8 +1926,10 @@ function renderDistrictBars() {
 // 轄區篩選 — 全 37 區，可儲存「我的轄區」
 // =================================================================
 function loadDistrictPrefs() {
-  try { myDistricts = JSON.parse(localStorage.getItem('tn_myDistricts') || '[]'); } catch (e) { myDistricts = []; }
-  if (!Array.isArray(myDistricts)) myDistricts = [];
+  // 沒存過「我的轄區」時，採用內建預設（樂清的負責範圍）
+  let stored = null;
+  try { stored = JSON.parse(localStorage.getItem('tn_myDistricts') || 'null'); } catch (e) { stored = null; }
+  myDistricts = Array.isArray(stored) ? stored : [...DEFAULT_MY_DISTRICTS];
   try {
     const s = JSON.parse(localStorage.getItem('tn_selDistricts') || 'null');
     selectedDistricts = new Set(Array.isArray(s) ? s : myDistricts);
