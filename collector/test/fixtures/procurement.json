@@ -1,0 +1,99 @@
+{
+  "date": 20260907,
+  "records": [
+    {
+      "date": 20260907,
+      "filename": "BDM-1-70000001",
+      "brief": {
+        "type": "公開招標公告",
+        "title": "臺南市歸仁區公所新辦公廳舍新建工程",
+        "companies": {}
+      },
+      "job_number": "1150907-01",
+      "unit_id": "3.79.30.16",
+      "unit_name": "臺南市歸仁區公所",
+      "url": "https://web.pcc.gov.tw/tps/QueryTender/query/searchTenderDetail?pkPmsMain=70000001"
+    },
+    {
+      "date": 20260907,
+      "filename": "BDM-2-70000002",
+      "brief": {
+        "type": "決標公告",
+        "title": "永康區運動公園多功能運動館委託營運移轉（OT）案",
+        "companies": {
+          "ids": ["12345678"],
+          "names": ["某某運動事業股份有限公司"]
+        }
+      },
+      "job_number": "1150815-03",
+      "unit_id": "3.79.5",
+      "unit_name": "臺南市政府體育局",
+      "url": "https://web.pcc.gov.tw/tps/QueryTender/query/searchTenderDetail?pkPmsMain=70000002"
+    },
+    {
+      "date": 20260907,
+      "filename": "BDM-1-70000003",
+      "brief": {
+        "type": "公開招標公告",
+        "title": "南部科學園區臺南園區標準廠房二期統包工程",
+        "companies": {}
+      },
+      "job_number": "1150907-07",
+      "unit_id": "3.10.95",
+      "unit_name": "國家科學及技術委員會南部科學園區管理局",
+      "url": "https://web.pcc.gov.tw/tps/QueryTender/query/searchTenderDetail?pkPmsMain=70000003"
+    },
+    {
+      "date": 20260907,
+      "filename": "BDM-1-70000004",
+      "brief": {
+        "type": "公開招標公告",
+        "title": "臺南市政府115年度辦公室影印紙採購案",
+        "companies": {}
+      },
+      "job_number": "1150907-09",
+      "unit_id": "3.79",
+      "unit_name": "臺南市政府秘書處",
+      "url": "https://web.pcc.gov.tw/tps/QueryTender/query/searchTenderDetail?pkPmsMain=70000004"
+    },
+    {
+      "date": 20260907,
+      "filename": "BDM-1-70000005",
+      "brief": {
+        "type": "公開招標公告",
+        "title": "高雄市鳳山區行政中心整建工程",
+        "companies": {}
+      },
+      "job_number": "1150907-11",
+      "unit_id": "3.80.1",
+      "unit_name": "高雄市政府工務局",
+      "url": "https://web.pcc.gov.tw/tps/QueryTender/query/searchTenderDetail?pkPmsMain=70000005"
+    },
+    {
+      "date": 20260907,
+      "filename": "BDM-3-70000006",
+      "brief": {
+        "type": "無法決標公告",
+        "title": "臺南市白河區某某橋改建工程",
+        "companies": {}
+      },
+      "job_number": "1150820-02",
+      "unit_id": "3.79.3",
+      "unit_name": "臺南市政府工務局",
+      "url": "https://web.pcc.gov.tw/tps/QueryTender/query/searchTenderDetail?pkPmsMain=70000006"
+    },
+    {
+      "date": 20260907,
+      "filename": "BDM-1-70000007",
+      "brief": {
+        "type": "公開招標公告",
+        "title": "臺南市東區市立醫院大樓年度電梯維護保養案",
+        "companies": {}
+      },
+      "job_number": "1150907-13",
+      "unit_id": "3.79.9",
+      "unit_name": "臺南市立醫院",
+      "url": "https://web.pcc.gov.tw/tps/QueryTender/query/searchTenderDetail?pkPmsMain=70000007"
+    }
+  ]
+}

@@ -8,7 +8,8 @@ import { parseRss, stripTags, decodeEntities } from '../src/rss.js';
 import { extractDistrict, classifyCategory, geocode, DISTRICTS, DISTRICT_COORDS } from '../src/classify.js';
 import { parseBoardIndex, parseArticle } from '../src/sources/ptt.js';
 import { canonicalUrl, normTitle, makeId, mergeNews } from '../src/store.js';
-import { finalize } from '../src/index.js';
+import { finalize, backfillDistricts } from '../src/index.js';
+import { normalizeRecord, taipeiDateStr } from '../src/sources/procurement.js';
 
 const FIX = join(dirname(fileURLToPath(import.meta.url)), 'fixtures');
 const read = f => readFileSync(join(FIX, f), 'utf8');
@@ -59,6 +60,16 @@ test('extractDistrict：獨特裸名可判區，常見詞不誤判', () => {
   assert.equal(extractDistrict('麻豆老街新店開張'), '麻豆區');
   assert.equal(extractDistrict('市場行情安定 山上空氣好'), '');   // 安定/山上是常見詞
   assert.equal(extractDistrict('將軍出巡 大內高手'), '');
+});
+
+test('extractDistrict：地標不分大小寫、具體地標優先於裸名', () => {
+  assert.equal(extractDistrict('台南三井Outlet新品牌進駐'), '歸仁區');
+  assert.equal(extractDistrict('台南機器人創新中心進駐柳科今開幕'), '柳營區');
+  assert.equal(extractDistrict('台南雙春濱海遊憩區木棧道完工'), '北門區');
+  assert.equal(extractDistrict('台南青年進駐後壁打造備援通訊網'), '後壁區');
+  assert.equal(extractDistrict('聯電宣布在台南蓋新晶圓廠'), '新市區');
+  assert.equal(extractDistrict('LOPIA台南西門店開幕'), '中西區');
+  assert.equal(extractDistrict('安平工業區廠房改建'), '南區');   // 地標比裸名「安平」具體
 });
 
 test('DISTRICTS 共 37 區且都有座標', () => {
@@ -128,6 +139,56 @@ test('mergeNews 以 id 與標題去重、既有優先、依日期排序、裁上
   const { news, added } = mergeNews(existing, incoming, 2);
   assert.equal(added, 2);
   assert.deepEqual(news.map(n => n.title), ['新聞C', '舊聞A']); // 排序後裁到 2 筆
+});
+
+// ---------- 政府電子採購網 ----------
+test('normalizeRecord：只留臺南的工程 / 營運招標與決標', () => {
+  const recs = JSON.parse(read('procurement.json')).records;
+  const out = recs.map(r => normalizeRecord(r)).filter(Boolean);
+  const titles = out.map(o => o.title);
+  assert.deepEqual(titles, [
+    '【招標】臺南市歸仁區公所新辦公廳舍新建工程',
+    '【決標】永康區運動公園多功能運動館委託營運移轉（OT）案',
+    '【招標】南部科學園區臺南園區標準廠房二期統包工程',
+  ]);
+  // 影印紙採購、高雄案、無法決標、電梯保養 都被排除
+  assert.ok(!titles.some(t => /影印紙|高雄|白河|電梯/.test(t)));
+  // 決標帶出得標廠商
+  assert.match(out[1].snippet, /得標廠商：某某運動事業股份有限公司/);
+  assert.match(out[1].snippet, /機關：臺南市政府體育局/);
+  assert.equal(out[0].source, '政府電子採購網');
+  assert.equal(out[0].date, '2026-09-07T04:00:00.000Z');
+  assert.match(out[0].url, /^https:\/\/web\.pcc\.gov\.tw\//);
+});
+
+test('normalizeRecord：沒有 url 時組出 g0v 採購網頁連結', () => {
+  const item = normalizeRecord({
+    date: 20260901, brief: { type: '公開招標公告', title: '臺南市某某路拓寬工程' },
+    unit_id: '3.79.3', job_number: 'A-1', unit_name: '臺南市政府工務局',
+  });
+  assert.match(item.url, /^https:\/\/pcc\.g0v\.ronny\.tw\/tender\/3\.79\.3\/A-1\?announce=20260901$/);
+});
+
+test('taipeiDateStr 以台灣時間換算日期', () => {
+  // UTC 2026-09-07 20:00 = 台灣 09-08 04:00
+  const now = new Date('2026-09-07T20:00:00Z');
+  assert.equal(taipeiDateStr(0, now), '20260908');
+  assert.equal(taipeiDateStr(1, now), '20260907');
+});
+
+// ---------- 回填判區 ----------
+test('backfillDistricts 只補沒有區的、不動已有的', () => {
+  const list = [
+    { id: 'a', title: '台南青年進駐後壁打造備援通訊網', url: 'https://x/1', district: '', lat: '', lng: '' },
+    { id: 'b', title: '安平新飯店動工', url: 'https://x/2', district: '永康區', lat: 1, lng: 2 }, // 已有區，不改
+    { id: 'c', title: '台南捷運藍線動工', url: 'https://x/3', district: '', lat: '', lng: '' },        // 判不出，維持空
+  ];
+  const filled = backfillDistricts(list);
+  assert.equal(filled, 1);
+  assert.equal(list[0].district, '後壁區');
+  assert.ok(typeof list[0].lat === 'number');
+  assert.equal(list[1].district, '永康區');
+  assert.equal(list[2].district, '');
 });
 
 // ---------- finalize（整條 schema）----------

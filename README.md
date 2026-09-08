@@ -7,17 +7,22 @@
 ## 系統架構
 
 ```
-┌─ 來源 ──────────────────────────┐
-│  Google News 搜尋 RSS（新聞主力） │      GitHub Actions
-│  PTT Tainan 看板（社群討論）      │──▶  每天 05:30（台灣時間）
-│  一般 RSS（自由時報台南、可自加）  │      collector/src/index.js
-└─────────────────────────────────┘              │
-        相關性過濾 → 判區(37區) → 分類 → 座標 → 去重合併
-                                                 │
-                                        data/news.json（版本控管）
-                                                 │
-                                    index.html（儀表板 / 列表 / 地圖）
+┌─ 來源 ──────────────────────────────┐
+│  Google News 搜尋 RSS（新聞主力）     │      GitHub Actions
+│  PTT Tainan 看板（社群討論）          │──▶  每天 05:30（台灣時間）
+│  一般 RSS（自由時報台南、可自加）      │      collector/src/index.js
+│  政府電子採購網（工程/營運招標、決標） │              │
+└─────────────────────────────────────┘              │
+        相關性過濾 → 判區(37區) → 分類 → 座標 → 去重合併 → 回填舊資料判區
+                                                     │
+                                            data/news.json（版本控管）
+                                                     │
+                                        index.html（儀表板 / 列表 / 地圖）
 ```
+
+**政府電子採購網**走 g0v 社群維護的開放 API（`pcc.g0v.ronny.tw`），每天查最近三天的公告，
+只留臺南機關（或標題點名臺南／南科）的**工程類**與**營運類（OT / BOT / 委託經營 / 促參）**
+招標、決標公告；決標會帶出得標廠商。財物採購、維護保養、無法決標等不收。
 
 - **蒐集器**（`collector/`）：零相依 Node.js，離線可測（`npm test`）。
 - **排程**（`.github/workflows/collect.yml`）：每天蒐集並直接 commit 更新
@@ -36,7 +41,11 @@
 | 增加 RSS 來源（含 RSSHub / rss.app） | `rssFeeds` 加一筆 `{ url, source }` |
 | 增加/調整分類關鍵字 | `CATEGORY_KEYWORDS` |
 | 排除雜訊（球賽開幕戰之類） | `NEGATIVE_RE` |
+| 採購網要收的公告類型 / 標題關鍵字 / 排除項 | `procurement` 區塊 |
 | 地標對應行政區（例如某園區 → 某區） | `collector/src/classify.js` 的 `LANDMARKS` |
+
+判區規則改好後不用等：每次執行都會對還沒有區的舊資料重新判一次（只補、不改已判的）；
+也可以離線手動跑 `node collector/src/index.js --no-fetch`。
 
 改完 push 到 main，下一次排程就生效；急的話手動 Run workflow。
 
@@ -73,5 +82,7 @@ node collector/src/index.js
   加來源網站自己的 RSS。
 - Facebook / Instagram 沒有公開 RSS，需要透過 RSSHub 自架或 rss.app 之類
   的橋接服務，把橋接後的網址加進 `rssFeeds` 即可（舊版曾用此法抓 IG）。
-- 政府標案／建照資料（政府電子採購網、內政部建照開放資料）是好的下一步，
-  可在 `collector/src/sources/` 加新模組，回傳相同欄位即可。
+- 內政部建照／使照開放資料是下一個值得接的來源，可在 `collector/src/sources/`
+  加新模組，回傳相同欄位即可。
+- 採購網來源依賴 g0v 的第三方 API；若該服務異常，`data/report.json` 會記錄錯誤，
+  其他來源不受影響。

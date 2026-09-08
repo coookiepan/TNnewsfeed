@@ -1715,9 +1715,12 @@ function classifyNews(n) {
   // 施工中（明確動態）優先，其次預告開幕、已開幕、投資宣布、規劃興建
   if (/動工|開工|動土|施工|興建中|趕工|上樑|裝潢中/.test(text)) return 'building';
   if (new RegExp('(?:預[計定估]|即將|將於|將在|可望|下個?月|年底|年內|明年|下半年|上半年|第[一二三四1-4]季)[^。;；]{0,20}?' + OPEN_WORDS).test(text)) return 'upcoming';
+  // 政府採購的營運類（OT/BOT/委託經營）是投資案；要排在開幕詞之前，
+  // 否則「委託營運」裡的「營運」會被當成已開幕
+  if (/委託營運|委託經營|營運移轉|OT案|BOT|ROT|BOO|促參|招商/i.test(text)) return 'investment';
   if (new RegExp(OPEN_WORDS).test(text)) return 'opened';
   if (/投資|設廠|建廠|擴廠|擴大產能|購地|得標|簽約|進駐/.test(text)) return 'investment';
-  if (/興建|新建|籌建|打造/.test(text)) return 'building';
+  if (/興建|新建|籌建|打造|招標|決標|發包|統包|工程/.test(text)) return 'building';
   const cat = n.category || '';
   if (/建設/.test(cat)) return 'building';
   if (/投資/.test(cat)) return 'investment';
