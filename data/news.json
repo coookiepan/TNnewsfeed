@@ -1,79 +1,135 @@
 {
- "lastFetched": "2026-09-08T23:29:15.151Z",
+ "lastFetched": "2026-09-09T23:23:49.166Z",
  "addedLastRun": [
-  "99838e0a3126",
-  "58c1c03aa8fd",
-  "13353f44091d",
-  "f8ddc5d78529",
-  "224b007b63c6",
-  "d1ddf46833b6",
-  "ad75c2323e58",
-  "46a27d5fbc93",
-  "0a0a3aae5a10",
-  "4f58ed4e3ebf",
-  "a0b21692d732",
-  "74605d3663ab",
-  "c4a83c9f312b",
-  "ddfdd6c9aa89",
-  "865a92bee99f",
-  "dda8144e0272",
-  "7cfae7bac446",
-  "24ed092ade6d",
-  "6ab04a42070b",
-  "73a587209604",
-  "86a1955c82ff",
-  "41aeddc8b803",
-  "8d28b7f02aeb",
-  "33e53827a269",
-  "760db6a5ac7b",
-  "80a93792e254",
-  "2b9ae101b09c",
-  "53bd6c931bbc",
-  "cea692161576",
-  "4842b8c27db3",
-  "ece8cd96ca52",
-  "af5fa59fce25",
-  "9f800cf18c26",
-  "47b5caca46bd",
-  "830c2ad52ee2",
-  "9e8546186cce",
-  "be93fcae9c11",
-  "2ce1164c2cd4",
-  "e0f2e567cf41",
-  "237c526666d2",
-  "ecac82e2f208",
-  "e5b64374669f",
-  "aff9be80e190",
-  "8119c867ca06",
-  "deb6f28f8404",
-  "a3699deb8eb7",
-  "3304013e3e3b",
-  "87977ad11f57",
-  "ddf1256bb9a6",
-  "ef8b41994f92",
-  "3cf88120f548",
-  "42f9331e2da7",
-  "4b91cd39c173",
-  "55a64179fcca",
-  "adc2f5f427b0",
-  "a27c6fe81098",
-  "d069fe9b1f10",
-  "da69c2646165",
-  "036c0cf48cd0",
-  "6500e9aeb8bc",
-  "7a96aab71600",
-  "d0c7cd4d92e6",
-  "6c59d484bc07",
-  "cb97c997be33",
-  "d93a0f3b723e",
-  "8986a1f56144",
-  "16f971dfc260",
-  "eb9ebe21a38f",
-  "e65208237fdf",
-  "1fa43ea3d921",
-  "02b80b1c74f5"
+  "a7be9c7f092b",
+  "1860b52480bd",
+  "c89eb2cee7a6",
+  "c72ef669bd77",
+  "fffe2f5529b4",
+  "35a5b84a33ed",
+  "8908bd53f230",
+  "4ab501bbba9b",
+  "38fdfb78e554",
+  "79df74035c80",
+  "8d11c24bb470",
+  "27a50e83792a",
+  "af1249491ee6",
+  "723f66adcd13",
+  "f71068617875"
  ],
  "news": [
+  {
+   "id": "af1249491ee6",
+   "title": "獨家》亞資中心台南專區二大牛肉曝光！9／17南市府與金融業簽MOU",
+   "source": "工商時報",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UdHNyOFZNckM3NVZ0d1RScFVyeVgyaG1hU3N6VnBhZUlFT1RYSGs4Yi1zaEpPdy1GRllkMk5zM1lQaWtjcWZyUXFBQXdYYmhtcGhKTTczamUxQQ?oc=5",
+   "category": "",
+   "date": "2026-09-09T14:30:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-09T23:23:49.166Z",
+   "story": "af1249491ee6"
+  },
+  {
+   "id": "27a50e83792a",
+   "title": "台南市僅14億元！交通部明年補助新北捷運160.16億元",
+   "source": "news.ltn.com.tw",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZaldtNi1pQUlULXdCRWNyd3B4RTJrREVJcjVXQW00TTNEWG1EZmJrYURFeFpjWUJOdWdFT21sM0JJX2lDUFdBcWllM3JBZ3BCcEwzU29mMHdvVTVXNTdNS0dSZThBRnlEYUHSAWpBVV95cUxPWWpXbTYtaUFJVC13QkVjcndweEUya0RFSXI1V0FtNE0zRFhtRGZia2FERXhaY1lCTnVnRU9tbDNCSV9pQ1BXQXFpZTNyQWdwQnBMM1NvZjB3b1U1VzU3TUtHUmU4QUZ5RGFB?oc=5",
+   "category": "",
+   "date": "2026-09-09T10:41:58.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-09T23:23:49.166Z",
+   "story": "27a50e83792a"
+  },
+  {
+   "id": "8d11c24bb470",
+   "title": "臺南首家BOT五星級旅館福爾摩沙遊艇酒店 榮獲第24屆金擘獎殊榮",
+   "source": "tainan.gov.tw",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBmanQ2c0hYdGM4c29YMDdHU2ltUzhCRzFCSVRHdmRWbjhSWUlId1M1WG1jVy1FUW14SFUwYXFVN25pMjBDRkE3YUJMVjFFc2Q5UWctV2NxZ2ktbC01YkZaNW9hbzFYeW9lRi10bGNB?oc=5",
+   "category": "",
+   "date": "2026-09-09T08:39:48.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-09T23:23:49.166Z",
+   "story": "8d11c24bb470"
+  },
+  {
+   "id": "35a5b84a33ed",
+   "title": "台南「開南安居」社宅開箱！1～3房共300戶申租最後倒數",
+   "source": "好房網News",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1XeElmdjV3VkZQVUJVMlFYQko3NlRJV3hqWUJVMTQtU3ZZQl83ZUxES0VsU1FUZGx0bnctWkx5dk1EajZ4UWlSRHJnRkMweDNvdUV6Ri16aDVvZ1d6aHdURlMxU19ScEg2RUtR0gFwQVVfeXFMTmZhczdOamd1STF5bVpYZkt3VWd5ZXpXcmVhUnNkZU9tWnROSGpXd3lZSm0xNUUzTnY4NEo5QTg5Q2RLZ2t5a1JzUkZoWjFBSndSQkZ0a3JKLUFuNktNZzN3RE5nSXJHVy1DeHFKX2lGVg?oc=5",
+   "category": "",
+   "date": "2026-09-09T05:55:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-09T23:23:49.166Z",
+   "story": "86a1955c82ff"
+  },
+  {
+   "id": "4ab501bbba9b",
+   "title": "台鐵「台南新車站」10月通車！地下化月台，串連捷運綠線、站前廣場",
+   "source": "Bella.tw儂儂",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOemh1b1ZRUm16ckFldXh6b0tBYUtieTFpcVBwbHFPNjVwOUlUV25ZUWRVOVBYVWJVRzloODg2ajJIU2RLbm9kdjNoVUJHNGhORWlubHdUa2NweWtsem9kaUZqY2FzYmp2ZEthc2hfMURvMkJiXzhZbVA2cXFqS0ZhME1tUzVCTGZOQ0tFRWFJdEZGNVE5Wk5VU1BOamtvVHgwcTNkN3dzTUhJNUU?oc=5",
+   "category": "",
+   "date": "2026-09-09T04:34:23.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-09T23:23:49.166Z",
+   "story": "4ab501bbba9b"
+  },
+  {
+   "id": "a7be9c7f092b",
+   "title": "亞洲首間「希爾頓世家酒店」2027年1月台南開幕！絕美空間照搶先釋出，紅磚牆、挑高中庭期待值破表",
+   "source": "Marie Claire 美麗佳人",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9Ed0FlUldsRzNQVHJqeHFmbkd3MXZ4eDZ5OElid2VMbXhOOEJnVW5fVHZqeWpyVHhtRHhhRDJROEFIUW9jMjRmcnBWdzRrZnZreHNDemhTSzZpTGd2VjlFQzFhVQ?oc=5",
+   "category": "新開店",
+   "date": "2026-09-09T04:17:45.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-09T23:23:49.166Z",
+   "story": "a7be9c7f092b"
+  },
+  {
+   "id": "c89eb2cee7a6",
+   "title": "台南正興街散步甜食『WOW DONUT 生甜甜圈專門店』雲朵般柔軟口感，咬下去大爆餡！",
+   "source": "kellylife.tw",
+   "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5IVGttQUUzU1lwOG80bGJqZkEtUV9Wc1U2UUFab2hoMndFaDdEQWNlQl8wUlRraUx0alFPbjlkVDJMSkJD?oc=5",
+   "category": "",
+   "date": "2026-09-09T01:17:58.000Z",
+   "snippet": "",
+   "district": "中西區",
+   "lat": 22.9879,
+   "lng": 120.1878,
+   "firstSeen": "2026-09-09T23:23:49.166Z",
+   "story": "c89eb2cee7a6"
+  },
+  {
+   "id": "fffe2f5529b4",
+   "title": "台南租屋族把握！社宅「開南安居」300戶招租倒數 9/14截止",
+   "source": "蕃新聞",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1YOHY4VlMyenA2TUUtUEVfZHIzVnRTNm1JSV80TU9CbldfT1pXZS14RGltTmV2S1Jud0w3cjZwN3B6d0dvZk1SWEZBTGI2SkJoanc?oc=5",
+   "category": "",
+   "date": "2026-09-09T01:16:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-09T23:23:49.166Z",
+   "story": "fffe2f5529b4"
+  },
   {
    "id": "237c526666d2",
    "title": "台南東山體健場啟用 挨批陽春",
@@ -114,7 +170,7 @@
    "lat": 23.1093,
    "lng": 120.3304,
    "firstSeen": "2026-09-08T23:29:15.151Z",
-   "story": "02b80b1c74f5"
+   "story": "2ce1164c2cd4"
   },
   {
    "id": "be93fcae9c11",
@@ -128,7 +184,7 @@
    "lat": 23.1197,
    "lng": 120.3564,
    "firstSeen": "2026-09-08T23:29:15.151Z",
-   "story": "02b80b1c74f5"
+   "story": "2ce1164c2cd4"
   },
   {
    "id": "8119c867ca06",
@@ -198,7 +254,7 @@
    "lat": 23.1223,
    "lng": 120.3574,
    "firstSeen": "2026-09-08T23:29:15.151Z",
-   "story": "02b80b1c74f5"
+   "story": "2ce1164c2cd4"
   },
   {
    "id": "e0f2e567cf41",
@@ -212,7 +268,7 @@
    "lat": 23.1277,
    "lng": 120.3282,
    "firstSeen": "2026-09-08T23:29:15.151Z",
-   "story": "02b80b1c74f5"
+   "story": "2ce1164c2cd4"
   },
   {
    "id": "2ce1164c2cd4",
@@ -226,7 +282,7 @@
    "lat": 23.1177,
    "lng": 120.3524,
    "firstSeen": "2026-09-08T23:29:15.151Z",
-   "story": "02b80b1c74f5"
+   "story": "2ce1164c2cd4"
   },
   {
    "id": "e5b64374669f",
@@ -525,6 +581,20 @@
    "story": "ddf1256bb9a6"
   },
   {
+   "id": "1860b52480bd",
+   "title": "台北頂級壽喜燒插旗台南！ 「橋山·鵲邸壽喜燒」來自東京百年名店，有身份證的日本神戶牛太銷魂",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9Way1CNmZlRWVrbkpwMjUwbXB1bGVVVWQ0Y3ZCalVjRi1zMjlDaXcwdXloR3NCT0hRX2RWZW95RngtMzlITlN6UUJHQjVkbFc1eEZVcVZSbmYtOXhH?oc=5",
+   "category": "",
+   "date": "2026-09-05T08:28:11.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-09T23:23:49.166Z",
+   "story": "1860b52480bd"
+  },
+  {
    "id": "3049536641d1",
    "title": "2026 Mattauw大地藝術季台南開幕 (圖)",
    "source": "tw.news.yahoo.com",
@@ -647,6 +717,20 @@
    "story": "58c1c03aa8fd"
   },
   {
+   "id": "79df74035c80",
+   "title": "「南科磐石．昂首30」登場 南科攜12家園區廠商進軍2026國際半導體展",
+   "source": "蕃新聞",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Nc0tkVVFqSUFncGhVTTl3S2FrUFZsYzFRbTNjRnBjM1pBZUxoRWJadkZ0eTRsanpreExzbHFVZlpMdmptTzZYRUhLWm5sZFdFZFE?oc=5",
+   "category": "",
+   "date": "2026-09-04T13:23:07.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0709,
+   "lng": 120.2652,
+   "firstSeen": "2026-09-09T23:23:49.166Z",
+   "story": "d069fe9b1f10"
+  },
+  {
    "id": "c94cc27d4e30",
    "title": "台南河樂廣場變夜間美術館！中國城光雕、造型小船必拍，這天有市集、水域表演",
    "source": "食尚玩家",
@@ -714,6 +798,20 @@
    "story": "33e53827a269"
   },
   {
+   "id": "723f66adcd13",
+   "title": "台南小巨蛋16年孵不出來 黃偉哲：任內最不滿意的規畫進程",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5xT2tHYzdUc2xremV0cEE2XzJkOTNpWGZPQjBKZ252QzVYY2FLZlZYNFpGd0hvNFBmbXc0N1dYQUk2SG1GRDRpNVEwZ2ZZYlQw0gFWQVVfeXFMTTZQb01ydXh5RjBtZElINXJ4eVZTSF9aZDF5UXJPd2xGdVpzR184SmNrVDZPZEM3OWg3cndfcldud29oYWlmZXRBcEhUNUpQMGEta010a2c?oc=5",
+   "category": "",
+   "date": "2026-09-04T06:07:53.000Z",
+   "snippet": "",
+   "district": "東區",
+   "lat": 22.9859,
+   "lng": 120.2177,
+   "firstSeen": "2026-09-09T23:23:49.166Z",
+   "story": "723f66adcd13"
+  },
+  {
    "id": "a27c6fe81098",
    "title": "不畏英特爾搶單特斯拉 台積電台南2奈米廠將動土了",
    "source": "自由時報",
@@ -754,6 +852,20 @@
    "lng": "",
    "firstSeen": "2026-09-08T23:29:15.151Z",
    "story": "865a92bee99f"
+  },
+  {
+   "id": "f71068617875",
+   "title": "中央總預算延宕台南78.9億建設受影響 黃偉哲：成本還暴增",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tVFpmMWxnZkpyLUVUSDIyNFN3NE04WmhBblZGeVBPZkR3YjRaTVhNcGdnc3FUaUFMY2k3clY1WG1LSm1IcVc0MmxoVTBobndV0gFWQVVfeXFMT2J6YWtYN2JKR0JMMVZ1cXdTMEMzdm1OelhuM3Nud2kyeTliWGs3QUxqX0o1cTdpUUZXTjZjbTF0Vjl4R0RYdEx2VjFJSGpIYVh1Wnhtd2c?oc=5",
+   "category": "",
+   "date": "2026-09-03T00:48:12.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-09T23:23:49.166Z",
+   "story": "f71068617875"
   },
   {
    "id": "6c59d484bc07",
@@ -996,6 +1108,20 @@
    "lng": "",
    "firstSeen": "2026-09-08T23:29:15.151Z",
    "story": "af5fa59fce25"
+  },
+  {
+   "id": "8908bd53f230",
+   "title": "台南、錢德勒締盟10周年！ 黃偉哲：台積電牽起半導體城市新合作",
+   "source": "ETtoday新聞雲",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jRE1zT0dQcF9JVVpuTnpPVjJzM1dKby1aelp4Zmt1QklTc3Ywc1VCZmpFYTA1NTZnYl85ZlVYS21rRmRfcGhjTlZaY1pSUTlVbENHdHVBVm54bW9iRmfSAUtBVV95cUxQQm1JemRfV3ZHaVlodWxGQkdadURlZ0NuQkVyWDZ2REFDSGdPeGp5VndjSUs0QUtfazFPTkVVd1kwS1hGTlJ3S1RvMG8?oc=5",
+   "category": "",
+   "date": "2026-09-01T01:52:00.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0781,
+   "lng": 120.2692,
+   "firstSeen": "2026-09-09T23:23:49.166Z",
+   "story": "8908bd53f230"
   },
   {
    "id": "44567d248874",
@@ -1268,6 +1394,20 @@
    "story": "020b8150dbad"
   },
   {
+   "id": "38fdfb78e554",
+   "title": "台南新光三越中山店10月熄燈 舊城區招商成課題",
+   "source": "LINE TODAY",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rY0hIR0dhUXFKSlFQMGlqYXU0UDZUU0NZWEUyc244WWt3TWZmbUNxNVpkSHgyd2taV0ZWSmd5QTNoWTFGd2tLV2VZNnk2WDR6eEFjbDNn?oc=5",
+   "category": "",
+   "date": "2026-08-30T03:16:04.000Z",
+   "snippet": "",
+   "district": "中西區",
+   "lat": 22.9897,
+   "lng": 120.1894,
+   "firstSeen": "2026-09-09T23:23:49.166Z",
+   "story": "38fdfb78e554"
+  },
+  {
    "id": "2e5661e8adef",
    "title": "台南市七股科工區多元招商 吸引小美冰淇淋進駐",
    "source": "wennan.org.tw",
@@ -1344,6 +1484,20 @@
    "lat": 23.1875,
    "lng": 120.232,
    "story": "7375ce99df1f"
+  },
+  {
+   "id": "c72ef669bd77",
+   "title": "台南熱氣球派對下周末登場 光雕無人機、繫留體驗、免費接駁一覽",
+   "source": "ETtoday旅遊雲",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ocTFRbm0wYk5FajNfRDdJRnNPYU9DLVhkNURuTXZIWHFOZERkV3lDUjdzb1ZyeF8wam1ZNDFpNW9Ud1FUbGhxcmNuMkxobnZmdHZ1YjVVbE5YUdIBT0FVX3lxTFBITl8tdlVNdDQzcDlBdmtqeHFOTGJLaHRFZDl1NkRSTENQS3BBd0VGOGtxZW9oTUg1cXJHYjktX1hJX0NaekZRbEk0cXRBMXc?oc=5",
+   "category": "",
+   "date": "2026-08-29T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-09T23:23:49.166Z",
+   "story": "c72ef669bd77"
   },
   {
    "id": "aac4900734dc",
@@ -1519,7 +1673,7 @@
    "lat": 23.2696,
    "lng": 120.2938,
    "firstSeen": "2026-09-08T23:29:15.151Z",
-   "story": "9500f0a33f9c"
+   "story": "4842b8c27db3"
   },
   {
    "id": "d1db0903c7ea",
@@ -1546,7 +1700,7 @@
    "lat": 23.2746,
    "lng": 120.2848,
    "firstSeen": "2026-09-08T23:29:15.151Z",
-   "story": "9500f0a33f9c"
+   "story": "4842b8c27db3"
   },
   {
    "id": "ecac82e2f208",
@@ -1602,7 +1756,7 @@
    "lat": 23.2712,
    "lng": 120.2956,
    "firstSeen": "2026-09-08T23:29:15.151Z",
-   "story": "9500f0a33f9c"
+   "story": "4842b8c27db3"
   },
   {
    "id": "036c0cf48cd0",
@@ -1684,7 +1838,7 @@
    "lat": 23.2802,
    "lng": 120.2854,
    "firstSeen": "2026-09-08T23:29:15.151Z",
-   "story": "9500f0a33f9c"
+   "story": "4842b8c27db3"
   },
   {
    "id": "1a628b44b028",
@@ -1697,7 +1851,7 @@
    "district": "柳營區",
    "lat": 23.2682,
    "lng": 120.2946,
-   "story": "9500f0a33f9c"
+   "story": "4842b8c27db3"
   },
   {
    "id": "cf764aba7b43",
@@ -1710,7 +1864,7 @@
    "district": "柳營區",
    "lat": 23.2774,
    "lng": 120.2982,
-   "story": "9500f0a33f9c"
+   "story": "4842b8c27db3"
   },
   {
    "id": "018badcfe1ea",
@@ -1723,7 +1877,7 @@
    "district": "柳營區",
    "lat": 23.2776,
    "lng": 120.287,
-   "story": "9500f0a33f9c"
+   "story": "4842b8c27db3"
   },
   {
    "id": "532426397675",
@@ -1736,7 +1890,7 @@
    "district": "柳營區",
    "lat": 23.2876,
    "lng": 120.2946,
-   "story": "9500f0a33f9c"
+   "story": "4842b8c27db3"
   },
   {
    "id": "9500f0a33f9c",
@@ -1749,7 +1903,7 @@
    "district": "柳營區",
    "lat": 23.2744,
    "lng": 120.3124,
-   "story": "9500f0a33f9c"
+   "story": "4842b8c27db3"
   },
   {
    "id": "13353f44091d",
@@ -1819,7 +1973,7 @@
    "lat": 23.2792,
    "lng": 120.2922,
    "firstSeen": "2026-09-08T23:29:15.151Z",
-   "story": "9500f0a33f9c"
+   "story": "4842b8c27db3"
   },
   {
    "id": "9f800cf18c26",
@@ -1833,7 +1987,7 @@
    "lat": 23.2746,
    "lng": 120.2884,
    "firstSeen": "2026-09-08T23:29:15.151Z",
-   "story": "9500f0a33f9c"
+   "story": "4842b8c27db3"
   },
   {
    "id": "f2f5dbf295a9",
