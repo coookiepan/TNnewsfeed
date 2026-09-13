@@ -1,24 +1,28 @@
 {
- "lastFetched": "2026-09-12T23:07:40.607Z",
+ "lastFetched": "2026-09-13T23:16:26.043Z",
  "addedLastRun": [
-  "67225ac46af8",
-  "bce8fe1af1f4",
-  "37792348d01b",
-  "861c3c4cb306",
-  "a52b2815316a",
-  "85b69824c7c9",
-  "d98cf884b4f4",
-  "9a1dc1a19a74",
-  "3d5ebf55dfe2",
-  "925a07c92cb0",
-  "7d0486794437",
-  "8e5667b4ad35",
-  "744c60a2c018",
-  "aaa66f9672dd",
-  "6e2ba718f7c7",
-  "4b4f9fa695e1"
+  "f21f7abc3fea",
+  "ce4a6acc8fae",
+  "34fcf4e30096",
+  "1e5df9c5f221",
+  "649536f4fba2",
+  "851fb378c8d6"
  ],
  "news": [
+  {
+   "id": "f21f7abc3fea",
+   "title": "台南爆隨機砍人！嫌揮刀「襲擊2婦割傷警」 遭連開2槍制伏",
+   "source": "news.videoland.com.tw",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRjhtWEdNS25sejc3VGwyajhnRm9UaVQ2eXNrQ3BGeWZaak1aeWRhVWlQaGtTVW9rOGZNQXp4Qm1NZ3lmQlFHOGc0TzZuZXdlUlIyX1JhN2hOVkpOanZ0SmVFbHlnVTBhXzFKVllacjJ5RlJkS0duQkNLMnhYa1NsR2pxVDh4Zw?oc=5",
+   "category": "",
+   "date": "2026-09-13T03:38:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-13T23:16:26.043Z",
+   "story": "f21f7abc3fea"
+  },
   {
    "id": "744c60a2c018",
    "title": "陳亭妃團隊進駐 競總展現「美學台南」",
@@ -216,6 +220,20 @@
    "story": "a55e6c083c28"
   },
   {
+   "id": "ce4a6acc8fae",
+   "title": "新台南車站掛牌，你所不知道的台南鐵路地下化的創舉",
+   "source": "城市學",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBodHVDYzRfUXBNYlFscm1vSEFSWjBvSnBJMDNZVkljSU9FajUwaWNUd25MQlpaUlB4N3U4UDFwazc4Y3FZYkpBSmxiTXNfUGs?oc=5",
+   "category": "",
+   "date": "2026-09-11T15:18:00.000Z",
+   "snippet": "",
+   "district": "東區",
+   "lat": 22.9883,
+   "lng": 120.2173,
+   "firstSeen": "2026-09-13T23:16:26.043Z",
+   "story": "ce4a6acc8fae"
+  },
+  {
    "id": "70a75e086637",
    "title": "台南七大區域土地聯合標售 聚焦南科三期擴建與北外環交通利多",
    "source": "好房網News",
@@ -314,6 +332,20 @@
    "story": "6e2ba718f7c7"
   },
   {
+   "id": "1e5df9c5f221",
+   "title": "台南市地重劃區抵費地暨第4次標售區段徵收剩餘可建築用地聯合標售",
+   "source": "中時新聞網",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5IZEp2U2lrMGQwVTlDclpRWXRuUjdiSTV4dER1UWRid1N5RlpyNkJqcnFWNG14ZXdUa1FHT2ptVDd2cG1WdVhscXB5THJCazNWM3hDb2R1MGdOMTJ0SFJv?oc=5",
+   "category": "",
+   "date": "2026-09-11T06:13:08.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-13T23:16:26.043Z",
+   "story": "1e5df9c5f221"
+  },
+  {
    "id": "958078bc2af3",
    "title": "台南車站新站揭牌 鐵路地下化邁入通車倒數",
    "source": "樂上新聞網",
@@ -340,6 +372,20 @@
    "lng": 120.1542,
    "firstSeen": "2026-09-11T23:24:53.165Z",
    "story": "4fd79df49677"
+  },
+  {
+   "id": "34fcf4e30096",
+   "title": "台南7區一次釋出28標土地 南科、北安、麻豆等精華地段公開標售",
+   "source": "經濟日報",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1fcjJLYTFOb1Qzd2RTc0t3RmtvMGJlNmtLMnBBOVBOeVhrdHp4WG52aWsxbzFIM1A1YUktRUFWU0x1S3E2YlZIbEtGRTdNTjE5Vm1XSHo1MGFDVkxDOUt30gFfQVVfeXFMTV9yMkthMU5vVDN3ZFNzS3dGa28wYmU2a0sycEE5UE55WGt0enhYbnZpazFvMUgzUDVhSS1FQVZTTHVLcTZiVkhsS0ZFN01OMTlWbVdIejUwYUNWTEM5S3c?oc=5",
+   "category": "",
+   "date": "2026-09-11T03:22:15.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0727,
+   "lng": 120.2898,
+   "firstSeen": "2026-09-13T23:16:26.043Z",
+   "story": "34fcf4e30096"
   },
   {
    "id": "fc775890fc53",
@@ -1611,6 +1657,20 @@
    "story": "865a92bee99f"
   },
   {
+   "id": "851fb378c8d6",
+   "title": "臺南市政府地政局「喜樹灣裡市地重劃工程｣導入自然解方，榮獲世界衛生組織健康城市聯盟創新成果獎",
+   "source": "n.yam.com",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Kby1adXkxYmZHSW9za2VqZW1TU3ljQkZBLTdnVnVEalJxSkZfd0tteko4aHhVNGZKOHNPMWw2N3N5TnQzQjJTLW92bXladjZpYnc?oc=5",
+   "category": "新建設",
+   "date": "2026-09-03T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-13T23:16:26.043Z",
+   "story": "851fb378c8d6"
+  },
+  {
    "id": "f71068617875",
    "title": "中央總預算延宕台南78.9億建設受影響 黃偉哲：成本還暴增",
    "source": "UDN",
@@ -1719,6 +1779,20 @@
    "lng": "",
    "firstSeen": "2026-09-11T23:24:53.165Z",
    "story": "6d846b426234"
+  },
+  {
+   "id": "649536f4fba2",
+   "title": "台南市安南區市議員候選人姚正玉2日完成參選登記",
+   "source": "news.pchome.com.tw",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQLWhFWWJqYzVXazF3NWZKeUJXekRzY2R2ck5VYVE4STE1OFFIUl9qVDUtcG9XQlB2UVFKWFBZdzBkWVFaVi1lNnkxZ25KMlJKR0t6Nktrb3VubXhfMWRLQUh2X3RqQmM5d3lBN3VDMzB6YzNKdUVXRi1GYUdQWnlSM29LanIwQlpVNlZhM1czMA?oc=5",
+   "category": "",
+   "date": "2026-09-02T07:00:00.000Z",
+   "snippet": "",
+   "district": "南區",
+   "lat": 22.9609,
+   "lng": 120.1806,
+   "firstSeen": "2026-09-13T23:16:26.043Z",
+   "story": "649536f4fba2"
   },
   {
    "id": "2b9ae101b09c",
