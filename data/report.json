@@ -1,9 +1,9 @@
 {
- "ranAt": "2026-09-13T23:16:26.043Z",
+ "ranAt": "2026-09-14T23:55:07.457Z",
  "sources": [
   {
    "name": "Google News",
-   "fetched": 133,
+   "fetched": 126,
    "errors": []
   },
   {
@@ -22,17 +22,17 @@
    "name": "政府電子採購網",
    "fetched": 0,
    "errors": [
+    "listbydate 20260915: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
     "listbydate 20260914: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-    "listbydate 20260913: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-    "listbydate 20260912: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    "listbydate 20260913: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
    ]
   }
  ],
- "totalNew": 6,
- "totalAfterMerge": 1059,
+ "totalNew": 13,
+ "totalAfterMerge": 1072,
  "pruned": 0,
  "districtBackfilled": 0,
- "stories": 878,
- "duplicatesMerged": 181,
- "withoutDistrict": 539
+ "stories": 886,
+ "duplicatesMerged": 186,
+ "withoutDistrict": 545
 }
