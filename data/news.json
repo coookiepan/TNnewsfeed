@@ -1,19 +1,31 @@
 {
- "lastFetched": "2026-09-19T23:17:00.520Z",
+ "lastFetched": "2026-09-20T23:20:51.499Z",
  "addedLastRun": [
-  "30d90fa60507",
-  "d0f85c0956d0",
-  "c6085a8f8d0d",
-  "46d766d1eddc",
-  "a44a369c57ac",
-  "aa30b497f57d",
-  "905718437e44",
-  "4eab9437b71b",
-  "7f4b01ab38dd",
-  "0d67ce24defc",
-  "09dd4535840a"
+  "e8e957664dbd",
+  "91fc817186d0",
+  "afd7b3ca7d95",
+  "fbd20e72b73d",
+  "facdd16d6d2e",
+  "646ccbf5461d",
+  "27961a2e25b1",
+  "f59c3e73f8fe",
+  "71b3b8703688"
  ],
  "news": [
+  {
+   "id": "fbd20e72b73d",
+   "title": "灑下3.4億元擴產！「半導體科技廠」台南蓋2廠區 鎖定氣體供應智慧化",
+   "source": "Yahoo股市",
+   "url": "https://news.google.com/rss/articles/CBMinANBVV95cUxOZHlJQjc4blhiNVR0LVhFVjJpS3UtcEJFUzZHRkgyRTFKT2tNS0ZOLXdBalA0blJNa1NRbHNLb2stZDNDTk5YV3JYRWVfdUduSzEtdU80OW5qcnVyS1U2OUViS0t1bjJXc0ZNR0trOGNvMW9wX1hkazlhZlBucG1DM2xuSnRtR2RoYlJUdXBFYUZxb3hOMElMVTU2QUl1ZmJqeTdvREwyZDBzZHluTWw3Q0pzN1ppY0pWQVlIR0tGOTZhMF9sVERNelMwZEpZY1Y1ZjNfbWh3SGhHb3l1MFpIcTcxRmd4RXp5dDkxb3lrYXV5a1E2UWYtMTZOZGptZHk4bGh2Nko2RjdoLThvU1dvOWt5TkZtY2FodV9BelRQeFYtbDFHdE4yeXJMcElUVzRIQTRUSDZfXzFNNTV6SDBrd3FhbnBiM05PQjdSTlNhUkk0UURMWGxoMV9hNjUwVFZXUGZNdWk1cEFNYlRtSU5ZemM3ajRTTVJyYWQ3MG1GUVZwdjYwZ1R3cVp4R1NBUk5kT2ZtODM0Mzd3S00w?oc=5",
+   "category": "",
+   "date": "2026-09-20T12:45:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-20T23:20:51.499Z",
+   "story": "fbd20e72b73d"
+  },
   {
    "id": "aa30b497f57d",
    "title": "台南最大 林森立體停車場11月啟用",
@@ -41,6 +53,20 @@
    "lng": "",
    "firstSeen": "2026-09-19T23:17:00.520Z",
    "story": "c6085a8f8d0d"
+  },
+  {
+   "id": "f59c3e73f8fe",
+   "title": "哪些品牌將進駐台南新車站的地下商場？",
+   "source": "Bella.tw儂儂",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQREpZV0h2TjNhUi0zVkJ0anE5RVRnRE5kd2lITS1HSEdIdU9iNHZTVW8yMUhoQ3E3OHpXakR1WXg5dGVHSVhRalhnc1g5VmM5VUNsUVdLWDBXemRrSmZ2NTM5MWREbEdoazhlV3haVFQwZWI3dWJ0NUxGblctQy1qek8wZ1l3TXA0T3g0eE1POEFhU3dTNzZlUUU1WVlPN1k2dWNLcGdUeDE?oc=5",
+   "category": "新開店",
+   "date": "2026-09-19T16:49:37.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-20T23:20:51.499Z",
+   "story": "f59c3e73f8fe"
   },
   {
    "id": "0d67ce24defc",
@@ -348,7 +374,7 @@
    "lat": 23.0813,
    "lng": 120.301,
    "firstSeen": "2026-09-18T23:25:21.919Z",
-   "story": "a8835a12ba33"
+   "story": "71b3b8703688"
   },
   {
    "id": "0aeb989c43cf",
@@ -391,6 +417,20 @@
    "lng": "",
    "firstSeen": "2026-09-17T23:35:34.138Z",
    "story": "8d2581a80b5e"
+  },
+  {
+   "id": "71b3b8703688",
+   "title": "南科磁吸有多強？善化10年家戶暴增41% 「這區」更大增近1.5萬戶",
+   "source": "Yahoo股市",
+   "url": "https://news.google.com/rss/articles/CBMi9gRBVV95cUxQN2Rka2NSRlc4emx2R28xaHFlaHBsVExXQ2htQnFxci1kQVFucEd5VTQwUnNYZ1plNDd6SGt2TloyZ0VnbUp4d21KVVF2cWlYNndKY1JoTk5fZXBGcGM0YVRzUUM2bnhqc1hPTTNNcWJCcklSX0xLY3JFckpaVUxGUURIUV9FY1pXaVZHMGFDak5CZC01WDcyeHI4X2JyYnFVelhOM0ZpMEpvdXBlZFIySnljU21qVjVhWWQxdURIcnVUckMzUmdWVm5NWExRVk1PYmZpMlZaZEF6QjRVRk9UbW5tVHZQbG0xa0VRYzRMNVA2cy1ZZXlQTHpXRWY0a3V1TmVvMzRsS3loMGFFUmx1Z1lvdzhkamcxeTNvQ0gxRFVGaTZGanE2X2pkb2k4b2dlUXNMWTVmMEZIdEw5TzR2MFlyV0tWUEwzenZ1bjNpN3ptM0lLQTZwQ2NBSGVJS2k5OTNkZVRrZzlHTU1rbUlEdkZEX3JiNXdTLWtrQzFhTUluVlBDY0h1ZFg3Z2t3RzZLa0FqbGM1UmJVRElTS1VNdTlXWmtEOHBQd1B4aVpQQXEzOVFuOXN2aktRNC1LUm1zMy1BeW9SNklqeFFfTkNWSkdOUy1SclZGRDVkNzREVGJERmJFRUptZXlxYzFtYXYzRFFfaGctckRTaEcxSzNUejJjQVV1Z2xxWFZsX3RoQVFhWTNncTZxY0JMLTZWSjlOZjBLR1p1bkhvNDB6aEZZX2hVbmotUzV3dlp6dUFhMzNDN2F1cEhJdk1BTkl5aHZRTXN0UGxVemMtU19hOTZBSHFNRllmeWkwRHNQZ3BBbTd2UFdxVVE?oc=5",
+   "category": "",
+   "date": "2026-09-17T09:37:38.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0851,
+   "lng": 120.2742,
+   "firstSeen": "2026-09-20T23:20:51.499Z",
+   "story": "71b3b8703688"
   },
   {
    "id": "c345f21b5d0e",
@@ -559,6 +599,20 @@
    "lng": "",
    "firstSeen": "2026-09-16T23:42:14.292Z",
    "story": "cf5fdcb41003"
+  },
+  {
+   "id": "afd7b3ca7d95",
+   "title": "藝術進區9/19登場 巡演台南10行政區",
+   "source": "信吉衛視+",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MM240S1Z2aEYxWkpvY05IYUtMTkZOTmVQdzdfZVV4VC14QTlIZFY2R1VWWnRtZ3ZCS2FHV0ZESkJxbl9EYkRZb3NKaV9FelJPamgzWnc5b0FtTm8?oc=5",
+   "category": "",
+   "date": "2026-09-16T16:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-20T23:20:51.499Z",
+   "story": "afd7b3ca7d95"
   },
   {
    "id": "929c4ca4d20d",
@@ -1163,6 +1217,48 @@
    "story": "46d766d1eddc"
   },
   {
+   "id": "facdd16d6d2e",
+   "title": "台南抽水站工程挖出遺址暫停 水利局預計9月後恢復施工",
+   "source": "公視新聞網PNN",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Tc3habFJoWmFJeVNoSU5wcThaUHNnUkFCQktiM01keWR3ZHA3ZjlyM2RBMGVBUkx1Q0p0cUZXRnhybHp2WDFVTDNqNWxWTGc?oc=5",
+   "category": "新建設",
+   "date": "2026-09-14T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-20T23:20:51.499Z",
+   "story": "facdd16d6d2e"
+  },
+  {
+   "id": "646ccbf5461d",
+   "title": "台南二王公墓重劃區浪犬追車 黃偉哲：利用空地設臨時圍籬",
+   "source": "公視新聞網PNN",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBlQVNldS1xQUZDXzl4YVpIYWRtakg1eDNUSUVtUXpsTmJIejkwMmdYaTBuYXI0d3Y4N2hWQ1A1ZzEwSDd6YlF3NDl6NlNZX1E?oc=5",
+   "category": "",
+   "date": "2026-09-14T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-20T23:20:51.499Z",
+   "story": "646ccbf5461d"
+  },
+  {
+   "id": "27961a2e25b1",
+   "title": "台南首府大學舊址鴿群進駐 市府盼「人鳥共存」先加強消毒",
+   "source": "公視新聞網PNN",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1jMUh5NUF3VGJZeXBka0hwYkZrVHRLS0E1YmVBNWRQVmgwbkM2MFlGaFFfTWwxT2txR1hpX3poNkxfSHp6d1RXdjA1RzlvbGs?oc=5",
+   "category": "新開店",
+   "date": "2026-09-14T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-20T23:20:51.499Z",
+   "story": "27961a2e25b1"
+  },
+  {
    "id": "da374f0e6118",
    "title": "台南砸22億推AI教育 全市全面啟動智慧教學",
    "source": "自由時報",
@@ -1441,6 +1537,20 @@
    "lng": "",
    "firstSeen": "2026-09-12T23:07:40.607Z",
    "story": "861c3c4cb306"
+  },
+  {
+   "id": "e8e957664dbd",
+   "title": "百年「台南車站」迎來新時代！地下新站搶先看 百年古蹟、4國語言與新商店街一次亮相",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE43MFlHNHBoQ0p2R0c4M0N4Smg1cmlYaUtJbk5zNVc2YzE2V05RQVBNRGpVeWFMNWswREJLY0lfR3NNRU9RQVpqaUd6TGp6ZEdOS1RNQ01TYzFwN1lI?oc=5",
+   "category": "",
+   "date": "2026-09-12T07:00:00.000Z",
+   "snippet": "",
+   "district": "東區",
+   "lat": 22.9745,
+   "lng": 120.2319,
+   "firstSeen": "2026-09-20T23:20:51.499Z",
+   "story": "e8e957664dbd"
   },
   {
    "id": "9a1dc1a19a74",
@@ -2085,6 +2195,20 @@
    "lng": "",
    "firstSeen": "2026-09-11T23:24:53.165Z",
    "story": "6d584a12bdf4"
+  },
+  {
+   "id": "91fc817186d0",
+   "title": "台南鐵路地下化新站今揭牌 議員憂「人流往後站、前站商圈更沒落」",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBJeS1PSDdlRHJZdmRCWkI2WjRGVGdTSE1yd1JsUFpRV1B0VllQNnBKWVBQaVlncWdhT2NVb2piZ1VaYkNhdk80TldhOEVDWXFY0gFWQVVfeXFMTTBRQ3FMSUtrM29uZWxpUURfRkZuQXZmU2toTnlhR3ZVV0N3bUhyLVVDcFJZdzU4UlltWUI0aUNjSDNzOFJIaXhMWTQ1Z2NxY0Y2dmNGbHc?oc=5",
+   "category": "",
+   "date": "2026-09-10T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-20T23:20:51.499Z",
+   "story": "91fc817186d0"
   },
   {
    "id": "d961fc72192e",
