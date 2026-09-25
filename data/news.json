@@ -1,17 +1,90 @@
 {
- "lastFetched": "2026-09-24T23:56:04.675Z",
+ "lastFetched": "2026-09-25T23:59:19.826Z",
  "addedLastRun": [
-  "7f206e6ffc05",
-  "a3f7e639b6a7",
-  "7a62d4159ae3",
-  "6fff824ba95f",
-  "55e524514a14",
-  "2a80fb7041c5",
-  "02fde739f343",
-  "82534ebaf91a",
-  "17d30eed0ccb"
+  "84d02e251b7b",
+  "57d27b12aa9f",
+  "4d3fb9447421",
+  "c60db0eccf27",
+  "835e7ffededc",
+  "d7f94da864d8",
+  "56aba08ca370",
+  "82f3de478e10",
+  "94d6a9273a7c",
+  "be823659c0b9",
+  "c237dddc0ecd",
+  "a90fc957a558"
  ],
  "news": [
+  {
+   "id": "be823659c0b9",
+   "title": "台積電等南科首辦招募面談 永康就業10月科技人才徵才月",
+   "source": "n.yam.com",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ja0xFX01RNTE4M2dXVHozdnVzcXZBaFhPZVZQSTI5ZERacnBidnBwUk4xX1hmTUFzeHNwNlBPOVVzUkxPbENPbnBBc3VicWlQcHc?oc=5",
+   "category": "",
+   "date": "2026-09-25T11:19:00.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0769,
+   "lng": 120.2854,
+   "firstSeen": "2026-09-25T23:59:19.826Z",
+   "story": "55e524514a14"
+  },
+  {
+   "id": "56aba08ca370",
+   "title": "鎖定半導體建廠需求！「線材暨拋光管線廠」砸6.9億台南增設產線 有望導入AI演算技術",
+   "source": "FTNN",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBhejhUOUkzd2VXeTlaU1NpWlVjUWxNMGEyTDlOZldlUmtxQ3FUSkV4YnhKcEZ0aFF3UWFiOXdueFFnQU45TlYybkNmRQ?oc=5",
+   "category": "",
+   "date": "2026-09-25T07:36:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-25T23:59:19.826Z",
+   "story": "56aba08ca370"
+  },
+  {
+   "id": "4d3fb9447421",
+   "title": "台南人買勞力士更方便了！全新店裝進駐新光三越台南西門新天地",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Rc1hqbXVDdEtQaHVXY19QT2ZuT0F1eXNmTER4Z1hsVmRfa0dwS1MwY2xVbWpvNmFZeTV0UWxSSFVrSklRZzZyeWpHTjI5THNE?oc=5",
+   "category": "新開店",
+   "date": "2026-09-25T04:19:39.000Z",
+   "snippet": "",
+   "district": "中西區",
+   "lat": 22.9903,
+   "lng": 120.1944,
+   "firstSeen": "2026-09-25T23:59:19.826Z",
+   "story": "4d3fb9447421"
+  },
+  {
+   "id": "82f3de478e10",
+   "title": "獨家》寄生親戚祖產20年私售8350萬！台南商旅產權大戰二審逆轉重判吐錢",
+   "source": "旺得富理財網",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1xbVpsdWczNmFWMmR1U0NveTBhSm54SS1fOGlBLWJFTXRBRnRMUHFHc0JyUnlQY2FRRDB4WkNuUWtKNlc5V2hjV3otTU94akdBMWpsQWFyU2NYN0dMSEUxZEFvZDQ4UHJVaXc?oc=5",
+   "category": "",
+   "date": "2026-09-25T03:42:21.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-25T23:59:19.826Z",
+   "story": "82f3de478e10"
+  },
+  {
+   "id": "57d27b12aa9f",
+   "title": "來台南住進「劇院」！全新情境旅宿開幕 房間、售票亭、後台都能玩",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYSHRkYTN4c2U0WGNsUV9xNURNTVVaMXhhdHQ2VVVEeUxKelk1eWRCSlZwMUFHY3RPbnJQTTBMUXZvUE1wQnQ3VFYzVGdETXM3VzF3bEN30gFWQVVfeXFMUFhIdGRhM3hzZTRYY2xRX3E1RE1NVVoxeGF0dDZVVUR5TEp6WTV5ZEJKVnAxQUdjdE9uclBNMExRdm9QTXBCdDdUVjNUZ0RNczdXMXdsQ3c?oc=5",
+   "category": "新開店",
+   "date": "2026-09-25T03:04:42.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-25T23:59:19.826Z",
+   "story": "57d27b12aa9f"
+  },
   {
    "id": "a3f7e639b6a7",
    "title": "全球台商走訪台南 黃偉哲邀看見產業實力、鏈結投資商機",
@@ -25,6 +98,20 @@
    "lng": "",
    "firstSeen": "2026-09-24T23:56:04.675Z",
    "story": "a3f7e639b6a7"
+  },
+  {
+   "id": "a90fc957a558",
+   "title": "台南鐵路地下化通車倒數 南市府推系列活動邀民眾共迎新篇章",
+   "source": "Life 生活網",
+   "url": "https://news.google.com/rss/articles/CBMijANBVV95cUxNNV9JZHdTUTVVN1ZjVndWSThPRzItZFZ5MWhkVzA3VVpDbVZTckVJTzlZNE15NEE4WkZGM3gyV3JVVElPdVNIRHIyV0VLQ1YySkZVZXlZM1VGZ2cwTFZkMUxDWmx6Q3VFT21Wei00YjVfZ3hqdzdkdC0zS0c2ZEhWNW1HRXgweU9SbURiM1ZIWk1HN1dZcDJvY2ljZE52R2tvbUpMdFlyc3BaVXFsUDRPbV9kZUI4UlNsc2U0Wm1fSVBSSnJSYmo4Wk8zSDQzSnExczZmUUdka0pXWG96YkRDSFlEbm42aXNsSm8zS3hKU0tEcGpLN0ZjdnlieEl1NjhiRGdVUGp6WkJkSTdFdzRTSlp5RUp2TFdZZTVyVW5JczBwNkpkZi12SFdmZE40SFN2bTc0WjBxRjB6UENueWMyQ0tqUFlhMklXUEJDUllzUmp2b2ZmVGc1R0RiMTNMci1wYUVmejRiZzdDTEJfb1pBRXpyTzVXRVpIa2FRS3NxakJYbm9wNkJmOEJmUWk?oc=5",
+   "category": "",
+   "date": "2026-09-24T10:12:28.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-25T23:59:19.826Z",
+   "story": "a90fc957a558"
   },
   {
    "id": "6fff824ba95f",
@@ -123,6 +210,20 @@
    "lng": 120.2193,
    "firstSeen": "2026-09-24T23:56:04.675Z",
    "story": "e70ec291b3e0"
+  },
+  {
+   "id": "c60db0eccf27",
+   "title": "直擊／小米台南FOCUS專賣店開幕 全明星產品一應俱全",
+   "source": "三立新聞網SETN.com",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4xemdrOFJDZVE0Q0VTbFE5NkF2Z3VGUU04a1NGRzFfbVlIeDBrNUNnNVZseGMyMjJ0T1ZqbmJEWmdkellMYU1z0gFLQVVfeXFMTmZzZjgwMFRkWWhDZC0tOVpLdnlVeElsTjl5YWllWnkyYkIxd29xSFkyY0djdEc0eThfOUxaakFpTUVBUklNV2pSRXZB?oc=5",
+   "category": "新開店",
+   "date": "2026-09-24T00:14:52.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-25T23:59:19.826Z",
+   "story": "c60db0eccf27"
   },
   {
    "id": "a7b2569e5d34",
@@ -235,6 +336,20 @@
    "lng": "",
    "firstSeen": "2026-09-23T23:49:07.396Z",
    "story": "f7ce5b329447"
+  },
+  {
+   "id": "94d6a9273a7c",
+   "title": "台南永康忠孝路前段拓寬快完成 卡在「釘子戶」",
+   "source": "好房網News",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rQXNpSXpuSFlMVnBfVjhwTEVCUEMwNFFET1BnMGNJUXc3WldfWTJ2aDlHOFFIcUhpLW00OF9mSTNwU19hNGt5c1RSVk5CeTNla282dVRoZk9kY2RoVENoWDVlZGZYMTh1M1Y40gFwQVVfeXFMTkhycVYxU3FlU2p0bTBVN2hHelcyMWQ0b2p6UFRsUDNMM2Z1Mm9NS3liVkthYU1xMkw4NnVuVVFhOTNzZUdab1dsRHhtVDJHVF90VmFsakFabkN1VzRaaUx5RWhJcEZ5dENGRVNKNGtsZg?oc=5",
+   "category": "",
+   "date": "2026-09-23T01:53:00.000Z",
+   "snippet": "",
+   "district": "永康區",
+   "lat": 23.0177,
+   "lng": 120.2612,
+   "firstSeen": "2026-09-25T23:59:19.826Z",
+   "story": "94d6a9273a7c"
   },
   {
    "id": "45a72ab31c91",
@@ -402,6 +517,20 @@
    "lat": "",
    "lng": "",
    "firstSeen": "2026-09-22T23:40:58.095Z",
+   "story": "ea309f4738ec"
+  },
+  {
+   "id": "84d02e251b7b",
+   "title": "「劇院酒店台南成功館」平日入住千元起 免費看音樂演出",
+   "source": "travel.ettoday.net",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kQV8xblFVZVY1Sldyam5kbXZVX040SThua1R4LU1CekM2NjJnVjZldFM2NG1rbU1qTnh6WGJhZVVZaGFOUG50cG1oM29PMWJjQkN5LU0wbmZxd9IBT0FVX3lxTE1hQTluZmx0YnJzeG9TaURpUG8tNHNzR212MDBqWV9hQTMtNDFsNzdldzJsMTdzdy1sR0cxUi1rcGRVVElaVzJfSjhYQlZDTzQ?oc=5",
+   "category": "",
+   "date": "2026-09-22T02:55:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-25T23:59:19.826Z",
    "story": "ea309f4738ec"
   },
   {
@@ -697,6 +826,20 @@
    "lng": "",
    "firstSeen": "2026-09-19T23:17:00.520Z",
    "story": "30d90fa60507"
+  },
+  {
+   "id": "835e7ffededc",
+   "title": "台積電供應鏈聯合徵才串聯25家供應商 台南釋出逾2200個工作機會",
+   "source": "ETtoday財經雲",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBhRmxuNEhSb0kyQWowRGRxWkhSdHdoYkxzaXBEM2h4TXltMmltX0ZhcHVrWUZYU1NTdExOb1Q4SUxfTFhjeFEwaFRpNlJhYUlqLWfSAVBBVV95cUxQclhfeElHTkFFZ2w0ZS1jc1NNNF9VaC0za21uM2ZVak81VEsxYzdvNUpsOWVlb1RscnBOMThiNFBqRERaZUQzQlJpS0FyU1lYYQ?oc=5",
+   "category": "",
+   "date": "2026-09-18T22:00:00.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0715,
+   "lng": 120.2698,
+   "firstSeen": "2026-09-25T23:59:19.826Z",
+   "story": "835e7ffededc"
   },
   {
    "id": "a44a369c57ac",
@@ -1231,6 +1374,20 @@
    "story": "41ec9bc5ddbd"
   },
   {
+   "id": "d7f94da864d8",
+   "title": "台南白河萬里長城開價6億讓售！旅遊業傳奇人物「林務局長」曝原因",
+   "source": "LINE TODAY",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9YX3BQbnFLcUU3ckdDWlZRcGl2blAxVG5SUTB2WndhWWZRbXRBdlNWbEJRZWhtSTZnLU5rZUJKVTZkemNlNlNvb3pPVGk1UXJGRHRMVVNR?oc=5",
+   "category": "",
+   "date": "2026-09-16T07:00:00.000Z",
+   "snippet": "",
+   "district": "白河區",
+   "lat": 23.3434,
+   "lng": 120.3924,
+   "firstSeen": "2026-09-25T23:59:19.826Z",
+   "story": "d7f94da864d8"
+  },
+  {
    "id": "ca4679bc299b",
    "title": "[新聞] 專業數位行銷公司變詐騙幫兇 假投資、假",
    "source": "PTT Tainan板",
@@ -1648,7 +1805,7 @@
    "lat": "",
    "lng": "",
    "firstSeen": "2026-09-17T23:35:34.138Z",
-   "story": "835a81fd538e"
+   "story": "c237dddc0ecd"
   },
   {
    "id": "655e91928e5d",
@@ -1690,7 +1847,7 @@
    "lat": "",
    "lng": "",
    "firstSeen": "2026-09-17T23:35:34.138Z",
-   "story": "835a81fd538e"
+   "story": "c237dddc0ecd"
   },
   {
    "id": "ba3c8d9e9aa1",
@@ -1831,6 +1988,20 @@
    "lng": "",
    "firstSeen": "2026-09-23T23:49:07.396Z",
    "story": "8edd3a3003f4"
+  },
+  {
+   "id": "c237dddc0ecd",
+   "title": "台南創全國之先推AI教育基礎建設 黃偉哲：讓AI助攻學習",
+   "source": "nownews.com",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1xYmZCOXhwVmxKNGNyRE80R3FCbUVrR2hHMGI2dG5SM2hXeFNFZ2VtcUZNVlk1M0NHbmI1WFpvajBZYXM0OWFSRVJEZnjSAVJBVV95cUxQUGR1RmFUZFJSVVFsQmRycVlORC1MeWlRZEJkZUtZTjdWbEVfVThvNWxQbTRYLWUxcE5ZNHhsWEMxYU9jRFpSUHJEbFFjY0hGajVB?oc=5",
+   "category": "",
+   "date": "2026-09-14T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-25T23:59:19.826Z",
+   "story": "c237dddc0ecd"
   },
   {
    "id": "da374f0e6118",
@@ -15762,162 +15933,6 @@
    "lat": 23.0707,
    "lng": 120.2916,
    "story": "aa4faabf55f9"
-  },
-  {
-   "id": "56d0abc9ce46",
-   "title": "台積電擬加碼投資3座2奈米廠 地點傳將落南科特定區",
-   "source": "linebank.com.tw",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTam5JaEVjeWZhVGQxZ0Z2RkxPTTAwSDlaMUxHOThrVkdfNWZJYXV5aVJBZVVNWTlvLUctTFR1WmJWaHFydzJuMFpMdS1TXy1FY0ZPcnlLQVhtM3h6YVBpTl9aSWhpREhD?oc=5",
-   "category": "新投資案",
-   "date": "2025-11-26T08:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0825,
-   "lng": 120.2816,
-   "story": "3e0a1a538225"
-  },
-  {
-   "id": "337ac5831403",
-   "title": "2奈米吃緊 台積南科擬擴產",
-   "source": "Yahoo股市",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNbjh6LUppdzE0OWtLNzR0NXpfZ1JlMDY0c29uY1hnMlJfMGJHQWFkcnBQZnRhSWdYRGQ1UUNnWHRtbGoxYmVJbjVNZVU1WnF4RHBTcUZBSzhtLWNzeEVkWXBiVzRtcVkxNXhLZDJ0ZkRFMUxYVTZqU1N3bUtiMXhmWkNEejhiVzI3M3otdVBNeHMxV29xOWJXeTQtNnBteEMwalVjMGZxQ3FaQzBjWEFKTzhPUGZQVTkwM2UtbV9XQ3dOVjdlTUZhRERrTEJmd1FzUzZYS21EZUxkTXNGRnhxbzJB?oc=5",
-   "category": "",
-   "date": "2025-11-25T08:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0851,
-   "lng": 120.2924,
-   "story": "337ac5831403"
-  },
-  {
-   "id": "49bab2d7d1ea",
-   "title": "落腳台南？傳台積電擬投資建2奈米廠南市府：未接獲訊息",
-   "source": "UDN",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9KUmhzd3RxcDNUSjE5bDFuN2hrVlVFOTJvQm9HcnNhcnlzRHFZMHBVQnZFcHFkM3o4a0ozU0hVNXRaZWxLemJQdHZrYUd0czUy?oc=5",
-   "category": "新投資案",
-   "date": "2025-11-25T08:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0705,
-   "lng": 120.3012,
-   "story": "49bab2d7d1ea"
-  },
-  {
-   "id": "3e0a1a538225",
-   "title": "AI晶片供不應求！台積電擬加碼投資9千億建「3座2奈米廠」...地點傳落腳南科",
-   "source": "Yahoo新聞",
-   "url": "https://news.google.com/rss/articles/CBMirgNBVV95cUxQa1dqdGVpN2NRX214dF82Y0NDUGluZXpOd284UUQ1QzM5R2F4TWkxQTY0dTV5RG9ubTRuZWg5S00xUHVCUGVoZDdoNkNxUElSVEtlWnRYWXlLc0FVTVpIYlhfSGlSS3p3X3VvWTR4OVRNYXE0UzNKVEludUpKZDJYMThmbXhQUFV4OE1LdG9rSUFOT1lZUWk2UnMzcUxHZHFkV0p0QVljTTg2YXB5cEZiVEZrVV9PZzBWb2lPYlNwb3A4MkxYbUc1SzBheHh3Umg5SFBMaVFBLW94MlE2R3VBMEMtMmdaTGVJLWtyU2tSUFQ4ZmtObTBKeHhLeUxWNzZuc1lWck9Dem85OE5JTlR5dmhmLU9xMDlKdEtyeXI2VUMyM29zX090MmptNE5pWkxlcDNiYlk0YmhQNW1TMWtnUWdSb1JlaGV0WUxhdDFPX3otV2lXSXZBUFBPdy1KWXhBekVmX2Q2aHR0b21CZTk1UTcza0x1MHZWWk1HbmN3UFotenlXZkt4RXlseGdSLTZxM2RYYmF0R3VtTWZza3VfeHdOOXhrbGtLVGFzaDJn?oc=5",
-   "category": "新投資案",
-   "date": "2025-11-25T08:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0845,
-   "lng": 120.2746,
-   "story": "3e0a1a538225"
-  },
-  {
-   "id": "e3c2f38680a2",
-   "title": "台積電2奈米廠投資南科特定區？台積電：依公告為准",
-   "source": "客新聞 HakkaNews",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9fZkpWcmdlWTVzVDJIYzEwN0dKakdRcUM4TDZmZThnY0lfZ2QzVGR4eG8wV0Z6dGxoaHRwM2JPMHhIOXlJaDQxYzFWQXk3N2F1?oc=5",
-   "category": "新投資案",
-   "date": "2025-11-25T08:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0827,
-   "lng": 120.2918,
-   "story": "e3c2f38680a2"
-  },
-  {
-   "id": "91fd22908e01",
-   "title": "臺南促參勇奪特優 推動運動藝文休閒園區BOT案再創投資新亮點",
-   "source": "tainan.gov.tw",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1oSDBrZkcxYlJ0bUxmN0IyejZMaUxNWEdydHhmUmNoU0lMRW1ObTdzNlhBNU1TY0FfR1hpRFNZMHZGRjQ3X0JqUTRlcE1teWZneEhRMExkZHJ3WmJ5UUFIZmpUNHU0Sl9TNC1lcy1R?oc=5",
-   "category": "新投資案",
-   "date": "2025-11-10T10:04:50.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "91fd22908e01"
-  },
-  {
-   "id": "d79d59a8f96b",
-   "title": "台積電擴廠帶動南科起飛 LM特區成未來生活焦點",
-   "source": "PChome Online 新聞",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSlBzRnFIYmxhLVViRV9QQ0xkOE5DaUY1VjN6bFNXcFlSSDF2dnBNcFNzT3ZveHpCQkNSQ0tZQXV4ZHkxWWdyTGxCamlFY0dJQVg2emRzWTFhSVVZallFdVhzZDlPZVQ0Q3dOZ2hlMjdEaGJ1cU5QMHZCZTNabFo4XzVNcXlTWFNoaVVRRy1XQjVodw?oc=5",
-   "category": "新投資案",
-   "date": "2025-11-08T08:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0833,
-   "lng": 120.2894,
-   "story": "d79d59a8f96b"
-  },
-  {
-   "id": "32e3272d7ec0",
-   "title": "開工倒數未見慶祝行情 台南捷運沿線房價10站跌6站",
-   "source": "ETtoday房產雲",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE13MFc1SVg4TVU4WVFLckE1LUphS0RaVC1CTzFtUm03bFdtazVUZC12YXZfVkJoVUFuZEtPQmVXTGdDb1dLNndPMnoyQXJIQknSAU5BVV95cUxOYzBGNFJkeVkwM2p0dFIwTGxSZ0t1SjhCcTlzWlk4ZTE1VHhhUXpFRkkwOFVvZFBKaWpMbU9keEJGa0lTSURjQWdGMkNNblE?oc=5",
-   "category": "新建設",
-   "date": "2025-11-04T08:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "32e3272d7ec0"
-  },
-  {
-   "id": "e498378915df",
-   "title": "台南捷運三線推動 藍線領軍拚明年動工 綠線與深綠線拚核定 推案熱區穩發展",
-   "source": "自由時報",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAtS0xYeFR0TXRud0JQT2t3WHluMmROUWpqZGRsUzRFblp6ejlDTkxad0JIeXh3OWRoX3NaeGRaRlluZlJERnk1TDM2QXdIOWNf?oc=5",
-   "category": "新建設",
-   "date": "2025-10-30T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "e498378915df"
-  },
-  {
-   "id": "a8a0808a435f",
-   "title": "台南捷運要蓋了，總共10站經過哪裡「路網圖曝光」！何時動工完工？在地人尖叫：終於變有捷運的城市了",
-   "source": "今周刊",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNelpkT1lTVW9XemlQeUd5SkFtSnlTYWpmY0xaUkRjU3QxSmJtVDVZNkpSYVVERnhGTG1VMlppSzNpcmF1eDhzS3NvYzFfWF9reWQ5WnhMM0Z0bDVjcU9NRnh4bGxGR3RwLWZlVjF4WmlGdlpPSXQxZ0hhMnlnc192RQ?oc=5",
-   "category": "新建設",
-   "date": "2025-10-22T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "a8a0808a435f"
-  },
-  {
-   "id": "8b1e5e069f69",
-   "title": "台南捷運藍線 市府拚明年如期動工",
-   "source": "聯合新聞網",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBvNkVVaE9qVTBOWUh2WFVwVC1rcDZjMmNTLVUxNXhZZENhejE1QXk3Z2piS1J2aFZnQ1ZIUHlyeURtVE9DMXBaMnBpVmtpSnct0gFWQVVfeXFMUEFNQW54LTlReF90LXB0RTFpenhFd3ZTQnpQaUMzMUROQ05LN0tXY1M1LUxBeHBFbnN5RG1CTkUyVkxweTU0R2RuNUZYUmRBcHFhWlZ3ZFE?oc=5",
-   "category": "新建設",
-   "date": "2025-10-10T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "8b1e5e069f69"
-  },
-  {
-   "id": "60b476be8d17",
-   "title": "台南再添投資新亮點 高美可科技斥資18億元建構半導體新基地",
-   "source": "tainan.gov.tw",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA4ek04MTJIVnE5S25fY2FHSFEzQXBtS0U0Z0FjSEJUdEVWY21yR2NLVWRKQVEzS0VmZjBuS1pDREt3SnR0dFl0TlNweEUtbUZQVUxodWVReEQycGE4b2NVXzgzM1FpUXZFYm9BdGpn?oc=5",
-   "category": "新投資案",
-   "date": "2025-10-02T06:20:25.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "60b476be8d17"
   }
  ]
 }
