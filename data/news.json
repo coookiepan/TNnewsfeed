@@ -1,20 +1,33 @@
 {
- "lastFetched": "2026-09-25T23:59:19.826Z",
+ "lastFetched": "2026-09-26T23:42:51.635Z",
  "addedLastRun": [
-  "84d02e251b7b",
-  "57d27b12aa9f",
-  "4d3fb9447421",
-  "c60db0eccf27",
-  "835e7ffededc",
-  "d7f94da864d8",
-  "56aba08ca370",
-  "82f3de478e10",
-  "94d6a9273a7c",
-  "be823659c0b9",
-  "c237dddc0ecd",
-  "a90fc957a558"
+  "fad56b47ee4a",
+  "2ae3223a4596",
+  "dd348c1801a8",
+  "23be893e6834",
+  "ff0b0718a0a0",
+  "b597e0a7953b",
+  "72b77ed9dc40",
+  "04262fc42f67",
+  "34870fcd62e5",
+  "bbae0f3a18f4",
+  "a86066ab41a4"
  ],
  "news": [
+  {
+   "id": "fad56b47ee4a",
+   "title": "1場新建案都沒有！ 台南新重劃區先迎萬豪、藏壽司",
+   "source": "ETtoday房產雲",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5vTUxNOC15dV9td25iQU5sTGs5dlZDcW01Nk0tVUJaMzhSUXZpVFpFUTZQeWNxYnAtcnRKMk54Ry1PUzVKMmN5b3JLckNIc1nSAU5BVV95cUxPTDZyM19TZHJpQUZrQjEzckJ6eTNnSnZ6RG9XdkhLeEd6Mm0zNl9oa01seTRPZmpwaV9FdUI5dnBuOGI1aS05VFExYVRtc0E?oc=5",
+   "category": "",
+   "date": "2026-09-26T04:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-26T23:42:51.635Z",
+   "story": "fad56b47ee4a"
+  },
   {
    "id": "be823659c0b9",
    "title": "台積電等南科首辦招募面談 永康就業10月科技人才徵才月",
@@ -310,6 +323,20 @@
    "story": "218ed50b5cb6"
   },
   {
+   "id": "a86066ab41a4",
+   "title": "20260922臺南市政府第767次市政會議",
+   "source": "tainan.gov.tw",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9SNjVCWVZpRmd4M3VvYkxzV29iMXZYRWtsSnNXanRsQ1prODY1dzk1UXEwWjhpWnpjZ3ZRNzM2eFhFd2FXTVJuQmdKWUFQbHBfa29BeG5kdVRCY1dsVE1JRGtSZDJ2RUcxeF9oZWR1OTBWd1BH?oc=5",
+   "category": "",
+   "date": "2026-09-23T05:59:40.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-26T23:42:51.635Z",
+   "story": "a86066ab41a4"
+  },
+  {
    "id": "566e70b80e80",
    "title": "住進劇院裡！台南新開幕首間「劇院酒店 」情境式旅宿，離台南火車站走路7分鐘",
    "source": "XINMEDIA欣傳媒",
@@ -350,6 +377,20 @@
    "lng": 120.2612,
    "firstSeen": "2026-09-25T23:59:19.826Z",
    "story": "94d6a9273a7c"
+  },
+  {
+   "id": "ff0b0718a0a0",
+   "title": "台南充電站越來越多！129處據點已啟用快、慢充費率一次看",
+   "source": "PChome Online 新聞",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNa0YwSmR2bVI4NzFRQWhEWnZRLVRhSXlWakNMaW9QWkRxck5VTEJFWlZzc0ZoZlNKVmtCYkxkbEl4c2tZb1piT0NmSnRZZUNwSUk2SmZMdUdZdXlHN3Z6dFlGckJKZnU3UEgzcEIyd2ZuNlNUV2p0NDRqLUFVSUFSZmVKS1BNUElCSzJPZA?oc=5",
+   "category": "新開店",
+   "date": "2026-09-23T00:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-26T23:42:51.635Z",
+   "story": "ff0b0718a0a0"
   },
   {
    "id": "45a72ab31c91",
@@ -420,6 +461,20 @@
    "lng": 120.1898,
    "firstSeen": "2026-09-22T23:40:58.095Z",
    "story": "7b354e78eb5c"
+  },
+  {
+   "id": "bbae0f3a18f4",
+   "title": "台南市客委會新辦公室揭牌 黃偉哲親到現場揭牌盼客委會與民眾更接近",
+   "source": "229119.com.tw",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBid29RWXJ3ZjVXVnJFb191ZS1XR0RCSWFWVE1kb2R6bTI0bm1Jc2ZRaXpiMF9zTHc3TjlkWmdIZzFYVVFmbEc5ZVRGOHQ0eDVLcFZ4R1F0OGxiTjgybm93MjRn?oc=5",
+   "category": "",
+   "date": "2026-09-22T07:02:57.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-26T23:42:51.635Z",
+   "story": "bbae0f3a18f4"
   },
   {
    "id": "21bede639573",
@@ -700,6 +755,34 @@
    "lng": 120.4126,
    "firstSeen": "2026-09-23T23:49:07.396Z",
    "story": "c2d064035a80"
+  },
+  {
+   "id": "04262fc42f67",
+   "title": "台南40坪1房日式風｜其他（圖6）｜幸福な七飯亭，連鎖品牌故事與展店形象打造・同思空間設計",
+   "source": "100室內設計",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAyVWxJa0VlR2RlYXR1WElMbXpGcG1OdU9tQzVZS0JPdjgzY1FMNlBrSmVBNEpwdkxPM2NwODhPX0NQVE8za2czT2ZMNEVQNndRa2JyTWZJaw?oc=5",
+   "category": "新開店",
+   "date": "2026-09-20T04:15:43.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-26T23:42:51.635Z",
+   "story": "04262fc42f67"
+  },
+  {
+   "id": "34870fcd62e5",
+   "title": "誠品全年最大特賣新店、台南登場 台中園道店推200秒購物挑戰拚免單",
+   "source": "LINE TODAY",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5VOVNncUlCRWFWZVpEX3hWWTRHemRlbS1YOEpiZldId24zekQ4dVF5UG82SUJQVlRlNkZBOHk2c0lQZGp3T1QzWklYZUlZUXIyeDhENnJ3?oc=5",
+   "category": "新開店",
+   "date": "2026-09-20T03:04:29.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-26T23:42:51.635Z",
+   "story": "34870fcd62e5"
   },
   {
    "id": "aa30b497f57d",
@@ -1010,6 +1093,20 @@
    "story": "53c3ae6327d4"
   },
   {
+   "id": "b597e0a7953b",
+   "title": "台南鐵路地下化將通車 火車站站前廣場改造人行道拚趕工",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE95ZUNaUVZlX3IwT0Y2MUVucmJVX1M5Qkp1VE1FUVVzd1d2Z0QyejdWNklMRW82X3ZPZVlPblZzbFEwclBtTld0bkc1UkZMUHpX0gFWQVVfeXFMUGR3bmxzX3l2VFlnZjlFdWk5SlZaVFAwci1SenZiYjItQkxlaEVRRnNIaDl3bE5YRHViYVRFbTZUVlFSWk05bVlhTGpwUmxfZHpyX05nVVE?oc=5",
+   "category": "新裝潢",
+   "date": "2026-09-18T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-26T23:42:51.635Z",
+   "story": "b597e0a7953b"
+  },
+  {
    "id": "c5f27d383ccd",
    "title": "台南原塊牛排新亮點 菲力、肋眼、丹佛展現原肉質感風味層次",
    "source": "商傳媒",
@@ -1190,6 +1287,34 @@
    "lng": 120.28,
    "firstSeen": "2026-09-17T23:35:34.138Z",
    "story": "a3cbcd1ca71e"
+  },
+  {
+   "id": "dd348c1801a8",
+   "title": "台南鐵路地下化增林森站 舊榮家原址「停28、機35」開發藍圖曝",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9mcmJpM2daSnpkQ3Z0SXRjb09tY2FWdDJVNnhMWHNJUVVHMm0wV1I1ZDN5Rm9kSVZ0Vkc1a1VhdzVsbkF5N2t4NnI5dHppZ2Fi0gFWQVVfeXFMTzJwZzlRbHJHbU14aDBHVGNJQnc1LTVLbHdxQjRIVXZScnVlZ1BNRDlob0hhU1JubUdQM2VjUGtGVk1ScHdLTk9ORjdxWkd3NTZ3bnFqT3c?oc=5",
+   "category": "",
+   "date": "2026-09-17T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-26T23:42:51.635Z",
+   "story": "dd348c1801a8"
+  },
+  {
+   "id": "72b77ed9dc40",
+   "title": "台南1重劃區非「從零開始」 量販店先插旗房價奔5字頭",
+   "source": "ETtoday財經雲",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ybGRxWUFoQWFCNUg2YWx5X21peW9kT3pTWmNGWTEydHJvYTd5dEVwaDhIMGJ5bW9rVExIMVNOV3R4YWcxUTREbHV5ZHc3UnA5SmfSAVBBVV95cUxPcjgtWTB1bjFRbFJsMWk1cHdOenY5VXFwS2o3c29XM202VDlBenkwUEQxcXBld05SaGtLS2hoNjBiOExpTnZzcnVWYmhxY0VtaQ?oc=5",
+   "category": "",
+   "date": "2026-09-17T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-26T23:42:51.635Z",
+   "story": "72b77ed9dc40"
   },
   {
    "id": "ce958e8b9408",
@@ -1386,6 +1511,20 @@
    "lng": 120.3924,
    "firstSeen": "2026-09-25T23:59:19.826Z",
    "story": "d7f94da864d8"
+  },
+  {
+   "id": "2ae3223a4596",
+   "title": "郭泓志免等火車過了！新台南車站10/18通車倒數 9/17限量報名開箱地下車站",
+   "source": "Yahoo新聞",
+   "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxOMG5oUGh4OHhXd1k3WGV2U013TEMwcHBSZTEzdVR6NTlZVkI4cG9tYVNYWXFfVUFMMTRKTTVIOTJLRlFWMEpwaDF1UDh2VGlsYllDREtHSW5hMnQ3eUhaMFFCWlp2UUVOVEZ1T2hIY3JOcnVmVmRaLTdXZjBtSXpnVGNiWGFhdy1Kdzlha0ppTGVPZ1NBSk9DTjl6NnRITzVkV2E4UVA2TW9Cc1J2NmxkQ1czcjhwQ1BIUnVOSDB4OG9xekp3SnAzY3U1UEJkamE4aDhLUF9VRFNFV29pM2ItZDB2N1ZOZlkyWHBKcTNqdVdTblF3MERNNVVmbEp0Wks2ZFloMHFfVk5jWFR2VlUxTk1RdlNMUmZJWHNUa1c5UGc1Z3R0aFptT0ZxaWJOWmJJOEdkaE9VbGNKUjdHbHBKT1BlOXlyR19hWjhUQ0cyTE9Qd2ZTcTk2cTQ1WW9ZdDJrcm9Md1hRRktRUHNfejBUVlhR?oc=5",
+   "category": "",
+   "date": "2026-09-16T07:00:00.000Z",
+   "snippet": "",
+   "district": "東區",
+   "lat": 22.9885,
+   "lng": 120.2003,
+   "firstSeen": "2026-09-26T23:42:51.635Z",
+   "story": "2ae3223a4596"
   },
   {
    "id": "ca4679bc299b",
@@ -2002,6 +2141,20 @@
    "lng": "",
    "firstSeen": "2026-09-25T23:59:19.826Z",
    "story": "c237dddc0ecd"
+  },
+  {
+   "id": "23be893e6834",
+   "title": "台南充電樁有192席待驗收送電 台電：全力配合市府規劃時程",
+   "source": "news.pts.org.tw",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1oUFUwSGJTc2s2ZnQya0N5c3BDX1JXR01oUlI5MjV4azlwODB3YkMtZUprSHJjZHpSTE1CanJWSnNYaml6OE9BRXM2RkQzXzQ?oc=5",
+   "category": "",
+   "date": "2026-09-14T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-09-26T23:42:51.635Z",
+   "story": "23be893e6834"
   },
   {
    "id": "da374f0e6118",
@@ -15790,149 +15943,6 @@
    "lat": "",
    "lng": "",
    "story": "eb2e7601727b"
-  },
-  {
-   "id": "f9e20b55c4e9",
-   "title": "跨縣市交流永續工程！中市建設局南下觀摩「被動式住宅」與「台南車站地下化工程」",
-   "source": "taichung.gov.tw",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1XYVJ6LXhNeU83bEN0QzBTXzdqZkFSMFN6WVZEVVN0WDBMUDBYUHY0SEJRVVhEWEZTcmJkUEJPZ1c4bk5wX18xd3hEd0dIdkxfNVF4Qml1UndvZEdFZjVz?oc=5",
-   "category": "",
-   "date": "2025-12-18T08:00:00.000Z",
-   "snippet": "",
-   "district": "東區",
-   "lat": 22.9889,
-   "lng": 120.2079,
-   "story": "f9e20b55c4e9"
-  },
-  {
-   "id": "3c91c1f0c4a6",
-   "title": "台南首發行建設公債81.5億 立即募滿全數投入南科特定區徵收",
-   "source": "經濟日報",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA0SktJY3dpVVd2ZUxzREdjM1FWWnVGc29jeXppdWJSR1A3MUowWHE2TkJMd0ZrRTBpNkxaak5ZTGV5bXBpeUhfNHM5RmdoSXRXQUpJVVU1ekNIQdIBX0FVX3lxTE0tNXgyQ2ZJNDI0VmlqdkVuSkpIMVc2ZkpSNDBRLXc2c24tbnlrNEpqUlVYeDJyZTJkOVk0a1RUX2xrUW8wdDEza2kwenlUSGliUFFLOFpmUjRvR2wzNURn?oc=5",
-   "category": "",
-   "date": "2025-12-17T08:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0869,
-   "lng": 120.278,
-   "story": "3c91c1f0c4a6"
-  },
-  {
-   "id": "f8a1dc0d6236",
-   "title": "臺南首度發行建設公債 81.5億元 加速推動南科發展",
-   "source": "tainan.gov.tw",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40SXgzNlRqWGJpZnlvRWdJZklocnRhd05zREpBN0N2MElWLUhaNno2YTIzRXF3aGZ2T19oRTVvbHRMQTlSSnFNUHVjV1EyRUxaODNDWW00ZXdOQUlzQy1DWTdfMVNBRldNbmJUS1lB?oc=5",
-   "category": "",
-   "date": "2025-12-17T06:26:07.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0865,
-   "lng": 120.2746,
-   "story": "f8a1dc0d6236"
-  },
-  {
-   "id": "487aa758745f",
-   "title": "南科營業額再創歷史高峰 臺南高科技動能持續攀升",
-   "source": "中央社 CNA",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE10RnJ0anBjSDdqRkYzb0YxYktDWnRHLUN3TmUwRWg2MDJRa0xfUWJmZTc3Q2hhRGxrVHdkQzJ1WVZzV0V6VmFmUXpJcG5ON1NHcGVSakp3?oc=5",
-   "category": "",
-   "date": "2025-12-12T08:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0867,
-   "lng": 120.2746,
-   "story": "487aa758745f"
-  },
-  {
-   "id": "0e0f39f3c914",
-   "title": "刷新歷史紀錄 南科1-10月營業額破2.26兆",
-   "source": "中華新聞雲／中華日報",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBhSG5kTC16a2R2SW1sVnNhc1FuTlB4QWRKdjNYaGg0U1h6XzIxZkN6VGpGZkgySGVaZThNRl9oRzB2Y0Nnajc0NzBCaTBkWXZqaHc?oc=5",
-   "category": "",
-   "date": "2025-12-12T08:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0703,
-   "lng": 120.2968,
-   "story": "0e0f39f3c914"
-  },
-  {
-   "id": "76a0761f0d02",
-   "title": "國網雲端算力中心啟用 黃偉哲：台南躍升國家級 AI 樞紐",
-   "source": "tainan.gov.tw",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xUC14dDFjbGNfYmhWY0lLR2pORlNuczhtTTdhOF82c2VUWHVOMEFUbENScDBWSXhJTWtaRDh6d0lFWFFlQVM0dWZKVUM1TjEtR195QlN4RnRnVlVUcFQwb2NIMmlWUXF0SzVxN1Z3?oc=5",
-   "category": "新開店",
-   "date": "2025-12-12T04:25:45.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "76a0761f0d02"
-  },
-  {
-   "id": "452d32117a44",
-   "title": "賴清德曝台積將再赴台南投資 談台美關稅「這樣說」",
-   "source": "工商時報",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5HVXFsOHZqcWRkR3hVTnp1aG5PMC1oX0ZXWDNwSmRWV21PN05xZ3UxSDR2TU5hX3VkRk10N2EwSElCcjlXYVpqdFV4elNTWFF5OU5vX3JJaXlKOVdETVN3?oc=5",
-   "category": "新投資案",
-   "date": "2025-12-10T08:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "452d32117a44"
-  },
-  {
-   "id": "ea3ab1ae6dc8",
-   "title": "獨家》台積電加碼2奈米廠確定了！南科特定區開發計畫公告曝光",
-   "source": "LINE TODAY",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4Tmg5Y3NiNDlKSE9HSVprdkZ0MkVLNmh4a0V1Tkx6QkhSQjR3RTdiaU1La3NiekprcGRYZzVJUlRBMHB6a1JJeEZCMTJ2RVdYVnpmc0Jn?oc=5",
-   "category": "",
-   "date": "2025-12-03T08:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0713,
-   "lng": 120.2656,
-   "story": "ea3ab1ae6dc8"
-  },
-  {
-   "id": "345c4f0079e8",
-   "title": "台積電加碼2奈米廠南科特定區先提申請",
-   "source": "華人今日網",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE04YXhncnpaaEM1dHVFbU9LRWdBYlpQbkdQXzdjSnNlSXg4UGdfRTc5SGJwR2JrcDdUMUVmdDBGaUZ2emYzUXlYSWZSenpFQTdSZi14RldOV3VqNDRiNFU4VDdVSXJFZw?oc=5",
-   "category": "",
-   "date": "2025-12-03T08:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0725,
-   "lng": 120.3022,
-   "story": "ea3ab1ae6dc8"
-  },
-  {
-   "id": "73a6069486a1",
-   "title": "台積電加碼2奈米廠 南科特定區先提1座廠申請",
-   "source": "自由財經",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsNGxQbWtkOEpWcGtPaUZkYWYwRXZSY0VyMDdVOTlRR3ZBdHhhVjFYcG42azdDakZLdjJzcTJpbmRXTXRFaEhYUmRyZlY2bG9jejZ1cU5n0gFbQVVfeXFMTXVBVzJQaVh1Wjk4eEk5aGM1UTh2a2lpcjdpSzZEUHJNcGsyVndmUGFhcGdGR3ZUZExsOW9yQ0RFaThScHNFZ21CQnZpS2VHUmgxcXJSUkJUVF8yNA?oc=5",
-   "category": "",
-   "date": "2025-12-03T08:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0857,
-   "lng": 120.2994,
-   "story": "ea3ab1ae6dc8"
-  },
-  {
-   "id": "aa4faabf55f9",
-   "title": "台積電傳再擴廠南科！專家「看好近10年最關鍵案」： 但房市恐成青年惡夢",
-   "source": "udn房地產",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9aZkpMTm5PRU9TN1pjN1Z1Y1dVTmpvb2JfUmcyODd5cHJSbDhUMW4yUVdDOWJVSmFIQTZjeTE1MWpQYk80enMtbTdRa1BfNUpTbHVNN0dyWjB2cHdJ0gFiQVVfeXFMTk9wZm5FaHFoa0I3MHhxUVpERjVoRF82TEs0TGJOYW91T19CSmVmMU9qY2Z5YlotZmRFWDBXbnlTN09IRjR4RExLREZ1ejBaVG5pSThGQkdQR0c3aFR1dzZoZ1E?oc=5",
-   "category": "新投資案",
-   "date": "2025-11-27T08:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0707,
-   "lng": 120.2916,
-   "story": "aa4faabf55f9"
   }
  ]
 }
