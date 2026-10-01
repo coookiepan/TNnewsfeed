@@ -1,38 +1,38 @@
 {
- "ranAt": "2026-09-30T00:37:32.361Z",
+ "ranAt": "2026-10-01T00:39:15.293Z",
  "sources": [
   {
    "name": "Google News",
-   "fetched": 141,
+   "fetched": 140,
    "errors": []
   },
   {
    "name": "PTT",
-   "fetched": 0,
+   "fetched": 1,
    "errors": []
   },
   {
    "name": "RSS 清單",
    "fetched": 0,
    "errors": [
-    "自由時報（https://news.ltn.com.tw/rss/tainan.xml）: HTTP 403"
+    "自由時報（https://news.ltn.com.tw/rss/tainan.xml）: HTTP 404"
    ]
   },
   {
    "name": "政府電子採購網",
    "fetched": 0,
    "errors": [
+    "listbydate 20261001: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
     "listbydate 20260930: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-    "listbydate 20260929: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-    "listbydate 20260928: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    "listbydate 20260929: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
    ]
   }
  ],
- "totalNew": 19,
+ "totalNew": 30,
  "totalAfterMerge": 1200,
  "pruned": 0,
  "districtBackfilled": 0,
- "stories": 983,
- "duplicatesMerged": 217,
- "withoutDistrict": 635
+ "stories": 978,
+ "duplicatesMerged": 222,
+ "withoutDistrict": 642
 }
