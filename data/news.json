@@ -1,21 +1,46 @@
 {
- "lastFetched": "2026-10-03T00:35:14.753Z",
+ "lastFetched": "2026-10-03T23:57:20.961Z",
  "addedLastRun": [
-  "fef453a58cb1",
-  "c4212025a993",
-  "72797d324437",
-  "a5f877b23524",
-  "dc62331fa7a1",
-  "5154a5c0ae74",
-  "82bfb21df4bf",
-  "b241b0a69e85",
-  "bf4154ef592a",
-  "5845c57f4f4b",
-  "2861543b1f42",
-  "fed1655a02e8",
-  "13c4c0c3ae2b"
+  "ed409e170142",
+  "4a686aa245f6",
+  "0acfa60773c1",
+  "2232f5c0da92",
+  "c1e0817785dc",
+  "a7767e8681d6",
+  "9848e41db75b",
+  "38e3ed95a435",
+  "ab15c02e8e9c",
+  "8465b9737161"
  ],
  "news": [
+  {
+   "id": "38e3ed95a435",
+   "title": "台南柳營牛奶節熱鬧登場 展現臺南乳業新活力",
+   "source": "Life 生活網",
+   "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNZkt0OXRwOEY2cjRCVC1EUFV4NUNjdEY0czZSei1TaGFWbm1JXzBudFNRZmpkUXVkS05ZbEdGcUU2eW1qeFlSMmd3UGEzeEp0SkFlQWtaUXgzVi1tYkpFQUtWUmVRcjd3UWl3NVZJSkpuclNwSEdsSFJENWdQdlpGMFhHaTl2M1ZWb3hzZ0dkdzZrTVBmQTl2eVFEckdDTklhNHVIY2QxTXJJOXZIazhkSFN6VjlrWGR1ZTUwMTV1ZW1hWmlPT0p5bmU1UXlaSHI4OHJLR1gzTk5BaU12NkV2LU15c1NxLVhDM1E0dERJZkFyU1ZMUE1DTks3dmM0ZXd4YzJrMnlvR3BtQkdBbFd3ZXlLNFVFWEtfWHBwVHNxYk9DMGxiczA4UnJaWkUzTWtWM2FLU1drZXc?oc=5",
+   "category": "",
+   "date": "2026-10-03T05:42:00.000Z",
+   "snippet": "",
+   "district": "柳營區",
+   "lat": 23.286,
+   "lng": 120.309,
+   "firstSeen": "2026-10-03T23:57:20.961Z",
+   "story": "38e3ed95a435"
+  },
+  {
+   "id": "9848e41db75b",
+   "title": "從「竹篙厝」分家等32年 台南東智里3000萬「大客廳」動土",
+   "source": "自由時報",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9tbEYyajlEcVRwcmNVZ2RwUzZ2WWlobGdJOXlaQUI1dVdUdi1SVGZGUExRS3ZSVUNTZXhfWU16Sk9aSU5hOWZCVDhTQ085SlAza1lVbGxqNXlpUWIxR2IteWJzNTIwTkR1VkHSAWpBVV95cUxPbWxGMmo5RHFUcHJjVWdkcFM2dllpaGxnSTl5WkFCNXVXVHYtUlRmRlBMUUt2UlVDU2V4X1lNekpPWklOYTlmQlQ4U0NPOUpQM2tZVWxsajV5aVFiMUdiLXliczUyME5EdVZB?oc=5",
+   "category": "新建設",
+   "date": "2026-10-03T05:24:11.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-03T23:57:20.961Z",
+   "story": "9848e41db75b"
+  },
   {
    "id": "13c4c0c3ae2b",
    "title": "[新聞] 台南九份子國中小二期校舍啟用 朝社區中",
@@ -28,7 +53,7 @@
    "lat": "",
    "lng": "",
    "firstSeen": "2026-10-03T00:35:14.753Z",
-   "story": "82bfb21df4bf"
+   "story": "a7767e8681d6"
   },
   {
    "id": "5154a5c0ae74",
@@ -56,7 +81,7 @@
    "lat": "",
    "lng": "",
    "firstSeen": "2026-10-03T00:35:14.753Z",
-   "story": "82bfb21df4bf"
+   "story": "a7767e8681d6"
   },
   {
    "id": "b241b0a69e85",
@@ -71,6 +96,20 @@
    "lng": "",
    "firstSeen": "2026-10-03T00:35:14.753Z",
    "story": "b241b0a69e85"
+  },
+  {
+   "id": "a7767e8681d6",
+   "title": "台南九份子國中小2期校舍啟用 (圖)",
+   "source": "Yahoo新聞",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQZkNvOUllWjdfZVJpLV91QzVZMUh6MHltTU1jcWRSQW5rY0c5bldfTjBvZWY0QmxkWlBELU1qQWR0SklrSWtZSm1oekZIRnM1bWF2WWQtclprMXdsQU43dWZMWEhnXzdJbmZkRTdFQ2hvc25NOGZKTXRWb3UtUlZmUU5WZzlublJNcFZqc2lRVkNfbklTTkdNdUM0MEFFLWpFU0RGb1BRVEc4cFQwZDhsMHhsNnFDSkFyc3loOWpDQWMwZnp3SnR1dlFfSTl2Zng5cTVTRlJDREhIN3R0U0FlRGpUUzMyVjduM0F4ZUdnbmZnRUNLTFVrc0JPQ1pqdw?oc=5",
+   "category": "新開店",
+   "date": "2026-10-02T05:24:16.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-03T23:57:20.961Z",
+   "story": "a7767e8681d6"
   },
   {
    "id": "bf4154ef592a",
@@ -113,6 +152,20 @@
    "lng": "",
    "firstSeen": "2026-10-03T00:35:14.753Z",
    "story": "c4212025a993"
+  },
+  {
+   "id": "c1e0817785dc",
+   "title": "南警第一分局走入台南神學院 提升師生防詐與交安意識",
+   "source": "蕃新聞",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB4S1lQVVlVNldOQ0ZoWmlkc0pkT3RPckZiZnJ1cjlDUDlDZUFGZE1YZnRFMS1PdkhGM2kyS1o1QVpjeTVBanJlN0tkUUYyd1M3OFE?oc=5",
+   "category": "",
+   "date": "2026-10-02T00:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-03T23:57:20.961Z",
+   "story": "c1e0817785dc"
   },
   {
    "id": "20f0fa854c67",
@@ -185,6 +238,20 @@
    "story": "e7d0cabf7b4b"
   },
   {
+   "id": "4a686aa245f6",
+   "title": "排除萬難、重現風華：台南市商業總會會館（原醉仙閣）耐震改建工程正式動工！（天地傳媒，通天透地，貫穿古今）",
+   "source": "g4.village.tw",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51b09iNVFQbVBKOWVhQXlMdTJNSkdtZVpuVEppWHJoXzhPOFBLVmw4RVNQYXVhY2lvTU5BUXRVY29FcUdfSGZYYzl0WXdvRHExY2p1cmwzOFlJT3RQ?oc=5",
+   "category": "新建設",
+   "date": "2026-10-01T12:17:33.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-03T23:57:20.961Z",
+   "story": "4a686aa245f6"
+  },
+  {
    "id": "61502552ec29",
    "title": "台南市警局向市府擬退休人員進行防詐宣導講座",
    "source": "蕃新聞",
@@ -211,6 +278,20 @@
    "lng": "",
    "firstSeen": "2026-10-03T00:35:14.753Z",
    "story": "b41558cec6f0"
+  },
+  {
+   "id": "8465b9737161",
+   "title": "永康大同市地重劃今動土 台南市長黃偉哲：兼顧公共建設與地主權益",
+   "source": "報新聞",
+   "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxNb1hVTE1VRE43U2d4R0N3Y3k3Mk04VVJKU1lEQmF3Vlh1Nk9lZkNwVk1XVTBsYTd0SXlfeEpBUWJYM0pjYVY5cUE4VmU0Ymx4T3UyOFQ5VC1vRHpvY3Q3NzRwTGoyVlJneHZaLVZianRQcjVEOWFKd2dLQ1hyY2Y5Q3oxRjRMR21DMzdxYk5jODRJLTlCckVYemtfTWl6Q0NDZmVzY0J4bGtQVXlNMklMUkN1Ym1KMXBZc3dJd2VOd013UWVXblhhbG44R1FhYTNDTGZFeHV1S0tUbjZUSVRBU2pUYnMxVmtnYTZkRDd4ZjJXMzJTdG9Bd1oxT2xaZjF5VHV6TkN4b3drRFBGMGpmQ2lpLTVIZnFlajZ1UGlGcE5tOVpoTGpXcW9QSzNiSEZ1SERGUVNyV2ZSM1I1R2loN191ZTdRS1RFc1l6cU1tVm1JTnVfQl8tb3hZaG1Od2pMZ3V4eDFjZw?oc=5",
+   "category": "新建設",
+   "date": "2026-10-01T11:26:32.000Z",
+   "snippet": "",
+   "district": "永康區",
+   "lat": 23.0271,
+   "lng": 120.2578,
+   "firstSeen": "2026-10-03T23:57:20.961Z",
+   "story": "c4e598553c6a"
   },
   {
    "id": "ec317a0bc781",
@@ -395,6 +476,20 @@
    "story": "ef20a460dbc1"
   },
   {
+   "id": "2232f5c0da92",
+   "title": "台南鐵路地下化通車倒數 新車站首曝光有3出入口",
+   "source": "自由時報",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE93VEYzTnhFLVBYblcxSHE0OVFXZGd3NnEtQUlIc21wQUFZSG56TW5OUk9rZGVXTk9TTmJUV1VzV1pFLUVRWXU0OWZYa2dBUUxUWTNSR25KZHBfYkI4YjdXVDhud2LSAWpBVV95cUxPV1k3b0hYNXZ4S1NkYjctbmMwclR2WE4zLVM4Z0tCaWhQYl9Hb2NfOG5uOVBOb1BTeFpuMmFFcmUxV0otWkNRbHYzV2F3VkFDQVRvcFh5RmhIeUlZdG12QWI3Y3hTdDZkMGRR?oc=5",
+   "category": "",
+   "date": "2026-10-01T06:20:16.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-03T23:57:20.961Z",
+   "story": "2232f5c0da92"
+  },
+  {
    "id": "15b4dde02cbb",
    "title": "身障團體出遊更方便台南打造大型復康巴士啟用",
    "source": "CMoney",
@@ -451,6 +546,20 @@
    "story": "ca1f787e7ea0"
   },
   {
+   "id": "ed409e170142",
+   "title": "台南漁光島新地標「舞境之島」登場！結合咖啡店、餐廳、觀星台",
+   "source": "Bella.tw儂儂",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQXdFZDFnOTRLWEUwUUxtZTVhVHZXS2gzdG9Qcllmb3d5Njc4WWg0QWt6MDFadTVTRVpYT2dDQXFPajB4dWRDdEJFb2NHTmZSVVJVMk5Kb2lkVjc3dTg5X1BQRWdscnAtQjN5dXEyaTFtQWtvN3JzaklJMkY1djE1ZUhhY2hkVGtMUTFaVlB0elM3U1RNR1haTGlfQzVfcm4yUVE?oc=5",
+   "category": "",
+   "date": "2026-10-01T04:30:00.000Z",
+   "snippet": "",
+   "district": "安平區",
+   "lat": 22.9928,
+   "lng": 120.1431,
+   "firstSeen": "2026-10-03T23:57:20.961Z",
+   "story": "ed409e170142"
+  },
+  {
    "id": "0004e452de6d",
    "title": "台南車站開箱 神秘指揮室曝光",
    "source": "mirrormedia.mg",
@@ -463,6 +572,20 @@
    "lng": 120.2281,
    "firstSeen": "2026-10-02T00:58:13.142Z",
    "story": "0004e452de6d"
+  },
+  {
+   "id": "ab15c02e8e9c",
+   "title": "台南新車站有啥亮點？新閘門、商店全開箱 控管列車「大小腦」罕見曝",
+   "source": "三立新聞",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBZRTA1eml3ei1Sb1prNWFYTW9PV2lYdEtYTHRqYnB2eXFUZEtwYndwZ0JMM3RYN2JjZDcxcnVEZ2JfWFNNNHlKMUg1OFTSAUxBVV95cUxQWUUwNXppd3otUm9aazVhWE1vT1dpWHRLWEx0amJwdnlxVGRLcGJ3cGdCTDN0WDdiY2Q3MXJ1RGdiX1hTTTR5SjFINThU?oc=5",
+   "category": "",
+   "date": "2026-10-01T04:23:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-03T23:57:20.961Z",
+   "story": "ab15c02e8e9c"
   },
   {
    "id": "35fe928c9cc0",
@@ -1387,6 +1510,20 @@
    "lng": "",
    "firstSeen": "2026-10-01T00:39:15.293Z",
    "story": "843188af4c64"
+  },
+  {
+   "id": "0acfa60773c1",
+   "title": "南科擴建不只拚科技！規畫13座公園 最大8.28公頃成亮點門面",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5BOFRJTThTT25FdXZrWUFMVlVhYXo1dkFGYm4ycW5DOUFnbjdlWTJ6TWVPejY1V0Z6OHNkV2hfeWY2dXFCRzJDcU9fYmR0YWVr0gFWQVVfeXFMUGNOdE8zOWN1YXM1UUVyZVVhRDVaRXJ0cklBWXpkZGZMMm9QVE9LYng2dTVJNWFUVWdiZzNtLTFwdE5KekQ2XzhwTUx1TV9aWFluQ1NWdVE?oc=5",
+   "category": "",
+   "date": "2026-09-26T04:35:23.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0749,
+   "lng": 120.2866,
+   "firstSeen": "2026-10-03T23:57:20.961Z",
+   "story": "0acfa60773c1"
   },
   {
    "id": "fad56b47ee4a",
@@ -15939,136 +16076,6 @@
    "lat": 22.9781,
    "lng": 120.1999,
    "story": "5f28c221d1f5"
-  },
-  {
-   "id": "5148ac59bb83",
-   "title": "台南招商逾3千億加南科效應 東區平實重劃區與北區鄭仔寮房價皆站6字頭",
-   "source": "自由時報",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5LWFVwU2k0blhTeWlneWhkOE1SME40S0dsYmRlblNwNWN0Q0cyRl9wQ0o2RWk1Y3ppOGRuTlZzQWgxaks2TXphQnhnd1MtdFRH?oc=5",
-   "category": "",
-   "date": "2026-05-13T07:00:00.000Z",
-   "snippet": "",
-   "district": "東區",
-   "lat": 22.9869,
-   "lng": 120.2153,
-   "story": "5148ac59bb83"
-  },
-  {
-   "id": "2bbc94ef66d6",
-   "title": "台南商業設施接連進駐 商業機能迎來歷史新高峰！",
-   "source": "中時新聞網",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBYdV9nQllMUWgwTUJWa2JkbWJfRHNZMnpPWDZIcE14YUY2Nzk2MVZScFVyN2tEQV9mYXNpc19YcjlaLUlvcXl4WXZyamFLUlctV1UyUjM1cmRpTTR1RUR3?oc=5",
-   "category": "新開店",
-   "date": "2026-05-13T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "2bbc94ef66d6"
-  },
-  {
-   "id": "4c391f6588b2",
-   "title": "南台南副都心定位商貿複合生活圈！軌道紅利與商業建設雙軌、比價效應促外溢",
-   "source": "富比士地產王",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1WZXUwOEZ3YXM0YW5YbU12VGNDcHNBV0lZS0M0LTVCSlB3ME1mR3NVM2hUUlhWOGt2SHhMWW9LVERkeTcxQzIwMFpDQ21pZ0JlU3MxM2hWNlZPZw?oc=5",
-   "category": "",
-   "date": "2026-05-13T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "4c391f6588b2"
-  },
-  {
-   "id": "cbfc2c39a789",
-   "title": "台南五大商場新地標：平實轉運站、最大商城「海洋之心」登場",
-   "source": "Bella.tw儂儂",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU3RieUFuck83amE0U1NUbDEzcDAxRGxVcWZ3blJMcmlKZ3FsTmtmUGd3Mk04bVVjNUZ6MUxEZ2t5c0xfUEFrTjlUM2JBeUR1NjNyRDZPU0Q5YWVWZUJDbmFwVlVaaktNaDloNXdjSVRPc210NnJTcFBsVTZyVUZROXEtdGpHSGxYNE5waklheTlSWGNsUklYekxUbGw2N2dFUmNxTHZrSnNzdnhUU2tR?oc=5",
-   "category": "",
-   "date": "2026-05-13T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "cbfc2c39a789"
-  },
-  {
-   "id": "c59b4279e81a",
-   "title": "LOPIA加速展店！台南迎300坪最大據點 7月開幕",
-   "source": "中時新聞網",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5oa1FKS19YZGZZMVA3aC0wTG03cExRZlR2TnpSMnhLN2hnY3VpaWdPRTlKaWVERG1OUERJTFlCSjByUXIwRndsQloyNUZyUWdOczJlV3BPRHo4RnRCc3pjZUxaRnplU1F6WGFNYVVn?oc=5",
-   "category": "新開店",
-   "date": "2026-05-13T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "c59b4279e81a"
-  },
-  {
-   "id": "65e2ae609547",
-   "title": "法鼓山廣雲寺台南動土 全台首座低碳示範社區宗教建築開工",
-   "source": "主流傳媒",
-   "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE8wdlhaLXd6SGticjl5SzJfcnM0YW1HZ1pxb3lodU1KTHZfemZuaVRyTVN6VEVSVnJHLWJ5bA?oc=5",
-   "category": "新建設",
-   "date": "2026-05-12T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "65e2ae609547"
-  },
-  {
-   "id": "37619398cbaa",
-   "title": "台南招商成果亮眼114年吸引722億元投資",
-   "source": "非凡新聞台",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1waDZnakFWWDFBT05JN1pPUTVSZEpfT241MDh3QkZ5d3UyeG4teGhORXgxS2FtNzR1MjZjNDg1aXZNeHdCTkxVR0Fkc2Q0R1lMUGZiS2thNGl4OEk?oc=5",
-   "category": "新投資案",
-   "date": "2026-05-12T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "37619398cbaa"
-  },
-  {
-   "id": "8e70f12cbb05",
-   "title": "南科整地 迎台積2奈米廠",
-   "source": "經濟日報",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KUzUwcWYyR3pDV08zMlAxUW03OTVtSE5YQnM0NEk2Tlc2dmNMZmVJTDh0MU43SExMX2lRQlVFWW5NNTRkeDUyY1Q3eWtuWEc3SHJVZnZ2Nm03QdIBX0FVX3lxTE5aOE5HZDlxR1BjaTQ5MFBxRXlDczJwTkFlaGtDUUhSOHdxYjR2aVJYUGFDbFFXTlhjTzZ0bnFwX2xWSXdNQ01BTlVkQkxZU2NZSEpkclY1QjExdXdnY21r?oc=5",
-   "category": "",
-   "date": "2026-05-12T07:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0815,
-   "lng": 120.273,
-   "story": "8e70f12cbb05"
-  },
-  {
-   "id": "2052c5636ec3",
-   "title": "南科持續擴大綠色供應鏈布局 屏東園區強化半導體永續競爭力",
-   "source": "經濟日報",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jOEJLQW1mLTlSQU9fODNzN3JDS2lQLXg4ZHBIUjVNVXNYMng1YW03cUY1cmlPdG9ib2xlZ0UxeVdqT2pyVlNfaUVHQWRPVnJ0YmRBMWtISzczdw?oc=5",
-   "category": "",
-   "date": "2026-05-12T07:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0723,
-   "lng": 120.2864,
-   "story": "2052c5636ec3"
-  },
-  {
-   "id": "dcc5b0c4f59f",
-   "title": "台南推智慧動態號誌 南科幹道通勤時間省16%",
-   "source": "僑新聞",
-   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1NMGItR2ZVaUpuQy1KTXF3eEtqS0xPRlg4UDlsSFpVVk9HdDduVC0wbnZCR244X0x0NDdCMFJmMmZYSm9keU5xWkJZZw?oc=5",
-   "category": "",
-   "date": "2026-05-12T07:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0705,
-   "lng": 120.3042,
-   "story": "dcc5b0c4f59f"
   }
  ]
 }

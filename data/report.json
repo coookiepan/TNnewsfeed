@@ -1,5 +1,5 @@
 {
- "ranAt": "2026-10-03T00:35:14.753Z",
+ "ranAt": "2026-10-03T23:57:20.961Z",
  "sources": [
   {
    "name": "Google News",
@@ -8,7 +8,7 @@
   },
   {
    "name": "PTT",
-   "fetched": 1,
+   "fetched": 0,
    "errors": []
   },
   {
@@ -22,17 +22,17 @@
    "name": "政府電子採購網",
    "fetched": 0,
    "errors": [
+    "listbydate 20261004: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
     "listbydate 20261003: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-    "listbydate 20261002: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-    "listbydate 20261001: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    "listbydate 20261002: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
    ]
   }
  ],
- "totalNew": 13,
+ "totalNew": 10,
  "totalAfterMerge": 1200,
  "pruned": 0,
  "districtBackfilled": 0,
- "stories": 974,
- "duplicatesMerged": 226,
+ "stories": 972,
+ "duplicatesMerged": 228,
  "withoutDistrict": 637
 }
