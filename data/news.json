@@ -1,17 +1,71 @@
 {
- "lastFetched": "2026-10-09T01:19:31.332Z",
+ "lastFetched": "2026-10-10T01:03:33.486Z",
  "addedLastRun": [
-  "96c315f9ce3f",
-  "1b9f54d05965",
-  "86c1de196125",
-  "a09480929d36",
-  "73e2ff7dce39",
-  "a26f6f5b45ca",
-  "b4f5bdbbb1df",
-  "bc0a160951fc",
-  "6af197f10c70"
+  "6156cd381176",
+  "44bfc9f63d37",
+  "95571a1c6e0b",
+  "e2d768a445f5",
+  "c9df00be5f60",
+  "96ee05e8c0c8",
+  "ee992de63572"
  ],
  "news": [
+  {
+   "id": "44bfc9f63d37",
+   "title": "2026台南好米季後壁開幕 菜奇鴨彩繪稻田展至10月25日",
+   "source": "蕃新聞",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA1a0dSS3k5ZmRxeHh6eUtpWjZlMHNoOEZuWUJiUXRCb3ZYemFGVU9qSHhBR2o3OWFoT3dwNnFzWHV0TUlXTVlSaXFDSWhSQUwtTlE?oc=5",
+   "category": "新開店",
+   "date": "2026-10-09T09:35:00.000Z",
+   "snippet": "",
+   "district": "後壁區",
+   "lat": 23.3643,
+   "lng": 120.3693,
+   "firstSeen": "2026-10-10T01:03:33.486Z",
+   "story": "f45da4d71382"
+  },
+  {
+   "id": "ee992de63572",
+   "title": "台南喜樹、灣裡重劃工程獲國家建築金獎",
+   "source": "工商時報",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5La25sR2R5cEpoUkt6eVpma19iUUhZZDZNdVVRN2JPR25qU0VKVEJBSkE3V2paS0l3bDROTkEzTFJ2ZGxiazBwT29vYnB6SWt0b0FKMEVEWG9xZXNWOWFJ?oc=5",
+   "category": "新建設",
+   "date": "2026-10-09T07:40:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-10T01:03:33.486Z",
+   "story": "ee992de63572"
+  },
+  {
+   "id": "e2d768a445f5",
+   "title": "台南西港劉氏宗親1萬多人 首座宗祠文史館啟用要變身文史新地標",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE03cnVNTFF4VEhPMzNGV056cWQ4OGlEcjk3QVZGZ3hsTnI3b1RyRXpNcHIwTVNtalR0VXNRUmpsRU1Nd0FQUURlYkNETTM4Q29x0gFWQVVfeXFMTjJ2SEs4ZmNxSHdaNHJINk1QWlllZ2RuQS1tN005ZXpPcU1CdXJZNXp2alkyS3kwZUFmc3lRWndBMnVyeXREeG42MzlyX2NrYjlSRmExVXc?oc=5",
+   "category": "新開店",
+   "date": "2026-10-09T05:11:24.000Z",
+   "snippet": "",
+   "district": "西港區",
+   "lat": 23.1132,
+   "lng": 120.1938,
+   "firstSeen": "2026-10-10T01:03:33.486Z",
+   "story": "e2d768a445f5"
+  },
+  {
+   "id": "96ee05e8c0c8",
+   "title": "「菜奇鴨」彩繪稻田亮相交織台南後壁農村地景",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5sNW10WDdUV0oteTlyU3VfMXBqUXp0VElWR2hXZUFWQk9ubXdFeVpUM2M3WHhqR3ZFV3B1Z0I4WkRoTlBVSFBNRklvN1h1cm5Z?oc=5",
+   "category": "",
+   "date": "2026-10-09T04:02:23.000Z",
+   "snippet": "",
+   "district": "後壁區",
+   "lat": 23.3651,
+   "lng": 120.3553,
+   "firstSeen": "2026-10-10T01:03:33.486Z",
+   "story": "96ee05e8c0c8"
+  },
   {
    "id": "6af197f10c70",
    "title": "[新聞] 南市府工務局副工程司索賄逾400萬元 檢",
@@ -53,6 +107,20 @@
    "lng": "",
    "firstSeen": "2026-10-09T01:19:31.332Z",
    "story": "96c315f9ce3f"
+  },
+  {
+   "id": "6156cd381176",
+   "title": "獨／南台灣制霸！最大711坐落台南 開幕1周吸萬粉朝聖",
+   "source": "三立新聞",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1hOHZGT3RUOHE1bnZ3UWNXNzBLdGJrQXh6T2g0WmlrUmJuTldYMzBheFJGb2tPZVYzbHBmQ3UzYzdnSUpVYk1n0gFLQVVfeXFMTlZGTmRSNVY4UUx4Y1J1eExUUU9pNEZvNGJTY0RrY0FwZUNHb1AybFd1T1hOekxLaHZNM0JWOGpZR1pwUWxuTzVtTWY0?oc=5",
+   "category": "新開店",
+   "date": "2026-10-08T09:23:18.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-10T01:03:33.486Z",
+   "story": "6156cd381176"
   },
   {
    "id": "a26f6f5b45ca",
@@ -489,6 +557,20 @@
    "story": "c1a8e3f3517e"
   },
   {
+   "id": "95571a1c6e0b",
+   "title": "投資台南布局未來 南市府今舉辦說明會",
+   "source": "經濟日報",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9SaXN4dXpwNHJkX0dVb2hjaUEtbHdRU09KMkIyVTNVUHZ3MWFqMGVGajZpR2J5X2dkeWZoZGlDa3g4MmxlX3pQSE9hbnJ3SEdmY3V6enp5MHpuUdIBX0FVX3lxTE1WTkZXSGlTcHk2VVdUWV9ZR0pmQnFfQWZaaXhSWHhMVmVXdjZQX0VXTlJlVVhNUzZ0bWhQek5mVHRfMjJFVUVSMTd5elJkNkF5U1BDZm4tNzBuNU1LbXY4?oc=5",
+   "category": "新投資案",
+   "date": "2026-10-06T07:08:03.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-10T01:03:33.486Z",
+   "story": "95571a1c6e0b"
+  },
+  {
    "id": "cdc2f0fd4f26",
    "title": "日治時期庄長官舍修復完工 台南打造空山祭新觀光亮點",
    "source": "Yahoo新聞",
@@ -851,6 +933,20 @@
    "lng": "",
    "firstSeen": "2026-10-05T00:02:13.280Z",
    "story": "fb8afb8f772a"
+  },
+  {
+   "id": "c9df00be5f60",
+   "title": "交通部點頭了！台南鐵路地下化17日正式通車 原路線前一晚23時起停駛",
+   "source": "Yahoo新聞",
+   "url": "https://news.google.com/rss/articles/CBMioANBVV95cUxPQnZsMTV3MEIxekhYUjVjR3loX3BKczJjNTlFTE5NeFNqY0lRdjZXajJXZFM0TEN5RC15U1pMSnNCZXhNbXNObWU2am5kNzhwM0l4aGw5eTR6UTc4ZWVlZ3BCeXRKUlI5d3B1Z2g5VElXT1dWYm1sd3pSQ2FtR3hFOVp0cHhESHhIcTFYMUVSNzJCMUlPTjZ0OXJmNmo2X1hwdWt2QUNFZlQzQjFSYkE4SFpCUHFPajY2QXpVU3dneTZSU2c1dXdxX0wxWTNwazVXR3UzX3RpZTVVWF83ZjhSVlRSTmEzaE1HNVYwQjg0ZU9NVjFsMjBhZGdRMUdKZ0lVaWtpWW5HbzhyQkpNbnBrY2hjazRoQmtSWjl1X1p4My1WQXdramtwOEtRXzdnSHM2bzdfTTJmMHliRHB3dWtJVDNIZG9sNUlpenJQM3hGdG9idjdlU19VUUpkbVZ4WnJHOU1vemRrMktYam5sSDM3Vl9iU2czRDJURnZIQ0tOX2ZXX0dNMUJJUEhfNUduM19KSUJGWVhVNXFEVXBTVENlSA?oc=5",
+   "category": "",
+   "date": "2026-10-04T03:55:51.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-10T01:03:33.486Z",
+   "story": "c9df00be5f60"
   },
   {
    "id": "aae8024050f1",
@@ -16062,97 +16158,6 @@
    "lat": "",
    "lng": "",
    "story": "1b49fc8b5f11"
-  },
-  {
-   "id": "7b3033ab45e7",
-   "title": "衝觀光 台南「安平漁港跨港大橋」今年開工",
-   "source": "LINE TODAY",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA4d2xXMWpjU0hDUTk5SGhOaFhMd0NMMWpiUy1LZjZqQVZsaWpTVF9hZ1E4VkJuX0tWMk1VVFppY1N3WnZlWnV1WVlpNm1XeHlSSUhPcFoteFhTX3dETVY5VHI4UTlKOVVFMDlXaDVYUHZJVE1EOHM0?oc=5",
-   "category": "新建設",
-   "date": "2026-06-12T21:17:48.000Z",
-   "snippet": "",
-   "district": "安平區",
-   "lat": 22.9976,
-   "lng": 120.1761,
-   "story": "7b3033ab45e7"
-  },
-  {
-   "id": "a2b6aa53c8b8",
-   "title": "游於藝「見微知美」巡迴展 台南最終站開幕",
-   "source": "新唐人亞太電視台",
-   "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxPRk91N2hUYlBZaVlkaFVLZDFVRVUzdEJsd0VUVWstTWxmUWJIZ2V1MjZuMU03UEl2NDVIQUg3QV91aDI0UXhKWk80NWtCd2p5akNSTWR5V1pYNDZjLXRMdjBjeTRGSVNJdnNtNHQ4NHhaVnp6eFFkVF9xVDJRS3VyeHJLR191dW10S2pWTmdDbW82NHU2Tk50RTFXUWpjSG1lb0tnRkw2UlAxekJ6ZXlYMmhuWGJVaDFFRXRvTl91VWdPNlFPdnF5dEQ5bDlueGRGRjZnbkdjMDQ4VmpKSFVxaXNsVDNiU1IyMVVOYTk0Wi1tdjd5cFNpM2lndmFiUUlXM3JFVWFLNGp0Z0M5NGxVd0YxZFBIYXF5Z2NBZkg4a3hMSDhfdGZTcVMyWHZCblJUbjByd0xLUVJ6cExmajVfZFpoMndjYmdQQWktd0Rn?oc=5",
-   "category": "新開店",
-   "date": "2026-06-12T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "a2b6aa53c8b8"
-  },
-  {
-   "id": "7eceb3bc2482",
-   "title": "全國電子台南佳里店盛大開幕 開幕五天全館家電9折、消費滿千抽洗衣機",
-   "source": "PChome Online 股市",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOWVvYlJTVmhrakFFN2N2WmwzYzBkSW94aVBzZnVianpVMTBDVktZWlJVdkdBSnhZa2QwelRGQ3dQN1pDdmtZYm9ISDNCZ0FObWR2RDVIZDZ1UTBxcTF4YWd4VWVXSGt1clhHTkhGQzJYRGJYLVdLOXplVHhPbkNORw?oc=5",
-   "category": "新開店",
-   "date": "2026-06-12T07:00:00.000Z",
-   "snippet": "",
-   "district": "佳里區",
-   "lat": 23.1606,
-   "lng": 120.1732,
-   "story": "7eceb3bc2482"
-  },
-  {
-   "id": "3e3f8baea8bd",
-   "title": "南科重大突破！台積電與台南專案地上權簽約完成",
-   "source": "好房網News",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB2bmNER3dZMjNyS0Z4a3VEUWhvYllQekQ4aFIyQnNsamkwVW40Z3pKTnpfSU9CSDlsX3hQTGZYMGNDTURFUTNPb21FdU8wdXdCSFFQdWY5SmxQOEF2bW0wSERzMkVDV2JYU2JF0gFwQVVfeXFMTXpvNG9yRmJXUkkxWGZHM3JZSklmUnU5dlJNMWI0MW01WEl4VU53dXJVT0N4ZGxkZGxFZ3J0MTEtVGRXd1RDY25yTjgzRkJ2UHNXNGhUWXVYSjI0c2lUV0hmbDBVaEJZM0lWRE4taGJHNA?oc=5",
-   "category": "新投資案",
-   "date": "2026-06-12T07:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0697,
-   "lng": 120.2822,
-   "story": "3e3f8baea8bd"
-  },
-  {
-   "id": "8e3189641d43",
-   "title": "台南市議員陳怡珍質詢聚焦民生建設 促台江地景公園親水設施6月底啟用",
-   "source": "PChome Online 新聞",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOM0ZaUG9HRERnMDB0MzlLLXF6b3NEYzVmZ2R2LUlnZ21MbzZLNUdnX0FKSlhpcV9uUkY2QV9XbmNoUVlMQTJteEdnOHZpQlR6RVR2bU1kamFXeEtvckU5clJaaUdsOTlJNG9XWnFhUGtxWHZvZGJJaFFDdWQxM0s5eTFhODJmVmF0cERnX0w0SQ?oc=5",
-   "category": "新開店",
-   "date": "2026-06-12T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "8e3189641d43"
-  },
-  {
-   "id": "1584a0b04014",
-   "title": "AI帶動電子業擴廠潮 台積電拿下南科22筆土地地上權",
-   "source": "好房網News",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0zdmZTNjRKeW9tZmlZV050WlEwMmRDLTZMYkVZVjA0QTZRY0VKSzAxSVAtNWtNM0VnMjFaNURxM3hFNXU4WWVzc0EyZG04M29jRmNxMWRLR1k0OGduN1E3ZnJhMUFmS2t3ellj0gFwQVVfeXFMT2JGTDBGeDZrQXhOc0E2MFN4bFhrVjZfTW9laXQyRlBua20xN2NPY2p0RU9NOE80V1dOckZxS21XTldONVhPMmF1WG9lYzh0S3AxdDF0SVkteDJRRW1USFNWRllOZEozY3hES0N4X2p3Zw?oc=5",
-   "category": "新投資案",
-   "date": "2026-06-11T07:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0857,
-   "lng": 120.2686,
-   "story": "1584a0b04014"
-  },
-  {
-   "id": "f608aa8915a0",
-   "title": "台南下營國中通學步道完工 串聯鐵道風情打造安心上學廊道",
-   "source": "ETtoday新聞雲",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5sN3lfMkNjUTVJLXRGdDYzRjJia3VZcTk0aU11YU5KOVJ5Rm0zeHhYVmdhLWtRSEhjN3VCa0V4T2NYZ012WjdfTzZwR3NQRVA0ZUUwVzVXNW9oRmZYSnfSAWhBVV95cUxQT1VMWjJEOEtCaDVZam1GYm1wcm1FQmZrN3JPc1RtZ3llaEdJNGkzMkhxYnd2Mm5fdWJuc0ltZWo5dFdiUHpKS1I5Y2dJZHNnRl9GbTdNUVg5a1ViMFNfU28xdDlOQ3R4Sw?oc=5",
-   "category": "",
-   "date": "2026-06-11T07:00:00.000Z",
-   "snippet": "",
-   "district": "下營區",
-   "lat": 23.2439,
-   "lng": 120.2486,
-   "story": "f608aa8915a0"
   }
  ]
 }
