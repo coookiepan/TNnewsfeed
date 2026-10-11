@@ -1,15 +1,100 @@
 {
- "lastFetched": "2026-10-10T01:03:33.486Z",
+ "lastFetched": "2026-10-11T00:17:26.324Z",
  "addedLastRun": [
-  "6156cd381176",
-  "44bfc9f63d37",
-  "95571a1c6e0b",
-  "e2d768a445f5",
-  "c9df00be5f60",
-  "96ee05e8c0c8",
-  "ee992de63572"
+  "44ceb9ab3dc2",
+  "952da9087bc8",
+  "e56ff36a1510",
+  "735cb3d96d85",
+  "0dac75781192",
+  "62e3aaa3a7cc",
+  "3d59fd6521c4",
+  "c97edeaf7920"
  ],
  "news": [
+  {
+   "id": "44ceb9ab3dc2",
+   "title": "橋山壽喜燒插旗台南9月開幕 用餐送日本A5和牛",
+   "source": "壹蘋新聞網",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdW5TQjhTWHYwaURZNGJYMzFCdmZGQXBiSUVWczloazBrblRtNTE3c05YMjVsLWxiaDItbmtDN3FyTFlBWXJJUXdnUHJnNXhMT3pxRXFubG1xd29iOE8xeW9ZdzhmX2ItRWpMSWpKLUo4eDNDS2Z1S0Via0V1bDFoLXM3UVQ?oc=5",
+   "category": "新開店",
+   "date": "2026-10-11T00:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-11T00:17:26.324Z",
+   "story": "44ceb9ab3dc2"
+  },
+  {
+   "id": "c97edeaf7920",
+   "title": "黃偉哲與市民歡慶雙十國慶 攜手邁向永續宜居台南",
+   "source": "LINE TODAY",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9iN2FKYWxSQi1tVXllNVZ6WEQ2aWdBWEhab0c4SENPQjRhM1JFWWpkSnNqWE9EMWp4Q0RvZFRudEFMMTEzLXlweVBuV1RqZDhkTFlkV2gzQ1BjZXd5WmxGVUNUVUIzQlladnhNM3N3NVN1T1R5T3c?oc=5",
+   "category": "",
+   "date": "2026-10-10T13:39:09.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-11T00:17:26.324Z",
+   "story": "c97edeaf7920"
+  },
+  {
+   "id": "e56ff36a1510",
+   "title": "台南「曾文風箏嘉年華」登場 大型菜奇鴨飛起來了",
+   "source": "自由時報",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9lNWd0Tll4X0hRRFV1OVpxRE5hc1QyZ3VYcHNRTmVkX090VVN1c1llRV9kcVgwWlMyZzFsUXluM1FTWjRYMlBXZm5qOU1VV0Ntd283amdQWEJ5bF9FZVlUazdJb0piQzJWa3fSAWpBVV95cUxPZTVndE5ZeF9IUURVdTlacUROYXNUMmd1WHBzUU5lZF9PdFVTdXNZZUVfZHFYMFpTMmcxbFF5bjNRU1o0WDJQV2ZuajlNVVdDbXdvN2pnUFhCeWxfRWVZVGs3SW9KYkMyVmt3?oc=5",
+   "category": "",
+   "date": "2026-10-10T09:26:46.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-11T00:17:26.324Z",
+   "story": "e56ff36a1510"
+  },
+  {
+   "id": "952da9087bc8",
+   "title": "[台南]一閑間民宿/2026新開幕/榻榻米房型、浴缸、Dyson吹風機/鬧中取靜超有質感~",
+   "source": "SayDigi | 點子生活",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE43WXIxSEd6YTFVaEpZOTlrbklFSkYzRTZTM08zYWRvaFBMVHpxWVdGVjZ2blBEVUFwd29wWmVfYjVZamxoVC1hZEhHNHhobHZSM1RocnE4OA?oc=5",
+   "category": "新開店",
+   "date": "2026-10-10T07:10:27.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-11T00:17:26.324Z",
+   "story": "952da9087bc8"
+  },
+  {
+   "id": "3d59fd6521c4",
+   "title": "任內最後一次國慶升旗 黃偉哲細數台南8年建設 迎鐵路地下化通車",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1hc1hRVnZjekJreVIzck5QSS1xMzFnRWxjU1hOeWJsSDBlUTdwdmFTemtEUS1xUWhuS0l2eHJJbFlFdEpMbGxFLVlEOEp6QXVD0gFWQVVfeXFMT0ZzRmJmZDJOWVdOZURFMFgxSjZMMmNTcnBDZEpRY2ZyQldfVzFfamp5OTJZLTZuV0pzbXgzNmhJRURjWS1aRnZsel9rLUU2TngtWVQtWHc?oc=5",
+   "category": "",
+   "date": "2026-10-10T01:57:36.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-11T00:17:26.324Z",
+   "story": "3d59fd6521c4"
+  },
+  {
+   "id": "62e3aaa3a7cc",
+   "title": "國慶升旗黃偉哲：建設永續宜居的台南",
+   "source": "中央社 CNA",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5jZDJPV3N2YWRWX21KRU4tVmNrejBNbFFNMkswYzJlWkZXUkRGMW9mSUhZc3l1R3l5NUpnZ0w2TXpBQWdadkFUempqcEg4bnY5dkhIYnFaeWdSOURlbWVv?oc=5",
+   "category": "",
+   "date": "2026-10-10T01:54:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-11T00:17:26.324Z",
+   "story": "62e3aaa3a7cc"
+  },
   {
    "id": "44bfc9f63d37",
    "title": "2026台南好米季後壁開幕 菜奇鴨彩繪稻田展至10月25日",
@@ -51,6 +136,20 @@
    "lng": 120.1938,
    "firstSeen": "2026-10-10T01:03:33.486Z",
    "story": "e2d768a445f5"
+  },
+  {
+   "id": "0dac75781192",
+   "title": "醫生，你有病？｜方東昇團隊赴台南直擊蔡伯羌現況外科醫生積勞成疾失智失憶遺忘髮妻妻子不離不棄貼身照顧",
+   "source": "香港經濟日報HKET",
+   "url": "https://news.google.com/rss/articles/CBMitgVBVV95cUxPT3p3cXo4NjNqYm5kUFBBanJ2WmNxcjJUanZuSzdJWDZ5RFZzcXQ5V25uQnRERFhLMWNWS21US2x6U2RCbnc3VmxWb3lkU0NaeWZ1X3Y5Rll4ZEd1UEtudUxodU5WVzhMcHVTMlI3eWZpbDNnY3pRTUJ6bW83Y3FYUTRPNFBtM2gxdUhwOF9QYUgwVS1GbVJHcWJnZjlDUjE5U2xSd0g5czVkTjY2UkJpWUJVOU1Eb29hUFE3SHhvY0UxdGMzUGdPTVF4ZnZ1eWMwUUxoSjYzY3pjZFRmV2c0OE9mSDd6anlDaVk3SzZGMkRoS3J3QjBCcDBteV9mSFUtTlNpNFdBUDBiLW55Sk00SDJmWXFSYVZuRHFJWDNfMVlQYld3WFo5MnExMVNWdnFMZG9QLS1xSjFmNTJPa25HMHgxRHp4dmRKQTE1QXR4TUc0MEJtcDBicEhCOE5PZW1qZk14V2x5MC1ueFZlTVZVeHZUTTNQLV9CbHJoSXlBRlZvLWdZS3JwUDR5WksxVVNnMGRzVDg1N2dsalBaaWc0dHlqb3NxaWJPazlPWXZZd2pma21QMHNodEhsRUY1aXFaV2dmV3VxNEEzUXFwdlVCT1RqS0Z3Vk1nWFROM1JwMUNWdWY5UnVoY0RkV3V2SWJ3SXdJQTBmSE04YWFEdTU5bmJmSFdtVXJpdGRKLVhTVnN6dE96cncySldaSXNEaU9QOVA1Qml2anpqLTV2LTBkWm5EZ3poNVRwY0lIS21wVU9hdDFOMXVLOTFYejNmZy1EdmlQbXhRdXMxTC13V0lmUFJPQ0htUnZpX2ppek9WbGlja0loRFV6UDNUdmpmNXMxX21SSUlvSjhVNGlhSURNY1FxNWloOFYyMTVtb3NsMWszaDlVVk1ITHlpM0JqRDJuNlRlV0h3?oc=5",
+   "category": "",
+   "date": "2026-10-09T04:57:25.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-11T00:17:26.324Z",
+   "story": "0dac75781192"
   },
   {
    "id": "96ee05e8c0c8",
@@ -149,6 +248,20 @@
    "lng": "",
    "firstSeen": "2026-10-09T01:19:31.332Z",
    "story": "bc0a160951fc"
+  },
+  {
+   "id": "735cb3d96d85",
+   "title": "2026台南好米季 菜奇鴨稻田彩繪10/9至10/25開放參觀",
+   "source": "蕃新聞",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5QWgzWlI5eTd6WTUtMlRsek5RZndjdExEcXlzVjFOQzA0dUd5TEVtelljZ1RndnFvTGxzMzYzWGJnZDdMTWIyblBkNFZTTWFreFE?oc=5",
+   "category": "",
+   "date": "2026-10-08T03:45:00.000Z",
+   "snippet": "",
+   "district": "後壁區",
+   "lat": 23.3651,
+   "lng": 120.3655,
+   "firstSeen": "2026-10-11T00:17:26.324Z",
+   "story": "f45da4d71382"
   },
   {
    "id": "86c1de196125",
@@ -15819,7 +15932,7 @@
    "district": "東區",
    "lat": 22.9827,
    "lng": 120.2175,
-   "story": "e396da77a552"
+   "story": "e2e1c909bd28"
   },
   {
    "id": "656158a29c34",
@@ -15871,7 +15984,7 @@
    "district": "東區",
    "lat": 22.9743,
    "lng": 120.2291,
-   "story": "e396da77a552"
+   "story": "e2e1c909bd28"
   },
   {
    "id": "c05ebb9bdd21",
@@ -15962,7 +16075,7 @@
    "district": "東區",
    "lat": 22.9731,
    "lng": 120.2039,
-   "story": "e396da77a552"
+   "story": "e2e1c909bd28"
   },
   {
    "id": "fbea797b2901",
@@ -16054,110 +16167,6 @@
    "lat": 22.9733,
    "lng": 120.2195,
    "story": "a6b0fe37de8b"
-  },
-  {
-   "id": "9a9017bdceb5",
-   "title": "承業生醫加速布局大健康產業鏈 富康活力藥局台南首店開幕 全台布局成形",
-   "source": "biao-news.com",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1YeG5xZEQ4eE9LSTNxU3pqRTc3ZHBKaDFfVDlFVHZiZzdKdFcxQ3F2UVBSTG9pTVlVODlBNTY5aGNFdjlFTnQyVTZObDAwRzlfaC04VTd4Y0p2cDlRNDJGcy1PM0tGcGR3ZnRmOHJXOGxSamp4?oc=5",
-   "category": "新開店",
-   "date": "2026-06-16T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "9a9017bdceb5"
-  },
-  {
-   "id": "5859462786e5",
-   "title": "比開百貨公司還高興！市長黃偉哲宣布1外商進駐台南，開幕地點曝光",
-   "source": "Storm.mg",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBTXzVERHIzeThRaEw2cTNjeXZtZWpuUDRrZUxpbG81LU9oNkxIQlB4TS1UWlNFN3kzb3paTWZPVlpmNjlMdzdpOEdORWFSM3dr?oc=5",
-   "category": "新開店",
-   "date": "2026-06-16T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "5859462786e5"
-  },
-  {
-   "id": "de140d003ae6",
-   "title": "台南終於有IKEA了！IKEA宣布進駐台南，官方揭密展店地點、人才招募作業正式曝光",
-   "source": "ELLE",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTU0ItZ25EcmdtRkRzZnIzYk5aM1dkMFdxTmFVR0JVY1FzMWtKVjF6a05CMWZEVW8yRUlCWkcwTEJfVTZIWmEydDRDRG41TElNRUdEMEFQNC1fdUtWMmd0cGNpVDBrZElC?oc=5",
-   "category": "新開店",
-   "date": "2026-06-15T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "de140d003ae6"
-  },
-  {
-   "id": "051b7796a401",
-   "title": "停了就對了！台南最大立體停車場下半年完工東區三痛點解套",
-   "source": "udn房地產",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBxSnJnZ253UzR1X0ZZajRYRmRlaWpOdjl2djY0MTBGZEhVajB5WnNoQUhTbEw1dDJpSFFBaFEteWo5MXZVdnhkOFJtakxTVnctRkhwZVVRRS16a2Q1?oc=5",
-   "category": "",
-   "date": "2026-06-15T07:00:00.000Z",
-   "snippet": "",
-   "district": "東區",
-   "lat": 22.9897,
-   "lng": 120.1963,
-   "story": "051b7796a401"
-  },
-  {
-   "id": "e396da77a552",
-   "title": "IKEA確定展店台南了！ 黃偉哲證實：進駐南紡購物中心",
-   "source": "Yahoo新聞",
-   "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPLTRYbUNVR01FNmFDZWVaSjdxWWQtcmoyQnI5SEZUM2VmRlA0S0o5bFoxdmVUYlhGT2ZldVNGYWY2VzFNZHRPd1daSWxzbTRvS1hxcFhWTHljdHdfTFdkSlVHWDY1bDFEcDc0WXR4aFdnZjBHVWJPdHhWUnpVVmgzb1BFLXMzUG90NkZheW01S0JxTE5UeEo0LWlYeTZQNUx4MUxxWmtSenRZcEpDVG1ZVDdQbVdRbDNNN3hxZFA4SE40cndMN3pPM2IzeVd3NjJuaENJeTBua1VPZTRiRjV4N3ZFT3JlN0RUVjhCNGRjYUxEM2l3T3huT3RBVG9fdnNqZ0lVZUZ5ZWRzanVCSVF2My0yZ0o5di1kLWtpci1LYkZSdVZTX1owTWpGZnlpaTU2X2JtaWtHc1lHVXhxa0h4djdjQllydEhDVVZF?oc=5",
-   "category": "新開店",
-   "date": "2026-06-15T07:00:00.000Z",
-   "snippet": "",
-   "district": "東區",
-   "lat": 22.9821,
-   "lng": 120.2313,
-   "story": "e396da77a552"
-  },
-  {
-   "id": "02c220785b72",
-   "title": "台南IKEA終於來了！宣布進駐南紡購物中心，台南人嗨翻：「終於不用跑高雄」",
-   "source": "食尚玩家",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5pc1RzdkdyeXc4VTh6SFZ5OFluaW5VUkpEVlFsamU1bjdmMTdOaXFLa3dPdTBUUTd1bTlxVGg3Mnk4MGdjNjNVdk1LYU5XaWEyMlpHTERROXJjUzRPSXfSAWNBVV95cUxNWWV2bEVhSFlmUUJRbXBfaGJGQ1NnbmEwNm00MTlBajY1M25tTjNiRUlPSFlJRVBpaklvaGg0elBsdTZSSFNpb2t0QlZ3LVRKS04xbjJPdFhmYW9Hdzd5NHhHaEk?oc=5",
-   "category": "新開店",
-   "date": "2026-06-15T07:00:00.000Z",
-   "snippet": "",
-   "district": "東區",
-   "lat": 22.9763,
-   "lng": 120.1955,
-   "story": "e396da77a552"
-  },
-  {
-   "id": "3d7a5fa98d24",
-   "title": "台積電未來在台擴廠40座 粉專預測：台南市橫掃18廠獨佔龍頭",
-   "source": "Yahoo新聞",
-   "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxQS0t4MzNiNjZWbmpGLXhMVFZPak51WWN4bWZnemduVmkwakFaOFdFNTZTSnYzWTcyNDM0Q1Z1REhoQXBFN0NoSUNidjEwUV9EdFo1VXR4SzRqUGszQ1FLbmFRVHFOejJHQ1h5SkNzSXdrdTYxZnY0TDFQVF85anNOM1NsdC1zYnM0UjNubnJpY3QtVy1KdUlpWG10NkRZSjdvazlVU0toazhWTmJncDNqVEZCZjhMSlNIN1RGZlBYLUY1OFdUaEVXRmdWVWNrWHRScVBZTWZiV0VYUV81dF8tNi0zRkljWjd2U25xUE5TTUNoR0M3V1lRTy1BMzREUl93eHNHdmM0V0c4QXZGRTFDb2I2b0UwMGRyeUw3cmJQUXhVcDRlWVpkSkJoZy1fNGVTbHpSRVdFaUZBOUlmallnWFVQa1c4Z0IwQWNLTnUyaFNleXYtS0YxNkNCeVVkWnBZSTRDUUZWdlJaRzFRWEJhLVNFQmJOcXR2Vnlj?oc=5",
-   "category": "新投資案",
-   "date": "2026-06-14T07:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0845,
-   "lng": 120.2772,
-   "story": "3d7a5fa98d24"
-  },
-  {
-   "id": "1b49fc8b5f11",
-   "title": "快新聞／台南無旱情！再生水成效明顯 黃偉哲：為半導體擴廠做好準備",
-   "source": "民視新聞網",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNZWlyYTQzaFpWQW84YnFycmFtY1RLUUtBbzlsU2JuZkZjS21WOEx5M0dVVHVJdV9teHQyNFY2YWRyblNHcFFrWnVvZVZ6S1M2UFFKbmtkVGVKNWJQZzQxYw?oc=5",
-   "category": "新投資案",
-   "date": "2026-06-14T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "1b49fc8b5f11"
   }
  ]
 }
