@@ -1,16 +1,55 @@
 {
- "lastFetched": "2026-10-11T00:17:26.324Z",
+ "lastFetched": "2026-10-12T00:39:54.854Z",
  "addedLastRun": [
-  "44ceb9ab3dc2",
-  "952da9087bc8",
-  "e56ff36a1510",
-  "735cb3d96d85",
-  "0dac75781192",
-  "62e3aaa3a7cc",
-  "3d59fd6521c4",
-  "c97edeaf7920"
+  "21295af1ca16",
+  "d849d6cdbcb7",
+  "97823033f8d8",
+  "b7312c873b58",
+  "aa6043dcf9bc"
  ],
  "news": [
+  {
+   "id": "aa6043dcf9bc",
+   "title": "台南市長黃偉哲與市民歡慶雙十國慶 攜手邁向永續宜居台南",
+   "source": "蕃新聞",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBYQUZyd1Z6OFdCVXU2X3ZzUnFfdVh2NGxfVFJRSHhoVlN3VHJVRkM1aHNnZjdQSURFc2IzaVFCM3Y0LVRXWDViOFVEV1IyejBISHc?oc=5",
+   "category": "",
+   "date": "2026-10-11T13:24:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-12T00:39:54.854Z",
+   "story": "c97edeaf7920"
+  },
+  {
+   "id": "21295af1ca16",
+   "title": "IKEA台南店即將開幕！串連南紡三期，全新超萌「動物娃娃」限量登場",
+   "source": "Bella.tw儂儂",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN2c4cTNwMTc0VmZ1UFNUcmRISlgyTVFVV1Y3UWZwN3g0WjF5SkFGUWo2VWtyenZyYXc1cFN6M09GcWNyaEc2RXE5Rlloc1p0VVZtdUEzNkpmZjdYVzJLME5yazJILTJjU1NGZVZjeEM4VGxXdGhpNFk5M0ZVZmE5LUhKdWk1Z2t2T25QN25fTWNwYWhWZE84NF9n?oc=5",
+   "category": "新開店",
+   "date": "2026-10-11T04:30:00.000Z",
+   "snippet": "",
+   "district": "東區",
+   "lat": 22.9787,
+   "lng": 120.2141,
+   "firstSeen": "2026-10-12T00:39:54.854Z",
+   "story": "21295af1ca16"
+  },
+  {
+   "id": "97823033f8d8",
+   "title": "台南鐵路地下化工程大事記",
+   "source": "經濟日報",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE83MHpQSVU2dC1ZTEhwMFRmT211NUNjdmphdUJySG55NHRONFBpQUd6Z2pXWDZmTEtEd1B5RXFlQXRjVk1IYTUzZ3BwVjBMckx4dlJUc25RZ3RnSlBtaWhxZEZNQUtpNk40N084Z0NBQjFVRGQzVlpF0gFfQVVfeXFMTnJLZEg4bW9fVjQ4bktRS19GYjZwYnQtRlM2bDRzbU53NEpLYTRJY011OVFESC15ckZwMU02UmhFWDdxTGdoS0FKMFluUlpWZnM0ZXYyZllpVnAwQ211NVU?oc=5",
+   "category": "新建設",
+   "date": "2026-10-11T03:21:26.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-12T00:39:54.854Z",
+   "story": "97823033f8d8"
+  },
   {
    "id": "44ceb9ab3dc2",
    "title": "橋山壽喜燒插旗台南9月開幕 用餐送日本A5和牛",
@@ -444,6 +483,20 @@
    "lng": "",
    "firstSeen": "2026-10-09T01:19:31.332Z",
    "story": "73e2ff7dce39"
+  },
+  {
+   "id": "d849d6cdbcb7",
+   "title": "台南市議會「議政百年：台南民主之路」常設展開幕 見證民主傳承",
+   "source": "台灣華報",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1WNi1YUWw3QWNsVXIwTFBza0RyUkFHdm5wMzV3OEx1RllJbmw2QnVuWGJFWjB0OXZGRGdBXzMxcDJ6M0JsLV9rc1NJS2wyaVlsXy1Rc3VrNWJ0T3ZzZHYwUFlWRXRuUi11a25B?oc=5",
+   "category": "新開店",
+   "date": "2026-10-07T01:34:25.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-12T00:39:54.854Z",
+   "story": "6f7966484921"
   },
   {
    "id": "6c7d71260659",
@@ -1018,6 +1071,20 @@
    "lng": 120.2026,
    "firstSeen": "2026-10-05T00:02:13.280Z",
    "story": "90d1f138c361"
+  },
+  {
+   "id": "b7312c873b58",
+   "title": "祀典大天后宮仿古禮秋祭 展現台南深厚宗教文化",
+   "source": "自由時報",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE81RE9CWE9KSW1mTlphNFp3Ym8yX2JXblhqWXI2dV81RVQ2Nzl6Z2xqdXdyTldpcDBnekNTMC1mSzZ1cWh1RXBEdGIyd0Zfc25JY1kweFdtUnB3aVJRUWN5THR1eXnSAWpBVV95cUxObkNVSzN2SDVxX2htTXJSaHN3UEVhVkNSOEJMNkdCOVdKZkVIN0UyRk5pa3VTUS1EUFRoR0dOOGx5X212dEZ2a2lsZXM3SVJEYnFCSHhINy16OGZWb0lOeTZ0VUk3R0N5aUJB?oc=5",
+   "category": "",
+   "date": "2026-10-04T07:33:31.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-12T00:39:54.854Z",
+   "story": "b7312c873b58"
   },
   {
    "id": "473878332d1f",
@@ -16102,71 +16169,6 @@
    "lat": 22.9705,
    "lng": 120.2059,
    "story": "0ad17bae5bd9"
-  },
-  {
-   "id": "c10a8b831671",
-   "title": "IKEA將在台南展店 讓台南消費者也能就近體驗產品與居家佈置靈感",
-   "source": "中華新聞雲／中華日報",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9qNGg0ZV9WTEZBUjVrUDM3STJmT0FnV21YWEFrZEZfa04zc0hIOG1ybUF4Q0N5VHFESzgzbzg2T3VZVmhNV2Z0eEtHRmxxakllMVE?oc=5",
-   "category": "新開店",
-   "date": "2026-06-16T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "c10a8b831671"
-  },
-  {
-   "id": "9862de522484",
-   "title": "IKEA確定進駐台南！店址、店內規劃曝 在地人揭最大缺點：怕失望",
-   "source": "NOWnews今日新聞",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9KdWU5bF9SZDN4Y25SZnFpcTV3T3QtU1Q4OVpsYmlqeTA2TmJxWHZia0hHRDVDYVJQMU9sZ3J2YUdjY25Pb1NYOVV6aErSAVJBVV95cUxORW9HazQtZ2Y0ZXJsV2RvaEZ3UXZTeWtVTElRbUZwakpORFZIalZwN3c5bGtVZ0wwRUNiNmhvWjZ5SElHQXVtdl83R0I2Sno2MWtR?oc=5",
-   "category": "新開店",
-   "date": "2026-06-16T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "9862de522484"
-  },
-  {
-   "id": "9b136756fbad",
-   "title": "千呼萬喚終於來了！IKEA確定進駐台南 首店落腳南紡購物中心",
-   "source": "樂上新聞網",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5DMVMyZnlGWXhaWk53eTFtNGs0a2hrTFVoa25TN0VEaVBkbnVldW94eVFNTTZUMUFaQjNISEEwSXdiUDlGMFlBWVE0M3Q?oc=5",
-   "category": "新開店",
-   "date": "2026-06-16T07:00:00.000Z",
-   "snippet": "",
-   "district": "東區",
-   "lat": 22.9843,
-   "lng": 120.1989,
-   "story": "9b136756fbad"
-  },
-  {
-   "id": "3c83f198e7e4",
-   "title": "黃偉哲宣布IKEA確定進駐台南南紡購物中心，終結六都唯一缺席局面，最快年底開幕",
-   "source": "放言Fount Media",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBUSUxKc01jSnA5YjJQVW5MYXFncUY1bkNHZlRjalg0RFJMY2NWUEFiUU1oTUdralBxTnVFX2xyVmdZeUZaNXhOckE4RG4wRzcxV0E?oc=5",
-   "category": "新開店",
-   "date": "2026-06-16T07:00:00.000Z",
-   "snippet": "",
-   "district": "東區",
-   "lat": 22.9767,
-   "lng": 120.2053,
-   "story": "3c83f198e7e4"
-  },
-  {
-   "id": "a6b0fe37de8b",
-   "title": "等了20年終於成真！IKEA宣布進軍台南，落腳南紡購物中心",
-   "source": "Bella.tw儂儂",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBibXVUUDdkY0pJY0ZMLUFBS3JDVlFSYVZXT3VlcnlOTlJkeDYxZnh4WW5KWUZQNFFJMm5mZ09fSTFhUmJCVTNEN3pCZHZZNmdMbmVWdHVDcEw5Vi1oaVNEUUtLcVg0UXVUMkwycDEzbw?oc=5",
-   "category": "",
-   "date": "2026-06-16T07:00:00.000Z",
-   "snippet": "",
-   "district": "東區",
-   "lat": 22.9733,
-   "lng": 120.2195,
-   "story": "a6b0fe37de8b"
   }
  ]
 }
