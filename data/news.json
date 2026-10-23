@@ -1,23 +1,152 @@
 {
- "lastFetched": "2026-10-22T00:04:12.374Z",
+ "lastFetched": "2026-10-23T00:03:00.641Z",
  "addedLastRun": [
-  "c5f6c90349ff",
-  "1fc08b1159ad",
-  "35ae2c78681d",
-  "01de4f30adde",
-  "4db358d404d8",
-  "51e0cac74843",
-  "89c119aad9b2",
-  "952ec34c4f48",
-  "c83f7ee9892c",
-  "856d08fd7050",
-  "bc43e958cbbb",
-  "5a77675c1f99",
-  "3e90229108a2",
-  "4a0df8472a8e",
-  "43ce71dad807"
+  "049bf2d5eb67",
+  "6e6754eb97a4",
+  "a25c36a35951",
+  "0bfb7c2db701",
+  "165db427c839",
+  "e5e463b8c15f",
+  "f183d30c3f88",
+  "5b909bbfc130",
+  "a33b5a25de28",
+  "5346e93df6f8",
+  "461550c168b9",
+  "9e652e4ce82e",
+  "3d8d2dfb284a",
+  "582feb134927",
+  "7102c0d3c1d6",
+  "94ef7ab1ad9f",
+  "6f8eb8e072f6",
+  "1607da3e77e5"
  ],
  "news": [
+  {
+   "id": "165db427c839",
+   "title": "台南新市再生水促參案啟動招商前交流 引進民間專業打造產業穩定水源",
+   "source": "3kingtw.com",
+   "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFB2N005andJWC16dk1YNmhCaHhjVFlKdi1uaFpPQzBmR3hZaDBKenNkRll1c3dGZnFKbXVUeFpR?oc=5",
+   "category": "",
+   "date": "2026-10-22T12:55:27.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0749,
+   "lng": 120.2974,
+   "firstSeen": "2026-10-23T00:03:00.641Z",
+   "story": "165db427c839"
+  },
+  {
+   "id": "a25c36a35951",
+   "title": "台南健康嘉年華 會展中心開鑼",
+   "source": "LINE TODAY",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tLWs4RGxuQ0tROF9ZbjhlSmZReEcxWFhqT0R4VlpQSW5vRVBfMEt6T01JS042eVZmRkJ5aG51Um1ZYTdCS1NTT1Blb3ZiZGxZRzh5c3JR?oc=5",
+   "category": "",
+   "date": "2026-10-22T12:31:22.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-23T00:03:00.641Z",
+   "story": "a25c36a35951"
+  },
+  {
+   "id": "e5e463b8c15f",
+   "title": "臺南新市再生水促參案啟動招商前交流預計116年上半年正式招商",
+   "source": "PChome Online 新聞",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYkVkRlRyVXZ3cnVEU213S1BiZkZTNlFzSU1QZUhHbnJFbU1sUm90MHpsZUpPeHIwRTVJNnFva1ktY3VHVHZsbUphcWNvYms2UjI2T0J6V1BUeDJxaEdoSGlHYTViUk9ULXdZYVk2WnFFQ0FZcEdwdm1fUHVJckg3cmpLVDRtendVVTFndA?oc=5",
+   "category": "",
+   "date": "2026-10-22T11:04:27.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0883,
+   "lng": 120.2926,
+   "firstSeen": "2026-10-23T00:03:00.641Z",
+   "story": "e5e463b8c15f"
+  },
+  {
+   "id": "6f8eb8e072f6",
+   "title": "30米綠園道＋公辦都更＋小巨蛋＋雙商場 南台南副都心打造下一個黃金十年",
+   "source": "中時新聞網",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA2eXF1clZxeTQ0ZHlJSk5rUnlSSWxqT2JfTGo1aWZONkhac004N0RlVDI2alhDcmtHSExxOEtnTk5lY20yRGV6akYxUk5BNzhJcXF6UC1HaGxKWGEwdHlN?oc=5",
+   "category": "新建設",
+   "date": "2026-10-22T10:29:17.000Z",
+   "snippet": "",
+   "district": "東區",
+   "lat": 22.9741,
+   "lng": 120.2129,
+   "firstSeen": "2026-10-23T00:03:00.641Z",
+   "story": "6f8eb8e072f6"
+  },
+  {
+   "id": "049bf2d5eb67",
+   "title": "ㄆㄤˋ的故事健康店正式開幕 台南「藝術轉角」飄麵包香",
+   "source": "大紀元",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1uSU5hdTR5ZjEyUnZRN1ZZOXVsRHBQcDR1SU9sUnhqd016Zy12VDVNd2U0Z2JaSFk5RS1zcjNHbmNhSEJGa3E5YzI5ZjlMVnZYeGQ0dmdObUJUOGVCYmczQW1B0gFnQVVfeXFMUHRHOGRid2hXRENyR0Z0Z1A3LVR5UmlCbWd3Q213NkZPajJ6amRrQWxsNGxlQVc3dVYzeWdsaElHanpfSWpnWUJ5NFVNZWhKUGI2ZjM0elNLU0huLVhRLUpLYnlzLWFNSQ?oc=5",
+   "category": "新開店",
+   "date": "2026-10-22T07:16:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-23T00:03:00.641Z",
+   "story": "3e90229108a2"
+  },
+  {
+   "id": "5346e93df6f8",
+   "title": "Marimekko「小花」在台南美術館盛開！手繪藝術盤全球僅75件",
+   "source": "ETtoday新聞雲",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5aSkg2cGp4b0FTTkVrTk5HcWxQbFNLSHlFcFpiNDVkN2hXUldVOVp6eUd6eDhkT0lTck85SzI5czJHTUlad1ZLNUZyX2l1bEt6aEE?oc=5",
+   "category": "",
+   "date": "2026-10-22T04:31:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-23T00:03:00.641Z",
+   "story": "5346e93df6f8"
+  },
+  {
+   "id": "0bfb7c2db701",
+   "title": "台南德南派出所新建工程動土 提前布局沙崙周邊治安需求",
+   "source": "中時新聞網",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1IQVlWRVU0Rm90VVgzaFVYNWVENmNaTUhwb3pac1EwOW16d0sxXzEtUnVXbFZRSUM2UDYwcmtoOTNYRkhfUTYtejR1T2FUSmNqRFBKZ3dWSTlSNDZ1UW1j?oc=5",
+   "category": "新建設",
+   "date": "2026-10-22T01:43:12.000Z",
+   "snippet": "",
+   "district": "歸仁區",
+   "lat": 22.9728,
+   "lng": 120.2735,
+   "firstSeen": "2026-10-23T00:03:00.641Z",
+   "story": "d9992a4c252b"
+  },
+  {
+   "id": "3d8d2dfb284a",
+   "title": "南科擴張帶動居住需求 市府推11處鄉村規劃補強地方建設",
+   "source": "好房網News",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA0ZGZKM3lfX2cxUlAxR3p6b3JaVmR6QkVuN2h0dlBZVy1GX0NIN0hxY2xPdkJuM3I1a1VZYjNaem5OUUs3MTh4ZTJzSmNCdFlVRXFsd3BMMDNyREcyeEd6UjdaTmNLQ29hd3JyMXludnLSAXBBVV95cUxQNGRmSjN5X19nMVJQMUd6em9yWlZkekJFbjdodHZQWVctRl9DSDdIcWNsT3ZCbjNyNWtVWWIzWnpuTlFLNzE4eGUyc0pjQnRZVUVxbHdwTDAzckRHMnhHelI3Wk5jS0NvYXdycjF5bnZy?oc=5",
+   "category": "",
+   "date": "2026-10-22T00:45:00.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0885,
+   "lng": 120.2846,
+   "firstSeen": "2026-10-23T00:03:00.641Z",
+   "story": "3d8d2dfb284a"
+  },
+  {
+   "id": "1607da3e77e5",
+   "title": "房價的理性算盤？台南鐵路地下化翻轉房市 「下一個黃金十年區域」浮現",
+   "source": "好房網News",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBpNndxeWtKNGtZTm10ODgxeTlNeHRkcUFZR2U1LTZiME5LejVKRFJyaUJOYW5jd0J0WktDRmJoT1llNjU0SVRtRl9xQ0FqRnBEbUptb0dzRk1vX1ZWcms0WmlHbVZvYktiZm5XaUNiaFTSAXBBVV95cUxQaTZ3cXlrSjRrWU5tdDg4MXk5TXh0ZHFBWUdlNS02YjBOS3o1SkRScmlCTmFuY3dCdFpLQ0ZiaE9ZZTY1NElUbUZfcUNBakZwRG1KbW9Hc0ZNb19WVnJrNFppR21Wb2JLYmZuV2lDYmhU?oc=5",
+   "category": "",
+   "date": "2026-10-22T00:30:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-23T00:03:00.641Z",
+   "story": "1607da3e77e5"
+  },
   {
    "id": "856d08fd7050",
    "title": "全台首創溫體牛壽喜燒！橋山推「台日雙牛宴」台南展店送A5和牛",
@@ -31,6 +160,48 @@
    "lng": "",
    "firstSeen": "2026-10-22T00:04:12.374Z",
    "story": "856d08fd7050"
+  },
+  {
+   "id": "f183d30c3f88",
+   "title": "才啟用就漏氣！ 台南車站狂噴水 網笑：新水樂園？",
+   "source": "LINE TODAY",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOR21jZF9QNndHc0k3amVidHpuMVFsQWJFR1JYQS1BbGNpRVhtelRrR3dEeXJGNV9IQ3BPc2h0OUFXSElmbkF6V3QzdG1ud3MzZ1RwZWlkV3dhLWwyNGlRV25KUUt2a3hJUEk0dWpXYUdMZkdfT3NnWm9xbDF2b2pfU1ZKVFI?oc=5",
+   "category": "新開店",
+   "date": "2026-10-21T11:16:42.000Z",
+   "snippet": "",
+   "district": "東區",
+   "lat": 22.9705,
+   "lng": 120.2067,
+   "firstSeen": "2026-10-23T00:03:00.641Z",
+   "story": "f183d30c3f88"
+  },
+  {
+   "id": "461550c168b9",
+   "title": "當芬蘭印花遇上古都！Marimekko 75週年期間限定店進駐臺南國家美術館，同步販售全球限量手繪藝術盤",
+   "source": "La Vie | 設計美學",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBocGJMaE9nZG1pSFk2eGdFT2t2clhxVUdDUGRxUW9KcFRUWFYyMkFUMVJWYkY2Tm5vSE5fbEJSU0lpMEhQWVB2cWhOamRlU0NjTkFPQg?oc=5",
+   "category": "新開店",
+   "date": "2026-10-21T09:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-23T00:03:00.641Z",
+   "story": "461550c168b9"
+  },
+  {
+   "id": "94ef7ab1ad9f",
+   "title": "強颱薔琵逼近 安平古蹟淹水風險升高 台南推三大治水對策強化城市韌性",
+   "source": "好房網News",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5uWGd5d1ZmaW1pd3dlc1Q1OE0yV3g3cDRMT3pyVEtEOXJfTmxocHd4OWtMRjNYRnBLM3dPQzI1UGVfbldENWpLX2hPVEJRaWJ3bGxOSEVWLUR6bWNCOWJSLU13S2dsbDRGWFNz0gFwQVVfeXFMTjNRYjhmempDUkRRdlMwemdOY1RHeDVOS1dLaExpdEZBMlRPakoxTjgyOUppRUt4eWpBV2FlREpyRGJPcm5OdTBDdmtXbUxlb2QzY0dJTnB4S05nOXJYM1lOa1pTNy1CTGh6alJLMzEwUQ?oc=5",
+   "category": "",
+   "date": "2026-10-21T08:50:00.000Z",
+   "snippet": "",
+   "district": "安平區",
+   "lat": 23.0082,
+   "lng": 120.1577,
+   "firstSeen": "2026-10-23T00:03:00.641Z",
+   "story": "94ef7ab1ad9f"
   },
   {
    "id": "4a0df8472a8e",
@@ -101,6 +272,20 @@
    "lng": "",
    "firstSeen": "2026-10-22T00:04:12.374Z",
    "story": "3e90229108a2"
+  },
+  {
+   "id": "6e6754eb97a4",
+   "title": "台南72房「月見溪行館」2億賣同業 創區段今年最貴交易",
+   "source": "地產天下",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8zNDVyWTNrVkNXU045Q3N6RHZNNUMxR0I1ZDRzTW9LbVAtNHEwN2FMTGJkTEc0b042aGtiUnZNT01GSnpFby1ObndEdlVVMHRR?oc=5",
+   "category": "",
+   "date": "2026-10-21T03:17:58.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-23T00:03:00.641Z",
+   "story": "6e6754eb97a4"
   },
   {
    "id": "1fc08b1159ad",
@@ -215,6 +400,20 @@
    "story": "4da14f72b46f"
   },
   {
+   "id": "582feb134927",
+   "title": "從南科效應到住宅變革 2026大南方空間治理論壇把脈土地開發新契機",
+   "source": "富比士地產王",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOTRweUVyWklEMVRKQWVuc3dGRFhvb1Y0LWtzYUEtUFc4TlRzWG9BZFFFNUNFQkZWb1lBVkNpeXNrMWdZMkhxb09xYm4ydXYyaTFTeGhkdllkNFVfU2pSQVNzQ1g3VkE1bXlSLVAzcEltR1loOHFIOHVuOEdVQjh0SEhWazVmWkljZlE3SDdKRjZXSU12?oc=5",
+   "category": "",
+   "date": "2026-10-20T08:22:59.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0809,
+   "lng": 120.2728,
+   "firstSeen": "2026-10-23T00:03:00.641Z",
+   "story": "582feb134927"
+  },
+  {
    "id": "366d2adc67b0",
    "title": "昔台南「地王」殞落！新光三越中山店10/31熄燈，為何新天地、小北門業績火熱，它卻退場？",
    "source": "LINE TODAY",
@@ -325,6 +524,20 @@
    "lng": 120.1525,
    "firstSeen": "2026-10-20T23:59:22.509Z",
    "story": "cacb27193358"
+  },
+  {
+   "id": "7102c0d3c1d6",
+   "title": "南科用水後盾再升級！欣達環工開工擴建2028年供水量增至6萬噸",
+   "source": "太報 TaiSounds",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5DYUdMV00zZEFtZEtMWXJlZk44N1BobHRqelpLMjVuc2pzdUozTHNRRW0wUjZSWW1ERFVzeXl1dnVtWDFFRlNrY0Q5MHVhbmd2WVJOT0FhN2pYUUla?oc=5",
+   "category": "新建設",
+   "date": "2026-10-20T05:48:03.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0833,
+   "lng": 120.2756,
+   "firstSeen": "2026-10-23T00:03:00.641Z",
+   "story": "7102c0d3c1d6"
   },
   {
    "id": "c1a3e913cb87",
@@ -464,7 +677,7 @@
    "lat": 22.9658,
    "lng": 120.2713,
    "firstSeen": "2026-10-20T00:28:45.184Z",
-   "story": "0c91af66f4a2"
+   "story": "d9992a4c252b"
   },
   {
    "id": "a6bd825f22d6",
@@ -957,6 +1170,20 @@
    "story": "9f4793e97d96"
   },
   {
+   "id": "5b909bbfc130",
+   "title": "新台南車站啟用首日狀況多！粉塵嚴重、廁所污水溢流 鐵道局曝原因",
+   "source": "知新聞",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBpVE5CN0ZTOVBVMzl5R3lSb3BINko1Z216UFB5X1UtNXk1NWZMaF9ZMDhBQWZkSXRlb1pYc3lMNklVWXpNejFWbnNHeGxjVFBrcnRLcmRscFljR1laSS1Lbkh4UzgxbmZEczVULTdJVQ?oc=5",
+   "category": "新開店",
+   "date": "2026-10-17T09:26:00.000Z",
+   "snippet": "",
+   "district": "東區",
+   "lat": 22.9779,
+   "lng": 120.1985,
+   "firstSeen": "2026-10-23T00:03:00.641Z",
+   "story": "5b909bbfc130"
+  },
+  {
    "id": "04f76a3a216b",
    "title": "台南地下化車站啟用首日狀況多 粉塵、汙水溢流、電梯故障鐵道局說明",
    "source": "UDN",
@@ -964,11 +1191,11 @@
    "category": "新開店",
    "date": "2026-10-17T09:18:39.000Z",
    "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
+   "district": "東區",
+   "lat": 22.9781,
+   "lng": 120.2273,
    "firstSeen": "2026-10-17T23:15:35.569Z",
-   "story": "04f76a3a216b"
+   "story": "5b909bbfc130"
   },
   {
    "id": "c96ac61347a1",
@@ -1321,6 +1548,20 @@
    "story": "b55e7600940f"
   },
   {
+   "id": "a33b5a25de28",
+   "title": "台南鐵路地下化提前通車！10／17清晨6時啟用 近500人漏夜切換",
+   "source": "ETtoday新聞雲",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE55UW1FZXY1NUJ6eHBjQklqQXVnUURMQ3lzdTBHUlFxRGdLeUZKaTNMNUEtOGw5X2Q0azlxTnptUXUyTlhmTGRMNUt1eERZdWpYRFRuUFJaX29xTHBzeXc?oc=5",
+   "category": "新開店",
+   "date": "2026-10-16T13:55:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-23T00:03:00.641Z",
+   "story": "a33b5a25de28"
+  },
+  {
    "id": "6644931c1f78",
    "title": "台南車站平面鐵道最後一夜 賴總統致歉並感謝沿線拆遷戶成全",
    "source": "鏡週刊Mirror Media",
@@ -1529,6 +1770,20 @@
    "lng": 120.2311,
    "firstSeen": "2026-10-16T23:44:10.726Z",
    "story": "8102581707d1"
+  },
+  {
+   "id": "9e652e4ce82e",
+   "title": "台南牛肉湯業者吃不消！屠宰價1年漲2成 店家揭偷減量苦衷",
+   "source": "中時新聞網",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1rTmRzd1h0SDBNMnhSM1JUX2t2bTlUay1NZ3J0aV9ldDU3UUctRjZsVlpzMnc0alBHbXhuT3pyQWd2RnowWGVFZHdoZVZXRE1hWEhoM0piLS1SQmZreDdnQ1IyN3Y1eGw2ZHF1NUh3?oc=5",
+   "category": "",
+   "date": "2026-10-16T05:17:53.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-23T00:03:00.641Z",
+   "story": "9e652e4ce82e"
   },
   {
    "id": "7e7b78d525f9",
@@ -16085,7 +16340,7 @@
    "district": "",
    "lat": "",
    "lng": "",
-   "story": "61cc22507f63"
+   "story": "1e947e77de41"
   },
   {
    "id": "1e028a585e82",
@@ -16124,7 +16379,7 @@
    "district": "",
    "lat": "",
    "lng": "",
-   "story": "1c3dfe0df818"
+   "story": "6a36da39a07e"
   },
   {
    "id": "61992eabf6ae",
@@ -16137,7 +16392,7 @@
    "district": "",
    "lat": "",
    "lng": "",
-   "story": "61cc22507f63"
+   "story": "61992eabf6ae"
   },
   {
    "id": "6a36da39a07e",
@@ -16150,7 +16405,7 @@
    "district": "",
    "lat": "",
    "lng": "",
-   "story": "1c3dfe0df818"
+   "story": "6a36da39a07e"
   },
   {
    "id": "1e947e77de41",
@@ -16163,241 +16418,7 @@
    "district": "",
    "lat": "",
    "lng": "",
-   "story": "61cc22507f63"
-  },
-  {
-   "id": "9885d26034e3",
-   "title": "台南市李科永紀念圖書館動土 黃偉哲盼打造台南閱讀新地標",
-   "source": "三星傳媒",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MN0FQYUt0Sk93X0x4QW4zQzBGbGVxSm1tWnlYRm9lTDVIZjRaZXpldzJkaXg5OXg1Ti1lb1l0VUVpaFJnZjlMTXlId0pRYWRVak5UYlZIVWF2WG1UM3hJY19n?oc=5",
-   "category": "新建設",
-   "date": "2026-07-16T07:42:40.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "1c3dfe0df818"
-  },
-  {
-   "id": "7935e691f7e5",
-   "title": "白河新開幕中心下月開收！台南公托搶破頭…地方喊話加速布建",
-   "source": "UDN",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBVRW1OaTJ5VzgxWkJyd21EWWRoMm1IZjNpblFmajZNa3owWTlKVWtoV19VV25oZzl1cFZKMERMU3Z4ZjlER242cWg5QlVYbEM3?oc=5",
-   "category": "新開店",
-   "date": "2026-07-16T07:00:00.000Z",
-   "snippet": "",
-   "district": "白河區",
-   "lat": 23.356,
-   "lng": 120.406,
-   "story": "7935e691f7e5"
-  },
-  {
-   "id": "35cf72787a46",
-   "title": "伊東豊雄台南圓夢之作今動土！「商60」副都心迎來世界級美學拼圖",
-   "source": "富比士地產王",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVERwZzhwWVR5ektfS2pCaE43Zlg0QWVTdW53aldIa0x6dU0yVkkweGRndjFoVDdZN3FtOEhPOWpSR1liN05YSXJxZV92b3JNMGs3SmpTSldYVjQtWEtTamYyYW9aSXJDZTVUZC1QQ1RLMktSNV9jU0lyX2M3dUtiYk5teDdxUQ?oc=5",
-   "category": "新建設",
-   "date": "2026-07-16T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "35cf72787a46"
-  },
-  {
-   "id": "0aae861bd1b0",
-   "title": "「2026均衡臺灣週」台南盛大開幕 三大主題展打造南方產業創新新引擎",
-   "source": "經濟日報",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWZ09HcWJuV0hVUjNLeThIczJkZ0Y2bnhkZXd2amN5Z0hvUjNkNV9ETU90S0E0QTdHa2JadnFBZVZkeF9WMUlGWW1BT1JHT3ZPQ2VjMFR1b0R6Q1U?oc=5",
-   "category": "新開店",
-   "date": "2026-07-16T06:00:06.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "0aae861bd1b0"
-  },
-  {
-   "id": "61cc22507f63",
-   "title": "台南四座全民運動館ROT招商成功 打造全齡運動新生活",
-   "source": "AN不動產新聞網",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jTHFEc2VBbEp2NnZ6N1ExU0RMZUpOQXJ3b2V2SFZEZDRmYmxOQURKcW1QMHFqUDdoVUZGY3ItZXlXVUJaVG5uMkt4R25yYXY5YllKc2tCUDZlVkFNVzJ1SXJrRHFEUzQ?oc=5",
-   "category": "",
-   "date": "2026-07-16T05:11:01.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "61cc22507f63"
-  },
-  {
-   "id": "1c3dfe0df818",
-   "title": "伊東豊雄打造台南閱讀新地標 李科永紀念圖書館動土",
-   "source": "自由時報",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10bVlNem45UTVfUzByclhZMm0wQXpmbEtrYUVYNzcwZk13aGJKSExwY1l2b2Q1WmM4WTJCZnJXQWFlY2dFaEptNVpmOXNfR3lNdXV0cmg3NU5WNXBNeTh1U2VoZXTSAWpBVV95cUxOZ1FwazNRc0FZU0lxMDFvQlg5NjBsWk5pNVVwa0k5V1hZVU84NE5aSmo2dlVrYXdjUmxaVEJVN1piNW5oMmZuMmUzTDg5amtlOGpZaUNuYUlibUpUaVFQQ0l0VER3Y0ZMdURR?oc=5",
-   "category": "新建設",
-   "date": "2026-07-16T04:36:21.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "1c3dfe0df818"
-  },
-  {
-   "id": "d85601fdc993",
-   "title": "台南李科永紀念圖書館動土 斥資3億拚2028年完工",
-   "source": "UDN",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9RN01iajFEV2Q2WTlWbWFpZWJqNUdrdGFFVThsSWkyNENPS2FWckpDbDZNd2JESUgtOHZLV2FFQTJxWXlTbTdtOFdrTG53MVFu0gFWQVVfeXFMUFlmR19PcHBkTUhmSFdoN3h6ZE5HZlhRM0p1ckNjZ0dSSTQwQi1sQl95Y2RrNEw5dDdWOWJPb0tTZTgtbGozamhXd2RRejBxR2ZBbkl1VUE?oc=5",
-   "category": "新建設",
-   "date": "2026-07-16T04:27:21.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "d85601fdc993"
-  },
-  {
-   "id": "35b99c4c7fd2",
-   "title": "台南第19處公托啟用！ 白河永安公托8月可收16名幼兒",
-   "source": "ETtoday新聞雲",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE50RFVDaHdnUjM1emJUQXpwOGZRS3RwZFFHN2xNbDdpUldKZkJXRTNXaUhuZDNmdFU5T1dwRHg3NF91WEJXZkk3SU1YQ3BLY0xZMnVfelpqM0J5bXk0UllkdWVGdkJvSHI10gFoQVVfeXFMTnREVUNod2dSMzV6YlRBenA4ZlFLdHBkUUc3bE1sN2lSV0pmQldFM1dpSG5kM2Z0VTlPV3BEeDc0X3VYQldmSTdJTVhDcEtjTFkydV96WmozQnlteTRSWWR1ZUZ2Qm9IcjU?oc=5",
-   "category": "新開店",
-   "date": "2026-07-15T09:51:00.000Z",
-   "snippet": "",
-   "district": "白河區",
-   "lat": 23.353,
-   "lng": 120.405,
-   "story": "35b99c4c7fd2"
-  },
-  {
-   "id": "936cf2204e9e",
-   "title": "台南端2.25公頃「大菜」招商 在地：大咖出手機會高",
-   "source": "ETtoday房產雲",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82ZzU5dXE5LXJ5U0xtTnpsSmFOZTFxa01YXzhXUmVDcmdBZFB1cVgzUXZBb0dZbFNka0xEYkhlbklKTVYwWWVIa2l5NDNkWHfSAWtBVV95cUxNSUVLZGZBbFpOV0Z6YzBPeTdSU0trMzRocjJIdHlKZzB5TDItU3l2R2NjdXI4QmNGcHFIVEJSVHljT1RXdTdBNHZ5WTlRc2ZpRGJhRFo1NmZIOXN1WjcycVNQUmtLSUp1ZHZBSQ?oc=5",
-   "category": "",
-   "date": "2026-07-15T08:07:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "936cf2204e9e"
-  },
-  {
-   "id": "e06dbb2eb6e6",
-   "title": "台南白河爸媽等到了！首座公托8月開幕 共16名額月費9000元",
-   "source": "中時新聞網",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAwS0RfamNaU1F2VklQYW1kU1BVSUVWbDBEYklkeFNyTGR6cXd0T3lZMEkyeUJack8yU200bkgxR0tORHEtMnh4WlpSVk5uTVZKdG9DS3hodG91ajc3RVlhVW1kR2NHSHZCNTd6TE1R?oc=5",
-   "category": "新開店",
-   "date": "2026-07-15T06:15:43.000Z",
-   "snippet": "",
-   "district": "白河區",
-   "lat": 23.3502,
-   "lng": 120.3916,
-   "story": "e06dbb2eb6e6"
-  },
-  {
-   "id": "6d4f71faf5dd",
-   "title": "落實育兒支持政策 台南白河永安公托正式啟用",
-   "source": "台灣好新聞",
-   "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQclZybGRGTkVzdTRyNkdSWmlGM0hEUHlFeFlxdGlGamlLYzJXd3FlRWdwazVEaUE0YXh5QmpvNkdHcUFScnJMY3RUeXB2UG02N1g1NWFsclVxYUl6ZExmOUpsbFVsZ0s4blZ0dzZLNVBLMmRQVFpjUVZXSDEySy1oTmVjWjBKYVFMX2RYZ2tqOTh4akZWdXl4QVlERnpkYVZLSHNLOGJNWmFRZ2R2WVM2VVYtTU9UdkdGOEZqeEozQ3JwX2xRZ3B4cmRhSTR3UEpXblRSQWRrNVJrbnNubzd1eHF0SlVLMWFwNkp6cnJydGUzMUJDeHZIOU40WmpESm9MampzVDVybGJDV1diOXl5SDNwUzNzVndCMjVQX0p6TGUzM0tUN2pjaW5LaGM4S0tGWENPdXM3TXRrMllCMVEyUUlR?oc=5",
-   "category": "新落成",
-   "date": "2026-07-15T06:14:13.000Z",
-   "snippet": "",
-   "district": "白河區",
-   "lat": 23.3564,
-   "lng": 120.3952,
-   "story": "65f5ab6b2fc3"
-  },
-  {
-   "id": "cb337c564de8",
-   "title": "台南東區新都心段公辦都更案7/15起公告招商",
-   "source": "AN不動產新聞網",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1VSWJUUFBWWWpVOEkzWkZpdmc2aVVWMW5FNGNJQ3Q2ZFk4RmdLN0xGT0x2RUpjMVBXX0oxdkpQWTk5THdQbHNkVjZTU2FoLWlYWEZVVHEtSkFNR29nNkpoYkF3UDBtT3M?oc=5",
-   "category": "新建設",
-   "date": "2026-07-15T05:27:09.000Z",
-   "snippet": "",
-   "district": "東區",
-   "lat": 22.9809,
-   "lng": 120.2287,
-   "story": "cb337c564de8"
-  },
-  {
-   "id": "65f5ab6b2fc3",
-   "title": "台南市第19處公托--白河永安公托正式啟用 黃偉哲落實育兒支持政策",
-   "source": "新媒體經紀人",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fWmRWVjdBbV9Vc2FJejN1MFkydEIyRTZiM2RGZ1ZYc1BJdEozRmhBRTd1MFY3Q1RxaE9jYl9mSHJ1cExsdVJvMFdtRXFNWkFMWmlBTG54ME96ektaby1VbThB?oc=5",
-   "category": "新落成",
-   "date": "2026-07-15T03:24:24.000Z",
-   "snippet": "",
-   "district": "白河區",
-   "lat": 23.3482,
-   "lng": 120.4146,
-   "story": "65f5ab6b2fc3"
-  },
-  {
-   "id": "152e722d048a",
-   "title": "3千名官兵進駐、遷葬終邁步 台南關廟有望蛻變發展新市鎮",
-   "source": "UDN",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9IbE9GaWJtb1RoYVBwdGFXWVhIZVg3ai1ESmEyTEpnenZJa0wtX1VJeEhJWTBmcVdPQjVtQ3I2Mnk0VGVVMExYZlQyRlg0Vkxq0gFWQVVfeXFMUEFqM0lpRHBROER2REpCUF9kdUxKMmFpWml0T2dwUWZpZ1BWb1FPNzVpcTRubVdjYndUb0syYVRNamMzN2lDVGxoRDl0MUtHVFZ6WUNJUkE?oc=5",
-   "category": "新開店",
-   "date": "2026-07-14T16:00:00.000Z",
-   "snippet": "",
-   "district": "關廟區",
-   "lat": 22.9642,
-   "lng": 120.3167,
-   "story": "152e722d048a"
-  },
-  {
-   "id": "d3be9f43254e",
-   "title": "台南完成77座特色遊戲場 新增4座下半年陸續完工",
-   "source": "tainan.gov.tw",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE05T2dBamtCaWh1Qk1FNkZHR1BBWjg3bGVOazJQMDB5VVJNa0ZNZXdDc0FRcUx4dGR2OWtkTlI4eTd6aFduQnJWX1hRM1A2akpSa2xqNWwzQXdxQlk1ODNURzU4eUlyTFdwd05BSmVn?oc=5",
-   "category": "",
-   "date": "2026-07-14T09:15:53.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "d3be9f43254e"
-  },
-  {
-   "id": "f0c5e40b29f7",
-   "title": "華立攜手旭化成台南擴廠 乾膜光阻產能翻倍搶AI先進封裝財",
-   "source": "BigGo 財經",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB0MHdyZmhMaE9jSHVETkY3Rlk5YTNfWHREYnVWZkw0amltNFRNNXBIMkIxUlE0VHZ5TjQzZ1Y4ZlNiMTl0aXlmTncwX1ZuNDZkaUZreUtWX3ZEMWlaMVI3VmNkOWt6NHl5VnE3cGl3Zm4xOWhqMkpnTG13?oc=5",
-   "category": "新投資案",
-   "date": "2026-07-14T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "f0c5e40b29f7"
-  },
-  {
-   "id": "5a65dc83207b",
-   "title": "橋山壽喜燒推神戶牛五部位套餐 台南新店8月試營運搶客",
-   "source": "壹蘋新聞網",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOXzJjZDNIUXBudFo5WVFiYnhCdFZPTXFLX01vVDlPalhrUnVWdkRUTWFuNFNNeHpIeFh4eERwcHIxNWxnVU50eXFNSm9uUnBNTDhmRURhRnZKSTNNNVVqbGRmSUdUYmo0NnJHdE83NTV1YXYwM1ZqTnk2QmlTRWVVM1NFVWs?oc=5",
-   "category": "新開店",
-   "date": "2026-07-14T04:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "5a65dc83207b"
-  },
-  {
-   "id": "2f493901ed0f",
-   "title": "投入6.17億 台南關廟砲訓部第3聯外道路完工、通車",
-   "source": "自由時報",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QRDFRSmRubUhfQkhUaDlQem9uQ1pGTTRLQ21GdFBLb213T292eHg2dnBxaEEzQ2dmRWY3S0o5MzlqeDVIVFBteU13MmUxdlFkdkZNcnFpV1JJalRJYVh0QjN2QWLSAWpBVV95cUxQUkllNVFDQ3FtTDctZTU5dllHcVFEMFFhS2RZWE5rVVFfeVo4VEFuSW1KSHhCdU82YmVJU0p6SHJDMU1rNkRCUWRBZTFYOEphSE9kR1YtWTZEelAtOE1fS09QVmNtMm1SLXp3?oc=5",
-   "category": "",
-   "date": "2026-07-14T02:58:30.000Z",
-   "snippet": "",
-   "district": "關廟區",
-   "lat": 22.953,
-   "lng": 120.3361,
-   "story": "2f493901ed0f"
+   "story": "1e947e77de41"
   }
  ]
 }
