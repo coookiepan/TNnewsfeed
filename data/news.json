@@ -1,26 +1,87 @@
 {
- "lastFetched": "2026-10-23T23:54:01.228Z",
+ "lastFetched": "2026-10-24T23:29:12.483Z",
  "addedLastRun": [
-  "eb142882cfcc",
-  "d40e6b44843b",
-  "e09ca28afcec",
-  "3ae606743ea9",
-  "d3710ec7fd85",
-  "93dd8731538d",
-  "bd63fd80e79a",
-  "83e64fe2d638",
-  "1bcaceed953d",
-  "7b654ac75671",
-  "e95b287545b5",
-  "1a91efc3c47a",
-  "b242e8482b27",
-  "743335115321",
-  "246e328185b8",
-  "1cf65a26f81e",
-  "af6d8d5d0919",
-  "e1731b10fb0b"
+  "c6a12d9f7e65",
+  "d4a34e0cbd55",
+  "3b1a1bb295e5",
+  "3b9591c124e5",
+  "27ea412396df",
+  "ec8482e00ec2",
+  "abdd14a27466",
+  "736bce8b17a4",
+  "294e33c14e62"
  ],
  "news": [
+  {
+   "id": "d4a34e0cbd55",
+   "title": "2026台南關子嶺溫泉美食節開幕 (圖)",
+   "source": "Yahoo新聞",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPb1FOZUFKcjZHN3ZYdXpiNy1zQ2tKZUs2NWhDSkd6N2xibXFqX0pfRnVXOVJJblRtZld0M09BUnZ1eUNPWWwxemVDQS1kOU1URHAxT2VWaUF5dFVCRlFHUzEwYk1wdE9IajN5dVRTa0lwdlhaT2pTbXlIWGt2M0tUdG83UjNCYlMzWlhtVUpnel8tc3RXXzV1cjNGSlJ4UFFUZVI3WmtVdlg3dUFnRFA1eVI0QkJsNHFaR0xGVm8ya3BJNjlBSDFwTzUxUXhrN29yNUt4dDRKMHVhNGZwRFRvMzFpX1ZDSHU3VTZiaGFTaG1ES1Z3b2c?oc=5",
+   "category": "新開店",
+   "date": "2026-10-24T10:15:17.000Z",
+   "snippet": "",
+   "district": "白河區",
+   "lat": 23.354,
+   "lng": 120.4042,
+   "firstSeen": "2026-10-24T23:29:12.483Z",
+   "story": "a36716be55a5"
+  },
+  {
+   "id": "c6a12d9f7e65",
+   "title": "2026台南關子嶺溫泉美食節開幕夜祭巡行入夜登場",
+   "source": "中央社 CNA",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ZUW1hRXg1d1BuajBSSUExVjZ6OGQwTU9vcGFQS01qeVNvdklTQWNjcVYzdkdoQ2RkaUNzbGlLSjRjYi1scEtTOEZDaGtNTHZScEtpbWc0VzhVc3lNUTFR?oc=5",
+   "category": "新開店",
+   "date": "2026-10-24T10:10:00.000Z",
+   "snippet": "",
+   "district": "白河區",
+   "lat": 23.361,
+   "lng": 120.3924,
+   "firstSeen": "2026-10-24T23:29:12.483Z",
+   "story": "a36716be55a5"
+  },
+  {
+   "id": "3b9591c124e5",
+   "title": "台南「雲霄飛車道」要拆了？鐵道局澄清：明年1月才真正動工",
+   "source": "中時新聞網",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5VRW42Ny05ajBOQ2o3S1F1b3JaRGdIRHhVT2xjOWlFd3dVQ0YwTmtBUk42TzVBdlYxbzEwTV9zejVUN2pZY2E4cXQwa3ZTMEtuOTVfNFBrcklJbWFYem9LQ3V1RkFzcVVKM2Zwc01B?oc=5",
+   "category": "新建設",
+   "date": "2026-10-24T08:48:49.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-24T23:29:12.483Z",
+   "story": "3b9591c124e5"
+  },
+  {
+   "id": "27ea412396df",
+   "title": "台南有新百貨！台茂接手新光三越中山店原址：複合式商場規劃曝光",
+   "source": "NOWnews今日新聞",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9HcWJ2bUo5SnFzX08xbHdxbmsxRjJ2M0htNmVzb3ItT0JqekwtUkNRbVNJcGFBR0VXd1h5VU9lOWJSVDlDSTdHdTRINHZHSmEzX1HSAVJBVV95cUxPR3Fidm1KOUpxc19PMWx3cW5rMUYydjNIbTZlc29yLU9CanpMLVJDUW1TSXBhQUdFV3dYeVVPZTliUlQ5Q0k3R3U0SDR2R0phM19R?oc=5",
+   "category": "",
+   "date": "2026-10-24T07:06:08.000Z",
+   "snippet": "",
+   "district": "中西區",
+   "lat": 22.9903,
+   "lng": 120.1676,
+   "firstSeen": "2026-10-24T23:29:12.483Z",
+   "story": "27ea412396df"
+  },
+  {
+   "id": "ec8482e00ec2",
+   "title": "誰掀開琴布成謎！台南車站鋼琴爆紅背後藏父愛",
+   "source": "自由時報",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCNzZRT1FuakVlUDJFWG8tR3lsblViamlUVDE2bjI0czBUQUxUWWhUNkpuV1dnVFhDZTI4blFhd0Vlay1kTWs3cXRZWW9yb3dsZ3VvbEtKa0N4RFNJQVBXZWxQYkvSAWpBVV95cUxQbnBnalgtLVhWNmx5R21OMlJPUlo5TGlZY0xiaDlELWFrY2tuNGtwTnJocHFwbmNHVDUwZGIwMFJpd3FiSG5ZM2FxY1lXZ0dnQTF2M1F2Nm45Ulgtcmp3Z19lWmFIcTcxSnFn?oc=5",
+   "category": "",
+   "date": "2026-10-24T00:24:17.000Z",
+   "snippet": "",
+   "district": "東區",
+   "lat": 22.9737,
+   "lng": 120.2115,
+   "firstSeen": "2026-10-24T23:29:12.483Z",
+   "story": "ec8482e00ec2"
+  },
   {
    "id": "3ae606743ea9",
    "title": "台南虎尾寮 換屋族愛",
@@ -117,7 +178,7 @@
    "lat": 23.354,
    "lng": 120.414,
    "firstSeen": "2026-10-23T23:54:01.228Z",
-   "story": "d40e6b44843b"
+   "story": "a36716be55a5"
   },
   {
    "id": "7b654ac75671",
@@ -638,6 +699,20 @@
    "story": "3f6c52e1fbb4"
   },
   {
+   "id": "3b1a1bb295e5",
+   "title": "新光三越台南中山店為何熄燈？10/31最後營業，原址誰接手？",
+   "source": "數位時代",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcHczcS1oV1dVdHo1LUNRVTZkMmNLN3Z2TTdrZzV1Tnc2UnBhY1k1MzNGZFlxanpabGdOdEJtQ0h3cGFoaVoxel9YM0liLURtVkJVeXlmekFiOHMtcmpFZkNaY1RIa0taOFhPMEViQWVma3lwMmJINVdTd2xvd1hQWHR1Ym9pb2R5MTZKWA?oc=5",
+   "category": "",
+   "date": "2026-10-20T07:53:00.000Z",
+   "snippet": "",
+   "district": "中西區",
+   "lat": 22.9963,
+   "lng": 120.1918,
+   "firstSeen": "2026-10-24T23:29:12.483Z",
+   "story": "3b1a1bb295e5"
+  },
+  {
    "id": "66aedf4354d6",
    "title": "台南安平再生水廠2期擴建開工動土 (圖)",
    "source": "Yahoo新聞",
@@ -904,6 +979,20 @@
    "story": "f2448f4a4737"
   },
   {
+   "id": "abdd14a27466",
+   "title": "臺南市政府第5屆青委會青年委員招募中！即日起至11月10日止，歡迎設籍、就學或就業於臺南18至40歲青年踴躍報名，詳情請至市府研考會官網最新消息查詢。",
+   "source": "臺南市政府全球資訊網",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOR1I3TVBIWHlpeW9HR2l4d09haG5qZHJzMGFxTEI5ZFlLZGhnQi1kTG1wVGdoUHBGbHNNVzI0ZVc4eUZ2UW1qVEY1OVFMLW8xRjlqN0pIMHZGSjFnM0Z5M3lrT1Nwa0pLbEtsbDlyZkU1S0RIU245aFd2R1ctVXZZcjJ3?oc=5",
+   "category": "",
+   "date": "2026-10-19T10:35:46.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-24T23:29:12.483Z",
+   "story": "abdd14a27466"
+  },
+  {
    "id": "e0ac6ccb2968",
    "title": "日本水戶市「台南路」 預定2027年2月啟用",
    "source": "中央社 CNA",
@@ -1072,6 +1161,20 @@
    "story": "353d27891d3e"
   },
   {
+   "id": "736bce8b17a4",
+   "title": "獨／業者想標台南運動館…茶葉藏30萬致電稱有錢 局長沒讓得標還送辦",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBHYjlHbC02b2hnUUxvMTNHSWFteTN2Y2I3dTFHSXdobnhTZ3IzYWtwejFQaV9yQUc5SGN6eUJFQVZGQVF6SGRmUlVBR2ItOXNK0gFWQVVfeXFMTW9NUHFwTmVkUG5kNkF5QmMxOXVVY2MxdmgyaG15cDdyeG9mQWZxMksyWEF6cTNwR2lFblp3ejJsRzFvV05sbG5VSTBjalVPQU96UnhDSHc?oc=5",
+   "category": "新投資案",
+   "date": "2026-10-19T03:12:08.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-24T23:29:12.483Z",
+   "story": "736bce8b17a4"
+  },
+  {
    "id": "ed6a0398987e",
    "title": "台積電(2330)台南再擴3奈米廠，AI投資回報何時明朗？",
    "source": "CMoney投資網誌",
@@ -1084,6 +1187,20 @@
    "lng": 120.2958,
    "firstSeen": "2026-10-20T00:28:45.184Z",
    "story": "ed6a0398987e"
+  },
+  {
+   "id": "294e33c14e62",
+   "title": "房價大漲逾280％ 台南另類軌道經濟？沿線房市差異懸殊？",
+   "source": "好房網News",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB5SEhPRG1IWGNyejVkVzlRaXg0ZzdGZjJ1TmZhRk5Jb0R2aGd6Z1Y2bTBDdkFWWmpieTZjWmdyRUVjQmFZRkkycFozdVlCRTFldC04V1I4N1NSTk0yUFQxSERKbHVlTzQxQWcw0gFwQVVfeXFMTWFJcE9NczdvQzBtbXVISlBsakFYNlNpM3hjeFJvUEFwendBY1dPSl9seWRseEQzekRGVVpPRmEzZDJoWG5QR2E2RG8xY094T2xWZW5xT3h6dVNyOGx3VG1nQURVcHRvMzQ0MjBsQjJlOA?oc=5",
+   "category": "",
+   "date": "2026-10-19T00:45:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-24T23:29:12.483Z",
+   "story": "294e33c14e62"
   },
   {
    "id": "963db4ba07ff",
@@ -16320,123 +16437,6 @@
    "lat": "",
    "lng": "",
    "story": "5ce96c02c63e"
-  },
-  {
-   "id": "06f789cb9deb",
-   "title": "聯電不藏了！美系三巨頭搶包產能 南科擴廠秘密曝光",
-   "source": "東森電視",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GLXRpSTcwcDBRMDA0bjNPVnhFWVFTbjl1ejlSWElZNU52MWRGM3RuazBuV2tfb1JtTzByU2owT2psZ0JIX3F5eWxHbFhSNG1oUkRDbFh3?oc=5",
-   "category": "新投資案",
-   "date": "2026-07-21T03:55:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0879,
-   "lng": 120.2948,
-   "story": "06f789cb9deb"
-  },
-  {
-   "id": "6d8fee8c30af",
-   "title": "長輩換駕照免跑監理站 台南警進駐公所推「一站式」服務",
-   "source": "自由時報",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9NdzZ6cVhRS2d1eHhPcTR2eFR1Wm9TbElINjBOejNiY2dBOEpkMEJ0LUd2MDN3a3daZnVUNWd5VDk0VXN6Qkxlb1FZblk1akJPcm1yXzVTOFM5WENhOXVIV0t2SExEVTNr0gFuQVVfeXFMTm1oOEVnOHQzemhXY0llOV9ySzZWZDJNUWwxc1lxZHppSUQtcjJsZGx0U2d4WmctbVVRX0pIREI3OXQwX2RFSGl4eEs5N0xaUFhNZEh2VWZMLXlQR3Rib1JkLXJlNlFuNHNvYjZCX1E?oc=5",
-   "category": "新開店",
-   "date": "2026-07-21T03:20:35.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "6d8fee8c30af"
-  },
-  {
-   "id": "6cf6aa0f9c3f",
-   "title": "台南學甲新道路啟用！串聯台84、北門觀光交通更便利！",
-   "source": "PChome Online 新聞",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQkdJVmdHaHBueU9VLUo5RDJ3ZUNVbDkzV2s1bkxqTEhCRmladmEzRXAwNmM3c3pvZUZ4N3Y3LVlMdlJWSEpneGV4ZGJTdDdrYTEzWDBSWVhEWUhla3dHNGE4c0FRbnl4NFVWTDRXRmt0WlhaWExGcjBNWHRDcy1BVUN4aXlQekFmdG9oOA?oc=5",
-   "category": "新開店",
-   "date": "2026-07-21T00:00:00.000Z",
-   "snippet": "",
-   "district": "學甲區",
-   "lat": 23.2409,
-   "lng": 120.1504,
-   "story": "6cf6aa0f9c3f"
-  },
-  {
-   "id": "886c9b9c7aa9",
-   "title": "臺南光電備案容量突破5GW 綠能供電助攻南科產業發展",
-   "source": "PChome Online 新聞",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNalE0RG5MaHYxTDY4MjRkUmREanQtTG5mdHpGaXMzbmFQSjJicUlGVXFweTUxWU02SnVfNDQwT2t5aDIxNlN5b1NIWW1adTRvVEVmX2MtTUhBc2hfZWY2SWlaVTk4RFkwNEppNjhkVzRkSFlVbkVjeDhBNFlwNjRncVk0NHV1SmNFbnhaOA?oc=5",
-   "category": "",
-   "date": "2026-07-20T14:14:24.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0821,
-   "lng": 120.2816,
-   "story": "886c9b9c7aa9"
-  },
-  {
-   "id": "0b081a0394be",
-   "title": "聯電接單爆滿評估南科擴廠 拚矽中介層布局",
-   "source": "Yahoo股市",
-   "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxQR1l3WXRmV25hWVI1VDlsRWl3Sjd0QV9xVk5VWUtkRTB6RUxwRS1sX25MME5kVHc1X0c1YkNuRzB3QnRsaWFyci1ySFN4dVhkZmZBVkdqNTMwczRsRFVPNGh0NS1TZlV5dnV5b19NVUZEVXRLUjN1ajZYaWp6QVByYzlEbTFQVkF3RXBTLWk4RXl4VGE2VXMtdHdScmZSaHZ3dzhoal82T1V6ZThZa0M5YURZbFdOU0t1VVJtMmRFX3RxNDNTTXBYczdnbnl6NTdKZlR0Yl9ic1cyNHZZQWhXRFFRNE05ZzlwZG54V3FQaWk0MzlwVkNXTmdZOU03aUJvNVJlNjYxT2s3RFZRZE80Y2dYY21lOVBfQnFzdXRlWGEtd3dzMDlFNFM0SUVkZGVRQUhoYzN6VlNydjlXbEFfUQ?oc=5",
-   "category": "新投資案",
-   "date": "2026-07-20T07:51:02.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0783,
-   "lng": 120.2834,
-   "story": "0b081a0394be"
-  },
-  {
-   "id": "1f8fe66e61af",
-   "title": "臺南穩供再生能源 打造企業投資首選",
-   "source": "台灣好新聞",
-   "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQeEktM1M4ZFFFUFowOXF6RURVaF9MS1BfRGJBdnBRTnFrSzZ5TlMwZlR6YWhYQ05qUFpSSnl0WWVVQkdtcldkSWd5N2NObGNMcDI5dFpXVkJjV2hTZ2RidVFqYjhVNjJXbkVEenNWUzFQTkxLcUlzdUVlQm1JTkxLZW52cklHQzczdUdDQnZHZmx4S3VXRms0ZUZPZ1NVRFZfQkIzN1dfV0pQZHV4azhsVVFzUmRoazRPQmh6bGlJc3lZdlcwWnkwa2dSXy1fZ1BUeGxHNUZfeVJFNTQyaUZWN0tFMGttVzJXUGI3dHlMRDVsSXhtUHFzbkhvTXFjUmY2dlFJbXF4WUZFWG1jUTVOanZjVXB1TGVjQ1NoaVczREswbVNiajZndWFVYTBWZVEyaVZlTTh3TQ?oc=5",
-   "category": "新投資案",
-   "date": "2026-07-20T07:38:36.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "1f8fe66e61af"
-  },
-  {
-   "id": "9f06e337399a",
-   "title": "台南歸仁沙崙智慧綠能科學城166廠進駐 破90%已成投資首選",
-   "source": "經濟日報",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBpem43WkVqNFczTVg2M1RGYmZHYTFKWXMxQ1RpM0d3RW9qT01GcF9HaFJtRDJzTi1EdWkwcFkxaDNjV0I0QkR5MFNSek53azlnTEwtMDN6aXRuQQ?oc=5",
-   "category": "新投資案",
-   "date": "2026-07-20T07:00:00.000Z",
-   "snippet": "",
-   "district": "歸仁區",
-   "lat": 22.9706,
-   "lng": 120.2697,
-   "story": "9f06e337399a"
-  },
-  {
-   "id": "48831da1640c",
-   "title": "迎接夏季光電發電高峰 台南強化光電治理滿足產業發展動能",
-   "source": "LINE TODAY",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hSTcycXMzRzhfYTZvTmFsUU81b1JGYnVWNFRKcERPbU05QUR5YWJTenBzVmM1RDZrdTNGSGJKRTFtdGN6R1g1VS04ZHdWSDFxZmtRdFpR?oc=5",
-   "category": "",
-   "date": "2026-07-20T06:06:18.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "48831da1640c"
-  },
-  {
-   "id": "8f308e668628",
-   "title": "聯電接單爆滿評估南科擴廠 受惠高通、英特爾、晟碟等美系大客戶需求強勁",
-   "source": "經濟日報",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1jUXNMVHZvNU90SzloTE96cFdCbXM0UHp4aUFWNjhsQjlqcXJVeVRuSko5S0ZLRUNIeTc1MzBxN3ZxWlZSOEQ1TnJaSmQ1dG1ZTmV1WnN6cXFLd9IBX0FVX3lxTE5jejBOWUk3cmpPVzItdHZMeWJqODJtbDZLV25NU3N6UC1odHJocnZ5bS1VTjc3bGEwakNiNE9fNllicHVCRTYzQkRjS2ZjMV9YVGt2SDdDVzg0Z2FwckRR?oc=5",
-   "category": "新投資案",
-   "date": "2026-07-20T05:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0713,
-   "lng": 120.2968,
-   "story": "8f308e668628"
   }
  ]
 }
