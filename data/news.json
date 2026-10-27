@@ -1,20 +1,87 @@
 {
- "lastFetched": "2026-10-25T23:24:07.153Z",
+ "lastFetched": "2026-10-27T00:38:43.159Z",
  "addedLastRun": [
-  "18e14101e6da",
-  "92212fc7a523",
-  "8f0b9acbf98c",
-  "a1130bd4d5d9",
-  "59708fe62693",
-  "83e8f8b38d38",
-  "21eaeb7bb1db",
-  "1b6b45b7ec22",
-  "10cfb94aa5a6",
-  "2baee144f130",
-  "fa3f38e2f254",
-  "f96cc53dada9"
+  "cba43a8990af",
+  "f548571c11bc",
+  "5d6238a478fa",
+  "a7004395b159",
+  "6505f82be7e0",
+  "09e05ab7d031",
+  "8110fde7cb20",
+  "252d1786f534",
+  "9739a684c846"
  ],
  "news": [
+  {
+   "id": "a7004395b159",
+   "title": "台南左鎮老街竹構造涼亭完工 家具、花器全竹工藝走入生活",
+   "source": "Yahoo新聞",
+   "url": "https://news.google.com/rss/articles/CBMiggNBVV95cUxQWU1hM0lxRWZMUzhhOUZfZTJsdXl6TmRYRFlzTC03M0w5M2lKLW5pS21ZWTFOVmYwcUdXbUFCbWVRLWxWcEsxYVN5LWN4dnltRU1iVE5CZnJVd3FWc2Q2eXcybThEaVB0dHNncWxQZ1N5YWpvNjVic24tYTRIVFUzRzB5WURySUlaZmliQk9QdjlKTzIyQWw5QWJmWWxoVXNhZ2RWNkthR2NUYzZRSk1MQ2lVNk00VlQyMXRHU3hXRFhYLUxhazhqQk9kYTM5X3N5d1Q1V21FVnltbE5haDhoal9mZDJ5dTd2RVhScVZRYllmVldPbEZtQ1dnMWlia2lINTM5eUVHMnN2dmtlem9McUZ2ektjQmd4RjUwSWljWlV3a19MdHJvT1Vvb2pTakM2VVBfaENUVDZMUUROZi1qVnUxRF8xTHh2N3Z4UGg5NndURnl3UUptYWhNN2IxcGRXVHJwRm1PVzE5Zm4zNWh4b1NUbGNPSWVQbktVOGEzR0FCZw?oc=5",
+   "category": "",
+   "date": "2026-10-26T10:51:28.000Z",
+   "snippet": "",
+   "district": "左鎮區",
+   "lat": 23.0613,
+   "lng": 120.3818,
+   "firstSeen": "2026-10-27T00:38:43.159Z",
+   "story": "a7004395b159"
+  },
+  {
+   "id": "09e05ab7d031",
+   "title": "假日輕急症UCC計劃擴大！ 台南增1處、台北規劃「華山市場」擬春節前啟用",
+   "source": "Yahoo新聞",
+   "url": "https://news.google.com/rss/articles/CBMiogNBVV95cUxOR205Z0lHTWYza1RjODdvU3lLeEJUTFNOVDNBR1FlYkJEODJLMzlVbGc2Q3J4T0luNjFWZlVkRjNiRjRRcUhZa2hGa19YeE0yTGpVVjNLN2xOQlVDckhEX2VHMFFjQ1U3cl9wTW5CRTFEdncwWjQ0bW00S0ZUeTg2VTdMQTJBQ25HRW5tZVRNMFhKVFVLbk9Temp5ckVZb2UwM2dzcFl6aG5JTU8zZkpUcHRsVlBwQ3cydEJQSzNtVHpXaHhCN21uVFZmbmJVUEFqZjRqZEtfRnA5OU1HQUJjSmNjU3hZTlByRUZBeTlDRkZRVFViVDV1S3dFUHVVNnlTYmFocEhZeFgzN2dKeGRDSzdDVG9jZkFiTW90NnE5RmdUS1JwaVpTSmN4dzczRXpWNTljRFNVZjZsUWxFQzRBUkpjZ0JCTzdCR0lWNklMSlF1YmtVbzhtd3JfU0t4X01jRGc4Q0RjWGVaTEMySWlHcWFCY0ZBOU1wQmNNUFhtWFEtNVlhMVhmZmdSaFhmLWJPQlhsLWQtZEtvaGVhQ2VDTnpB?oc=5",
+   "category": "新開店",
+   "date": "2026-10-26T07:33:02.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-27T00:38:43.159Z",
+   "story": "09e05ab7d031"
+  },
+  {
+   "id": "8110fde7cb20",
+   "title": "台南增1處UCC全台唯一擴點台大醫院附近據點盼春節前啟用",
+   "source": "中央社 CNA",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE84Rk9fZWlfZEVuQjlxNWh6NHRaVGtIWjQ2RFJqY0JOWWhjRHRaSUZBcTlHVzI0c1BSbU9QeHFZWVZTMlNBa0JpRXRPdGdCTWRxaXU2UU1IOHBNT1k2S3pB?oc=5",
+   "category": "新開店",
+   "date": "2026-10-26T07:18:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-27T00:38:43.159Z",
+   "story": "8110fde7cb20"
+  },
+  {
+   "id": "f548571c11bc",
+   "title": "假日急診分流再擴大！「UCC」台南中西區+1、台北華山市場明年春節啟用",
+   "source": "三立新聞",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1KeTFIT3JwTmVuVV9wOS15Z1gxYnNTS19MYXRyQUN6cjNJYW9mNndRSGtUR3FfRVdqd0FYRFlYSzhNOHkxZEQ5TWQxLVY?oc=5",
+   "category": "新開店",
+   "date": "2026-10-26T07:07:53.000Z",
+   "snippet": "",
+   "district": "中西區",
+   "lat": 22.9923,
+   "lng": 120.204,
+   "firstSeen": "2026-10-27T00:38:43.159Z",
+   "story": "f548571c11bc"
+  },
+  {
+   "id": "5d6238a478fa",
+   "title": "台南安南區增UCC 「華山市場」分流台大拼春節前啟用",
+   "source": "ETtoday健康雲",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1iclJhOFVqbTI3SHJvdjEzYTJwNWJRWDk4S3docldqWDBRX19DMTNvcV83WWN5WUMxZ2tMV195ZjctNUVxWFFDWXJPRFRadFNX0gFPQVVfeXFMTVJUUDV1Skx1MHU3VnlyUFZuNEFab0VZMU41NmdUUHMwaHBZX1BUS19OUXJUNXVUUFBiOFI5RmYyVVpHVzVJQ0E2a2gzcHl0TQ?oc=5",
+   "category": "新開店",
+   "date": "2026-10-26T06:27:00.000Z",
+   "snippet": "",
+   "district": "南區",
+   "lat": 22.9511,
+   "lng": 120.183,
+   "firstSeen": "2026-10-27T00:38:43.159Z",
+   "story": "5d6238a478fa"
+  },
   {
    "id": "59708fe62693",
    "title": "強索補償金逼長照停工 台南白河里長被訴",
@@ -140,6 +207,20 @@
    "lng": 120.4008,
    "firstSeen": "2026-10-25T23:24:07.153Z",
    "story": "a36716be55a5"
+  },
+  {
+   "id": "252d1786f534",
+   "title": "南科進駐萬楓酒店，是否能有效提升台南商務住宿的選擇性？",
+   "source": "Bella.tw儂儂",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMDFUT1libldFUVYyUVh5RDhEWnZMU18zbzR3VHZZcnZ3dkViSkJCRGJnUy1IVF9Cdm56ZWNpV0lzNm5KTi1zVFcwdGVRSV9LcEhMMnZxN3dBTDJJZzVYUjRRWGxTbWxYVElRcFlQcEt2cHJVR3B1TXYyR2JNQ2RoeWJRcmhCQ2QwUVRSZDlLQ1RSR0FzUmdoMVlzc3ZNbEtSRUhQa2Z0SWg?oc=5",
+   "category": "新開店",
+   "date": "2026-10-24T20:39:18.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0779,
+   "lng": 120.2814,
+   "firstSeen": "2026-10-27T00:38:43.159Z",
+   "story": "252d1786f534"
   },
   {
    "id": "d4a34e0cbd55",
@@ -534,6 +615,20 @@
    "story": "f183d30c3f88"
   },
   {
+   "id": "cba43a8990af",
+   "title": "猩動力IP「阿力」將現身台南海安萬聖節 祭出「30天電動車充電充到飽」",
+   "source": "品觀點",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1yemlBc0xJWF84NTVTYlJaNFFXcjJ6dTlBbXpFa01sSUpqcXpOUHNtTHByWkhfcmhpVDAta0NVTlNkWWJTdHlyM2hkNEd4RlNuYnlOeQ?oc=5",
+   "category": "",
+   "date": "2026-10-21T09:12:07.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-27T00:38:43.159Z",
+   "story": "cba43a8990af"
+  },
+  {
    "id": "461550c168b9",
    "title": "當芬蘭印花遇上古都！Marimekko 75週年期間限定店進駐臺南國家美術館，同步販售全球限量手繪藝術盤",
    "source": "La Vie | 設計美學",
@@ -657,7 +752,7 @@
    "lat": "",
    "lng": "",
    "firstSeen": "2026-10-22T00:04:12.374Z",
-   "story": "43ce71dad807"
+   "story": "9739a684c846"
   },
   {
    "id": "3e90229108a2",
@@ -700,6 +795,20 @@
    "lng": 120.2253,
    "firstSeen": "2026-10-22T00:04:12.374Z",
    "story": "1fc08b1159ad"
+  },
+  {
+   "id": "9739a684c846",
+   "title": "台南市調查處罕見跨縣突襲花蓮縣府調卷 疑與光電弊案有關",
+   "source": "中時新聞網",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1CTEFZcDJILVpIbnZDZU9JWU1aRS01dS1CUGdPZ0VWUE5pbDJQWkcwQVlmQTlyZWtOaVV2RUt1aWloYkJGTnV3M3FBQjRzcXQwdTctWG9ZRDJNajdVaDA2d25kR0ljUElmVXJib3d3?oc=5",
+   "category": "",
+   "date": "2026-10-21T02:34:37.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-27T00:38:43.159Z",
+   "story": "9739a684c846"
   },
   {
    "id": "5a77675c1f99",
@@ -2268,6 +2377,20 @@
    "lng": "",
    "firstSeen": "2026-10-20T00:28:45.184Z",
    "story": "8e97e97d4820"
+  },
+  {
+   "id": "6505f82be7e0",
+   "title": "臺南鐵路地下化第一階段提前通車 新臺南車站啟用 開啟都市新篇章",
+   "source": "視傳媒",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FMll1YVZvZ1hDcHJDVmRCdmZhdUw3U1gxS1hQdlZSdEJOaWFKbDc4a3ZnYURYazA2SEx2Ymk0cXlqa1lzckVkLWktSmhUejZNVWhacnJPaTJlSlpQaUUyc01HdnZYQXp2UHZ0YlB3?oc=5",
+   "category": "新開店",
+   "date": "2026-10-16T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-27T00:38:43.159Z",
+   "story": "6505f82be7e0"
   },
   {
    "id": "f010c231c048",
@@ -16335,123 +16458,6 @@
    "lat": "",
    "lng": "",
    "story": "26a45979c638"
-  },
-  {
-   "id": "d420faa5c654",
-   "title": "睽違近20年！ 台南無預警裝潢「50嵐新門市」 在地人驚呼：終於等到了",
-   "source": "UDN",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8yUWw1MnNoVklWbnZySmF3eEE3bzJBWXdveGU1LWRVX25FRzFEalVWZDRldUVMdXZzNUo4dFFUVXdnaGZqdnZZbUNhN0R4YVVEQkR3ZGRDT3pUVTZt?oc=5",
-   "category": "新裝潢",
-   "date": "2026-07-23T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "d420faa5c654"
-  },
-  {
-   "id": "3c284e89bfc2",
-   "title": "童子瑋參訪台南 黃偉哲分享治理經驗深化交流",
-   "source": "放言Fount Media",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9zRTlYQXotSFVZZzFSVXN5T0ZOVF9qY05Ha0dVUG1pbjd6U2NYdkNDT1FPS3VFQ1pIYnZoUFVqdTJIRExoQkVRMEhYb2l0S1NydlE?oc=5",
-   "category": "",
-   "date": "2026-07-23T06:37:36.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "3c284e89bfc2"
-  },
-  {
-   "id": "3ddc1ee7a91f",
-   "title": "取經台南智慧治理 基隆市議長訪台南市府交流",
-   "source": "自由時報",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAyZkN0MDhiSjd1c044bHBfN1lST2Y5dGFCM2I5ZWR2VEpVQ3ZGVkN0M0otQW1OSnlFYXdnMkNuZldKcnpCa1h3bV94cC1QSzc2bHI3c1JwcENXT3k2SGR4dmNLWU52dFV4UmhxZdIBbEFVX3lxTFAyZkN0MDhiSjd1c044bHBfN1lST2Y5dGFCM2I5ZWR2VEpVQ3ZGVkN0M0otQW1OSnlFYXdnMkNuZldKcnpCa1h3bV94cC1QSzc2bHI3c1JwcENXT3k2SGR4dmNLWU52dFV4UmhxZQ?oc=5",
-   "category": "",
-   "date": "2026-07-23T05:29:25.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "3ddc1ee7a91f"
-  },
-  {
-   "id": "49b0aa6b20ca",
-   "title": "2026台南Mattauw大地藝術季《曲流擺：曾文溪的裏淺山》9月開幕：41件藝術作品，邀請全臺展開一場流域藝術旅行",
-   "source": "verse.com.tw",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1PbEdKNzE5SmQ0am8wZXRpYTlFMTJvNFEyVEhJSjVHYVlucFViRWdHVXk1NThyQlhSRkRDb1dQdVV3d05UVTZhZE0za1kxUVV3WkpQeklBekdCb2F3QVo0WGU5NVA2ZjJhWE9RX0x5eWp6dw?oc=5",
-   "category": "新開店",
-   "date": "2026-07-23T05:27:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "49b0aa6b20ca"
-  },
-  {
-   "id": "276c4fe26baf",
-   "title": "台南安平運河大員盛場基地 將招商",
-   "source": "好房網News",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE10TlpjejIzVkJPTVpXR2VPbEZUX2REM3FzYWg1eFMtYjVoU0YxR1gtbnhvWWZIcEpfMTlHa1ZmNkwtdU9FVkd3NTBNQ0hvRVFCVnlEdGFPbU5WS3Exc0NYQ2lWbHh3cEtFTmdNUWZrb3nSAXBBVV95cUxNdE5aY3oyM1ZCT01aV0dlT2xGVF9kRDNxc2FoNXhTLWI1aFNGMUdYLW54b1lmSHBKXzE5R2tWZjZMLXVPRVZHdzUwTUNIb0VRQlZ5RHRhT21OVktxMXNDWENpVmx4d3BLRU5nTVFma295?oc=5",
-   "category": "",
-   "date": "2026-07-23T01:26:00.000Z",
-   "snippet": "",
-   "district": "安平區",
-   "lat": 23.0084,
-   "lng": 120.1565,
-   "story": "276c4fe26baf"
-  },
-  {
-   "id": "37c68ff3450c",
-   "title": "台南一見雙雕藝術季 7/31開幕",
-   "source": "自由時報",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5EdTlFeF95RzRrdV9GQ1hVaGtPN1Z6SlJWUFV2NkhWUWlEOWVRYVJ6Y01KSVpVeE5Sd3l3LTJPQWI0a0FoSUlxUXcybHVTcS1sNlkxTFZfNG05WlHSAWBBVV95cUxPenpveEdES3RQLUtvYlFNajliSG9FczFrRUNDdWo3WmtyQUthVGRmYVNmMFo1bVYtdjFJYWlXSE5jUWNKUlAweHBCRW1JMnJnZks5S1AzSFZBbi12NXd6VkY?oc=5",
-   "category": "新開店",
-   "date": "2026-07-22T21:30:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "99fdac869396"
-  },
-  {
-   "id": "99fdac869396",
-   "title": "台南一見雙雕藝術季7/31開幕 7大特色展區曝光",
-   "source": "自由藝文網",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE56ZkJNR285eW9HM21fX3YyaUJYcHJWUWZSY2M0ZWRwbW9TdUF3OEVCRG0wQ0pnZVFqLVpJQmhhbVdoU3h4ZllYNTM3Z3luSFl4ci1tdE9WdkViTXgydW5Ca9IBZkFVX3lxTE5rMmxGN3FBSnU3ZGlRVVd6UmJySGlWVjJrZE5MUFA1MHdiMWJabVdjaWJKbExXbzA4X1lsSUhlV3VJMGxsaGJsUmx6WWIxZ1ZST0lUWG8zeWpLQmliUENGWHFkWnVXdw?oc=5",
-   "category": "新開店",
-   "date": "2026-07-22T12:47:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "99fdac869396"
-  },
-  {
-   "id": "04d708ff82df",
-   "title": "「護國神山」南科18廠施工起口角 水泥、板模包商打群架",
-   "source": "自由時報",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE05cVJlQTQtbVdLMkFVS0VCRmFOVHgtX2toS095dXVTcDUzeWRQaUVMTGRtN1FULXN4RDhvV2dVYW05SmRuV0JYa0lzTkpzNkIzRDFPSjl3Q0xRSHdRT2I0cWxxbjlaLUY10gFuQVVfeXFMTjBEU21NVlE0WHQwR0x6U3ZrdFJTcGY4VnF2aC1PZDJwcjE3U3puSEJoYUVXUlAzZkVGaDk1MFJRWDQ3Mnl0OURGUDVnSkhrLVFHeE82NzdHOHNaZ0NVT0h2WEFKb2doNXhsYkx2eEE?oc=5",
-   "category": "新建設",
-   "date": "2026-07-22T09:17:59.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0727,
-   "lng": 120.268,
-   "story": "04d708ff82df"
-  },
-  {
-   "id": "50fc41dc32d3",
-   "title": "台南要有捷運了！108年動工 耗資6百億採高架單軌建設",
-   "source": "三立新聞網SETN.com",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOY1ZROE9MV3BBTzF5ZnRhVjB0WHNGRG8weWc1UWdya2szZVpSbmFSekdPMlFkbmFJU2dCODFhQVhDdENxdVhkbXh1V2pDVnU3eHMwUEMtMG12RDJ4OWhXZXJTbTdheUdqREl6U0NCNEQxZ1RBUDMzMThodzZkdTJ0R3FGWW50TUJXelA3Rw?oc=5",
-   "category": "新建設",
-   "date": "2026-07-22T07:49:18.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "50fc41dc32d3"
   }
  ]
 }
