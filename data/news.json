@@ -1,24 +1,116 @@
 {
- "lastFetched": "2026-10-30T01:11:44.618Z",
+ "lastFetched": "2026-10-31T00:54:43.115Z",
  "addedLastRun": [
-  "4b4abefaa3f3",
-  "65a1d999bce1",
-  "13e1538e4f26",
-  "b4d304a4e499",
-  "7859563cd110",
-  "69b63adb70f8",
-  "15ecc8c4f4b7",
-  "1e0494a5690d",
-  "8ce415983a8e",
-  "f0b85731610a",
-  "ef5cb299f956",
-  "3fb48f6fc9a7",
-  "6492a5221201",
-  "8e719008c15b",
-  "eeba4e1e5593",
-  "654542a950f3"
+  "af910c12c96f",
+  "601e8c28740f",
+  "c8f39b9c7fa6",
+  "61689df6e95c",
+  "6da6144f0d51",
+  "7624584b9ed7",
+  "5c55fece270f",
+  "a5e4d0bcba91",
+  "66fb7df6c5cc",
+  "8ff873899f32"
  ],
  "news": [
+  {
+   "id": "8ff873899f32",
+   "title": "[活動] 2026南方影展開幕片全台首映，免費索票中",
+   "source": "PTT Tainan板",
+   "url": "https://www.ptt.cc/bbs/Tainan/M.1793350978.A.751.html",
+   "category": "新開店",
+   "date": "2026-10-30T17:02:54.000Z",
+   "snippet": "── 2026 第23屆南方影展 ── 南台灣唯一的獨立影展， 11月6日至15日將於臺南新光影城盛大展開！ 開幕片《未來考古學》全台首映， 場次免費索票中～敬邀蒞臨現場，共襄盛舉！ 2026南方影展 開幕特映 ▌11.06（五）19:00〡臺南新光影城 9樓1廳 19:15 開幕典禮 19:50 開幕片《未來考古學》放映 20:30 映後座談（導演：林仕杰、陳君典、盧彥中；演員：余佩真） 本場次",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-31T00:54:43.115Z",
+   "story": "8ff873899f32"
+  },
+  {
+   "id": "7624584b9ed7",
+   "title": "芥菜種會台南生活照顧中心 揭牌",
+   "source": "中華新聞雲／中華日報",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50am10eXIwenlUT2NZdFcwbVh4QTFfUVlTcXJqRm9MZ1o0a3h3Y28zU0RpMXRIU1JVdlJjeHpiRmFxSkZGeHpocnozUzBvOXBEa1E?oc=5",
+   "category": "",
+   "date": "2026-10-30T12:10:12.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-31T00:54:43.115Z",
+   "story": "6da6144f0d51"
+  },
+  {
+   "id": "61689df6e95c",
+   "title": "鴻海劉揚偉談第三代科學園區！新竹、台南之後，他想在美國再造一個",
+   "source": "遠見雜誌",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE52X05RXzhqQUtFZHJWeHRlQ0p1RGhqZUswTm5mWW5CNEFtMlNQLU82S2cxdlNTSnlqMnNFUzhNekROOGF3b1BGaW9Jb1otUQ?oc=5",
+   "category": "",
+   "date": "2026-10-30T09:51:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-31T00:54:43.115Z",
+   "story": "61689df6e95c"
+  },
+  {
+   "id": "6da6144f0d51",
+   "title": "芥菜種會台南生活照顧中心擴倉啟用 強化脆弱家庭在地支持",
+   "source": "自由時報",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1OZGdrU3BqQzVXWTRHUi03X2E4cFhaTThoTkRBWEd4eFN2Tm9TdFVYak1xVlhxMzVsbElWV0pzRHhOSEVCdGZEZmtYNjg1M1R2cnNQSm8wSUZKNmV5c09Eek82OWfSAWpBVV95cUxNWE5qSXpGZ3V2MThhR3g5Qmw2VHZ1QkZMNVVGeGIwVGtXcWVlaUpjUWIwSjJraGljSDdrdHRYd3NIZm95MmprTE9qR0tKZWxuQlN3RG5JNURsMVRfVUMxUFA2U0RzRDlNSEVB?oc=5",
+   "category": "新開店",
+   "date": "2026-10-30T07:02:04.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-31T00:54:43.115Z",
+   "story": "6da6144f0d51"
+  },
+  {
+   "id": "af910c12c96f",
+   "title": "森森燒肉台南首店11/19試營運 11/5開放線上訂位",
+   "source": "ETtoday旅遊雲",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FXzdaN0FYSFpmV3pDTXc3N09EbnhaMWk2VmVMUkVDWTlpWWNCd0tjbEtHVkNfWk4xU050MU1FcVh6SmtCaFVnUVR4dU53eURGVlJ4Z09jTmVPZ9IBT0FVX3lxTE96Zmoza2dMXzVIdWN5TGRfQ1lPOHhDUVA2RWtubmNVRUVtaTRJZld2LUdaanJ1MDd6OGZyc0dTNnVmYWk4SzJyZ2RwZGhUalk?oc=5",
+   "category": "新開店",
+   "date": "2026-10-30T03:33:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-31T00:54:43.115Z",
+   "story": "af910c12c96f"
+  },
+  {
+   "id": "c8f39b9c7fa6",
+   "title": "30天賣102戶！台南「寶實二代」 直逼7字頭",
+   "source": "經濟日報",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YcUZQdDhoYkxxSDgyU1dINlh4Z0doY1ZxZ1cyQy03cXlYQjF3Y3E2QTNqaGJQQ0VzRkxHRTl2TkxzZnQxUjRhWDNOWUpHQVRtVG54ZEkwRUlpd9IBX0FVX3lxTE4yU29vSnF2UDlQTmJwS0JGYk5FZE5NTUdjSGY4V3Rhck9OQlRyWlhuRGtDY2FsZkNpdWNOSFppUUJhNlhSSDliMU8zOTVKYjN5eHN2dnB6ck5PLVhZeERv?oc=5",
+   "category": "",
+   "date": "2026-10-30T02:52:31.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-31T00:54:43.115Z",
+   "story": "c8f39b9c7fa6"
+  },
+  {
+   "id": "601e8c28740f",
+   "title": "【台南首店開幕】小小麥烏龍麵台南新天地B2｜招牌麻奶明太子烏龍麵、炸燒肉飯必吃，台南限定豆皮烏龍麵百元有找！",
+   "source": "台南女孩凱莉吃透透",
+   "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5CcW5XV2hSNVJtNzM0ZVRaSkIzTDFvV3ZOTmczZHI1dUgxYWNIa0NaN2w0UDRFSFJ4Z0kzVHBXMVU4Zw?oc=5",
+   "category": "新開店",
+   "date": "2026-10-30T02:48:58.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-31T00:54:43.115Z",
+   "story": "601e8c28740f"
+  },
   {
    "id": "13e1538e4f26",
    "title": "【新新聞】賴清德為何不愛蓋社宅？彭揚凱：從台南市長時代就如此",
@@ -32,6 +124,20 @@
    "lng": "",
    "firstSeen": "2026-10-30T01:11:44.618Z",
    "story": "13e1538e4f26"
+  },
+  {
+   "id": "66fb7df6c5cc",
+   "title": "台南捷運深綠線、橘線進度受關注 串聯南科、沙崙與溪北生活圈",
+   "source": "好房網News",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1lREhWaUhYQkxyZ3QxUk5hc0pacEtlMW90VktpakxObTZ1M3VVVzBKV3lXYUVNUGh5M3Q2U1BRYjlIUTNKWmNIMUlRdE40b0xIQ2FEbEZuZFVUSkZQcXNDV2l1TFpVVVVzM3VV0gFwQVVfeXFMUHFWN0lqT01mdS1rRXNncmR1OW1GWEFYa2NSTUtObzZuRF91VEVHM0tYWHozWEt1c2piTTUxWDN3S0ZaZFRKV2pTQmRKY2FtUV9lNWVQZlBDZnR5bVU1STlQRWpMQ3JweVN5XzhVMTItQw?oc=5",
+   "category": "",
+   "date": "2026-10-30T00:15:00.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0751,
+   "lng": 120.2674,
+   "firstSeen": "2026-10-31T00:54:43.115Z",
+   "story": "66fb7df6c5cc"
   },
   {
    "id": "ef5cb299f956",
@@ -1602,6 +1708,20 @@
    "story": "2c9ad3af6455"
   },
   {
+   "id": "a5e4d0bcba91",
+   "title": "助力南科 安平再生水廠擴量 二期開工",
+   "source": "產業情報網",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTk54MS1ySHFuUU9iV1lMYU15UDdCWFV3Y3RQZXRZRy01QldyaURWajcydl9MeDlFZ0V5Z2NVdmNFQTJITWJPQXJUUEZVNVhibGI3bC1pUl9BbUZQMGdkMUx4S1Y3dVB1eDdIUm9wMC1CN0w0MUdzN3lDV1pNQ3ZuYjMyVHEwVkNzY3hTbThGdkZBQQ?oc=5",
+   "category": "新建設",
+   "date": "2026-10-20T16:00:00.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0831,
+   "lng": 120.2886,
+   "firstSeen": "2026-10-31T00:54:43.115Z",
+   "story": "a5e4d0bcba91"
+  },
+  {
    "id": "3dda66d753f4",
    "title": "南科營業額暴增36.5％ AI半導體帶旺南台灣！安平再生水廠二期開工、日供水拚6萬噸",
    "source": "好房網News",
@@ -2720,6 +2840,20 @@
    "lng": 120.284,
    "firstSeen": "2026-10-29T01:06:17.003Z",
    "story": "a8b33c278f5d"
+  },
+  {
+   "id": "5c55fece270f",
+   "title": "台南鐵路地下化第一階段啟用末班車昨晚告別、首班車今晨出發",
+   "source": "PChome Online 新聞",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVVh3emV2MVVDQU9PQ3VUVzJRazlsblFHMlhNa2JnNzFNZE94MWo3TlQ4eWQ5U2IwMkRjUV9jUGptcFBzQTN5VndCOEo3cHA1bEhIZHdZYnEwWDBKWnlSampVb0JJSGEtUVdDUGRNb1NEYVRDR3A2LS12bml2d3lubEIzMnhJeFdUYWhF?oc=5",
+   "category": "新開店",
+   "date": "2026-10-17T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-10-31T00:54:43.115Z",
+   "story": "5c55fece270f"
   },
   {
    "id": "43a6785e4688",
@@ -15922,7 +16056,7 @@
    "district": "新市區",
    "lat": 23.0757,
    "lng": 120.2722,
-   "story": "d427953305fa"
+   "story": "12b675dc769b"
   },
   {
    "id": "f98654b7d5a3",
@@ -16091,7 +16225,7 @@
    "district": "新市區",
    "lat": 23.0751,
    "lng": 120.2716,
-   "story": "d427953305fa"
+   "story": "12b675dc769b"
   },
   {
    "id": "3707ec881c4d",
@@ -16117,7 +16251,7 @@
    "district": "新市區",
    "lat": 23.0767,
    "lng": 120.2856,
-   "story": "d427953305fa"
+   "story": "12b675dc769b"
   },
   {
    "id": "e86578e10576",
@@ -16234,7 +16368,7 @@
    "district": "新市區",
    "lat": 23.0813,
    "lng": 120.2968,
-   "story": "d427953305fa"
+   "story": "12b675dc769b"
   },
   {
    "id": "73c969e4cfcb",
@@ -16299,7 +16433,7 @@
    "district": "新市區",
    "lat": 23.0885,
    "lng": 120.2952,
-   "story": "d427953305fa"
+   "story": "12b675dc769b"
   },
   {
    "id": "930e55192451",
@@ -16391,136 +16525,6 @@
    "lat": 23.0885,
    "lng": 120.275,
    "story": "94ff360f7771"
-  },
-  {
-   "id": "3623fe71b1eb",
-   "title": "聯電因應AI加速成長 董事會通過新加坡擴產及南科興建新廠",
-   "source": "UDN",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9LZHc2UnFtdmQ0ckx4UzVTdG9vUjJVX3RvWWMzQmhMOW42MnpiYzd3di1KMmhfZ25kX3JnRFZNa3lzdGdNNFNMMGJqd2pRUlN20gFWQVVfeXFMTi1hQ2hIS1ZxWEVTRGx2bG1wbVpaaVhnUG1WbFNJY0loeTVyemJEUFRMVzZPWDNYdDlETjctd05VdFNGaURHN0I3QjdvT2cxSUllS0tFMEE?oc=5",
-   "category": "新建設",
-   "date": "2026-07-29T08:43:31.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0707,
-   "lng": 120.2672,
-   "story": "d427953305fa"
-  },
-  {
-   "id": "cff1470e492e",
-   "title": "加速南科生活圈建設！南科特定區都市計畫 打造高科技S廊帶",
-   "source": "5168實價登錄比價王",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5zcUJSS3pOWmdkZ1MxNlNKNHdrcTE2aFlBejVjR05RZjVvcXBfZU1MRnNHRTBFbVZHUXBNQzI4U2pPZHJaZkR5Sw?oc=5",
-   "category": "",
-   "date": "2026-07-29T07:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0765,
-   "lng": 120.2738,
-   "story": "63a78edd7cbe"
-  },
-  {
-   "id": "698a8da7b84b",
-   "title": "台南新營嘉南大圳文化中心段完工綠意軸線打造新市容",
-   "source": "UDN",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5WZlpIV2tkQnZ6TGFKWE1QMFFBdTExeWVoNGRzOFZ1UWJ2QzdKbFoxd2ZJcFZfMGlRNE1VUGF2Y3RfNDV3VmY3eEE1ZWVKaU42?oc=5",
-   "category": "",
-   "date": "2026-07-29T07:00:00.000Z",
-   "snippet": "",
-   "district": "新營區",
-   "lat": 23.3183,
-   "lng": 120.3166,
-   "story": "19b94c9a3890"
-  },
-  {
-   "id": "d427953305fa",
-   "title": "因應 AI 需求加速成長 聯電宣布新加坡擴產及台南興建新廠",
-   "source": "經濟日報",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jRzd5MjNoR1A0QlZDdlFnZWM2aTVhWmRLZW1kTXBhcWFSNVkxQjZ0MFpIbWFPdmxXeUpfak5UT052a1QySUNwNXRGRTFVcHFkb0dSWm52V2ZUczDSAWBBVV95cUxOaF9pRzROQTNxYlBlXy1HWnRFY3laWk8tei1hU01ObkhxODBubll3Nzc5eTBnaV83VjVVNWNxemIzUjkzVUh3ZjlhWjJNSlpWTHBlQ1ladE8ybC0waWp5OTU?oc=5",
-   "category": "新建設",
-   "date": "2026-07-29T07:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0883,
-   "lng": 120.2982,
-   "story": "d427953305fa"
-  },
-  {
-   "id": "1572d039e372",
-   "title": "台南畜牧糞尿變綠電 八翁處理中心一期發電近140萬度 二期9月完工",
-   "source": "UDN",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBDY3ItLUVOQVJjd0NKeWFiWm0wUGJJdzcxeTVNaDdNZnNGdW85a1c2TENocmp3VkhWOThkeHVGNy13MnJZeWNId2tiZFBZSzgx0gFWQVVfeXFMTThwdG1weUV2WEN2UkFyV0JTNTJveEJsM3NMdFVReFpuOV9tYkdwMHNjQ29EMlNMb1lmcmRxOUFsUFdZOU5wa2gzZDY4ZWdsbnlvSzlCd1E?oc=5",
-   "category": "",
-   "date": "2026-07-29T03:37:03.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "1572d039e372"
-  },
-  {
-   "id": "00fca16029b7",
-   "title": "台南建商跳票失聯！「佳佳園 5」27 戶過戶卻沒水沒電，買方求償方式一次看",
-   "source": "果仁家",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5mRmNBVkk2NjhtVTVvLVI1T3YwY2NiYnd0OWJSSm8tWWFDaVFMYjJTZ1dKY3c5QUJjY3lZUjBMcDJCN0dCOE9lWExvTHFWSHNSNWtV?oc=5",
-   "category": "",
-   "date": "2026-07-29T03:04:15.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "00fca16029b7"
-  },
-  {
-   "id": "19b94c9a3890",
-   "title": "台南新營人行環境升級 嘉南大圳文化中心段改造完工",
-   "source": "台灣好新聞",
-   "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxONXY5a1BMaHBYYTA0UmhmaFozN3VackhrT3RpaU8ycFBGXy1YbkxjOEpYQi1QeDhZb0NWd0FveHEwY21Dd1BuLVlyOXFTeWRhRDZZdWhwbDRRa0lxaEp6MjJneGRYYUEzaEtzaDA2VjJTS2Y2WEtiWmFPYTgybFc2QmgtSGJDamFhV1NVN1RiRFNCQV9TMVdZUEY1ZzlGbVZGMHRnUnFXX0I3dmluYzZuWVFHTnJBVG8tZkRmVy1MbTBnbWVOeVNick5udG8tNUNfTkxvR0VpS01iN3p1Q3U5OFRXeE5BMGozZzVFU1FGU2NhRV94aFMxdV9LYUZKbTNYeUFHTFNUei02aXRqRW9lR1BwamRyYjExRjRvb2hGbVo5VC1IVS1NUThLS2hiV1ZELWRzeGNDVzVZT2hEOTZ2ZGM3QXM1NGN1N01JRURXbkthVzZ1WUhCRldLTlZkbUUtdThZYlN3?oc=5",
-   "category": "新裝潢",
-   "date": "2026-07-29T02:38:09.000Z",
-   "snippet": "",
-   "district": "新營區",
-   "lat": 23.3015,
-   "lng": 120.322,
-   "story": "19b94c9a3890"
-  },
-  {
-   "id": "266d414d273d",
-   "title": "南科撐盤也沒降價！台南40～50坪最好賣 估價師：建商先送裝潢、不急打價格戰",
-   "source": "好房網News",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1QQnE2bVhpckhnTGNVOGhKdXp4bGE3aDkyQThUaUwtdENyQ2lrN3JlM3BJdURXSi1IM2tqRWhyOUN3YVNnODhjU1VUZzlNajNRUElDamMtU1RvUWpabmNQbEg1dXQ0QkRaQTU40gFwQVVfeXFMTk1fbjRYSkhEdGlES3RzSE80OFFQSXdtZzBzU19UdmtfSGR2LWdfMnBKaEVlT3Vvd2wyTTlrRk1ram1PM3dBdE1uRk5ocVc5U3QtUGJuSHlZZ0lKYkVLTVNwTVJXTW9LQS0yNU9DSEdleA?oc=5",
-   "category": "新裝潢",
-   "date": "2026-07-29T00:30:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0851,
-   "lng": 120.2842,
-   "story": "266d414d273d"
-  },
-  {
-   "id": "d9eb37bc190c",
-   "title": "台南南區志開實驗小學校舍升級！9間智慧教室九月啟用！",
-   "source": "PChome Online新聞",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUDVqaFNIUk5wZktBQ3c1ZWI5RjkyUExpOWNMblFmODZ0eUJCUW1PM2hnSzFlTDVNTlVOLV9wVmJuc2Q1U3BRTGtHWExzXzA4bTlyUUdoelMxYWV4N2wxVkZLTUFXOWhGUWI3a1BfR1QzZW4tclYzNzJ0S2pWU0djMENiOFVyWkpiRTVieg?oc=5",
-   "category": "新開店",
-   "date": "2026-07-29T00:00:00.000Z",
-   "snippet": "",
-   "district": "南區",
-   "lat": 22.9629,
-   "lng": 120.1854,
-   "story": "d9eb37bc190c"
-  },
-  {
-   "id": "63a78edd7cbe",
-   "title": "加速南科特定區生活圈發展！南市打造高科技S廊帶",
-   "source": "PChome Online 新聞",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUVgwRXAyNmNjNmVBYWNIbXhJeXVfZXVDTjhwNVNHOTNXZTUzNkJfS1lISy1sSzRkOUVHMkctNG1mR213U2JxMHVRb29fTG1yQkhadUVWN2VNNUVzQnZUT0xlN2hoRVF2ZFRlWjk1ZDJteXZGdXNFNlRzOURiMERFSk8wbGQwelg5Z0drNlVGTQ?oc=5",
-   "category": "",
-   "date": "2026-07-28T15:59:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0839,
-   "lng": 120.2716,
-   "story": "63a78edd7cbe"
   }
  ]
 }
