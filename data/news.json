@@ -1,26 +1,104 @@
 {
- "lastFetched": "2026-11-03T02:58:33.600Z",
+ "lastFetched": "2026-11-04T01:31:34.793Z",
  "addedLastRun": [
-  "864c0f9c2f95",
-  "6ddc010a6410",
-  "31a89c72b133",
-  "628d05b15252",
-  "07926a1c5c3c",
-  "3ba5ad8c1364",
-  "acfcf065e971",
-  "29d79b6c43e3",
-  "93934adef9c0",
-  "28ff5d5cae1e",
-  "7ef80791589a",
-  "b12132659c55",
-  "5da1dbbad234",
-  "6b47b8e2a220",
-  "3b52d36254a2",
-  "9e86787c536c",
-  "1daf5429e115",
-  "71765ac362d6"
+  "24e34a0f8f6c",
+  "6f2bdffcb7eb",
+  "dd5d49d34e45",
+  "df16a0944ac2",
+  "9aaa9ca4c63c",
+  "46ef2123a446",
+  "401ce55494d2",
+  "0d0dcf7b5b97",
+  "4fdbdf297b8d",
+  "07b92710c1fa",
+  "1b9c3252c7b7",
+  "08e1bd77a6a3"
  ],
  "news": [
+  {
+   "id": "6f2bdffcb7eb",
+   "title": "台南社宅突破1.2萬戶！南科、捷運沿線同步布局 產業人口移入帶動居住需求",
+   "source": "好房網News",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9jVkQ3MWpmd2ZPNVFQVW9iRU11c2MxT1J1NFQ4VHFyMGpZQVpHRUFlbXN2ampsRnN3SlFPWm5ITXlmU3VWa1JpeFloX1dtSVQ1TzRPajM4UnFfaF9JdkNVUWxzZXdzakw4TkVv0gFwQVVfeXFMTWRzTTJBaTY4WVkzYVQtTEZiTHQxMnJEME9BRGZsNzF3T3JveUJzQUY1VVFfMnBxSmJoWU5fZlFSR3ZfRkZHWm02VHhZWjNzdVRwSVBRdFRpTjJhaGl5dnVoNEVIeURQLWpIS2F1enN3aA?oc=5",
+   "category": "",
+   "date": "2026-11-04T00:50:00.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0763,
+   "lng": 120.2756,
+   "firstSeen": "2026-11-04T01:31:34.793Z",
+   "story": "6f2bdffcb7eb"
+  },
+  {
+   "id": "24e34a0f8f6c",
+   "title": "台南捷運藍線2度流標 市府檢討招標策略拚動工",
+   "source": "自由時報",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE94VFBmWVI2NG52UXRpYUZIaW9Kb2t2NkpOTnFkQngxdVdLcTZOY2I2TlBqSmJCNTlscjNZdXMyZDBJMHF3eHVuaXVfd19WdFd6VmVONEc0QWhFMl9sSUdlVjFzdjc1RFRDWEHSAW9BVV95cUxQRlFtRmd0RnE4cDdzS1JTb2JfMzRSSElFa0lmcG9Cd2prbEIyMUpCZzJCVENGVVNBUF81eWVoNG5TbU5jY2YxY191WWJWVVotSUpCWnNpYTN4bHN5c2RhZDJTX3NOVGplOXpDNUdKSE0?oc=5",
+   "category": "新建設",
+   "date": "2026-11-03T10:42:38.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-04T01:31:34.793Z",
+   "story": "24e34a0f8f6c"
+  },
+  {
+   "id": "0d0dcf7b5b97",
+   "title": "華邦電董事會通過南科高雄園區12吋晶圓廠擴建計劃及購買設備案，預計投資731.63億元",
+   "source": "台視全球資訊網",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdU03SXZpdTl3WkhBbkFXbVNvNU9objFVMzg4NDU3WlE0Q1AzMG9qOEQweVhTSFpORERuUTJsbU5sMmt4a21RSXIwZzQ5bUt4b0VkSWNud21JRzlSNmdLVE1BMDQ0a1k0QmNtS2dCWThySWptZGZ2WjBOM2NFY3J1d2NyMTZURmQ1MzJzUWNsdXNNNlAyV0h6ZlFKM2I?oc=5",
+   "category": "新投資案",
+   "date": "2026-11-03T09:31:09.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0867,
+   "lng": 120.2698,
+   "firstSeen": "2026-11-04T01:31:34.793Z",
+   "story": "0d0dcf7b5b97"
+  },
+  {
+   "id": "9aaa9ca4c63c",
+   "title": "台南百貨版圖重整！鐵路地下化帶動站前商圈再生 商業投資、就業人口牽動周邊房市",
+   "source": "好房網News",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoQWRFYzdtVkU3S3U1MzhtMnJMbGZSQkpTYjRfMDJJck5GclZLSVFudWZhWmN2N2VVb0RzQ0hYel9aSE9STXVoQ3NHQjFkRDBidnh1NHRZYW83RHZncXJjeWNWTTdybGNCZDlYbkNmUTjSAXBBVV95cUxQaEFkRWM3bVZFN0t1NTM4bTJyTGxmUkJKU2I0XzAySXJORnJWS0lRbnVmYVpjdjdlVW9Ec0NIWHpfWkhPUk11aENzR0IxZEQwYnZ4dTR0WWFvN0R2Z3FyY3ljVk03cmxjQmQ5WG5DZlE4?oc=5",
+   "category": "新投資案",
+   "date": "2026-11-03T09:03:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-04T01:31:34.793Z",
+   "story": "9aaa9ca4c63c"
+  },
+  {
+   "id": "401ce55494d2",
+   "title": "台積電1奈米廠 落腳台南布局曝光",
+   "source": "世界新聞網",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBJWEpZZTRJaWwwQndMZVFHdkwxaVpzcEwtR3FZUUxyWnA1R1VUSTdlTHZpVFpDNFRXRU42Sm1LT2t5REhhSlJYcHRPTHBtbGFEVEJidTR3aE9HbExVNS1aTDEzWGN0YnPSAWdBVV95cUxQSVhKWWU0SWlsMEJ3TGVRR3ZMMWlac3BMLUdxWVFMclpwNUdVVEk3ZUx2aVRaQzRUV0VONkptS09reURIYUpSWHB0T0xwbWxhRFRCYnU0d2hPR2xMVTUtWkwxM1hjdGJz?oc=5",
+   "category": "",
+   "date": "2026-11-03T06:14:00.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0813,
+   "lng": 120.2768,
+   "firstSeen": "2026-11-04T01:31:34.793Z",
+   "story": "401ce55494d2"
+  },
+  {
+   "id": "46ef2123a446",
+   "title": "台灣大舉投資無人載具 各國業者齊聚台南搶商機",
+   "source": "經濟日報",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RelJlUlF4eVBtYVhZcjBJQ0FodmhXc05kVm5QSnVRQzBjQzBtNl95dUpwVzlENElpV1RUNURRVlVkYWx6MFJwLU1iN1VBVXBjVlpPbjBEVktkd9IBX0FVX3lxTE13Q3c2bE1pUlJTQUlmNk1EZWR2bWplZ3QtdkZ2MERsOE9vOGl4ZXREdW9vaHFWcjhCYXZmWXFFWkQzbDQxTkl3ZGc5MzdKTU9KLWdlcFNVWkd5NFRkaGRn?oc=5",
+   "category": "新投資案",
+   "date": "2026-11-03T06:13:11.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-04T01:31:34.793Z",
+   "story": "46ef2123a446"
+  },
   {
    "id": "9e86787c536c",
    "title": "立法院交通委員會考察台南地區交通建設",
@@ -43,11 +121,11 @@
    "category": "",
    "date": "2026-11-03T01:32:00.000Z",
    "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
+   "district": "新市區",
+   "lat": 23.0839,
+   "lng": 120.2978,
    "firstSeen": "2026-11-03T02:58:33.600Z",
-   "story": "5da1dbbad234"
+   "story": "4fdbdf297b8d"
   },
   {
    "id": "6ddc010a6410",
@@ -78,6 +156,20 @@
    "story": "b12132659c55"
   },
   {
+   "id": "4fdbdf297b8d",
+   "title": "國科會主委吳誠文露口風 台積電1奈米有望落腳台南",
+   "source": "經濟日報",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Jb1JsUVExVXdfdElCU2FwR09fNUVUVzhiMGtEMWtLcFRaMzBrcTFEaWdZWFBlVURic3lTdklYR1d2YjlKWUZQVUxCYmFfWXpPUG4tOFNkWFY4QdIBX0FVX3lxTFBleTNQT01wZ2JfemlKWHVkU2ZxaHA2eG5pbG9WaEpXR24xbWN6ZUFhYzlBak44emZKRTEyaXlBM2Z6SGlFclYxQUE5aVVNcWthTkVrODFvWHhLRzFKejA0?oc=5",
+   "category": "",
+   "date": "2026-11-02T20:01:12.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0737,
+   "lng": 120.2926,
+   "firstSeen": "2026-11-04T01:31:34.793Z",
+   "story": "4fdbdf297b8d"
+  },
+  {
    "id": "93934adef9c0",
    "title": "台南新營體育園區三項工程預計11月完工 溜冰場工程重新招標",
    "source": "報新聞 Mega News",
@@ -90,6 +182,20 @@
    "lng": 120.3228,
    "firstSeen": "2026-11-03T02:58:33.600Z",
    "story": "93934adef9c0"
+  },
+  {
+   "id": "08e1bd77a6a3",
+   "title": "臺南交通建設再進展！永康交流道研議增設南出匝道 交通部允諾協助評估",
+   "source": "Life 生活網",
+   "url": "https://news.google.com/rss/articles/CBMimgNBVV95cUxOQTRsWUFuRmc2WXJ5eHBuM2J5OUNOUDJqS05uWDM4OVFyMmZFUFBJZmV4UkdaZE1UVHF1b0d0ZS1KQlZUYm0zQVozTVU5XzJFNmQwTDRpUFVlOWlNSGtmeFU5ZUc1c0dlUzlyNUpKV05ZVi1DdldycXE5SFN5ODdyOXI0YzdYbFRkSjlOeWFObHZKc0kwZ05PUzhQeGFOS1VwZ3EzdlU0UklHYjFuMzdsR2kzaVJiMUFWS016WjRNQ09RT2czbTBCNVZ6Q3hpZkkzMUQ0ZElVa3AtZEt3Zl94bnJ1MWg3b3pDVzJVcERsQnZwZXNBRzh1Y2lrRVpfRnFuUzV1aWp0Q2RFeUdDUVRqY2huUWc3elRxOEVFcDdXV2lYX09ZdG5OWU1IOUVLWGxiQjNhaFFuN3FwZmVGR1dBdGszUnRqUjYyNVNZd2pQU05CSmloUVljdGxEMEx6ZVlmWmkyaGo2ak9ibGNZQUNpa0hQU0RWNWw4NEFSQXRVMEhTa3ZvZl9kTnBGM0x5dFpyWUlTS2R5anl6dw?oc=5",
+   "category": "",
+   "date": "2026-11-02T14:18:05.000Z",
+   "snippet": "",
+   "district": "永康區",
+   "lat": 23.0235,
+   "lng": 120.2454,
+   "firstSeen": "2026-11-04T01:31:34.793Z",
+   "story": "08e1bd77a6a3"
   },
   {
    "id": "3b52d36254a2",
@@ -145,7 +251,35 @@
    "lat": 23.0409,
    "lng": 120.289,
    "firstSeen": "2026-11-03T02:58:33.600Z",
-   "story": "1daf5429e115"
+   "story": "1b9c3252c7b7"
+  },
+  {
+   "id": "1b9c3252c7b7",
+   "title": "永康匝道分流、新化道路改善不能再等 林俊憲偕交通部長陳世凱會勘臺南三項重大交通建設",
+   "source": "新媒體經紀人",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE54dkRqVTdLWUZSemZJVEo3UEI2TWFhcFYzTklSUFBscE9Vb1pZU2pkSEplQmNuNVVTRDlrY1lpcU9udEZSQ1VxcnR5Z2xSMkVnbFVialQwU21rV1dSclkteDBBU3J6WHVFTTE0UQ?oc=5",
+   "category": "",
+   "date": "2026-11-02T04:31:25.000Z",
+   "snippet": "",
+   "district": "新化區",
+   "lat": 23.0405,
+   "lng": 120.2868,
+   "firstSeen": "2026-11-04T01:31:34.793Z",
+   "story": "1b9c3252c7b7"
+  },
+  {
+   "id": "07b92710c1fa",
+   "title": "台南五大交通新制：台61線南延高雄、和欣客運直達桃園機場捷運",
+   "source": "Bella.tw儂儂",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNd2hDczAtU3N3c1pucndBZHAyREJzLTNSUW9Mdk9la3BmU3R4ZmxrT0thYkpvOG5OT244NDQ1X0NMeXJ4OEl4Ykt6LVdhbDFoVFpKVlZQYlZmUEo1N2l6TmhCZFJ6Q2V1eW9zaF9YS1lBODI4S3B3cGIyd080ZFItUkpMak9ndENPQkduU1VBMzhNYU43VGJueTFjNDhlUzI3?oc=5",
+   "category": "",
+   "date": "2026-11-02T04:30:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-04T01:31:34.793Z",
+   "story": "07b92710c1fa"
   },
   {
    "id": "acfcf065e971",
@@ -1128,6 +1262,20 @@
    "story": "6f4b87ec51f9"
   },
   {
+   "id": "df16a0944ac2",
+   "title": "告別38年老舊小！台南將軍消防砸7800萬換新家 改善救災出勤動線",
+   "source": "翻爆",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBQeXVFaGY2ZktvaXNIeW5wRk9VRzh0WXQwZ0otTHEwLUN4bnlETE04dm1iZUxLQkNKNFZUdVJ1MkhjTVFvZ1VRWmVwMlZDTk9aQ0hFT3N0S2FOXzN2NVJuMHNOMkZHN3lIa2s0?oc=5",
+   "category": "",
+   "date": "2026-10-28T05:46:40.000Z",
+   "snippet": "",
+   "district": "將軍區",
+   "lat": 23.1943,
+   "lng": 120.1616,
+   "firstSeen": "2026-11-04T01:31:34.793Z",
+   "story": "df16a0944ac2"
+  },
+  {
    "id": "6f4b87ec51f9",
    "title": "7800萬打造沿海救災新地標！ 台南將軍消防新廳舍啟用",
    "source": "ETtoday新聞雲",
@@ -1518,6 +1666,20 @@
    "lng": 120.1872,
    "firstSeen": "2026-10-28T00:36:39.187Z",
    "story": "b80d1bbe58e9"
+  },
+  {
+   "id": "dd5d49d34e45",
+   "title": "打造六都首座整合場域 台南斥資8715萬建家庭教育暨學生輔導中心",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE43cFZQNWs2MlVqUVd1TXU1MVlnd3EtT2tSd0doYWlwSUJ4TTdCaFFoZEF1Z3pISFRseFJ0emtWNkZTZHFOOHg3OW1sWTMzRU5K0gFWQVVfeXFMTWhZR2t1RGV4M2tnQ1ItY1U1Q2ZCVm0xWXB1LXFyaWZEbDA0Z2dvSWhVRE02dy1OZnNzdE1YOTJMeVJZb0xTUHpGb3FCV0FwaWRVOFF0eUE?oc=5",
+   "category": "",
+   "date": "2026-10-26T07:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-04T01:31:34.793Z",
+   "story": "dd5d49d34e45"
   },
   {
    "id": "3f7a3ce97b4a",
@@ -15680,7 +15842,7 @@
    "district": "東區",
    "lat": 22.9809,
    "lng": 120.2153,
-   "story": "fdf8c8c2cc7b"
+   "story": "e5f2803264e7"
   },
   {
    "id": "787d43a5f89f",
@@ -16252,7 +16414,7 @@
    "district": "東區",
    "lat": 22.9759,
    "lng": 120.2291,
-   "story": "fdf8c8c2cc7b"
+   "story": "b46eb8d0cd96"
   },
   {
    "id": "1c7a99bfc727",
@@ -16356,7 +16518,7 @@
    "district": "東區",
    "lat": 22.9709,
    "lng": 120.2197,
-   "story": "fdf8c8c2cc7b"
+   "story": "b46eb8d0cd96"
   },
   {
    "id": "6e89adfda211",
@@ -16382,7 +16544,7 @@
    "district": "東區",
    "lat": 22.9733,
    "lng": 120.2197,
-   "story": "fdf8c8c2cc7b"
+   "story": "b46eb8d0cd96"
   },
   {
    "id": "2545913c2f1d",
@@ -16435,162 +16597,6 @@
    "lat": "",
    "lng": "",
    "story": "02c9c5bd23a1"
-  },
-  {
-   "id": "43ad2af208f2",
-   "title": "台南溪北有望迎來首條捷運 橘線擬串聯佳里、善化銜接深綠線",
-   "source": "好房網News",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB1RUVhOEhwWGNrMWZCdXVQdjczTWJqdmN1Y2ppREZncVNtdzVHSjBuQ2lQVzE1OHZHM3BlV1dJaXUweEdNOXNUOEMyM0NRRDR5cHR6LVhwcXB5bkJ3WTQ1S2N1M2ZuMVJQUDBOVldYYznSAXBBVV95cUxQdUVFYThIcFhjazFmQnV1UHY3M01ianZjdWNqaURGZ3FTbXc1R0owbkNpUFcxNTh2RzNwZVdXSWl1MHhHTTlzVDhDMjNDUUQ0eXB0ei1YcHFweW5Cd1k0NUtjdTNmbjFSUFAwTlZXWGM5?oc=5",
-   "category": "",
-   "date": "2026-08-03T10:26:00.000Z",
-   "snippet": "",
-   "district": "佳里區",
-   "lat": 23.1644,
-   "lng": 120.162,
-   "story": "43ad2af208f2"
-  },
-  {
-   "id": "e12199e37d2e",
-   "title": "台南治水工程再創佳績！「2026國家卓越建設獎」榮獲1金4優肯定",
-   "source": "新媒體經紀人",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9vcGxiYk5ydGQ5ZWU5YlQ5MkZPam5fSTNVTFBaRnRSNWN2dlJuOC0wQmh5RXlkYmdNVXlYYWpudWFYb3RVRFJlZVNidTJ5VFpBbkppNXBGczNzYXpCOFBfeEV3?oc=5",
-   "category": "",
-   "date": "2026-08-03T10:23:50.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "e12199e37d2e"
-  },
-  {
-   "id": "8e468205458b",
-   "title": "台南捷運藍線將動工 信義房屋專家這樣看沿線房價",
-   "source": "PChome Online 新聞",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUHhUSFpnRnpYa3J3NXdTaFZlTEd6d2U4Rkpfekgtc3NUVzVVS2tjWkpXU1RWZmVicDFJNW4tbkUxUVdJNUJtNmhkcnRKQkN4RzVhVWNxUHFXaHNpTUtFMWNIT2F3VUpIdFBVYk1mYXgzNVdWOGwxOVQ2a3EzQlNVRG9vczM?oc=5",
-   "category": "新建設",
-   "date": "2026-08-03T07:27:08.000Z",
-   "snippet": "",
-   "district": "東區",
-   "lat": 22.9861,
-   "lng": 120.1951,
-   "story": "fdf8c8c2cc7b"
-  },
-  {
-   "id": "453f97eb80c0",
-   "title": "六都最後拼圖到位！台南捷運藍線將動工 信義房屋：平實營區站穩6字頭",
-   "source": "Yahoo新聞",
-   "url": "https://news.google.com/rss/articles/CBMiugVBVV95cUxQM0R4cllJd0EyYXBReWtKT1I4VXpzSXdHR0hfMEhDblZMVDJKcGdNeFoxZVJTMjlDWDE1VTlxWUd6WVQ5REFKbmRqWlhIaEdGWkdXODBsVGtKWXlqUzYxcEJBYlpyQXNIbDRUcFlmR2dHZU1OQlJuQk5sNUpZd2xUeEI0YmpjU1RQaGpYZWFmYlU2bVVSMEgxdTVVRXg0akxYZ3g5V1A5Tk9aVTlVWHJaR20wZV81WHkteHlzNVNqenRQYmUwOE0tRE1kV1VjRXA4Wjk2YVZyREFmVVM2Wk1GN3c4RXFIZjlNOThQYTMzTUZET3Bqb0V3Ym50UlgzelFlNUt1ckUtTlBxalgtV1l1S1dNdkZvelJZUTBVa3JxRkhFcHZFQUtSTEI3QzBaLXltSVpaTkdPR3IzZjNONjZhTmFQM2o1aTNGRXA3WGY0b2ZpcjhMa2dWa282SXAtOGc0b0lrRzg5eUtrLUVtbHE3czNkVGRwVm8zVkpDaTQ4a185cElEazlvSWFZbkZfenBwRTRSYmVrWm1mcExNcTlHTmdxMkJJcGpUUFU3ODBIZVgyUWtxMC12ZmJNaFFzUGMzMjljX0JReXZmUTgwSGNiTHByNDZlQmxjU3pwbURFaTlRUE5ISkNDdVNyNmdfQW9mcFhmMWlldTFrb29LQTBnQUxVUGlaX1pWSFUzQXNMbXhDUk1fNmVPT0JiT1dDYy1PMnJrRmxzRGdXUmJ0RmVsdzA4TS02Zi1ndm5YVzF2SHB3aEFTVi1GLWlXNnZGNGkybFp6d1ByanllYmVJckdkMDY1R19TVlFWTFpya2Fkc0tzMG9JNDh0dEFLeHNORkNtRmxVYUhpZTBSSUhNRHJ2UHZTU2hNQlZxOU9fY1ZSbmRnLV8xbDBaSk1RWTZLU3lsYmFWTlZ3VUUzUQ?oc=5",
-   "category": "新建設",
-   "date": "2026-08-03T07:03:00.000Z",
-   "snippet": "",
-   "district": "東區",
-   "lat": 22.9811,
-   "lng": 120.2337,
-   "story": "fdf8c8c2cc7b"
-  },
-  {
-   "id": "a7f6728ea703",
-   "title": "紓解鬧區停車位難求台南佳里立體停車場最快明年動工",
-   "source": "UDN",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0zaWU2WnFTdWNCV2NpVWRoQUpGQmU0RFN2T0VqOWM3RjFwcGdBN2x1dnpLN3FkVngwaS1DS3B5Z0lJLUYzUHRoNXZFMW9Oai1m?oc=5",
-   "category": "新建設",
-   "date": "2026-08-03T07:00:00.000Z",
-   "snippet": "",
-   "district": "佳里區",
-   "lat": 23.1752,
-   "lng": 120.1638,
-   "story": "a7f6728ea703"
-  },
-  {
-   "id": "5987c1448837",
-   "title": "台南捷運藍線將動工信義房屋專家分析沿線十站房價",
-   "source": "中時新聞網",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5kNVJTLXNBZmxDSmtsbXFEVU5sR1ZLNEhBdE83cndHZ19sZThaSVZ6NFBiVmFUNEhWSXlyV19KLTR2dU51bm8wX1JDbDZCS1JEbldpNW5SLW9ad0dXX2wyTDZpSHpSRjN0YmljRTNn?oc=5",
-   "category": "新建設",
-   "date": "2026-08-03T07:00:00.000Z",
-   "snippet": "",
-   "district": "東區",
-   "lat": 22.9765,
-   "lng": 120.2023,
-   "story": "fdf8c8c2cc7b"
-  },
-  {
-   "id": "996a64fb352e",
-   "title": "台南佳里區市中心增設立體停車場預計明年初動工",
-   "source": "自由時報",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5iX0lPckVTdEU2aDhjbUpKd2pDcm5JVVJaeGVrVEdsUXk1NlUtV1hGcUdSNEJRVV9HRUdQXzc3LVpmNzBGZ1psQzZBZERzb3hpbHlfTENQTmdBdjNyYTE5NkZ3QUY?oc=5",
-   "category": "新建設",
-   "date": "2026-08-03T07:00:00.000Z",
-   "snippet": "",
-   "district": "佳里區",
-   "lat": 23.1742,
-   "lng": 120.1506,
-   "story": "996a64fb352e"
-  },
-  {
-   "id": "fdf8c8c2cc7b",
-   "title": "台南捷運藍線將動工 平實營區房價站穩6字頭",
-   "source": "經濟日報",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE13V1dUdDB5c0h6SUY1cG1hWUlxSmNpb3pLZV9mV0FaR1BQWkk2aG45b3NOZXo5UkdSWGc0R3FTRjhSLWhMX2dsRU5WTkRzUXNXdWRuRGp4UEU0SjVpeGJlMEtaS3A3MU1GNzlMaTd0ZVVUN0RMbjJyQjZkc3dtd9IBYEFVX3lxTE50dVBXMTBycFROLUppV05IZE9pUGl2bVdjMi15dWdpeDdPd2VDR19rUlIxb05NTDZIVmh5WHZtckEyUHRTX2N5VE9EN2tlTWxydzdDdXIxYUJRaGlqMnh4Mg?oc=5",
-   "category": "新建設",
-   "date": "2026-08-03T03:00:47.000Z",
-   "snippet": "",
-   "district": "東區",
-   "lat": 22.9881,
-   "lng": 120.2277,
-   "story": "fdf8c8c2cc7b"
-  },
-  {
-   "id": "9567e40ef75b",
-   "title": "台南米其林推薦燒肉北上！㕩肉舖推親民定食 日本和牛丼300元有找",
-   "source": "鏡新聞",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE82VzhxaUlZcndrcDRVVk5ZcWNvNFpGQmk1ai1GamstRzBfeUd1T0hpN0lLOTNXbXdtd0hwWGhjcEtxX0cyYVpETnV5QjRBQmstQnBJVFgzeXHSAV5BVV95cUxNcTRKRTR4eXo4NTNGbTZTb3VNM2R3Y081eERtWk5WZWI4Y1lPQ1h4M19RaDRsQWdRbDB4dFdSc1VrdG1yaVVLN2J0Sjlkc0ZUaEhXam5tbmxKYnZtUG1R?oc=5",
-   "category": "",
-   "date": "2026-08-03T00:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "9567e40ef75b"
-  },
-  {
-   "id": "f0ca78cc4764",
-   "title": "北中南５間即將開幕百貨！台南三井OUTLET二期「這天」試營運，新增50家店舖",
-   "source": "食尚玩家",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ya252WFROV1ZPaTB6STNWY0l3aVBxZlVyZnBqaTBhTjU2YU5DUUFuMDJpZWZlQlBWak5jVFQ5b1ZzdG5VZm14TjRnOHZBN3RuRHhpZdIBWkFVX3lxTE9pNHpYam8zeHhlVFM3X3JRSV9xT0RWWGh1Y0ZoSnZXbjhEck8zZnAzQkxXd0N5eGZBdF9EaUthb0FkVmNCRktXN3dBM0NneWN6cDk3Sm5YWmlEQQ?oc=5",
-   "category": "新開店",
-   "date": "2026-08-02T11:37:10.000Z",
-   "snippet": "",
-   "district": "歸仁區",
-   "lat": 22.9752,
-   "lng": 120.3017,
-   "story": "f0ca78cc4764"
-  },
-  {
-   "id": "59a06a31c630",
-   "title": "台南表揚52位模範父親 百歲郭坤榮曾參加水庫興建、偏鄉送電",
-   "source": "tw.news.yahoo.com",
-   "url": "https://news.google.com/rss/articles/CBMihANBVV95cUxPWUJIV0hBekxZQ1FXOWtGbXNOTzFKTWFNUHRIenprQXhJV3Y4cXhTR3F6Y2dPVzhzYXBEOFpmRUM4LXdvNmxkUDNqbDU3UnlEZllCblBEYjZmQVd2VDNTblRhanlOZGMyTWxoZjk0bVVvUm9iS2hINjdtQTAwMFdaajdoMG1MUkI2aTNFeXJ6cXhyVjZublVwNm5xOXFJSUU1ZXZybGg3Q3NydEx1akRhVW1EZ2xSSEF4V3NqN0hFM21fM3dFRGlvV2puRElFcE0zaW00aFdKYk5tcVBpdjFBZnFmQXVjQWdhQ2Q4cVFfMzF2ZGc3TWhRZXBfU3luWkNZYm1rWE9DY0FRWlNfX1FyaHBfSmRwZUw2TEhJSm1QQ29wcDZ6cVF2S1lVdFJ4NHJKQkZCaFl6NUtoZWRjTms3WHNjWkthcnEwSTBBTzE2U3dJUGxxcjRCSl9IYWl6VVhNc3hINElhNXg1NUZJb2JyV3JicGN0RllKSWM3dlNnTUlHQXl1?oc=5",
-   "category": "新建設",
-   "date": "2026-08-02T03:29:29.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "59a06a31c630"
-  },
-  {
-   "id": "b6f643aaad8f",
-   "title": "台南刑務所古蹟 變身泉劇場啟用",
-   "source": "中華新聞雲／中華日報",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94UFhZeWlVUG9ES00yX2Y5d0JqSTRveE85SW5xNmREcGQ3YXNjb0RLRW1oQjFjb004aWRyc2M3bWxyRlVMUG9FdW53R3g0REF5LVE?oc=5",
-   "category": "新開店",
-   "date": "2026-08-01T12:26:27.000Z",
-   "snippet": "",
-   "district": "中西區",
-   "lat": 22.9835,
-   "lng": 120.1856,
-   "story": "b6f643aaad8f"
   }
  ]
 }
