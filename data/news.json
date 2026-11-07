@@ -1,20 +1,118 @@
 {
- "lastFetched": "2026-11-06T01:41:08.570Z",
+ "lastFetched": "2026-11-07T01:00:17.690Z",
  "addedLastRun": [
-  "7b5bfe3cfd45",
-  "b9fa1a9af14a",
-  "f8a16262637d",
-  "e084b94a22df",
-  "563af65038be",
-  "068019b31613",
-  "0bd7498ec75e",
-  "bec5ef4d6779",
-  "655cc65b7d9d",
-  "6a18fca6fc18",
-  "fd0c772f6c5b",
-  "89881ca06ff4"
+  "bea478377254",
+  "87d5dbccbb42",
+  "07d55977147c",
+  "be7e437690ff",
+  "46f8acbd403e",
+  "6a3adfb7b5a5",
+  "c49eccfc98c1",
+  "ab5cf22d9246",
+  "94f8ffbec40f",
+  "bfaeef2a3d1c",
+  "a56450aa1a66",
+  "d9d5719752fe"
  ],
  "news": [
+  {
+   "id": "d9d5719752fe",
+   "title": "臺南仁德二期再生水促參案招商說明會登場！每日供水3.3萬噸 助攻沙崙產業發展",
+   "source": "民安救護車",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ZaG12NkpQZ001NWtXMzlKd0xmX0x0T3NIclgwTjlHS2VFbmJQRUd4MjRqUVRKcGJ0anE2YzBNbXhkX1ZxaFBTdl9EWjAxYmdyRHJwY3FhUm40azFPX0sta0k3Y0wweWE3NTNHT1dZV1hLUQ?oc=5",
+   "category": "",
+   "date": "2026-11-07T00:43:34.000Z",
+   "snippet": "",
+   "district": "仁德區",
+   "lat": 22.9684,
+   "lng": 120.2579,
+   "firstSeen": "2026-11-07T01:00:17.690Z",
+   "story": "d9d5719752fe"
+  },
+  {
+   "id": "87d5dbccbb42",
+   "title": "台南社宅從無到有 8年推動1.2萬戶",
+   "source": "自由時報",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0wNWxWcEdQZlRuRl9RNjRhaG1HTzZGV0dHM1NqTmdRcFg0ODJSNS1ua21EQjRJNFpCNzNreE45Q2tFTVhRS1BYQ1VPcEE0aW5SRkJHRlVmR29kZmvSAWBBVV95cUxQSDdDSWxvTGxiUUJBdzgtSjkzQ0ZXbXAyUEVQWmQ5Sm41eUNNOXNvak5TRWt1RG1MRWZ0UVBYZGRrTWxWemNNaGRIYWFhQTItNk4xSDhudW5fcEc3aFRJRlI?oc=5",
+   "category": "",
+   "date": "2026-11-06T21:30:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-07T01:00:17.690Z",
+   "story": "87d5dbccbb42"
+  },
+  {
+   "id": "46f8acbd403e",
+   "title": "宋芸樺手上這顆包太美！DELVAUX Brillant幾何紋理超美 台南新店曝光",
+   "source": "ETtoday新聞雲",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52ZG1YcWU0U2FuQUtBd0dDTHM0cWkzSG5ibTNlTEJSWFBoTlJiaGhQNVRLVzBGZHF6Q0JKaUdWSF9HaFZxV2t1S3VkM21kOGQ4Smc?oc=5",
+   "category": "新開店",
+   "date": "2026-11-06T14:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-07T01:00:17.690Z",
+   "story": "46f8acbd403e"
+  },
+  {
+   "id": "a56450aa1a66",
+   "title": "國道1號北外環交流道匝道段通車 黃偉哲：紓解永康交通壅塞",
+   "source": "臺南市政府全球資訊網",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Wb3d0bjhyMm1xMGVkR2R2bUlUUXVXOTlsTUhBLXdEVWhWUGhXZzVlbWsyOGhwQm9pYThkRTRlcEF5eGlvM0xNTnM3UUE5V050UVM2NlEwajRWNk9iV3FLdW9QUFBBSENybHQ1Yk9n?oc=5",
+   "category": "",
+   "date": "2026-11-06T13:43:24.000Z",
+   "snippet": "",
+   "district": "永康區",
+   "lat": 23.0267,
+   "lng": 120.2484,
+   "firstSeen": "2026-11-07T01:00:17.690Z",
+   "story": "a56450aa1a66"
+  },
+  {
+   "id": "94f8ffbec40f",
+   "title": "日月光將投資南科臺南園區 黃偉哲：強化先進封裝產業聚落 帶動臺南半導體發展",
+   "source": "民安救護車",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE05OVF1RTQxcHI2OHdkY3g4RnpRd2VhTVN4cm1zQ2trWGx5QVNlcTg3NzQ3R0VSSFZLU1JXMnZfZGJHZmRhQWlrWElhamtocGZLWmJSbkk0X0trQWFzRzVjRFdjRGV5MXpzR0J4c0lHVTU3QQ?oc=5",
+   "category": "新投資案",
+   "date": "2026-11-06T10:29:37.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0799,
+   "lng": 120.2834,
+   "firstSeen": "2026-11-07T01:00:17.690Z",
+   "story": "94f8ffbec40f"
+  },
+  {
+   "id": "ab5cf22d9246",
+   "title": "日月光斥資1,237億元擴產 南科臺南園區納入投資布局",
+   "source": "大成報",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9HZDVQUmJZSkItQTYzalVsZ1NBNEdjRXlBQTQ3QW1LWHdXWVluUVN1MjBPZXMwdGpma0ZEOVA0MTVjTWRSbXFITnRZUlVJTGp0NXZ2RXVRU1QyUHBmZllOb0Nrd2xjTGd3dE5tSmpvVl8?oc=5",
+   "category": "新投資案",
+   "date": "2026-11-06T10:24:08.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0705,
+   "lng": 120.2816,
+   "firstSeen": "2026-11-07T01:00:17.690Z",
+   "story": "ab5cf22d9246"
+  },
+  {
+   "id": "bea478377254",
+   "title": "全台前三季住宅使照量下滑，台南消退最明顯",
+   "source": "591新聞",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBkTjJCN3dnWjZVQUJLT3NSaXhib2ppSDZUb2owVHNqaGE4M0NUUmJyWlVoSjVzUzZmeUo5Z3FycXFQS0U5TEFSZHMwc0lPYU3SAU9BVV95cUxQZE4yQjd3Z1o2VUFCS09zUml4Ym9qaUg2VG9qMFRzamhhODNDVFJiclpVaEo1c1M2ZnlKOWdxcnFxUEtFOUxBUmRzMHNJT2FN?oc=5",
+   "category": "",
+   "date": "2026-11-06T01:47:09.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-07T01:00:17.690Z",
+   "story": "bea478377254"
+  },
   {
    "id": "6a18fca6fc18",
    "title": "擠身極重要位置 南科就業人口暴增！住宅市場超有撐？",
@@ -28,6 +126,34 @@
    "lng": 120.2776,
    "firstSeen": "2026-11-06T01:41:08.570Z",
    "story": "6a18fca6fc18"
+  },
+  {
+   "id": "07d55977147c",
+   "title": "全新公共空間亮相！台南仁德社區新地標 公園綠地同步開放",
+   "source": "Life 生活網",
+   "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxQLXJ4VXpQRG9GRWNRdmdnYkRUR1RzWHZMd3AwRFFkR3RYbDhIcmNIdjIxQXlnSXN6akpTZjdPZURiY09pOUxva1dyZWlXTldFaE1hYW5LV1dDYnVYMS1Da3R6Q0hrVnZIckw5YWY4ODZXb0R1TFN2cDlDY3VTWDhCNDRPenVtLTZVMm1rMUJCOGNBN0h1MDJnN28wRHdIX1oyRDEtRzVJUXZoSTVFdG9tZVFZMlJscWdOaklGY0RzdHN6R21PTmNtcXh3S0ExZU14NGhvZTVxcjU2c2NLdmROdGtoQk0zNXhHdEp2c0hva1JiSUhVQnNhWEZjZ3BCdGtmQTEwbndZcWoyb21ZLTFRMC14dHRpM1RSeS1BSjdaTEJVWFBQT3RVRHNYc1VSekcxSDFxbGdxTmpVUDhzcWtEWE1HOW03Ym9wa3g1OGJGclJ2Y2xybGtfdmlmWlY4N0c1cVd4QVl5TWRKUVlBWWVNYWtuNmU1Zw?oc=5",
+   "category": "",
+   "date": "2026-11-05T16:00:00.000Z",
+   "snippet": "",
+   "district": "仁德區",
+   "lat": 22.9694,
+   "lng": 120.2601,
+   "firstSeen": "2026-11-07T01:00:17.690Z",
+   "story": "07d55977147c"
+  },
+  {
+   "id": "be7e437690ff",
+   "title": "人行環境大升級！千萬改善通學環境 台南文化國小步道完工！",
+   "source": "Life 生活網",
+   "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxNTmlUTDRoaGxxZHJSWkFOcTUybWZ0ZU5BSlE4dmoyVXVTM0ZVSVZ3NkZpSl9hUGVUWTdXRXBhOHlFdC1sYjFIRUFyb2QzbEFxY3o1M0lJSGgxSXNzNlJDVVZVeWdVRVV2NkxGcTh6QUNqZTZPOXFzWVJtb1pFbjQ3TTh3UDZ6dlp0dTdBX3hKMEQ0VjNwaUZuX3E1aG9HQnk1Vk9rdU5UYTQtdlpCbE9zX0EwYjlWelBuYWdRUGtCa1hlY2VjMXZNU1VtRjBocGw3cS00Nm1tbW5SNVIxS1YzVXpLRDF5V29nVkF6UkJGaFNQbmVKYjk3c1g5c2k3ajVQQ3pyS1Z3UkRKRlB4eHRobHd2Y1cwVzlhV1BaYzhFaHExcEhiZzlBZWgyR3lDenItTEJTa1pHUXV5S0FLVXZHblNpTF9QaW1QREpTU1RWeHhHMElCYU1waXpiSTN0cHh1Z1Rkb2ludGRqa3VNd3ZzWFZRbnI3Zw?oc=5",
+   "category": "",
+   "date": "2026-11-05T16:00:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-07T01:00:17.690Z",
+   "story": "be7e437690ff"
   },
   {
    "id": "bec5ef4d6779",
@@ -84,6 +210,20 @@
    "lng": "",
    "firstSeen": "2026-11-06T01:41:08.570Z",
    "story": "563af65038be"
+  },
+  {
+   "id": "bfaeef2a3d1c",
+   "title": "南科4期沙崙園區要攻1奈米 吳誠文盼二階環評明年中完備",
+   "source": "自由財經",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBDNmRCWDQ2UkM4cVBsWFU4M1N3VmV1QVpzSHloTkhaT3pFY1dPd2o5MTZ4OEJpdTZFcWNkbEFYMmRZbFc2M1JXYXpLZkVVN1NROGZCd09EY2lwZU5iZlBB0gFkQVVfeXFMUG5DajczVjBXejR6UDQwY3VtTVIzYjZuRmlxaHY5SHpjZ0Jvak5DaWhxaHRRUjdVQ2R1M2RKTG9JdjN4MUtIZDJfQlo4RG5XNzRNTS1qZldvMThiSVJDNkM2RFpqUg?oc=5",
+   "category": "",
+   "date": "2026-11-05T08:26:15.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0767,
+   "lng": 120.2756,
+   "firstSeen": "2026-11-07T01:00:17.690Z",
+   "story": "bfaeef2a3d1c"
   },
   {
    "id": "e084b94a22df",
@@ -282,6 +422,20 @@
    "story": "1a8ce292a992"
   },
   {
+   "id": "c49eccfc98c1",
+   "title": "溫德姆酒店集團加速台灣多品牌布局四店簽約、雙品牌首度登台溫德姆花園與速8首度進駐台灣，攜手戴斯精選新據點串聯台中、台南與高雄",
+   "source": "蕃新聞",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5wMHJPVTlaUG8zQ28zVVRBRURCbUk2QU96TkI0cUI0VFZMZXZjNmdlWEdOT1hjZW92Ulo3RnM4SW1OYWJ0UzV2MUtTczZqcTdVUUE?oc=5",
+   "category": "新投資案",
+   "date": "2026-11-04T09:51:44.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-07T01:00:17.690Z",
+   "story": "c49eccfc98c1"
+  },
+  {
    "id": "191be023ea18",
    "title": "台南重大投資落實2564億元 黃偉哲：加速排除建廠行政障礙",
    "source": "UDN",
@@ -406,6 +560,20 @@
    "lng": 120.3016,
    "firstSeen": "2026-11-05T01:33:45.262Z",
    "story": "aadd99bf3daf"
+  },
+  {
+   "id": "6a3adfb7b5a5",
+   "title": "巨型卡比獸免費拍！台南新光三越16公尺精靈球耶誕樹領軍，快閃店、見面會全都不用錢",
+   "source": "WalkerLand 窩客島",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zWXE5VHlmVHBicUJOLXZ4OHB5ZzBqLURHVVdEZldwdklGOU1yTmhfRUttNmY0WV9XSl91SHZ2NFgyMXQ5U3hzVkZFeEphZnNxR2ZUVkJad1ZGZGEzeGc?oc=5",
+   "category": "新開店",
+   "date": "2026-11-04T02:30:00.000Z",
+   "snippet": "",
+   "district": "中西區",
+   "lat": 22.9993,
+   "lng": 120.2048,
+   "firstSeen": "2026-11-07T01:00:17.690Z",
+   "story": "6a3adfb7b5a5"
   },
   {
    "id": "daeac0534c72",
@@ -15821,7 +15989,7 @@
    "district": "中西區",
    "lat": 22.9979,
    "lng": 120.1942,
-   "story": "e480e5894666"
+   "story": "b695f6930c8c"
   },
   {
    "id": "3ed40214e25d",
@@ -16263,7 +16431,7 @@
    "district": "後壁區",
    "lat": 23.3601,
    "lng": 120.3719,
-   "story": "ee68cf7c15c2"
+   "story": "b4e735651d2d"
   },
   {
    "id": "e5f2803264e7",
@@ -16289,7 +16457,7 @@
    "district": "中西區",
    "lat": 22.9835,
    "lng": 120.1702,
-   "story": "e480e5894666"
+   "story": "b695f6930c8c"
   },
   {
    "id": "de9e0cc15ca9",
@@ -16315,7 +16483,7 @@
    "district": "中西區",
    "lat": 22.9829,
    "lng": 120.2028,
-   "story": "e480e5894666"
+   "story": "b695f6930c8c"
   },
   {
    "id": "3c3f578711ac",
@@ -16393,7 +16561,7 @@
    "district": "左鎮區",
    "lat": 23.0629,
    "lng": 120.4068,
-   "story": "3f2a2b3ff17d"
+   "story": "eec3e5e5585f"
   },
   {
    "id": "b695f6930c8c",
@@ -16406,7 +16574,7 @@
    "district": "中西區",
    "lat": 22.9923,
    "lng": 120.188,
-   "story": "e480e5894666"
+   "story": "b695f6930c8c"
   },
   {
    "id": "183d0dfb9a7d",
@@ -16472,162 +16640,6 @@
    "lat": "",
    "lng": "",
    "story": "9cecc33bd853"
-  },
-  {
-   "id": "baaebe99531f",
-   "title": "壽司郎台南首家DIGIRO試營運！生鮭魚2+1貫特價60元",
-   "source": "中華新聞雲／中華日報",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1HZURzMTNRNWR2NFdnX1FXQlJ0VGxrTXdtUmNDV0VKRHVlZHR3XzBaaWk3NmdtZ3BEQWEtT0FseHNGZWJraXZpN2tXWTRhMVRPbmc?oc=5",
-   "category": "新開店",
-   "date": "2026-08-07T07:00:00.000Z",
-   "snippet": "",
-   "district": "中西區",
-   "lat": 22.9957,
-   "lng": 120.199,
-   "story": "e480e5894666"
-  },
-  {
-   "id": "73705fde46c1",
-   "title": "壽司郎台南首家DIGIRO數位門市試營運 「生鮭魚2+1貫」特價60元",
-   "source": "ETtoday旅遊雲",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FeXp1NzNvMXZmMzByNW9lcEpwY2RmcWJCa0hlRjBDLXRja1hneG41Mmk0cDBjeTRMN2NOZDNtTVIyanVBZFQ1NURLRkxxM2pKNEhXdnNXSy1zd9IBT0FVX3lxTE5YdnNfVHhBUlJTNkthdTBiWWEtcmV4ZlBuMWRVNEN3Nm41cWtKUzVhOS13czhrUzNNcFlMV0s1SGMwQ0pxRUUtOVp6UjhQUzA?oc=5",
-   "category": "新開店",
-   "date": "2026-08-07T06:25:00.000Z",
-   "snippet": "",
-   "district": "中西區",
-   "lat": 22.9865,
-   "lng": 120.1696,
-   "story": "e480e5894666"
-  },
-  {
-   "id": "430bcf325518",
-   "title": "手機斷訊災情也能傳出去 台南青年進駐後壁打造備援通訊網",
-   "source": "Yahoo新聞",
-   "url": "https://news.google.com/rss/articles/CBMijANBVV95cUxNNy1qMGRQc0ZCZkxpYXhYSFhlNTVHc0dfNnZNbVM5VjBHUk1ZVlBNbmtDSlEtWlh6Z2NaUVhEZ3RGUFgyS2JhQTZtRG5zUTR5X2RPZFJDY3VpQ2NGbEt2TEhneDJmVE81Q1Z0b2pFczJRTk9IYnFZd18wMkRZeGRSRDJIYTFqVDBEc3lCQkc1SHV0bjlUdFdtZjlobXBQNDhaejNUT3R6NDQ2a2VOQ0QtTnhKRnNDS2cyZ2Y5Z3dmYlpybEladGhiMmZkaWNpSHVrWjhmSEFqeHZPOVFYaUJPbnVtOVRPNXpzX3ptOXV6cUFaX1dqay1NUEVZZmQwaXh0RnNLQlJjN19IbWRjTFlIbVlOQVNvVFg5dTNYSWtiN3h4RGtjS3pGTEp4ODlvZW5yai1Pd0drZjlSMW5RVW1tY2FBOXk4YlFwLXNaRWZXc2RxZDhKWXVQTTlFZEZ5bFhma3Q4Zk9sekNTZFo1N0JKcWxzLUd3R2pidjhrNDBlbUxwdWUtSjNjZWplUVY?oc=5",
-   "category": "新開店",
-   "date": "2026-08-07T06:19:00.000Z",
-   "snippet": "",
-   "district": "後壁區",
-   "lat": 23.3697,
-   "lng": 120.3537,
-   "story": "ee68cf7c15c2"
-  },
-  {
-   "id": "425f9838d516",
-   "title": "全國電子插旗台南仁德 開幕限定家電 9 折",
-   "source": "自由電子報3C科技",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9vRThfYU5CUDRoZnB2MWJUdjMzVUNySkpKWkpWWXIwa3NuRy1vbmN2U1dJU25tOGFVRzNWV095OGZzenpSM2tkQ2hIc3M?oc=5",
-   "category": "新開店",
-   "date": "2026-08-07T05:35:00.000Z",
-   "snippet": "",
-   "district": "仁德區",
-   "lat": 22.9706,
-   "lng": 120.2499,
-   "story": "425f9838d516"
-  },
-  {
-   "id": "265835645a4c",
-   "title": "壽司郎概念店登陸府城 用餐互動玩遊戲 新光三越台南新天地7日開幕",
-   "source": "壹蘋新聞網",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNekNZcHR0ZkhOSTJQdVVWN0NtQ0pvRXpka09QU2hhSnp4dFA2emZsYlNxQk1XTWZjcER4a21iZzVQa3IxNl9mcDI2NDQ0akZ4YkRaUDkzR3lmQndNeU9GWDRQNmlCZkFCNWlPOTBMN1RiSXFDUmNNdURXVUdXcVZQMVREN2c?oc=5",
-   "category": "新開店",
-   "date": "2026-08-07T04:30:00.000Z",
-   "snippet": "",
-   "district": "中西區",
-   "lat": 22.9991,
-   "lng": 120.1782,
-   "story": "265835645a4c"
-  },
-  {
-   "id": "3f2a2b3ff17d",
-   "title": "認識台南左鎮淺山第1站 「左鎮探探館」開幕",
-   "source": "自由時報",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4yMlY3bWI5MVZFZ1NDMjhQQWJyb1J5alRPTWdaRzRtdDRwVWU3RE52Y19fd19VY3hqWXk1X1gxYjNxYmZKZ09NMlcyUEFNRnZWLWoyLVZzSXdJS3dwTmVDcEJ1WDI?oc=5",
-   "category": "新開店",
-   "date": "2026-08-07T03:08:46.000Z",
-   "snippet": "",
-   "district": "左鎮區",
-   "lat": 23.0519,
-   "lng": 120.3932,
-   "story": "3f2a2b3ff17d"
-  },
-  {
-   "id": "ee68cf7c15c2",
-   "title": "手機斷訊也不怕！台南青年進駐後壁打造備援通訊網 災情照樣傳出去",
-   "source": "UDN",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE45VGJNYmhGaEhkUWFkQ3VtNjhjeFNaTEgzMTYta2lRTWp6SkJ6ZnJaS0ZFNWI2REx2czdBaU1BVWl4SnQzb3BGcTlhcmtLVFo00gFWQVVfeXFMT25WNlBMQWFWaVNTT0JZQWpYRlp6WGZpbEJud0hwNThXRmJMRlJidlFreUE1c3ZtamcyM1pQbG1WVXFrT1NLZzFmN04zRkF2MXpTeUdtZFE?oc=5",
-   "category": "新開店",
-   "date": "2026-08-07T01:15:58.000Z",
-   "snippet": "",
-   "district": "後壁區",
-   "lat": 23.3701,
-   "lng": 120.3657,
-   "story": "ee68cf7c15c2"
-  },
-  {
-   "id": "0926c1de397f",
-   "title": "從臭水溝到親水景點台南竹溪2期工程拚明年完工",
-   "source": "自由時報",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9OckRieDhJTUIyUzc2bHh1S2xJTFM4MU1HcEVxRlozMlVrdFZlLUswYWNTM2xIZVM0N0djWl9mTjB4NWVGTEREejFBTm9CMzhZalVvVkVlNHB0bVpEdDZoa0xjb3k?oc=5",
-   "category": "",
-   "date": "2026-08-07T00:23:33.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "0926c1de397f"
-  },
-  {
-   "id": "99a7f4b0eaff",
-   "title": "台南藝文新地標！明華園進駐戲巢藝術館延續近百年戲曲文化",
-   "source": "PChome Online 新聞",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPODBXMkV2YU9Cc3hHbW5NOVFuaXNZcXNYbkxPek9zakpyOWxFaXdob1ZRUWU5RUVZSTlOWEZPb2dZTXdzQXY5ck9YTDg4WmpybDl3clZibHV2WVJaOXhOX0hxN0lZUWNSX1oyelRkVVF3b3oyZDRTMGpWQWRBWjMwYkRaYnphU1B3WnpDag?oc=5",
-   "category": "新開店",
-   "date": "2026-08-07T00:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "99a7f4b0eaff"
-  },
-  {
-   "id": "d8eadd275229",
-   "title": "240元爽吃米其林燒肉！台南神級㕩肉舖聯名和牛十図進駐台北大安區，搶攻必吃美食清單。",
-   "source": "WalkerLand 窩客島",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5UeldrZkRGOWRUVVBpaDhuclNncm5YUHk0a3BwRTRmb1kwcUYtSzNXdGxVS0pTb1htUHRwMTFIaUhxSkFPRnYyTWt1TDBNWlYzNDZXdG1ScXQ2YzR2Snc?oc=5",
-   "category": "新開店",
-   "date": "2026-08-06T17:44:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "d8eadd275229"
-  },
-  {
-   "id": "40bdb0390cf6",
-   "title": "壽司郎DIGIRO南台灣首店插旗新光三越台南新天地8/7試營運祭鮭魚2+1貫60元",
-   "source": "風傳媒",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5kU1VIcmhmR2x2RmpIS1pzZkhFNGZ5MFNlT3pyM2duYmF3VF9IeVBLOXpteWhwcThWRDRaSkFpSXlKeTVvbXJkMEZDaGpmZw?oc=5",
-   "category": "新開店",
-   "date": "2026-08-06T10:43:00.000Z",
-   "snippet": "",
-   "district": "中西區",
-   "lat": 22.9909,
-   "lng": 120.1742,
-   "story": "e480e5894666"
-  },
-  {
-   "id": "e480e5894666",
-   "title": "台南首家DIGIRO數位迴轉壽司8月7日試營運 鮭魚2+1貫60元限時優惠登場",
-   "source": "Yahoo新聞",
-   "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxQVmM3Q0NGMmthQ0FITkRhM2dtNWFFNDJrbTg2SXd6Y3ZoMHZONGRTQ0tZcW5zUTdDWHV6LVFtX2JVZTFGUHZ5TXdSdzRsQWxPS1VWZE9kTXk0c29oOE9UMlgwWVZDaE9CazlQY0k4ZHY4cmVWUDd2U1IzVzZjeVJ5UEJVellwVnFuNDgwMXhsbXNMSURMdXFNaEMzd2tScEdiT3pPdlZGa0MyN0NjaGZKNVM0N0Z4NGpsLTJ3SkZhZnZKcnBUQjEySXd2cGxzNi1uR0JwaGVQNUt3Rk9DcjN3LW9Ya3VNSFg5RTA2TUk0aXdicW9TUWFIMy1WNTI4ZzR5bkJrS2dKY1Q4X2EwOW5qU0wwNTFlazczSGt4S1BySDRxRDNNLVVXalBkVHdsYUpNU3BpOU5sZGlIalQzQ0l0ZFVBbDhTc1JfR3dtYmNiclYwd2gwcDNxNC1RQ05ITDAyeVBvNEhtQlFQSkZaQXlSZkpuUFl1ZWtBUV9TWE5RdmJnd3RBR2tLcXNsWFZFWU1SdXc?oc=5",
-   "category": "新開店",
-   "date": "2026-08-06T10:28:59.000Z",
-   "snippet": "",
-   "district": "中西區",
-   "lat": 22.9871,
-   "lng": 120.1766,
-   "story": "e480e5894666"
   }
  ]
 }
