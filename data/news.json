@@ -1,20 +1,85 @@
 {
- "lastFetched": "2026-11-07T01:00:17.690Z",
+ "lastFetched": "2026-11-08T00:48:49.380Z",
  "addedLastRun": [
-  "bea478377254",
-  "87d5dbccbb42",
-  "07d55977147c",
-  "be7e437690ff",
-  "46f8acbd403e",
-  "6a3adfb7b5a5",
-  "c49eccfc98c1",
-  "ab5cf22d9246",
-  "94f8ffbec40f",
-  "bfaeef2a3d1c",
-  "a56450aa1a66",
-  "d9d5719752fe"
+  "9cb9a374a87c",
+  "b426e31de2df",
+  "128af4d83567",
+  "e0570dbc1a76",
+  "a21c819ddd2f",
+  "28fcd7f738e2",
+  "9b5421b96a29"
  ],
  "news": [
+  {
+   "id": "e0570dbc1a76",
+   "title": "日月光投資南科台南園區 強化先進封裝產業聚落 帶動台南半導體發展",
+   "source": "3kingtw.com",
+   "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFBxTlpOaFFnLU5QMFhrckRFM0x4QUNyWDVUeUFjS0ktU0pBZEYybkhlWUZtUG9fZlRRVzJxbC1n?oc=5",
+   "category": "新投資案",
+   "date": "2026-11-07T09:35:09.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0771,
+   "lng": 120.2974,
+   "firstSeen": "2026-11-08T00:48:49.380Z",
+   "story": "94f8ffbec40f"
+  },
+  {
+   "id": "b426e31de2df",
+   "title": "第23屆南方影展台南登場至15日 開幕片未來考古學取景吳園",
+   "source": "蕃新聞",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxTlZiMEZPRFkwRFM0Mks4TTROamJHQmhldXhrQzhER0duZE1XUTVaSnpyd0pXaHp0QlRBZkNRaDNOY2hMVTlvSHVETnZnVHNnU2c?oc=5",
+   "category": "新開店",
+   "date": "2026-11-07T06:40:22.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-08T00:48:49.380Z",
+   "story": "b426e31de2df"
+  },
+  {
+   "id": "128af4d83567",
+   "title": "AI與HPC需求升溫 日月光擴產布局南科高階封測",
+   "source": "自由財經",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBQRjMxMm5HODh1TGZNWm5jcUFsM1NjWDdYckhBSFpkXzdNX2I0M2V1SHVrZDVKVkFiLW9qbmdEYnJwQndKVk5kM0U4eXlzRHNoT18wQWNIN2U1aHBaR3BMSTcxMkzSAWRBVV95cUxQUEYzMTJuRzg4dUxmTVpuY3FBbDNTY1g3WHJIQUhaZF83TV9iNDNldUh1a2Q1SlZBYi1vam5nRGJycEJ3SlZOZDNFOHl5c0RzaE9fMEFjSDdlNWhwWkdwTEk3MTJM?oc=5",
+   "category": "",
+   "date": "2026-11-07T05:12:52.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0703,
+   "lng": 120.268,
+   "firstSeen": "2026-11-08T00:48:49.380Z",
+   "story": "128af4d83567"
+  },
+  {
+   "id": "28fcd7f738e2",
+   "title": "台南新站爆多處漏水、粉塵滿天飄、宿舍沒熱水 台鐵工會怒批：鐵道局把一推缺失留給台鐵收拾",
+   "source": "FTNN 新聞網",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBCRTdHTmFyZXdVRHIxcVE3bU4tYXl6UlVWakxJek4ycUQ0TmMtb2psTHoxcUdzaWV1R2prVWJCM0xncTJQcXRxLU5Vaw?oc=5",
+   "category": "",
+   "date": "2026-11-07T03:17:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-08T00:48:49.380Z",
+   "story": "28fcd7f738e2"
+  },
+  {
+   "id": "a21c819ddd2f",
+   "title": "日月光砸1237億元擴產南科 黃偉哲：強化台南先進封裝產業聚落",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9CQldsaVd5V1NPQWpheFhtZWFnYnUzdDJJUXFqaFhqak1tUGxaUC0yaFhuUjJiZl9yZ05NS2ExVHcxT2FGbklhTU04OHo1eHg10gFWQVVfeXFMTkprbmJtOUlvZzFoY01RT20wQy04cnRqSXIyM1hLOWlaRVMyQTVUWVlZVG1CN2VLekxNay1pWkZxN1ZUV0Q4dDJnWEJSMjM3SXg3Tlk2NHc?oc=5",
+   "category": "",
+   "date": "2026-11-07T01:47:15.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0855,
+   "lng": 120.2942,
+   "firstSeen": "2026-11-08T00:48:49.380Z",
+   "story": "a21c819ddd2f"
+  },
   {
    "id": "d9d5719752fe",
    "title": "臺南仁德二期再生水促參案招商說明會登場！每日供水3.3萬噸 助攻沙崙產業發展",
@@ -84,6 +149,20 @@
    "lng": 120.2834,
    "firstSeen": "2026-11-07T01:00:17.690Z",
    "story": "94f8ffbec40f"
+  },
+  {
+   "id": "9cb9a374a87c",
+   "title": "旅展台南館消費滿額抽好禮 串聯秋冬小旅行吸客",
+   "source": "NOWnews今日新聞",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBOdnJJUThXN0d6Y1hSMjNpYmxhSG5LRHAzcC1WTTlocU9MdU5KNm1hbDFPSWl0YVB3MENKUk9jbzFRNHNLRm1JSGktQm5tYnFhOVHSAVJBVV95cUxQTnZySVE4VzdHemNYUjIzaWJsYUhuS0RwM3AtVk05aHFPTHVOSjZtYWwxT0lpdGFQdzBDSlJPY28xUTRzS0ZtSUhpLUJubWJxYTlR?oc=5",
+   "category": "",
+   "date": "2026-11-06T10:27:21.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-08T00:48:49.380Z",
+   "story": "9cb9a374a87c"
   },
   {
    "id": "ab5cf22d9246",
@@ -238,6 +317,20 @@
    "lng": "",
    "firstSeen": "2026-11-06T01:41:08.570Z",
    "story": "e084b94a22df"
+  },
+  {
+   "id": "9b5421b96a29",
+   "title": "日月光豪砸1237億佈局高階封測 擴充楠梓、南科園區產能",
+   "source": "自由財經",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBlUUJFNDRybDF3RXhpUXhsVHpDYnN6RUppVWw3SE9zdVJ2dHFDOGJXRGNxTjd5cVM3bnhDb3diRzFxWWNJNmI1ZVdrVzdab3VHdklHZEJBRVBNS1U1X0xj0gFkQVVfeXFMUGRaZnBxXzk5eGl4dU5CZ25zdkRHZEJVWGY0dV95cHZwa2FfNFUxSVRqcVRZNmlMaFNXaTFkTng1dEloTnNMVjllb1plMjJsbHJ6WVB0UUVEYkxhZnZBRW9QS1Q5UA?oc=5",
+   "category": "",
+   "date": "2026-11-05T07:36:24.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0849,
+   "lng": 120.2866,
+   "firstSeen": "2026-11-08T00:48:49.380Z",
+   "story": "9b5421b96a29"
   },
   {
    "id": "563af65038be",
@@ -15989,7 +16082,7 @@
    "district": "中西區",
    "lat": 22.9979,
    "lng": 120.1942,
-   "story": "b695f6930c8c"
+   "story": "56d307dec5fa"
   },
   {
    "id": "3ed40214e25d",
@@ -16457,7 +16550,7 @@
    "district": "中西區",
    "lat": 22.9835,
    "lng": 120.1702,
-   "story": "b695f6930c8c"
+   "story": "56d307dec5fa"
   },
   {
    "id": "de9e0cc15ca9",
@@ -16483,7 +16576,7 @@
    "district": "中西區",
    "lat": 22.9829,
    "lng": 120.2028,
-   "story": "b695f6930c8c"
+   "story": "56d307dec5fa"
   },
   {
    "id": "3c3f578711ac",
@@ -16549,97 +16642,6 @@
    "lat": 22.9672,
    "lng": 120.2235,
    "story": "e71ee07c0d03"
-  },
-  {
-   "id": "eec3e5e5585f",
-   "title": "台南左鎮探探館開幕",
-   "source": "【飛揚新聞】",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE11VWl2QzVCdnQ4UG9BOVU3RGFPYkZXVHZTZHd6QW5Id3J6RUJJdm5ZVXZHbURjdGxSY0NlTXZKQ1c5blpNSzlqWDR5R0tZV3pXanc?oc=5",
-   "category": "新開店",
-   "date": "2026-08-07T09:33:58.000Z",
-   "snippet": "",
-   "district": "左鎮區",
-   "lat": 23.0629,
-   "lng": 120.4068,
-   "story": "eec3e5e5585f"
-  },
-  {
-   "id": "b695f6930c8c",
-   "title": "壽司郎台南首家「DIGIRO數位迴轉壽司」試營運 連續七天推出特價吸客",
-   "source": "today.line.me",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EN0ZRVzNmeDM4WlNFcncyU0V6c2RSNjdyTzQxWEhPdE9mcmhCTF9GRjE3c0o2TXZSTVJZeFhpaTFtaTVCQl9majVtbDVnc0JRaGxQN1hB?oc=5",
-   "category": "新開店",
-   "date": "2026-08-07T09:32:32.000Z",
-   "snippet": "",
-   "district": "中西區",
-   "lat": 22.9923,
-   "lng": 120.188,
-   "story": "b695f6930c8c"
-  },
-  {
-   "id": "183d0dfb9a7d",
-   "title": "中信台南養生村明年Q3啟用 月租4萬起「拎包入住」",
-   "source": "自由財經",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9tZXliTlJaV1dxVVo1Y1g0RmVucG1GLXNEMGpNbkVGUExSQ2hUUkV4MGpQOUh1YkFld1c3Q2dLam50Z0V1MllDcC1KM0hTNEF1ZjJ2cHNfM01CV19EWVl3?oc=5",
-   "category": "新開店",
-   "date": "2026-08-07T09:29:37.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "183d0dfb9a7d"
-  },
-  {
-   "id": "c69f5bd4802c",
-   "title": "落實淨零永續！台南完成202處充電站建置 第九批樁位正式啟用",
-   "source": "蕃新聞",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9yekh5UVZXNTk4T0ZDR1ZYdlo3TXJuMlYwc0ZXLU4xSVhXSFJSbGtDeF9YZkx3OGY4d2tNNXpyZldXampiMlc1YWxXNG1TUE5KNlE?oc=5",
-   "category": "新落成",
-   "date": "2026-08-07T08:35:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "c69f5bd4802c"
-  },
-  {
-   "id": "1d00bf65927d",
-   "title": "月繳4萬拎包入住！台壽台南養生村明年初落成 許舒博：下一步插旗台中、高雄",
-   "source": "news.cnyes.com",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNLXZ6QkxOcmlJUnZHQWdZTjJQajlScDU4UDZjcFVxMFNPS0xZWlppOWpWOVpTNTlpX0tKODBicUVZeEdmQnNMeGFPczBlejg?oc=5",
-   "category": "新落成",
-   "date": "2026-08-07T08:24:52.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "1d00bf65927d"
-  },
-  {
-   "id": "7514831f20aa",
-   "title": "壽司郎台南首家DIGIRO店型開幕！生鮭魚20元、玩遊戲送周邊，父親節啤酒88元",
-   "source": "食尚玩家",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16dHZGQjd2WGJzQm9YOXhNeGxBdDk1LWRVdldNUEY3QnN1bk9xN3JxdDRVWW5yZFpaOGJJd1pKZGF1bEQtbnJIZzdTTTdZTjlzQkc4R1JWWkJZd9IBWkFVX3lxTE16dHZGQjd2WGJzQm9YOXhNeGxBdDk1LWRVdldNUEY3QnN1bk9xN3JxdDRVWW5yZFpaOGJJd1pKZGF1bEQtbnJIZzdTTTdZTjlzQkc4R1JWWkJZdw?oc=5",
-   "category": "新開店",
-   "date": "2026-08-07T08:20:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "7514831f20aa"
-  },
-  {
-   "id": "9cecc33bd853",
-   "title": "壽司郎DIGIRO插旗台南！150吋巨幕點餐超吸睛 開幕優惠懶人包曝光",
-   "source": "Yahoo新聞",
-   "url": "https://news.google.com/rss/articles/CBMiggNBVV95cUxPY1hheUJkemZ0aWNGSEVpaE5xX0R1UGppRjdqRkN2UWpKSEtMMjJFQmV0MEh2YXV2NXA5djRlekswSHFPaFUxcmZ6VVFlNEhxM2xyYUZwbDVpRjRYN205YXpZb0NfQ2JHT0ItSm9namc0SHNITEJaRzBDUVp2SXNJTTkzSkpOaURSLXdXMWVobDNLaWlETHFRaVNyQ3duMnhxZENsbTNlRVZsZm1RR0lCMHFyWlA5T2xpRDMyRGdGUElxYkxWbk54VzhhQUtNdzlJeUR1Q29nTWY2U3pDQmFFa3ZuT2RGa0JwcTdjVnVrUl9BNnFZdFJFX29qQjRTNUNsZldrcHJmUUg4YU9JY3pMSFlEYXZNSWd3SUZ0elFta05WcGhSYW1qOGxnQWQ0OXBLQS1zdUFTWTc4OFNzY1ZfOTB4aHlScThRbDNnQm5PNVlOck5SazZKMmF5V3hlZjJLeXpDSmMtbjJQVWdRUFYycWZJV1FqcFpHRUhiaThDNi10UQ?oc=5",
-   "category": "新開店",
-   "date": "2026-08-07T07:36:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "9cecc33bd853"
   }
  ]
 }
