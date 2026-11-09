@@ -1,15 +1,70 @@
 {
- "lastFetched": "2026-11-08T00:48:49.380Z",
+ "lastFetched": "2026-11-09T01:03:37.819Z",
  "addedLastRun": [
-  "9cb9a374a87c",
-  "b426e31de2df",
-  "128af4d83567",
-  "e0570dbc1a76",
-  "a21c819ddd2f",
-  "28fcd7f738e2",
-  "9b5421b96a29"
+  "6ba6b9994cf5",
+  "0b1ef0b63351",
+  "5a75e5dfd9b9",
+  "9873da00d267",
+  "081a8852ace9",
+  "a25a45081f0b"
  ],
  "news": [
+  {
+   "id": "9873da00d267",
+   "title": "台積電助威 大台南科學園區成形 提供晶圓一哥3奈米擴廠",
+   "source": "經濟日報",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UZHVDTWI4dW1yUmlFNkdvQmFYTTQxLTlsM0xVMjJnYlNnMnJXdWtWcXItUjJaaUtuRm5aUlRHZnRfbGkwRnRURGFPTUdYZ3JoRHdXU0k2Z0VIUdIBX0FVX3lxTE51SGlHZGRTX2ExWFMwUGpoa0tUeGl4clpvcGl6MmMzUmlLSUg5V2N0YWt5NnJ4RmpxdkFsdi1fYzlIZGNCNmxzUFpucVF6aUFyN044NWpha3pyLWh4NnRF?oc=5",
+   "category": "新投資案",
+   "date": "2026-11-08T18:03:33.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0775,
+   "lng": 120.2934,
+   "firstSeen": "2026-11-09T01:03:37.819Z",
+   "story": "9873da00d267"
+  },
+  {
+   "id": "081a8852ace9",
+   "title": "南科產業科技創造兆元產值！臺南市民能否真正入帳經濟成果？",
+   "source": "記者爆料網",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9pTkF4RXN5alFTa2pSUnlVZURqakhBcnFCUGVmRVJGN2JSekoxLUlYS0VYUUR5N3lveXoxV0doOURNaVBaVHdiNjZEaktsUQ?oc=5",
+   "category": "",
+   "date": "2026-11-08T12:55:07.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0751,
+   "lng": 120.273,
+   "firstSeen": "2026-11-09T01:03:37.819Z",
+   "story": "081a8852ace9"
+  },
+  {
+   "id": "5a75e5dfd9b9",
+   "title": "「台南園區特A區」50公頃、台積興建3奈米廠明年上半年納入南科",
+   "source": "經濟日報",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBwU2d6R2t5NlBYaFk1a2pxRzAwZDMxWTZ3ak1BZE4xenc5SlM1Y0YweEdrLXlhS3VEWHM0Sy1ZV1lud29yalJIb0dyYWExZWZBZUVITUhpaWNUd9IBX0FVX3lxTE1ocXhwR1ZRVDN1dDFhOXFKM3BiOFI0Y2xPeXBQemlJbnZ5S2dZWUhVNHVpWExxb21NTnZsX3ZqM1h1MTVqX250ZnR2QjBPMVZ6VXNvdnE5MWFmX1JUamhV?oc=5",
+   "category": "新建設",
+   "date": "2026-11-08T10:39:53.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0817,
+   "lng": 120.2654,
+   "firstSeen": "2026-11-09T01:03:37.819Z",
+   "story": "5a75e5dfd9b9"
+  },
+  {
+   "id": "6ba6b9994cf5",
+   "title": "810部作品角逐南方獎！南方影展台南登場 開幕片拍進吳園",
+   "source": "ETtoday新聞雲",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1BOVpLYkFCSjBTRnZrTnZsbmU1VXBfRkJMYkN3elllRW5PZ2E5Nkt5MEJyOUhRaVhHUUhXQ3NJRF9pSFhnYnp3V2ZZcE5EaGxoajQ3Tl9ERGxRTzY2WUHSAUtBVV95cUxQLWVDNVE5c1FNV20xUmwwVDVzZ2RLOW14YkQzdG16czRCaWduZDAzd2FNeDZQbXFDT0pEUTV5WkZtcmZhdjJZVk5fQ3M?oc=5",
+   "category": "新開店",
+   "date": "2026-11-08T07:14:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-09T01:03:37.819Z",
+   "story": "6ba6b9994cf5"
+  },
   {
    "id": "e0570dbc1a76",
    "title": "日月光投資南科台南園區 強化先進封裝產業聚落 帶動台南半導體發展",
@@ -92,7 +147,7 @@
    "lat": 22.9684,
    "lng": 120.2579,
    "firstSeen": "2026-11-07T01:00:17.690Z",
-   "story": "d9d5719752fe"
+   "story": "a25a45081f0b"
   },
   {
    "id": "87d5dbccbb42",
@@ -135,6 +190,20 @@
    "lng": 120.2484,
    "firstSeen": "2026-11-07T01:00:17.690Z",
    "story": "a56450aa1a66"
+  },
+  {
+   "id": "a25a45081f0b",
+   "title": "臺南仁德二期再生水促參案招商 每日3.3萬噸產水量助攻沙崙產業發展",
+   "source": "台灣好新聞",
+   "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxOcGRFM01DWWtYNXlTSklYVWNrU3h3dnNYZVNjX0ZsQnVtQUhRb01TT1RkVHdBOFFDOE9RbVdudDdpeEFfemJsSnNFMUVfZnBQcldzMmE2UDdrVEJPbmR4UGdsYUZwTnNncnVsWU82cDctV25rQk5YVnJTOWh5MWNSYmJJTnp4SU1uOUYteXF0ZzU3bjdrMVFkNEhNT09yQmNiV0YtaTlEcUoycVhSUXJDcFExQ2dFZzNEYWY4a18tRmZBXzdzcWJnZTVhbzhwQ2p5bDNRRnVPMFJqLW5oNFBRcmQzbFFUR3B6cWtVTGVjV3JiSTJ3TkVfcTJsQkVvQmRNY19FYlY5Y3VwcEp4QzZTamttTUJqbUlOeG54Yl9KdzAwdmJzSVd4WnRPU0x1bmdZcE56WXZHazFJQlgzQy13WHBRRm50ZWI5MzBnbFpiUjJZYy0xcHFfbzFPRUEyNVhtZlBRVXVTYzhaaU5tbkxISDhNdUFUVnFhLVVrWlA2U1hReVBfY25mczZ6aS1uZ1J1azN2alg0RC1iX2J1bTBWNTB6VUxSWDVPOGhuRWtfa21Qdw?oc=5",
+   "category": "",
+   "date": "2026-11-06T13:21:36.000Z",
+   "snippet": "",
+   "district": "仁德區",
+   "lat": 22.9634,
+   "lng": 120.2507,
+   "firstSeen": "2026-11-09T01:03:37.819Z",
+   "story": "a25a45081f0b"
   },
   {
    "id": "94f8ffbec40f",
@@ -1143,6 +1212,20 @@
    "lng": "",
    "firstSeen": "2026-11-01T00:15:01.540Z",
    "story": "6706cae1886f"
+  },
+  {
+   "id": "0b1ef0b63351",
+   "title": "30年青春！台南新光三越中山店今熄燈 22:00最後送客",
+   "source": "東森新聞",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oR0hFZ1p0a2NHcVpZZ1U2bUp0T0lWQzNUTndsWTcxeDhENDVHVDgzUW12NnlIZDl0ZmpkNnE1TVU2MV9hUGY5MkU5NW81QW5oYmRqQg?oc=5",
+   "category": "",
+   "date": "2026-10-31T13:19:00.000Z",
+   "snippet": "",
+   "district": "中西區",
+   "lat": 22.9875,
+   "lng": 120.1786,
+   "firstSeen": "2026-11-09T01:03:37.819Z",
+   "story": "0b1ef0b63351"
   },
   {
    "id": "ddd191a38266",
@@ -16082,7 +16165,7 @@
    "district": "中西區",
    "lat": 22.9979,
    "lng": 120.1942,
-   "story": "56d307dec5fa"
+   "story": "787d43a5f89f"
   },
   {
    "id": "3ed40214e25d",
@@ -16550,7 +16633,7 @@
    "district": "中西區",
    "lat": 22.9835,
    "lng": 120.1702,
-   "story": "56d307dec5fa"
+   "story": "787d43a5f89f"
   },
   {
    "id": "de9e0cc15ca9",
@@ -16564,84 +16647,6 @@
    "lat": 22.9545,
    "lng": 120.1892,
    "story": "de9e0cc15ca9"
-  },
-  {
-   "id": "56d307dec5fa",
-   "title": "台南首家DIGIRO數位迴轉壽司登場 壽司郎插旗新光三越新天地",
-   "source": "蕃新聞",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE92ZEhIdEd1cmN3VzZXQnFRdjR5eGZwQlQwR2NYejNwazRNX0hJS29PVmJtMmF5eVY5UjNvbmxEbnowODJ4QlBuWGV4ZkJQU2llREE?oc=5",
-   "category": "",
-   "date": "2026-08-08T16:37:26.000Z",
-   "snippet": "",
-   "district": "中西區",
-   "lat": 22.9829,
-   "lng": 120.2028,
-   "story": "56d307dec5fa"
-  },
-  {
-   "id": "3c3f578711ac",
-   "title": "壽司郎生鮭魚買2送1、大腹鮪魚40元！台南首間「DIGIRO數位店」進駐 松葉蟹限時上桌",
-   "source": "LINE TODAY",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE81ek92bHZna1ZsVzNyS3VYMUlKQVZWczgtRW5hMFJoaHh0RTdMX2lhc2FTZnA4V0NfSHJWTFo4ZnNTMXlwRGZ2OXctVkF0X0d4YTA1eGhB?oc=5",
-   "category": "新開店",
-   "date": "2026-08-08T16:25:06.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "3c3f578711ac"
-  },
-  {
-   "id": "8e44f27a5b8a",
-   "title": "國際反射學盛會進駐台南 FJM雙年會串聯公益與全人關懷",
-   "source": "ETtoday新聞雲",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5RVndBRVYzaHRkUlBnNlRnd05XRmxjMzg0OExaYUc5aWgtT3V1bnZpWnhqRHZ6OVNiU0daUzNKQ1lJeDl4WlZpWFVGamN3akpGU2l1VnVWbW1KM1ltdGfSAUtBVV95cUxQS1RMbmgyWWI1bDNZX0RFbnFNVV9YbUsxU0FoSklPUS1Wem9wNldadXJ1eU1EYXJEX2J5Um1ISWhBVWZ3T3MtMEtmZWM?oc=5",
-   "category": "新開店",
-   "date": "2026-08-08T06:27:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "8e44f27a5b8a"
-  },
-  {
-   "id": "16c261e3ba44",
-   "title": "不怕斷訊！青年團進駐台南後壁 布建災時備援通訊網",
-   "source": "UDN",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zZlJ2QjNKejh5WXVIbGhTX0x0d21uUE1RcUNqMFQzX0Fxd2p6cmEweU1lV1MtTUt4dHFCaW12YjJBc3FPVVFmeU4yZndRcll5dm91QWJB0gFWQVVfeXFMTTNmUnZCM0p6OHlZdUhsaFNfTHR3bW5QTVFxQ2owVDNfQXF3anpyYTB5TWVXUy1NS3h0cUJpbXZiMkFzcU9VUWZ5TjJmd1FyWXl2b3VBYkE?oc=5",
-   "category": "新開店",
-   "date": "2026-08-07T16:12:10.000Z",
-   "snippet": "",
-   "district": "後壁區",
-   "lat": 23.3613,
-   "lng": 120.3701,
-   "story": "16c261e3ba44"
-  },
-  {
-   "id": "bc1f7f7bb3ed",
-   "title": "86年台南菜老字號「錦霞樓」升級旗艦店 南紡8月8日試營運",
-   "source": "主流傳媒",
-   "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE1tQlF5RnJjYy1VQUw1bEtGR1ZiUlh6TVBkOWRRc014ZnlBQVY5V1I2UFV3eGcyMWc4TExiLQ?oc=5",
-   "category": "新開店",
-   "date": "2026-08-07T11:03:14.000Z",
-   "snippet": "",
-   "district": "東區",
-   "lat": 22.9699,
-   "lng": 120.2301,
-   "story": "bc1f7f7bb3ed"
-  },
-  {
-   "id": "e71ee07c0d03",
-   "title": "全國電子台南仁德中山店開幕！限時5天指定家電9折 還有每日限量商品",
-   "source": "UDN",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5fU2t2UjNhYmdFR2ZVZnZadGFtTU9BcFNVREozVlZqRTdiVGZZTEhjS2RwM2hnTHE5QWlsRVQzTV81Um5sY2Z4SjdKLUVpMmotelZJczRB0gFWQVVfeXFMTl9Ta3ZSM2FiZ0VHZlVmdlp0YW1NT0FwU1VESjNWVmpFN2JUZllMSGNLZHAzaGdMcTlBaWxFVDNNXzVSbmxjZnhKN0otRWkyai16VklzNEE?oc=5",
-   "category": "新開店",
-   "date": "2026-08-07T09:59:48.000Z",
-   "snippet": "",
-   "district": "仁德區",
-   "lat": 22.9672,
-   "lng": 120.2235,
-   "story": "e71ee07c0d03"
   }
  ]
 }
