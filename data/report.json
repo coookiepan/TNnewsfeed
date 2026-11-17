@@ -1,14 +1,19 @@
 {
- "ranAt": "2026-11-16T01:14:09.466Z",
+ "ranAt": "2026-11-17T04:02:59.045Z",
  "sources": [
   {
    "name": "Google News",
-   "fetched": 130,
-   "errors": []
+   "fetched": 59,
+   "errors": [
+    "query「台南 開幕 OR 試營運 OR 新開」: HTTP 429",
+    "query「台南 設廠 OR 投資 OR 擴廠」: HTTP 429",
+    "query「台南 進駐 OR 展店 OR 首店」: HTTP 429",
+    "query「南科 擴廠 OR 投資 OR 動工」: HTTP 429"
+   ]
   },
   {
    "name": "PTT",
-   "fetched": 0,
+   "fetched": 3,
    "errors": []
   },
   {
@@ -22,17 +27,17 @@
    "name": "政府電子採購網",
    "fetched": 0,
    "errors": [
+    "listbydate 20261117: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
     "listbydate 20261116: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-    "listbydate 20261115: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-    "listbydate 20261114: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    "listbydate 20261115: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
    ]
   }
  ],
- "totalNew": 15,
+ "totalNew": 12,
  "totalAfterMerge": 1200,
  "pruned": 0,
  "districtBackfilled": 0,
- "stories": 986,
- "duplicatesMerged": 214,
- "withoutDistrict": 651
+ "stories": 981,
+ "duplicatesMerged": 219,
+ "withoutDistrict": 647
 }
