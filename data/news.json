@@ -1,24 +1,72 @@
 {
- "lastFetched": "2026-11-19T02:41:56.921Z",
+ "lastFetched": "2026-11-20T02:27:20.742Z",
  "addedLastRun": [
-  "5d4af55ae02e",
-  "f4c802b0e590",
-  "5b58b9cbfa8f",
-  "19cb0e382bd3",
-  "507a18d1f134",
-  "c91faad82ab3",
-  "58af38a6d2dd",
-  "0368f0fe4117",
-  "03e4681a4a95",
-  "636d28dac81b",
-  "b7b5003e5cfa",
-  "cda3e34db3e6",
-  "893eb0823b69",
-  "58e217a2b632",
-  "de495dcacf3b",
-  "d3be498fb806"
+  "acfe143e32cc",
+  "c34fa75840ce",
+  "b2abcc6f3f87",
+  "ab39e2dc8901",
+  "a21060896635",
+  "42f15f7c4f8d",
+  "75b76e18dfd8",
+  "45b59051b2d8"
  ],
  "news": [
+  {
+   "id": "42f15f7c4f8d",
+   "title": "歷經15次招標 台南北門永衡橋改建通車",
+   "source": "自由時報",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBBWTVHc1ZXNW1JSEVhT2N4aURVdWZsckc4RkxmT0RZVFdySXdXZ2Z1RUNELTh5RWdyLWRmVXlPZGVqOVI3SWpyNHFnVVgwcUZ4Y2p6UXNWNllHZnJ2aDN5Zjdud3PSAWpBVV95cUxOdVdMU1JvLV9kNXpUekNYakRUWEk2emw3RU5LRVEyWjlxZlloMkZ3Sl9ZRFlaSDBZcC1Obmd4NUtJdmNiZmJXMG9aM0x4emEwX0lpdGtURkljSFd3M0ZlanhSTExuWmgyTF9B?oc=5",
+   "category": "",
+   "date": "2026-11-19T08:32:27.000Z",
+   "snippet": "",
+   "district": "北門區",
+   "lat": 23.2622,
+   "lng": 120.1346,
+   "firstSeen": "2026-11-20T02:27:20.742Z",
+   "story": "42f15f7c4f8d"
+  },
+  {
+   "id": "45b59051b2d8",
+   "title": "科技大廠投資效益外溢！臺南餐飲旅宿迎新商機南科產業聚落帶動地方經濟升級",
+   "source": "經濟日報",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SdW5QSHJlR2FZNFVKTUZCSlQ0Z1pqcDB5WlhsRmYxY1hJV0Z4VllLclRMU2JQUXJUeUszM1ZKcExLMkw5cmRaNkJSMGRIeXJ4ejhVelV2NTdGQQ?oc=5",
+   "category": "新投資案",
+   "date": "2026-11-19T08:03:58.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0719,
+   "lng": 120.2922,
+   "firstSeen": "2026-11-20T02:27:20.742Z",
+   "story": "893eb0823b69"
+  },
+  {
+   "id": "ab39e2dc8901",
+   "title": "炸油缺貨潮恐衝擊台南小吃美食招牌 議員李宗霖籲公開資訊穩油價",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Qemx0VFl6MmplRC1fMHBmYXpTQ1hPN0tpMlNnM0dJcGtCNXlNQVR0SWNULWlmQkpObVN4dFMxOU1reWNjeUlTcGlRakxrQ1lj0gFWQVVfeXFMTXpZNUNmSnRHYmhzVmhWT2pDYS1ZMUpIdXUwQ1NjbEY3VE93TWxkdkhXU2VGWGIwZXYwVkxPbWd0V20zWGtnOWc0TUNWUTdxOTloLXMwQkE?oc=5",
+   "category": "",
+   "date": "2026-11-19T07:21:36.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-20T02:27:20.742Z",
+   "story": "ab39e2dc8901"
+  },
+  {
+   "id": "c34fa75840ce",
+   "title": "落實居住正義！ 台南社宅1.2萬戶興建規劃中",
+   "source": "台視全球資訊網",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA2TFRyZ0Nfc0NjSmxSRG5RUDFBN0FlbVBFWjhJZlJqR3hBT3hCV2ZKaEF6S0tUSjRQNkJDOHVCcEJvWFk4aWE2RlRNVW9SRmxZcHUzTDZLR1BuSmR6U0dodkFnZ2NSOU1PQUkyU2JqNUN1VWc3S0ZJcnpnYXY?oc=5",
+   "category": "新建設",
+   "date": "2026-11-19T02:51:43.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-20T02:27:20.742Z",
+   "story": "c34fa75840ce"
+  },
   {
    "id": "58af38a6d2dd",
    "title": "捧月租28萬進駐！王品台南「最美老宅店」明年熄燈 君綺醫美砸重金接棒",
@@ -101,7 +149,7 @@
    "lat": 23.0857,
    "lng": 120.2904,
    "firstSeen": "2026-11-19T02:41:56.921Z",
-   "story": "636d28dac81b"
+   "story": "b7b5003e5cfa"
   },
   {
    "id": "5d4af55ae02e",
@@ -171,7 +219,7 @@
    "lat": 23.0743,
    "lng": 120.2748,
    "firstSeen": "2026-11-19T02:41:56.921Z",
-   "story": "636d28dac81b"
+   "story": "b7b5003e5cfa"
   },
   {
    "id": "03e4681a4a95",
@@ -300,6 +348,20 @@
    "story": "487085758477"
   },
   {
+   "id": "75b76e18dfd8",
+   "title": "台南江家古厝修復97%！楠西災後重建有成 年底將完工！",
+   "source": "PChome Online 新聞",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTy1OLWYwZEJ2Y01rNmFjODFqd1pXM3lBNTdFd29iTjRkQ1pkZERNX01WN1o0dUExMWFHNE52Uzl1dWJ1TXB4aWV4bVVES18yTHIxeHdPLWRlblhJLVRHMUdmOVNlVElmYm9GVDFpeGFycno4WVF2WTkxbjFUbXR2V2ltNDFOU0pmblhkeA?oc=5",
+   "category": "",
+   "date": "2026-11-18T00:00:00.000Z",
+   "snippet": "",
+   "district": "楠西區",
+   "lat": 23.1758,
+   "lng": 120.4617,
+   "firstSeen": "2026-11-20T02:27:20.742Z",
+   "story": "75b76e18dfd8"
+  },
+  {
    "id": "0427839c25ea",
    "title": "台南水利與偏鄉醫療雙獲殊榮！黃信銓、劉孔安展現公務專業",
    "source": "PChome Online 新聞",
@@ -368,6 +430,20 @@
    "lng": 120.193,
    "firstSeen": "2026-11-18T02:59:39.151Z",
    "story": "273b94938988"
+  },
+  {
+   "id": "acfe143e32cc",
+   "title": "台南酒店13間推介｜新開幕/近車站/市中心/空中泳池/人均$195起",
+   "source": "香港01",
+   "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxNaEtpLUJ4MVZWelc3blFkd2FLNWxXV2hhWFpxalU0TjFsWk1uZ2xRQjd5aVZ4c191VTBDa1hPc2dXeG5oeldVTi1NWFVselFDdUp0cFJ3dHkwaVY4cGNaUXhZSFQ0b3JBU1lXZXo2SFI1XzA2cFVjS1RwT3Y2clQwQkxIdUJwS3hmeFZXczJDbS1BMDdDYWVhUUtibVJSMXBMTjBvS0tUWFUtdTV0T2E1Y01HbVptWElxLXdsZlhmS0RyTS11eXcwVk4tTnBkXzVhbVFnMDN3RTUtQ21NNmg5LWp1Z3lYVjFWc3pZMzVFR2FrY0d1YzZXYlNmaXlmY3hBdTlkU1JlRUtnTWhhbzJ3Qm9tYU45bmhCbzNpWVFoUlhfcG9meVhNTDNmLURvX0duTlB1VWlWS0IwdHF3S2ZKUGpEVTR6ejdnOGZkZG9iby1ibThiTi04Tll0REhjUDZzODRkZ2lsQ1pnS2JRc0FrbHNMbmxwNGxZM2JpYUxDZw?oc=5",
+   "category": "新開店",
+   "date": "2026-11-17T08:56:27.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-20T02:27:20.742Z",
+   "story": "acfe143e32cc"
   },
   {
    "id": "88c1a34441e7",
@@ -1252,6 +1328,20 @@
    "story": "6afbb155fad6"
   },
   {
+   "id": "b2abcc6f3f87",
+   "title": "黃偉哲參訪聲寶台南廠 聲寶累計投資台南逾66億元",
+   "source": "蕃新聞",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE00c2FWMHFhMXNLUms1NHY3WUxac1E2LUNuOTRTNmVqRktma29iT1RCeFloaTdQdTZTQkVYekRLWVcxdl9Xa2k4WHNscnJzMUVyTGc?oc=5",
+   "category": "新投資案",
+   "date": "2026-11-12T17:40:18.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-20T02:27:20.742Z",
+   "story": "c687b3743766"
+  },
+  {
    "id": "c269a13e890f",
    "title": "從智慧家電到銀髮經濟 聲寶集團深耕台南投資逾66億元",
    "source": "3kingtw.com",
@@ -1530,6 +1620,20 @@
    "lng": "",
    "firstSeen": "2026-11-12T02:21:32.512Z",
    "story": "daad304d3965"
+  },
+  {
+   "id": "a21060896635",
+   "title": "聲寶集團選擇台南設廠，背後考量是什麼？",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdTFiV3pQeGRqUEJsd1VzQnRsMHRqUGNERWdYSkt5b2g5UDNnWm55OWQyVTRqQUxVMEpHVk1RMW5rd2Vob0Rsa2xmMkF0RzB4c2JOTmNTcmx4LVhNU3RkWmI5SEVUSVpDZllNbF9Sd3Zlb3p2YUZkUmJsd2VqUjA4aVMyU3M5MWZfdEFiZjVpcDVWQnhmNE8wR1ZB?oc=5",
+   "category": "新投資案",
+   "date": "2026-11-11T21:32:47.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-20T02:27:20.742Z",
+   "story": "a21060896635"
   },
   {
    "id": "67bacbaf453a",
@@ -16677,115 +16781,6 @@
    "lng": "",
    "firstSeen": "2026-09-08T23:29:15.151Z",
    "story": "af5fa59fce25"
-  },
-  {
-   "id": "8908bd53f230",
-   "title": "台南、錢德勒締盟10周年！ 黃偉哲：台積電牽起半導體城市新合作",
-   "source": "ETtoday新聞雲",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jRE1zT0dQcF9JVVpuTnpPVjJzM1dKby1aelp4Zmt1QklTc3Ywc1VCZmpFYTA1NTZnYl85ZlVYS21rRmRfcGhjTlZaY1pSUTlVbENHdHVBVm54bW9iRmfSAUtBVV95cUxQQm1JemRfV3ZHaVlodWxGQkdadURlZ0NuQkVyWDZ2REFDSGdPeGp5VndjSUs0QUtfazFPTkVVd1kwS1hGTlJ3S1RvMG8?oc=5",
-   "category": "",
-   "date": "2026-09-01T01:52:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0781,
-   "lng": 120.2692,
-   "firstSeen": "2026-09-09T23:23:49.166Z",
-   "story": "8908bd53f230"
-  },
-  {
-   "id": "44567d248874",
-   "title": "台南安平港「海洋之心」的總投資額是多少？",
-   "source": "Bella.tw儂儂",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ051MkxNWnkzeVdURTUyeWdrVFZWZkFyemNJU0JVbG4ybnJLQ3RNWHdSbGFWRmtTcWI2cElDWTQ2RktlRno2a0xQQ0RraFlsa0JOdGNjTXhFd1cxVVZUY2pxalV6Ni1RS244S08xZkhUaEtlNzN6V0JRbl9PSFdZbjBLR2x4M1dGb0p0bTYyc1NIbFQ1eVh4YXF1MEpvSkVGVWVBWmk1c0I?oc=5",
-   "category": "新投資案",
-   "date": "2026-08-31T19:52:59.000Z",
-   "snippet": "",
-   "district": "安平區",
-   "lat": 23.0058,
-   "lng": 120.1443,
-   "story": "44567d248874"
-  },
-  {
-   "id": "ebc63fc7ad27",
-   "title": "美光6個半月啟用台南新廠 勞資爭議喊話發歷年最高績效獎金",
-   "source": "DIGITIMES",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBoX2FXSHRHZXU1Yi1wRGhiMkRMa25tazQyVGU5U1gwRW9LN254LTNndmNpRzlwWW8wblVkelJDRWlnbFZvM1U3NWoyS0pJVjR3U2Q0MWdXSW5zNDRXVnoycjFNbDlVczVYakxF?oc=5",
-   "category": "新開店",
-   "date": "2026-08-31T18:52:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "ebc63fc7ad27"
-  },
-  {
-   "id": "ddfdd6c9aa89",
-   "title": "拒絕拼湊式 台南佳里爭取大北門運動中心",
-   "source": "udn.com",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9EZVQ4elV4My1jTmx6azNfU0Y5Ym9kN19lOHp5YlBPWjNiQUpLSW5zNG8wNWl6aE15YjZFUFpGMG51RUxRcUpDZGQ3Rk5MYWZN0gFWQVVfeXFMTXZLRDQ0QWxDZ292TUJRdDBoYU9yeVdUWURpbmQ2WWk0V241WnE1b2kwd0JXcHpqVTV2VTJjWmxMZkdkeGd0T2R6bVRxNU1Fc3dmUWJqY0E?oc=5",
-   "category": "",
-   "date": "2026-08-31T16:02:03.000Z",
-   "snippet": "",
-   "district": "佳里區",
-   "lat": 23.1576,
-   "lng": 120.1474,
-   "firstSeen": "2026-09-08T23:29:15.151Z",
-   "story": "ddfdd6c9aa89"
-  },
-  {
-   "id": "cea692161576",
-   "title": "慶祝情誼邁入17年！荷蘭訪團拜會台南市",
-   "source": "PChome Online 新聞",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSzhCbENhaHdMajNiX2J4eXZEUkVPY3JYT2xJNVpXaGk4LWNuQTFNcElyZi1xVEFEd0gyejQ4VkJjXzFVRm5keDdCa1NhcjNEWVdOb2tRMEEzQmhnMFBBVGdzYWpENDJuSkItbndydFZjVDcwRmhKekY3WkVCY2hsWGViX3dQdmd1M29r?oc=5",
-   "category": "",
-   "date": "2026-08-31T13:40:01.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "firstSeen": "2026-09-08T23:29:15.151Z",
-   "story": "cea692161576"
-  },
-  {
-   "id": "4f58ed4e3ebf",
-   "title": "郭國文率財委會考察建設 爭取破10億治水經費 宣布南科跨溪大橋明年第三季開工",
-   "source": "LINE TODAY",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBUT0t2bFdXUG1WU3Q1c3d3cjdZS1dpU2pZTTRjRzBqUmNGMmNNajRoOS1uTjBuWXA1WXdLUnlxNm9NU3lFRHAyanlrSEZJdFNic0JYWXR3?oc=5",
-   "category": "新建設",
-   "date": "2026-08-31T11:40:39.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0695,
-   "lng": 120.2738,
-   "firstSeen": "2026-09-08T23:29:15.151Z",
-   "story": "4f58ed4e3ebf"
-  },
-  {
-   "id": "8986a1f56144",
-   "title": "臺南污水下水道普及率達30.09% 六都排名第4",
-   "source": "台灣好新聞",
-   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQNHZ6REpHaWZtTXFqWVhNUVBqTDBVbGt2MnR5SVY5MjJQdWFjdlAzel9OT0RTN25oQ1lRNENLcG9kSHRsa3BSR3pHUlVuWXIxcHpjSWljOGp2U0V4M3BwZjVyWXJwdUhtbHJ3dFRCa2dQeUNyVXJ6QkNMY2hFUndYNGowMDVpaHVyX28xbTZrR1NzdlRaOVhRaXQ3SDF0MEdxNnBjWG5tVEY2aHNZQUNoNVI3RXR2cW54TlVULUd4WXFNUmNoVkJOQnRFcDFhbnZzOTdtZkFOVGNtdklJYVFFbzNRUmp2dEs5elBEbkRxRGs5OWNENXc3cndhNUFYd3B2SjEyNXZLZTRjTTRpWDRYWE51RW9VaTRJNlktdGJB?oc=5",
-   "category": "",
-   "date": "2026-08-31T11:19:10.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "firstSeen": "2026-09-08T23:29:15.151Z",
-   "story": "8986a1f56144"
-  },
-  {
-   "id": "04d0d0e289fc",
-   "title": "南科跨曾文溪大橋確定明年第三季動工 工期約3年",
-   "source": "經濟日報",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4tYXJ6V2c2RFRGV0k3YUl0dFkzOTdPZW9wNkRmcWdsNm9weXZWV01pS0drVFIySldYZW9Yb0hpS3o2d2tzckRTSzhsblFBaC1SQUhMTGNBVGJ1THU0X2R30gFfQVVfeXFMTi1hcnpXZzZEVEZXSTdhSXR0WTM5N09lb3A2RGZxZ2w2b3B5dlZXTWlLR2tUUjJKV1hlb1hvSGlLejZ3a3NyRFNLOGxuUUFoLVJBSExMY0FUYnVMdTRfZHc?oc=5",
-   "category": "新建設",
-   "date": "2026-08-31T10:17:42.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0823,
-   "lng": 120.2868,
-   "story": "04d0d0e289fc"
   }
  ]
 }
