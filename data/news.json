@@ -1,22 +1,55 @@
 {
- "lastFetched": "2026-11-21T02:38:20.889Z",
+ "lastFetched": "2026-11-22T01:27:59.280Z",
  "addedLastRun": [
-  "252b58f8658f",
-  "e5a85be63383",
-  "cea323a56d94",
-  "4497b2f68005",
-  "82e48123d487",
-  "26e171349a43",
-  "70be861fb86c",
-  "ebbe8d798a41",
-  "e52dfae2ddf3",
-  "5a507fcde257",
-  "7fcf2d868f99",
-  "e10d52d30ae2",
-  "500ec74a5fdf",
-  "8903a77ac65a"
+  "6ce8abcf3785",
+  "83a5b1ef244b",
+  "e087290e359e",
+  "2bba21020566",
+  "6050322e5719"
  ],
  "news": [
+  {
+   "id": "83a5b1ef244b",
+   "title": "首屆虎頭埤「玩埤派對」熱鬧開幕 市長黃偉哲邀民眾享受台南秋日風情",
+   "source": "很角色時報",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fR0hfemMwT1ZkVlVMcTBHTjZOYWdndGI0a1FhRzI4MWJDd19sRjVKRFhFV25QSkRoejdINzRQYkloWmdmYU55SjVDOURlTFlN?oc=5",
+   "category": "新開店",
+   "date": "2026-11-21T06:00:01.000Z",
+   "snippet": "",
+   "district": "新化區",
+   "lat": 23.0427,
+   "lng": 120.3064,
+   "firstSeen": "2026-11-22T01:27:59.280Z",
+   "story": "83a5b1ef244b"
+  },
+  {
+   "id": "e087290e359e",
+   "title": "2026大台南國際旅展11月20日開幕 近190攤位黃偉哲開館",
+   "source": "蕃新聞",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GcllISWdnbFhCVlJ5dGNzMU1fRmlVRDE5VXVZSzRvakRrNmc3WFJ0ZEF0XzBOa0txZHBmTmZLZ3JJWWFTTUtMa3lVV1J0aWt1RHc?oc=5",
+   "category": "新開店",
+   "date": "2026-11-21T05:31:19.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-22T01:27:59.280Z",
+   "story": "e087290e359e"
+  },
+  {
+   "id": "6ce8abcf3785",
+   "title": "虎頭埤玩埤派對1121熱鬧開幕！湖畔精彩演出、音樂派對與林間療癒體驗一次玩",
+   "source": "台南旅遊網",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1GN0puSXRIX2JYeURsNkctUVNCTTVuR3AtMFRtM2NjYVVEWFF2eUNIeVZGZTBnRWJDdzhGd1dVQWhPMmxTS3NDNHlYUUwzYkxyaXhhMFlxOVBuRllYcjlvTFdPMA?oc=5",
+   "category": "新開店",
+   "date": "2026-11-21T05:06:28.000Z",
+   "snippet": "",
+   "district": "新化區",
+   "lat": 23.0343,
+   "lng": 120.3032,
+   "firstSeen": "2026-11-22T01:27:59.280Z",
+   "story": "6ce8abcf3785"
+  },
   {
    "id": "5a507fcde257",
    "title": "最高日賣800杯！台南人氣手搖「來日方茶」插旗台北，招牌400沫、分裝奶蓋超圈粉",
@@ -312,6 +345,20 @@
    "story": "cda3e34db3e6"
   },
   {
+   "id": "2bba21020566",
+   "title": "跟朗萌綺盟一起來台南安平開跑12米大山椒魚水上氣偶與夜間燈光秀亮點整理",
+   "source": "moonvoke.com",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNc1RULTVkcEEyOFRYUWpaNkxJYWRkcGxRUnlMU2cwblpHTEpFbnQwMDhtbS1HOV9COUJxWlAtM2tyZ0lDX2g4Z1Z2Tzd5Qy1hdTFoWnVwb3hvT3M3Qk5ZODNyQURYSWFmbGN3NHFkeUdUWGFwVUpiS3V2aEctY0pFc0tRaw?oc=5",
+   "category": "",
+   "date": "2026-11-18T21:07:18.000Z",
+   "snippet": "",
+   "district": "安平區",
+   "lat": 23.009,
+   "lng": 120.1561,
+   "firstSeen": "2026-11-22T01:27:59.280Z",
+   "story": "2bba21020566"
+  },
+  {
    "id": "636d28dac81b",
    "title": "南科大廠進駐效益外溢 台南餐飲旅宿服務業迎商機",
    "source": "3kingtw.com",
@@ -394,6 +441,20 @@
    "lng": 120.2143,
    "firstSeen": "2026-11-21T02:38:20.889Z",
    "story": "487085758477"
+  },
+  {
+   "id": "6050322e5719",
+   "title": "大廠進駐效益外溢 臺南餐飲旅宿服務業迎商機",
+   "source": "今傳媒 JNEWS",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53eF90V1lReUdoaFg5bmZDcWhkdkROdGVkVXZkTnJ4VFMwWTQ2c05uVGk4cGVsV21wTDVyTV9wTE96SW9HcG9aMm8zWGdFRnVBQ2tOWF93aHh5d9IBWkFVX3lxTE53eF90V1lReUdoaFg5bmZDcWhkdkROdGVkVXZkTnJ4VFMwWTQ2c05uVGk4cGVsV21wTDVyTV9wTE96SW9HcG9aMm8zWGdFRnVBQ2tOWF93aHh5dw?oc=5",
+   "category": "新開店",
+   "date": "2026-11-18T07:16:52.000Z",
+   "snippet": "",
+   "district": "新市區",
+   "lat": 23.0739,
+   "lng": 120.294,
+   "firstSeen": "2026-11-22T01:27:59.280Z",
+   "story": "b7b5003e5cfa"
   },
   {
    "id": "b7b5003e5cfa",
@@ -16491,7 +16552,7 @@
    "lat": 23.0709,
    "lng": 120.2652,
    "firstSeen": "2026-09-09T23:23:49.166Z",
-   "story": "2ad558bd6c64"
+   "story": "55a64179fcca"
   },
   {
    "id": "c94cc27d4e30",
@@ -16698,7 +16759,7 @@
    "lat": 23.0695,
    "lng": 120.2812,
    "firstSeen": "2026-09-08T23:29:15.151Z",
-   "story": "2ad558bd6c64"
+   "story": "55a64179fcca"
   },
   {
    "id": "f1d75e14a25d",
@@ -16725,76 +16786,6 @@
    "lat": 23.2293,
    "lng": 120.1528,
    "story": "fd01529eaa46"
-  },
-  {
-   "id": "05562be5fea1",
-   "title": "美國錢德勒市訪台南慶締盟十周年 黃偉哲盼再創交流新篇章",
-   "source": "蕃新聞",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9rZkoyOFpPbjlGOWkzQVVOXzhYNEJYeThlZmpBOGNRV1VuMUlpb0VWS3plRTlfSGpoZjBsR1BWZnpMUEpmLThlS1hfTklTTkdYb0E?oc=5",
-   "category": "",
-   "date": "2026-09-02T09:24:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "firstSeen": "2026-09-15T23:34:14.406Z",
-   "story": "05562be5fea1"
-  },
-  {
-   "id": "d069fe9b1f10",
-   "title": "「芯」勢力集結！南科攜手12家廠商進軍「2026國際半導體展」",
-   "source": "蕃新聞",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5pQk1Oc0d0cjNXS0VVYmhoSmhhUzkzbm1sM0xQWThBekpXeUw5aXd1VHlwUUpJSHZQMmRYQzg2VW1OaHhab3Z4LVBlZG5zZ2NCY3c?oc=5",
-   "category": "",
-   "date": "2026-09-02T08:48:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0783,
-   "lng": 120.2984,
-   "firstSeen": "2026-09-08T23:29:15.151Z",
-   "story": "2ad558bd6c64"
-  },
-  {
-   "id": "2ad558bd6c64",
-   "title": "南科「芯」勢力集結！攜12廠商進軍國際半導體展",
-   "source": "PChome Online 新聞",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSzZHVjhkNWNsSVhBUkdkUW1BXy1DNVNxS05TcnNQNVFOaDM2S2wxc3BDQldGT1BZa2RLSS03MXVrbm9xQ3ZJZU5GMERRZmNRbFdMeFRfLUtuSi1PQjJmeGpWLXJZN3RheUxNaFBCa0R2eUpoNzNFaXhkM1NYOW5QN1dQSjQ4SUFDakxBZHdKUQ?oc=5",
-   "category": "",
-   "date": "2026-09-02T07:00:00.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0737,
-   "lng": 120.2802,
-   "firstSeen": "2026-09-10T23:17:38.021Z",
-   "story": "2ad558bd6c64"
-  },
-  {
-   "id": "6d846b426234",
-   "title": "嘉義新開幕立吞生魚片店「第四生魚片。丼」主打生魚片/丼飯/握壽司/手捲，新鮮好吃又不貴！嘉義晚餐宵夜新選擇！",
-   "source": "台南女孩凱莉吃透透",
-   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBhdlZJcWo3cDV3NXlNbUZ2TkdWUGlYbml5bUVySDVfTkVFTVVZVEpERDNWVkYydVY1enUzZ1FUSVVvTC1QTklCRC1OOA?oc=5",
-   "category": "新開店",
-   "date": "2026-09-02T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "firstSeen": "2026-09-11T23:24:53.165Z",
-   "story": "6d846b426234"
-  },
-  {
-   "id": "649536f4fba2",
-   "title": "台南市安南區市議員候選人姚正玉2日完成參選登記",
-   "source": "news.pchome.com.tw",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQLWhFWWJqYzVXazF3NWZKeUJXekRzY2R2ck5VYVE4STE1OFFIUl9qVDUtcG9XQlB2UVFKWFBZdzBkWVFaVi1lNnkxZ25KMlJKR0t6Nktrb3VubXhfMWRLQUh2X3RqQmM5d3lBN3VDMzB6YzNKdUVXRi1GYUdQWnlSM29LanIwQlpVNlZhM1czMA?oc=5",
-   "category": "",
-   "date": "2026-09-02T07:00:00.000Z",
-   "snippet": "",
-   "district": "南區",
-   "lat": 22.9609,
-   "lng": 120.1806,
-   "firstSeen": "2026-09-13T23:16:26.043Z",
-   "story": "649536f4fba2"
   }
  ]
 }
