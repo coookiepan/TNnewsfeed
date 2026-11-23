@@ -1,13 +1,43 @@
 {
- "lastFetched": "2026-11-22T01:27:59.280Z",
+ "lastFetched": "2026-11-23T01:52:39.672Z",
  "addedLastRun": [
-  "6ce8abcf3785",
-  "83a5b1ef244b",
-  "e087290e359e",
-  "2bba21020566",
-  "6050322e5719"
+  "dbe680c78a95",
+  "5744c74aee81",
+  "982e80098d4a",
+  "474fc66032ce",
+  "a1501c22b653",
+  "2feee1231fe0",
+  "f63b3de3ec4d"
  ],
  "news": [
+  {
+   "id": "f63b3de3ec4d",
+   "title": "[新聞] 總爺藝文中心百年古蹟廠長宿舍再活化 春想咖啡開幕首日捐1日",
+   "source": "PTT Tainan板",
+   "url": "https://www.ptt.cc/bbs/Tainan/M.1795345232.A.CD7.html",
+   "category": "新開店",
+   "date": "2026-11-22T19:00:29.000Z",
+   "snippet": "總爺藝文中心百年古蹟廠長宿舍再活化 春想咖啡開幕首日捐1日所得 2026/11/22 18:26 記者劉婉君／台南報導 https://img.ltn.com.tw/Upload/news/600/2026/11/22/5649661_1_1.jpg 總爺藝文中心廠長宿舍古蹟建築空間再活化，由春想咖啡進駐。（記者劉婉君攝） 總爺藝文中心百年古蹟廠長宿舍空間再活化，今天（22日）以春想咖啡的面貌重新",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-23T01:52:39.672Z",
+   "story": "f63b3de3ec4d"
+  },
+  {
+   "id": "dbe680c78a95",
+   "title": "首屆虎頭埤「玩埤派對」開幕 黃偉哲邀民眾遊台南山線",
+   "source": "蕃新聞",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0yUzJSbGktek1Qa1Z1VXZfNTlGdjkyMmlaRG9DVlZhSExuYzJ3eUxmOF94OW04bG5Hd251ZmRmWXdQejNFMWg3bE5yVXI3WmpPa2c?oc=5",
+   "category": "新開店",
+   "date": "2026-11-22T05:11:47.000Z",
+   "snippet": "",
+   "district": "新化區",
+   "lat": 23.0413,
+   "lng": 120.2974,
+   "firstSeen": "2026-11-23T01:52:39.672Z",
+   "story": "83a5b1ef244b"
+  },
   {
    "id": "83a5b1ef244b",
    "title": "首屆虎頭埤「玩埤派對」熱鬧開幕 市長黃偉哲邀民眾享受台南秋日風情",
@@ -65,6 +95,20 @@
    "story": "5a507fcde257"
   },
   {
+   "id": "a1501c22b653",
+   "title": "陳亭妃政見發表會提出「3、4、5、6、7」市政藍圖打造台南37區均衡發展",
+   "source": "PChome Online 新聞",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPci1CR3N3dkFoN2sxeklxUFQxMmRvUE5Cc1N5cVlmWm5TMWdNVlZfUEtDVUlnTkVHbWFlRU5XMTQxMzV4cmItMVNpZzJ3NERHZGxlQnFORnZ0VTRUZUtvbGxxWmdoMENKYXdwV0NhUnRrdTF2amN5QzVHYzFZaDR1NkJ1U0haTE0yTDlFZVhWSQ?oc=5",
+   "category": "",
+   "date": "2026-11-20T15:25:41.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-23T01:52:39.672Z",
+   "story": "a1501c22b653"
+  },
+  {
    "id": "cea323a56d94",
    "title": "黃偉哲出席2026台南資訊月開幕 攜手產官學共創AI新時代",
    "source": "NOWnews今日新聞",
@@ -91,6 +135,20 @@
    "lng": 120.2009,
    "firstSeen": "2026-11-21T02:38:20.889Z",
    "story": "e52dfae2ddf3"
+  },
+  {
+   "id": "474fc66032ce",
+   "title": "陳亭妃「3、4、5、6、7」布局台南未來 科技三軸、五大觀光軸串聯37區",
+   "source": "風傳媒",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBQN3QxdlN0blVKeklyOVlNODMzRm1qdHMzdDRpQ01JbjM4REUxSk56Y09sOWl6VW1Hcjh6N2Q2TFBtVFRXTkZuYk00Z2Fpdw?oc=5",
+   "category": "",
+   "date": "2026-11-20T13:52:00.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-23T01:52:39.672Z",
+   "story": "474fc66032ce"
   },
   {
    "id": "e5a85be63383",
@@ -205,6 +263,20 @@
    "story": "4497b2f68005"
   },
   {
+   "id": "2feee1231fe0",
+   "title": "台南市2026年第2批地籍清理代為標售順利完成",
+   "source": "中時新聞網",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4eHNpSnJEWERwR3ZvNlhEQ1gzSmVQN21RRU5yQ0d4eGpfZEJoUG9IRm9OVmloajcxaktNbU9IakFsRmQ0blB6dmtCQWNpVnA2WV8wZ1JvQTNjb1RQMm9v?oc=5",
+   "category": "",
+   "date": "2026-11-20T01:43:48.000Z",
+   "snippet": "",
+   "district": "",
+   "lat": "",
+   "lng": "",
+   "firstSeen": "2026-11-23T01:52:39.672Z",
+   "story": "2feee1231fe0"
+  },
+  {
    "id": "42f15f7c4f8d",
    "title": "歷經15次招標 台南北門永衡橋改建通車",
    "source": "自由時報",
@@ -216,7 +288,7 @@
    "lat": 23.2622,
    "lng": 120.1346,
    "firstSeen": "2026-11-20T02:27:20.742Z",
-   "story": "42f15f7c4f8d"
+   "story": "5744c74aee81"
   },
   {
    "id": "45b59051b2d8",
@@ -231,6 +303,20 @@
    "lng": 120.2922,
    "firstSeen": "2026-11-20T02:27:20.742Z",
    "story": "893eb0823b69"
+  },
+  {
+   "id": "5744c74aee81",
+   "title": "台南北門永衡橋改建工程完工通車",
+   "source": "www.tynews.com.tw",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5kUmFJbmhiLUg1RlJtWVgtZ04wMll1ME4xS3JTWXlVcEFPeDc2TWhNX1loLWY1bDNqajEwUnk3RVVHeWxVeUI5bkpYQk1Jdko3QVNfUHVRcmpRaHFQYjdv?oc=5",
+   "category": "新建設",
+   "date": "2026-11-19T08:00:00.000Z",
+   "snippet": "",
+   "district": "北門區",
+   "lat": 23.2766,
+   "lng": 120.1186,
+   "firstSeen": "2026-11-23T01:52:39.672Z",
+   "story": "5744c74aee81"
   },
   {
    "id": "ab39e2dc8901",
@@ -329,6 +415,20 @@
    "lng": 120.2337,
    "firstSeen": "2026-11-19T02:41:56.921Z",
    "story": "58e217a2b632"
+  },
+  {
+   "id": "982e80098d4a",
+   "title": "寶可夢中心快閃店進駐台南新光三越！限定周邊、入店整理券與紀念獎牌領取攻略",
+   "source": "moonvoke.com",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQV193Sko4cVdPWkZqZ09ZU3kzRUkyWEpPTkJiaHJtc1BTeC15cV9QQ3JIbmhCbmwzZlJHYkZxUFpWWjF0YmlrQ1BlWkVQNWRLNkxpb3RBV1lVNlhacTNhMDFPem1zX2dadkt6VWVyOUprM0oyNUx0WGlXcTNjUzNXOF9BM1RwamZLMUJpWlZXRHpjbEIyVmlvY2lB?oc=5",
+   "category": "新開店",
+   "date": "2026-11-18T23:07:24.000Z",
+   "snippet": "",
+   "district": "中西區",
+   "lat": 22.9883,
+   "lng": 120.2032,
+   "firstSeen": "2026-11-23T01:52:39.672Z",
+   "story": "982e80098d4a"
   },
   {
    "id": "cda3e34db3e6",
@@ -16552,7 +16652,7 @@
    "lat": 23.0709,
    "lng": 120.2652,
    "firstSeen": "2026-09-09T23:23:49.166Z",
-   "story": "55a64179fcca"
+   "story": "79df74035c80"
   },
   {
    "id": "c94cc27d4e30",
@@ -16690,102 +16790,6 @@
    "lng": "",
    "firstSeen": "2026-09-08T23:29:15.151Z",
    "story": "865a92bee99f"
-  },
-  {
-   "id": "851fb378c8d6",
-   "title": "臺南市政府地政局「喜樹灣裡市地重劃工程｣導入自然解方，榮獲世界衛生組織健康城市聯盟創新成果獎",
-   "source": "n.yam.com",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Kby1adXkxYmZHSW9za2VqZW1TU3ljQkZBLTdnVnVEalJxSkZfd0tteko4aHhVNGZKOHNPMWw2N3N5TnQzQjJTLW92bXladjZpYnc?oc=5",
-   "category": "新建設",
-   "date": "2026-09-03T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "firstSeen": "2026-09-13T23:16:26.043Z",
-   "story": "851fb378c8d6"
-  },
-  {
-   "id": "9377ccc6d866",
-   "title": "開撕駙馬！陳幸妤婚變引爆「鍘美節」 台南人揪團辦桌看包公鎖定這一處",
-   "source": "三立新聞",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4ycnkxZzdvR2VKZ05MSE4zdlpqeDA2OS1WYko1amlDY2ZZMGZhalZxSVVwVG1kWGhXRHlVTjF3ZWRVaHBHalZSQ9IBTEFVX3lxTFBrRzUxTVFtdGlNaC1IanMwUVhMSjhSNTJraVBSaENORDBBS1pDaGFaRkNXWE85MVY3b3BleGN2Zmt1djNPSVlRamY2d0o?oc=5",
-   "category": "",
-   "date": "2026-09-03T07:00:00.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "firstSeen": "2026-09-15T23:34:14.406Z",
-   "story": "9377ccc6d866"
-  },
-  {
-   "id": "f71068617875",
-   "title": "中央總預算延宕台南78.9億建設受影響 黃偉哲：成本還暴增",
-   "source": "UDN",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tVFpmMWxnZkpyLUVUSDIyNFN3NE04WmhBblZGeVBPZkR3YjRaTVhNcGdnc3FUaUFMY2k3clY1WG1LSm1IcVc0MmxoVTBobndV0gFWQVVfeXFMT2J6YWtYN2JKR0JMMVZ1cXdTMEMzdm1OelhuM3Nud2kyeTliWGs3QUxqX0o1cTdpUUZXTjZjbTF0Vjl4R0RYdEx2VjFJSGpIYVh1Wnhtd2c?oc=5",
-   "category": "",
-   "date": "2026-09-03T00:48:12.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "firstSeen": "2026-09-09T23:23:49.166Z",
-   "story": "f71068617875"
-  },
-  {
-   "id": "6c59d484bc07",
-   "title": "藍白刪卡總預算 卡台南建設又傷庇護工場 朱正軒：生活即政治，別小看手中那一票",
-   "source": "視傳媒",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFByZDl4TDc3N2d4ajNBQUtsaVUxdFk2azZ3X2puZmZmYXFqdXFja3kyZ1Rwa1oydzh6MWwwY0o3c29nTXdfOHpfVkEtS2dYOGdwSVhjbHZIWHltU3FESHBGLVpMTnphT0Z0?oc=5",
-   "category": "",
-   "date": "2026-09-02T13:51:47.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "firstSeen": "2026-09-08T23:29:15.151Z",
-   "story": "6c59d484bc07"
-  },
-  {
-   "id": "55a64179fcca",
-   "title": "南科攜12廠商進軍國際半導體展",
-   "source": "中華新聞雲／中華日報",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB6a1gyRUlLN3laUzhyaFUyU0R3clVDbGYzS1RVODRuUXNpU3JVRVlwZUVwdVpXMjhpeHVrSXlXdWpmRWd1ZXFQalFSLTY2WDdIaUE?oc=5",
-   "category": "",
-   "date": "2026-09-02T13:09:54.000Z",
-   "snippet": "",
-   "district": "新市區",
-   "lat": 23.0695,
-   "lng": 120.2812,
-   "firstSeen": "2026-09-08T23:29:15.151Z",
-   "story": "55a64179fcca"
-  },
-  {
-   "id": "f1d75e14a25d",
-   "title": "台南社會局進駐永華聯合服務中心 身心障停車證申辦、社福諮詢更便利",
-   "source": "報新聞",
-   "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxOMHdwTVVGY1dZWWxaMkN6SjZOTklQenZLRVl6QXZmMlFuWTB5ZmM0SXVuLXA0Tk1JZjBjMkFra0JwWFdnMmluTzFnT1U5dFJwV0k4WlV4VXY2d0h4cXNvNTFFZnl3Z3FYbEdyc0tVa09kbFc5QUppQWphZkQwMEJhSGxfNjZSSk9yMm9GY3I4RjdxUUlZd3dyUldEbUxmT1JJd2xoN2xRMEpJUXRxNy1hbXA5SnVMeWJ1TlNUQ1RfQU95YzQ3cjFKOUJqY19TRE53RHBvcXJ4dGkwUU9ZZUplUTJqdnBjMlhuTEExeVpxNlM1SkIxaEs4SkkxQU9DUWZ6LXBJc2NuN0FuaTQ1MVIzc19LZ3I0OEdHckktSjNGLTVKX3NuYVhpZ3dTNDhyY3FYSVVxRTUxTUtwcDhCZ0RXYVBPbkF3SW5vNkVxclQzbHVUY3BfcmxZRmJKTXhZY1dITVBMUnd1NA?oc=5",
-   "category": "新開店",
-   "date": "2026-09-02T09:26:13.000Z",
-   "snippet": "",
-   "district": "",
-   "lat": "",
-   "lng": "",
-   "story": "f1d75e14a25d"
-  },
-  {
-   "id": "fd01529eaa46",
-   "title": "台南首創全國 學甲多功能動保教育園區9月6日開幕 黃偉哲邀民眾體驗人寵共融",
-   "source": "蕃新聞",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9WempndDdtS2V0MkZZc0Fqb0E3MXNVTGplNDFZTkh4UGU0R2p0WDdKUVF5dUNJYXc1VWZtenJqNzMzaEFEajg2b2FUaTV6NG80c2c?oc=5",
-   "category": "新開店",
-   "date": "2026-09-02T09:24:00.000Z",
-   "snippet": "",
-   "district": "學甲區",
-   "lat": 23.2293,
-   "lng": 120.1528,
-   "story": "fd01529eaa46"
   }
  ]
 }
