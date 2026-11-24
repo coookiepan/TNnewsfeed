@@ -1,16 +1,22 @@
 {
- "ranAt": "2026-11-23T01:52:39.672Z",
+ "ranAt": "2026-11-24T05:24:29.374Z",
  "sources": [
   {
    "name": "Google News",
-   "fetched": 112,
+   "fetched": 0,
    "errors": [
-    "query「南科 擴廠 OR 投資 OR 動工」: HTTP 429"
+    "query「台南 開幕 OR 試營運 OR 新開」: HTTP 503",
+    "query「台南 動工 OR 興建 OR 開工」: HTTP 503",
+    "query「台南 設廠 OR 投資 OR 擴廠」: HTTP 503",
+    "query「台南 完工 OR 啟用 OR 落成」: HTTP 503",
+    "query「台南 進駐 OR 展店 OR 首店」: HTTP 503",
+    "query「南科 擴廠 OR 投資 OR 動工」: HTTP 503",
+    "query「台南市政府 招商 OR 建設」: HTTP 503"
    ]
   },
   {
    "name": "PTT",
-   "fetched": 1,
+   "fetched": 0,
    "errors": []
   },
   {
@@ -24,13 +30,13 @@
    "name": "政府電子採購網",
    "fetched": 0,
    "errors": [
+    "listbydate 20261124: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
     "listbydate 20261123: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-    "listbydate 20261122: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-    "listbydate 20261121: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    "listbydate 20261122: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
    ]
   }
  ],
- "totalNew": 7,
+ "totalNew": 0,
  "totalAfterMerge": 1200,
  "pruned": 0,
  "districtBackfilled": 0,
